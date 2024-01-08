@@ -3,27 +3,25 @@ import {
   Box,
   Button,
   Container,
-  Flex,
   Heading,
-  Link,
-  Select,
   SimpleGrid,
   Slider,
   SliderFilledTrack,
   SliderMark,
   SliderThumb,
   SliderTrack,
-  Spacer,
-  Stack,
   Text,
 } from '@chakra-ui/react';
 import { useState } from 'react';
-import CastImage from '../ui/castImage';
 import Team from '../ui/team';
+import { useSimStore } from '../store/useStore';
 
 export default function Home() {
-  const [weeksValue, setWeeksValue] = useState(10);
+  const weeks = useSimStore((state) => state.weeks);
+  const updateWeeks = useSimStore((state) => state.updateWeeks);
   const [teamsValue, setTeamsValue] = useState(12);
+
+  const { cast } = useSimStore();
 
   const labelStyles = {
     mt: '2',
@@ -38,8 +36,9 @@ export default function Home() {
       <Box pt={6} pb={2} width={'50%'}>
         <Slider
           aria-label="slider-weeks"
-          onChange={(val) => setWeeksValue(val)}
-          defaultValue={10}
+          //onChange={(val) => setWeeksValue(val)}
+          onChange={(val) => updateWeeks(val)}
+          defaultValue={weeks}
           min={8}
           max={12}
         >
@@ -77,13 +76,23 @@ export default function Home() {
         </Slider>
       </Box>
       <Heading>Cast</Heading>
-      <Container maxWidth="100%">
+      {/* <Container maxWidth="100%">
         <SimpleGrid minChildWidth="160px" spacing="20px">
           {Array.from({ length: teamsValue }, (_, i) => i + 1).map((team) => (
             <Team key={team} id={team} />
           ))}
         </SimpleGrid>
+      </Container> */}
+      <Container maxWidth="100%">
+        <SimpleGrid minChildWidth="160px" spacing="20px">
+          {cast.map((team) => (
+            <Team key={team.id} data={team} />
+          ))}
+        </SimpleGrid>
       </Container>
+      {cast.map((team) => (
+        <p key={team.id}>{team.placement}</p>
+      ))}
       <Button>Start Simulation</Button>
     </div>
   );
