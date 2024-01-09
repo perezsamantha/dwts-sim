@@ -4,13 +4,13 @@ export const initialCast = [
     placement: 1,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Xochitl',
+        lastName: 'Gomez',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Val',
+        lastName: 'Chmerkovskiy',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -20,13 +20,13 @@ export const initialCast = [
     placement: 2,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Jason',
+        lastName: 'Mraz',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Daniella',
+        lastName: 'Karagach',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -36,13 +36,13 @@ export const initialCast = [
     placement: 3,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Ariana',
+        lastName: 'Madix',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Pasha',
+        lastName: 'Pashkov',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -52,13 +52,13 @@ export const initialCast = [
     placement: 4,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Charity',
+        lastName: 'Lawson',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Artem',
+        lastName: 'Chigvintsev',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -68,13 +68,13 @@ export const initialCast = [
     placement: 5,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Alyson',
+        lastName: 'Hannigan',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Sasha',
+        lastName: 'Farber',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -84,13 +84,13 @@ export const initialCast = [
     placement: 6,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Harry',
+        lastName: 'Jowsey',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Rylee',
+        lastName: 'Arnold',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -100,13 +100,13 @@ export const initialCast = [
     placement: 7,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Barry',
+        lastName: 'Williams',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Peta',
+        lastName: 'Murgatroyd',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -116,13 +116,13 @@ export const initialCast = [
     placement: 8,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Lele',
+        lastName: 'Pons',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Brandon',
+        lastName: 'Armstrong',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -132,13 +132,13 @@ export const initialCast = [
     placement: 9,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Mauricio',
+        lastName: 'Umansky',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Emma',
+        lastName: 'Slater',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -148,13 +148,13 @@ export const initialCast = [
     placement: 10,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Mira',
+        lastName: 'Sorvino',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Gleb',
+        lastName: 'Savchenko',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -164,13 +164,13 @@ export const initialCast = [
     placement: 11,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Adrian',
+        lastName: 'Peterson',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Britt',
+        lastName: 'Stewart',
         image: '/pros/dani.jpeg',
       },
     ],
@@ -180,13 +180,45 @@ export const initialCast = [
     placement: 12,
     teamMembers: [
       {
-        firstName: 'ariana',
-        lastName: 'grande',
+        firstName: 'Tyson',
+        lastName: 'Beckford',
         image: '/pros/dani.jpeg',
       },
       {
-        firstName: 'alan',
-        lastName: 'bersten',
+        firstName: 'Jenna',
+        lastName: 'Johnson',
+        image: '/pros/dani.jpeg',
+      },
+    ],
+  },
+  {
+    id: 13,
+    placement: 13,
+    teamMembers: [
+      {
+        firstName: 'Jamie Lynn',
+        lastName: 'Spears',
+        image: '/pros/dani.jpeg',
+      },
+      {
+        firstName: 'Alan',
+        lastName: 'Bersten',
+        image: '/pros/dani.jpeg',
+      },
+    ],
+  },
+  {
+    id: 14,
+    placement: 14,
+    teamMembers: [
+      {
+        firstName: 'Matt',
+        lastName: 'Walsh',
+        image: '/pros/dani.jpeg',
+      },
+      {
+        firstName: 'Koko',
+        lastName: 'Iwasaki',
         image: '/pros/dani.jpeg',
       },
     ],

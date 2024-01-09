@@ -1,9 +1,11 @@
-import { Link, Select } from '@chakra-ui/react';
+'use client';
+import { Button, Link, Select } from '@chakra-ui/react';
 import Image from 'next/image';
-import { pros, seasons } from './data/cast';
 import { chacha } from './data/music';
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
+  const router = useRouter();
   return (
     <main className="flex flex-col items-center justify-between p-24">
       <div className="">
@@ -11,28 +13,12 @@ export default function Home() {
       </div>
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <Link
-          href="https://abc.com"
-          color="blue.400"
-          _hover={{ color: 'pink.500' }}
-          target="_blank"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>Get Started</h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>Press Release</p>
-        </Link>
-        <Select placeholder="Select option">
-          {pros.map((pro) => (
-            <option key={pro.name} value={pro.name}>
-              {pro.name}
-            </option>
-          ))}
-        </Select>
-        {seasons.map((season) => season)}
-        <p>
+        {/* <p>
           Random song -{' '}
           {chacha[Math.floor(Math.random() * chacha.length)].title}
-        </p>
+        </p> */}
       </div>
+      <Button onClick={() => router.push('/setup')}>Setup</Button>
     </main>
   );
 }
