@@ -90,9 +90,6 @@ export default function Home() {
           ))}
         </SimpleGrid>
       </Container>
-      {cast.map((team) => (
-        <p key={team.id}>{team.placement}</p>
-      ))}
       <Button>Start Simulation</Button>
     </div>
   );

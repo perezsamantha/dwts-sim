@@ -1,13 +1,14 @@
 import { AspectRatio, Image } from '@chakra-ui/react';
+import { Person } from '../store/useStore';
 
-export default function CastImage(props: { url: string }) {
+export default function CastImage(props: { data: Person }) {
   return (
     <AspectRatio ratio={1}>
       <Image
-        //src="https://media.allure.com/photos/6127ac0b238beb835812ce4c/4:3/w_2247,h_1685,c_limit/Ariana%20Grande%20Allure%20Cover%20No%20Coverlines.jpg"
-        src={props.url}
-        alt="ariana grande"
+        src={props.data.image}
+        alt={`${props.data.firstName} ${props.data.lastName}`}
         borderRadius={5}
+        fallbackSrc="/mirrorball.png"
       />
     </AspectRatio>
   );

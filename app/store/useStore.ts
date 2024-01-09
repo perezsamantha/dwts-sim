@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 import { initialCast } from './initialState';
+import { createJSONStorage, persist } from 'zustand/middleware';
 
 interface Sim {
   weeks: number;
@@ -15,7 +16,7 @@ export interface Team {
   updateTeamMember?: (id: number, newPerson: Person) => void;
 }
 
-interface Person {
+export interface Person {
   firstName: string;
   lastName: string;
   image: string;
@@ -55,20 +56,26 @@ export const useTeamStore = create<Team>((set, get) => ({
   },
 }));
 
-export const useSimStore = create<Sim>((set, get) => ({
-  weeks: 10,
-  //cast: [],
-  cast: initialCast,
-  updateWeeks: (newWeeks) => set((state) => ({ ...state, weeks: newWeeks })),
+export const useSimStore = create<Sim>()(
+  persist(
+    (set) => ({
+      weeks: 10,
+      cast: initialCast,
+      updateWeeks: (newWeeks) =>
+        set((state) => ({ ...state, weeks: newWeeks })),
 
-  updateTeam: (teamId: number, newTeam: Team) => {
-    //console.log(teamId + '  ' + newTeam.id);
-    set((state) => ({
-      cast: state.cast.map((team) => (team.id === teamId ? newTeam : team)),
-    }));
-    //console.log(get());
-  },
-}));
+      updateTeam: (teamId: number, newTeam: Team) => {
+        set((state) => ({
+          cast: state.cast.map((team) => (team.id === teamId ? newTeam : team)),
+        }));
+      },
+    }),
+    {
+      name: 'temp',
+      storage: createJSONStorage(() => sessionStorage),
+    }
+  )
+);
 
 // const useBoundStore = create<PersonSlice & TeamSlice & SimSlice>()((... a) => ({
 //   ...createPersonSlice(...a),

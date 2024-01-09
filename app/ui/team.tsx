@@ -2,6 +2,9 @@ import {
   Box,
   Button,
   Flex,
+  FormControl,
+  FormHelperText,
+  FormLabel,
   Input,
   Modal,
   ModalBody,
@@ -27,7 +30,10 @@ export default function Team(props: { data: Team }) {
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     let newMembers = [...teamCopy.teamMembers];
-    newMembers[type] = { ...newMembers[type], firstName: event.target.value };
+    newMembers[type] = {
+      ...newMembers[type],
+      [event.target.id]: event.target.value,
+    };
     setTeamCopy({
       ...teamCopy,
       teamMembers: newMembers,
@@ -35,6 +41,7 @@ export default function Team(props: { data: Team }) {
   };
 
   const saveChanges = () => {
+    if (isError) return;
     if (updateTeam) {
       updateTeam(props.data.id, teamCopy);
       onClose();
@@ -46,6 +53,8 @@ export default function Team(props: { data: Team }) {
     onOpen();
   };
 
+  const isError = teamCopy.teamMembers[type].firstName === '';
+
   return (
     <Box
       maxWidth="200px"
@@ -56,7 +65,7 @@ export default function Team(props: { data: Team }) {
       <Text>Team {props.data.id}</Text>
       <Flex>
         <Box width={'48%'}>
-          <CastImage url={team.teamMembers[0].image} />
+          <CastImage data={team.teamMembers[0]} />
           <Text align="center">
             {team.teamMembers[0].firstName} {team.teamMembers[0].lastName}
           </Text>
@@ -64,7 +73,7 @@ export default function Team(props: { data: Team }) {
         </Box>
         <Spacer />
         <Box width={'48%'}>
-          <CastImage url={team.teamMembers[1].image} />
+          <CastImage data={team.teamMembers[1]} />
           <Text align="center">
             {team.teamMembers[1].firstName} {team.teamMembers[1].lastName}
           </Text>{' '}
@@ -76,15 +85,39 @@ export default function Team(props: { data: Team }) {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>
-            Edit Team {team.id} - Dancer {type}
+            Edit Team {team.id} {type === 1 ? 'Celebrity' : 'Professional'}
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            Testing
-            <Input
-              value={teamCopy.teamMembers[type].firstName}
-              onChange={(event) => handleChange(event)}
-            />
+            <FormControl isInvalid={isError}>
+              <FormLabel>First Name</FormLabel>
+              <Input
+                isRequired
+                value={teamCopy.teamMembers[type].firstName}
+                onChange={(event) => handleChange(event)}
+                id="firstName"
+              />
+              {isError && (
+                <FormHelperText>First Name is required</FormHelperText>
+              )}
+            </FormControl>
+            <FormControl>
+              <FormLabel>Last Name</FormLabel>
+              <Input
+                value={teamCopy.teamMembers[type].lastName}
+                onChange={(event) => handleChange(event)}
+                id="lastName"
+              />
+            </FormControl>
+            <FormControl>
+              <FormLabel>Image URL</FormLabel>
+              <Input
+                value={teamCopy.teamMembers[type].image}
+                onChange={(event) => handleChange(event)}
+                id="image"
+              />
+              {/* <FormHelperText>jpeg, png, or __ only</FormHelperText> */}
+            </FormControl>
           </ModalBody>
           <ModalFooter>
             <Button colorScheme="green" mr={3} onClick={saveChanges}>
