@@ -15,6 +15,7 @@ import {
 import { useState } from 'react';
 import Team from '../ui/team';
 import { useSimStore } from '../store/useStore';
+import { useRouter } from 'next/navigation';
 
 export default function Home() {
   const weeks = useSimStore((state) => state.weeks);
@@ -22,6 +23,7 @@ export default function Home() {
   const [teamsValue, setTeamsValue] = useState(12);
 
   const { cast } = useSimStore();
+  const router = useRouter();
 
   const labelStyles = {
     mt: '2',
@@ -90,7 +92,9 @@ export default function Home() {
           ))}
         </SimpleGrid>
       </Container>
-      <Button>Start Simulation</Button>
+      <Button onClick={() => router.push('/pressrelease')}>
+        Start Simulation
+      </Button>
     </div>
   );
 }
