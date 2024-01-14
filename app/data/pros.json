@@ -1,0 +1,352 @@
+[
+  {
+    "firstName": "Alan",
+    "lastName": "Bersten",
+    "image": "",
+    "current": "TRUE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Artem",
+    "lastName": "Chigvintsev",
+    "image": "",
+    "current": "TRUE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Brandon",
+    "lastName": "Armstrong",
+    "image": "",
+    "current": "TRUE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Britt",
+    "lastName": "Stewart",
+    "image": "",
+    "current": "TRUE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Daniella",
+    "lastName": "Karagach",
+    "image": "",
+    "current": "TRUE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Emma",
+    "lastName": "Slater",
+    "image": "",
+    "current": "TRUE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Ezra",
+    "lastName": "Sosa",
+    "image": "",
+    "current": "TRUE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Gleb",
+    "lastName": "Savchenko",
+    "image": "",
+    "current": "TRUE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Jenna",
+    "lastName": "Johnson",
+    "image": "",
+    "current": "TRUE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Pasha",
+    "lastName": "Pashkov",
+    "image": "",
+    "current": "TRUE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Peta",
+    "lastName": "Murgatroyd",
+    "image": "",
+    "current": "TRUE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Rylee",
+    "lastName": "Arnold",
+    "image": "",
+    "current": "TRUE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Sasha",
+    "lastName": "Farber",
+    "image": "",
+    "current": "TRUE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Val",
+    "lastName": "Chmerkovskiy",
+    "image": "",
+    "current": "TRUE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Koko",
+    "lastName": "Iwasaki",
+    "image": "",
+    "current": "TRUE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Alec",
+    "lastName": "Mazo",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Allison",
+    "lastName": "Holker",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Andrea",
+    "lastName": "Hale",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Demidova",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Trebunskaya",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Ashly",
+    "lastName": "DelGrosso",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Brian",
+    "lastName": "Fortuna",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Chelsie",
+    "lastName": "Hightower",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Cheryl",
+    "lastName": "Burke",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Corky",
+    "lastName": "Ballas",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Damian",
+    "lastName": "Whitewood",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Derek",
+    "lastName": "Hough",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Dmitry",
+    "lastName": "Chaplin",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Edyta",
+    "lastName": "Śliwińska",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Elena",
+    "lastName": "Grinenko",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Fabian",
+    "lastName": "Sanchez",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Hayley",
+    "lastName": "Erbert",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Henry",
+    "lastName": "Byalikov",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Inna",
+    "lastName": "Brayer",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Jesse",
+    "lastName": "DeSoto",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Jonathan",
+    "lastName": "Roberts",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Julianne",
+    "lastName": "Hough",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Karina",
+    "lastName": "Smirnoff",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Keo",
+    "lastName": "Motsepe",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Kym",
+    "lastName": "Johnson",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Lacey",
+    "lastName": "Schwimmer",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Lindsay",
+    "lastName": "Arnold",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Louis",
+    "lastName": "van Amstel",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Maks",
+    "lastName": "Chmerkovskiy",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Ballas",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Nick",
+    "lastName": "Kosovich",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Sharna",
+    "lastName": "Burgess",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
+    "firstName": "Tony",
+    "lastName": "Dovolani",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Tristan",
+    "lastName": "MacManus",
+    "image": "",
+    "current": "FALSE",
+    "gender": "male"
+  },
+  {
+    "firstName": "Witney",
+    "lastName": "Carson",
+    "image": "",
+    "current": "FALSE",
+    "gender": "female"
+  }
+]

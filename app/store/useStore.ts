@@ -1,60 +1,30 @@
 import { create } from 'zustand';
 import { initialCast } from './initialState';
 import { createJSONStorage, persist } from 'zustand/middleware';
+import { produce } from 'immer';
 
 interface Sim {
   weeks: number;
   cast: Team[];
-  updateTeam?: (id: number, newTeam: Team) => void;
   updateWeeks: (newWeeks: number) => void;
+  updateTeam?: (id: number, newTeam: Team) => void;
+  updateDancer?: (teamId: number, dancerId: number, newDancer: Dancer) => void;
 }
 
 export interface Team {
   id: number;
-  teamMembers: Person[];
+  teamMembers: Dancer[];
   placement: number;
-  updateTeamMember?: (id: number, newPerson: Person) => void;
+  updateDancer?: (id: number, newDancer: Dancer) => void;
 }
 
-export interface Person {
+export interface Dancer {
   firstName: string;
   lastName: string;
   image: string;
+  type: string;
+  dataIndex: number;
 }
-
-export const usePersonStore = create<Person>((set) => ({
-  firstName: '',
-  lastName: '',
-  image: '',
-  updateFirstName: (newFirstName: string) =>
-    set((state) => ({ ...state, firstName: newFirstName })),
-  updateLastName: (newLastName: string) =>
-    set((state) => ({ ...state, lastName: newLastName })),
-  updateImage: (newImage: string) =>
-    set((state) => ({ ...state, image: newImage })),
-  updateAll: (newFirstName: string, newLastName: string, newImage: string) =>
-    set({
-      firstName: newFirstName,
-      lastName: newLastName,
-      image: newImage,
-    }),
-}));
-
-export const useTeamStore = create<Team>((set, get) => ({
-  id: 0,
-  teamMembers: [],
-  placement: 0,
-  updateTeamMember: (id, newPerson) => {
-    //console.log(newPerson);
-    set((state) => ({
-      ...state,
-      team: state.teamMembers.map((person, i) =>
-        id === i ? newPerson : person
-      ),
-    }));
-    //console.log(get().teamMembers[0]);
-  },
-}));
 
 export const useSimStore = create<Sim>()(
   persist(
@@ -64,10 +34,17 @@ export const useSimStore = create<Sim>()(
       updateWeeks: (newWeeks) =>
         set((state) => ({ ...state, weeks: newWeeks })),
 
-      updateTeam: (teamId: number, newTeam: Team) => {
-        set((state) => ({
-          cast: state.cast.map((team) => (team.id === teamId ? newTeam : team)),
-        }));
+      // updateTeam: (teamId: number, newTeam: Team) => {
+      //   set((state) => ({
+      //     cast: state.cast.map((team) => (team.id === teamId ? newTeam : team)),
+      //   }));
+      // },
+      updateDancer: (teamId: number, dancerId: number, newDancer: Dancer) => {
+        set(
+          produce((state) => {
+            state.cast[teamId].teamMembers[dancerId] = newDancer;
+          })
+        );
       },
     }),
     {
@@ -76,9 +53,3 @@ export const useSimStore = create<Sim>()(
     }
   )
 );
-
-// const useBoundStore = create<PersonSlice & TeamSlice & SimSlice>()((... a) => ({
-//   ...createPersonSlice(...a),
-//   ...createTeamSlice(...a),
-//   ...createSimSlice(...a)
-// }));
