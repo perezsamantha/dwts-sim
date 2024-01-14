@@ -1,3 +1,5 @@
+import { shuffleStyles } from '../lib/logic';
+
 export const initialCast = [
   {
     id: 1,
@@ -18,6 +20,7 @@ export const initialCast = [
         dataIndex: 14,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 2,
@@ -38,6 +41,7 @@ export const initialCast = [
         dataIndex: 4,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 3,
@@ -58,6 +62,7 @@ export const initialCast = [
         dataIndex: 10,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 4,
@@ -78,6 +83,7 @@ export const initialCast = [
         dataIndex: 1,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 5,
@@ -98,6 +104,7 @@ export const initialCast = [
         dataIndex: 13,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 6,
@@ -118,6 +125,7 @@ export const initialCast = [
         dataIndex: 12,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 7,
@@ -138,6 +146,7 @@ export const initialCast = [
         dataIndex: 11,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 8,
@@ -158,6 +167,7 @@ export const initialCast = [
         dataIndex: 2,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 9,
@@ -178,6 +188,7 @@ export const initialCast = [
         dataIndex: 5,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 10,
@@ -198,6 +209,7 @@ export const initialCast = [
         dataIndex: 7,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 11,
@@ -218,6 +230,7 @@ export const initialCast = [
         dataIndex: 3,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 12,
@@ -238,6 +251,7 @@ export const initialCast = [
         dataIndex: 8,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 13,
@@ -258,6 +272,7 @@ export const initialCast = [
         dataIndex: 0,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
   {
     id: 14,
@@ -278,5 +293,6 @@ export const initialCast = [
         dataIndex: 9,
       },
     ],
+    styles: shuffleStyles().slice(),
   },
 ];
