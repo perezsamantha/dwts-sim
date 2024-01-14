@@ -92,9 +92,7 @@ export default function Home() {
           ))}
         </SimpleGrid>
       </Container>
-      <Button onClick={() => router.push('/pressrelease')}>
-        Start Simulation
-      </Button>
+      <Button onClick={() => router.push('/week1')}>Start Simulation</Button>
     </div>
   );
 }

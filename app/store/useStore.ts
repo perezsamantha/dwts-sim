@@ -5,7 +5,9 @@ import { produce } from 'immer';
 
 interface Sim {
   weeks: number;
+  currentWeek: number;
   cast: Team[];
+  judges: string[];
   updateWeeks: (newWeeks: number) => void;
   updateTeam?: (id: number, newTeam: Team) => void;
   updateDancer?: (teamId: number, dancerId: number, newDancer: Dancer) => void;
@@ -15,6 +17,7 @@ export interface Team {
   id: number;
   teamMembers: Dancer[];
   placement: number;
+  //music?: [];
   updateDancer?: (id: number, newDancer: Dancer) => void;
 }
 
@@ -30,7 +33,9 @@ export const useSimStore = create<Sim>()(
   persist(
     (set) => ({
       weeks: 10,
+      currentWeek: 0,
       cast: initialCast,
+      judges: ['Carrie Ann Inaba', 'Derek Hough', 'Bruno Tonioli'],
       updateWeeks: (newWeeks) =>
         set((state) => ({ ...state, weeks: newWeeks })),
 
