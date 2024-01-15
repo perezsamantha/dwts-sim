@@ -7,7 +7,7 @@ export default function Week() {
   //TODO: redirect when needed
   const cast = useSimStore((state) => state.cast);
   const music = useSimStore((state) => state.music);
-  const runningOrder = shuffleCast(cast);
+  const runningOrder = useSimStore((state) => state.currentRunningOrder);
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
@@ -16,19 +16,16 @@ export default function Week() {
         Live from Hollywood, it&#39;s the season premiere of Dancing with the
         Stars!
       </p>
-      <p>
-        First up, dancing a cha cha to Cuff It by Beyonce, it&#39;s Ariana and
-        Daniella
-      </p>
-      <p>Score: Carrie Ann Inaba - 7, Derek Hough - 10, Bruno Tonioli - 9</p>
-      {runningOrder.map((ro) => (
-        <p key={ro}>
-          Team {ro + 1} - {cast[ro].teamMembers[0].firstName} &{' '}
-          {cast[ro].teamMembers[1].firstName} dancing a {cast[ro].styles[0]} to{' '}
-          {music[cast[ro].styles[0]][0].Title} by{' '}
-          {music[cast[ro].styles[0]][0].Artist}
-        </p>
-      ))}
+      {runningOrder.map((ro, i) => {
+        const team = cast[ro].teamMembers;
+        const dance = cast[ro].dances[cast[ro].dances.length - 1];
+        return (
+          <p key={ro}>
+            {team[0].firstName} & {team[1].firstName} dancing a {dance.Style} to{' '}
+            {dance.Title} by {dance.Artist}
+          </p>
+        );
+      })}
       <Button>Elimination</Button>
     </Box>
   );

@@ -8,19 +8,21 @@ interface Sim {
   weeks: number;
   currentWeek: number;
   currentDance: number;
+  currentRunningOrder: number[];
   cast: Team[];
   judges: string[];
   music: Record<string, { Title: string; Artist: string; Style: string }[]>;
   updateWeeks: (newWeeks: number) => void;
   updateTeam?: (id: number, newTeam: Team) => void;
   updateDancer?: (teamId: number, dancerId: number, newDancer: Dancer) => void;
+  prepareDances: (runningOrder: number[]) => void;
 }
 
 export interface Team {
   id: number;
   teamMembers: Dancer[];
   placement: number;
-  //music?: [];
+  dances: Song[];
   styles: string[];
   updateDancer?: (id: number, newDancer: Dancer) => void;
 }
@@ -33,11 +35,11 @@ export interface Dancer {
   dataIndex: number;
 }
 
-// interface Song {
-//   Title: string;
-//   Artist: string;
-//   Style: string;
-// }
+export interface Song {
+  Title: string;
+  Artist: string;
+  Style: string;
+}
 
 export const useSimStore = create<Sim>()(
   persist(
@@ -45,6 +47,7 @@ export const useSimStore = create<Sim>()(
       weeks: 10,
       currentWeek: 0,
       currentDance: 0,
+      currentRunningOrder: [],
       cast: initialCast,
       judges: ['Carrie Ann Inaba', 'Derek Hough', 'Bruno Tonioli'],
       music: sortedMusic,
@@ -63,6 +66,19 @@ export const useSimStore = create<Sim>()(
           })
         );
       },
+      prepareDances: (runningOrder: number[]) =>
+        set(
+          produce((state) => {
+            runningOrder.map((teamId) => {
+              state.cast[teamId].dances.push(
+                state.music[state.cast[teamId].styles[0]][0]
+              );
+              state.music[state.cast[teamId].styles[0]].shift();
+            });
+            state.currentRunningOrder = runningOrder;
+            state.currentDance++;
+          })
+        ),
     }),
     {
       name: 'temp',

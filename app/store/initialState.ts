@@ -20,6 +20,7 @@ export const initialCast = [
         dataIndex: 14,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -41,6 +42,7 @@ export const initialCast = [
         dataIndex: 4,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -62,6 +64,7 @@ export const initialCast = [
         dataIndex: 10,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -83,6 +86,7 @@ export const initialCast = [
         dataIndex: 1,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -104,6 +108,7 @@ export const initialCast = [
         dataIndex: 13,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -125,6 +130,7 @@ export const initialCast = [
         dataIndex: 12,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -146,6 +152,7 @@ export const initialCast = [
         dataIndex: 11,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -167,6 +174,7 @@ export const initialCast = [
         dataIndex: 2,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -188,6 +196,7 @@ export const initialCast = [
         dataIndex: 5,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -209,6 +218,7 @@ export const initialCast = [
         dataIndex: 7,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -230,6 +240,7 @@ export const initialCast = [
         dataIndex: 3,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -251,6 +262,7 @@ export const initialCast = [
         dataIndex: 8,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -272,6 +284,7 @@ export const initialCast = [
         dataIndex: 0,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
   {
@@ -293,6 +306,7 @@ export const initialCast = [
         dataIndex: 9,
       },
     ],
+    dances: [],
     styles: shuffleStyles().slice(),
   },
 ];

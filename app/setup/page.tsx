@@ -16,6 +16,7 @@ import { useState } from 'react';
 import Team from '../ui/team';
 import { useSimStore } from '../store/useStore';
 import { useRouter } from 'next/navigation';
+import WeekButton from '../ui/weekButton';
 
 export default function Home() {
   const weeks = useSimStore((state) => state.weeks);
@@ -92,7 +93,7 @@ export default function Home() {
           ))}
         </SimpleGrid>
       </Container>
-      <Button onClick={() => router.push('/week1')}>Start Simulation</Button>
+      <WeekButton />
     </div>
   );
 }
