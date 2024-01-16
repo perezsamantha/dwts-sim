@@ -1,7 +1,6 @@
 'use client';
 import {
   Box,
-  Button,
   Container,
   Heading,
   SimpleGrid,
@@ -15,16 +14,13 @@ import {
 import { useState } from 'react';
 import Team from '../ui/team';
 import { useSimStore } from '../store/useStore';
-import { useRouter } from 'next/navigation';
 import WeekButton from '../ui/weekButton';
+import EditJudgesModal from '../ui/editJudgesModal';
 
 export default function Home() {
-  const weeks = useSimStore((state) => state.weeks);
-  const updateWeeks = useSimStore((state) => state.updateWeeks);
   const [teamsValue, setTeamsValue] = useState(12);
 
-  const { cast } = useSimStore();
-  const router = useRouter();
+  const { cast, weeks, judges, updateWeeks } = useSimStore();
 
   const labelStyles = {
     mt: '2',
@@ -93,6 +89,13 @@ export default function Home() {
           ))}
         </SimpleGrid>
       </Container>
+      <Heading>Judges</Heading>
+      {judges.map((judge, i) => (
+        <Box key={i}>
+          <p>{judge}</p>
+        </Box>
+      ))}
+      <EditJudgesModal />
       <WeekButton />
     </div>
   );

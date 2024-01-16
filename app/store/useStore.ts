@@ -15,6 +15,7 @@ interface Sim {
   updateWeeks: (newWeeks: number) => void;
   updateTeam?: (id: number, newTeam: Team) => void;
   updateDancer?: (teamId: number, dancerId: number, newDancer: Dancer) => void;
+  updateJudges?: (newJudges: string[]) => void;
   prepareDances: (runningOrder: number[]) => void;
 }
 
@@ -79,6 +80,10 @@ export const useSimStore = create<Sim>()(
             state.currentDance++;
           })
         ),
+      updateJudges: (newJudges: string[]) =>
+        set((state) => ({
+          judges: newJudges,
+        })),
     }),
     {
       name: 'temp',
