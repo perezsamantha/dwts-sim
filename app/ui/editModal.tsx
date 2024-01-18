@@ -109,7 +109,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
     onOpen();
   };
 
-  const isError = custom.firstName === '';
+  const isError = !custom.firstName || !custom.firstName.trim();
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">

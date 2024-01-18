@@ -6,7 +6,7 @@ import { shuffleCast } from '../lib/logic';
 export default function Week() {
   //TODO: redirect when needed
   const cast = useSimStore((state) => state.cast);
-  const music = useSimStore((state) => state.music);
+  const judges = useSimStore((state) => state.judges);
   const runningOrder = useSimStore((state) => state.currentRunningOrder);
 
   return (
@@ -19,11 +19,22 @@ export default function Week() {
       {runningOrder.map((ro, i) => {
         const team = cast[ro].teamMembers;
         const dance = cast[ro].dances[cast[ro].dances.length - 1];
+        const scores = dance?.scores;
         return (
-          <p key={ro}>
-            {team[0].firstName} & {team[1].firstName} dancing a {dance.Style} to{' '}
-            {dance.Title} by {dance.Artist}
-          </p>
+          <Box key={ro}>
+            <p>
+              {team[0].firstName} & {team[1].firstName} dancing a {dance.Style}{' '}
+              to {dance.Title} by {dance.Artist}
+            </p>
+            <Box>
+              <p>Scores -</p>
+              {scores?.map((score, i) => (
+                <p key={i}>
+                  {judges[i]} {score}
+                </p>
+              ))}
+            </Box>
+          </Box>
         );
       })}
       <Button>Elimination</Button>

@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { initialCast } from './initialState';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { produce } from 'immer';
-import { sortedMusic } from '../lib/logic';
+import { randomScores, sortedMusic } from '../lib/logic';
 
 interface Sim {
   weeks: number;
@@ -40,6 +40,7 @@ export interface Song {
   Title: string;
   Artist: string;
   Style: string;
+  scores?: number[];
 }
 
 export const useSimStore = create<Sim>()(
@@ -74,6 +75,9 @@ export const useSimStore = create<Sim>()(
               state.cast[teamId].dances.push(
                 state.music[state.cast[teamId].styles[0]][0]
               );
+              state.cast[teamId].dances[state.cast[teamId].dances.length - 1][
+                'scores'
+              ] = randomScores();
               state.music[state.cast[teamId].styles[0]].shift();
             });
             state.currentRunningOrder = runningOrder;

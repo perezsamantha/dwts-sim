@@ -5,6 +5,7 @@ interface Song {
   Title: string;
   Artist: string;
   Style: string;
+  scores?: number[];
 }
 
 interface Celeb {
@@ -102,6 +103,13 @@ export const shuffleStyles = () => {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
+  return array;
+};
+
+// random scores
+export const randomScores = () => {
+  let array: number[] = [];
+  for (let i = 0; i < 3; i++) array.push(Math.floor(Math.random() * 10) + 1);
   return array;
 };
 
