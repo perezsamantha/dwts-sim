@@ -2,7 +2,12 @@ import { create } from 'zustand';
 import { initialCast } from './initialState';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { produce } from 'immer';
-import { randomScores, sortedMusic } from '../lib/logic';
+import {
+  calculatePlacement,
+  randomScores,
+  shuffleCast,
+  sortedMusic,
+} from '../lib/logic';
 
 interface Sim {
   weeks: number;
@@ -16,7 +21,8 @@ interface Sim {
   updateTeam?: (id: number, newTeam: Team) => void;
   updateDancer?: (teamId: number, dancerId: number, newDancer: Dancer) => void;
   updateJudges?: (newJudges: string[]) => void;
-  prepareDances: (runningOrder: number[]) => void;
+  prepareDances: () => void;
+  eliminateTeam: (teamId: number) => void;
 }
 
 export interface Team {
@@ -25,7 +31,6 @@ export interface Team {
   placement: number;
   dances: Song[];
   styles: string[];
-  updateDancer?: (id: number, newDancer: Dancer) => void;
 }
 
 export interface Dancer {
@@ -40,7 +45,7 @@ export interface Song {
   Title: string;
   Artist: string;
   Style: string;
-  scores?: number[];
+  scores: number[];
 }
 
 export const useSimStore = create<Sim>()(
@@ -55,12 +60,6 @@ export const useSimStore = create<Sim>()(
       music: sortedMusic,
       updateWeeks: (newWeeks) =>
         set((state) => ({ ...state, weeks: newWeeks })),
-
-      // updateTeam: (teamId: number, newTeam: Team) => {
-      //   set((state) => ({
-      //     cast: state.cast.map((team) => (team.id === teamId ? newTeam : team)),
-      //   }));
-      // },
       updateDancer: (teamId: number, dancerId: number, newDancer: Dancer) => {
         set(
           produce((state) => {
@@ -68,17 +67,21 @@ export const useSimStore = create<Sim>()(
           })
         );
       },
-      prepareDances: (runningOrder: number[]) =>
+      prepareDances: () =>
         set(
           produce((state) => {
+            const runningOrder = shuffleCast(state.cast);
+            state.currentWeek++;
             runningOrder.map((teamId) => {
               state.cast[teamId].dances.push(
-                state.music[state.cast[teamId].styles[0]][0]
+                state.music[state.cast[teamId].styles[state.currentDance]][0]
               );
               state.cast[teamId].dances[state.cast[teamId].dances.length - 1][
                 'scores'
               ] = randomScores();
-              state.music[state.cast[teamId].styles[0]].shift();
+              state.music[
+                state.cast[teamId].styles[state.currentDance]
+              ].shift();
             });
             state.currentRunningOrder = runningOrder;
             state.currentDance++;
@@ -88,6 +91,12 @@ export const useSimStore = create<Sim>()(
         set((state) => ({
           judges: newJudges,
         })),
+      eliminateTeam: (teamIndex: number) =>
+        set(
+          produce((state) => {
+            state.cast[teamIndex].placement = state.currentRunningOrder.length;
+          })
+        ),
     }),
     {
       name: 'temp',

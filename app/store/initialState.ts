@@ -3,7 +3,7 @@ import { shuffleStyles } from '../lib/logic';
 export const initialCast = [
   {
     id: 1,
-    placement: 1,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Xochitl',
@@ -25,7 +25,7 @@ export const initialCast = [
   },
   {
     id: 2,
-    placement: 2,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Jason',
@@ -47,7 +47,7 @@ export const initialCast = [
   },
   {
     id: 3,
-    placement: 3,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Ariana',
@@ -69,7 +69,7 @@ export const initialCast = [
   },
   {
     id: 4,
-    placement: 4,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Charity',
@@ -91,7 +91,7 @@ export const initialCast = [
   },
   {
     id: 5,
-    placement: 5,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Alyson',
@@ -113,7 +113,7 @@ export const initialCast = [
   },
   {
     id: 6,
-    placement: 6,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Harry',
@@ -135,7 +135,7 @@ export const initialCast = [
   },
   {
     id: 7,
-    placement: 7,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Barry',
@@ -157,7 +157,7 @@ export const initialCast = [
   },
   {
     id: 8,
-    placement: 8,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Lele',
@@ -179,7 +179,7 @@ export const initialCast = [
   },
   {
     id: 9,
-    placement: 9,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Mauricio',
@@ -201,7 +201,7 @@ export const initialCast = [
   },
   {
     id: 10,
-    placement: 10,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Mira',
@@ -223,7 +223,7 @@ export const initialCast = [
   },
   {
     id: 11,
-    placement: 11,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Adrian',
@@ -245,7 +245,7 @@ export const initialCast = [
   },
   {
     id: 12,
-    placement: 12,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Tyson',
@@ -267,7 +267,7 @@ export const initialCast = [
   },
   {
     id: 13,
-    placement: 13,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Jamie Lynn',
@@ -289,7 +289,7 @@ export const initialCast = [
   },
   {
     id: 14,
-    placement: 14,
+    placement: 0,
     teamMembers: [
       {
         firstName: 'Matt',

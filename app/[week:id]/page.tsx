@@ -1,15 +1,30 @@
 'use client';
 import { Box, Button } from '@chakra-ui/react';
 import { useSimStore } from '../store/useStore';
-import { shuffleCast } from '../lib/logic';
+import WeekButton from '../ui/weekButton';
+import ResultsButton from '../ui/resultsButton';
+import { useEffect, useRef, useState } from 'react';
 
 export default function Week() {
   //TODO: redirect when needed
   const cast = useSimStore((state) => state.cast);
   const judges = useSimStore((state) => state.judges);
+  const prepareDances = useSimStore((state) => state.prepareDances);
   const runningOrder = useSimStore((state) => state.currentRunningOrder);
+  const [loading, setLoading] = useState(true);
+  const effectRan = useRef(false);
 
-  return (
+  useEffect(() => {
+    if (!effectRan.current) {
+      prepareDances();
+      setLoading(false);
+    }
+    effectRan.current = true;
+  }, [prepareDances]);
+
+  return loading ? (
+    <p>loading</p>
+  ) : (
     <Box display="flex" flexDirection="column" alignItems="center">
       <h1>Week 1</h1>
       <p>
@@ -19,7 +34,7 @@ export default function Week() {
       {runningOrder.map((ro, i) => {
         const team = cast[ro].teamMembers;
         const dance = cast[ro].dances[cast[ro].dances.length - 1];
-        const scores = dance?.scores;
+        const scores = dance.scores;
         return (
           <Box key={ro}>
             <p>
@@ -37,7 +52,8 @@ export default function Week() {
           </Box>
         );
       })}
-      <Button>Elimination</Button>
+      <ResultsButton />
+      <WeekButton />
     </Box>
   );
 }

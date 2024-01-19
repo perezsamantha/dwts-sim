@@ -40,19 +40,7 @@ const styles = [
 ];
 
 // reduce/sort music data by style
-// export const sortMusic = <T, K extends keyof any>(
-//   list: T[],
-//   getKey: (item: T) => K
-// ) =>
-//   list.reduce(
-//     (previous, currentItem) => {
-//       const group = getKey(currentItem);
-//       if (!previous[group]) previous[group] = [];
-//       previous[group].push(currentItem);
-//       return previous;
-//     },
-//     {} as Record<K, T[]>
-//   );
+// TODO: shuffle songs
 export const sortMusic = (music: Song[]) =>
   music.reduce(
     (previous, currentItem) => {
@@ -87,7 +75,7 @@ export const sortPros = (pros: Pro[]) =>
 export const shuffleCast = (cast: Team[]) => {
   let array: Array<number> = [];
   cast.map((team, i) => {
-    if (team.placement) array.push(i);
+    if (team.placement == 0) array.push(i);
   });
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -113,6 +101,31 @@ export const randomScores = () => {
   return array;
 };
 
-//determine if double elim
+// sort cast for leaderboard
+export const leaderboardSort = (cast: Team[], numberTeams: number) => {
+  cast.sort((a, b) =>
+    totalScore(a.dances[a.dances.length - 1].scores) >
+    totalScore(b.dances[b.dances.length - 1].scores)
+      ? -1
+      : 1
+  );
 
-// randomize songs/styles
+  return cast.filter(
+    (team) => team.placement == 0 || team.placement == numberTeams
+  );
+};
+
+// total score
+export const totalScore = (scores: number[]) => scores.reduce((a, b) => a + b);
+
+// pick team to be eliminated
+export const randomElim = (ro: number[]) =>
+  ro[Math.floor(Math.random() * ro.length)];
+
+// determine placement
+export const calculatePlacement = (cast: Team[]) =>
+  cast.filter((team) => !team.placement).length;
+
+// determine if double elim
+
+// randomize style for redemption dance in finale
