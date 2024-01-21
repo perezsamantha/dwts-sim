@@ -1,8 +1,13 @@
 // app/providers.tsx
-'use client'
+'use client';
 
-import { ChakraProvider } from '@chakra-ui/react'
+import { ChakraProvider } from '@chakra-ui/react';
+import theme from './theme';
 
 export function Providers({ children }: { children: React.ReactNode }) {
-  return <ChakraProvider>{children}</ChakraProvider>
+  return (
+    <ChakraProvider resetCSS theme={theme}>
+      {children}
+    </ChakraProvider>
+  );
 }

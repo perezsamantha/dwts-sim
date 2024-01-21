@@ -2,6 +2,7 @@
 import {
   Box,
   Container,
+  Flex,
   Heading,
   SimpleGrid,
   Slider,
@@ -16,6 +17,7 @@ import Team from '../ui/team';
 import { useSimStore } from '../store/useStore';
 import WeekButton from '../ui/weekButton';
 import EditJudgesModal from '../ui/editJudgesModal';
+import Header from '../ui/header';
 
 export default function Home() {
   const [teamsValue, setTeamsValue] = useState(12);
@@ -29,61 +31,57 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-between p-24">
+    <div className="flex flex-col items-center justify-between p-12">
+      <Header />
       <h2>Customize Simulator</h2>
-      <Text>Weeks</Text>
-      <Box pt={6} pb={2} width={'50%'}>
-        <Slider
-          aria-label="slider-weeks"
-          //onChange={(val) => setWeeksValue(val)}
-          onChange={(val) => updateWeeks(val)}
-          defaultValue={weeks}
-          min={8}
-          max={12}
-        >
-          {Array.from({ length: 5 }, (_, i) => i + 8).map((week) => (
-            <SliderMark key={week} value={week} {...labelStyles}>
-              {week}
-            </SliderMark>
-          ))}
+      <Flex width="100%">
+        <Text>Weeks</Text>
+        <Box pt={6} pb={2} width={'50%'}>
+          <Slider
+            aria-label="slider-weeks"
+            //onChange={(val) => setWeeksValue(val)}
+            onChange={(val) => updateWeeks(val)}
+            defaultValue={weeks}
+            min={8}
+            max={12}
+          >
+            {Array.from({ length: 5 }, (_, i) => i + 8).map((week) => (
+              <SliderMark key={week} value={week} {...labelStyles}>
+                {week}
+              </SliderMark>
+            ))}
 
-          <SliderTrack>
-            <SliderFilledTrack />
-          </SliderTrack>
-          <SliderThumb />
-        </Slider>
-      </Box>
+            <SliderTrack>
+              <SliderFilledTrack />
+            </SliderTrack>
+            <SliderThumb />
+          </Slider>
+        </Box>
 
-      <Text>Teams</Text>
-      <Box pt={6} pb={2} width={'50%'}>
-        <Slider
-          aria-label="slider-teams"
-          onChange={(val) => setTeamsValue(val)}
-          defaultValue={12}
-          min={10}
-          max={16}
-        >
-          {Array.from({ length: 7 }, (_, i) => i + 10).map((team) => (
-            <SliderMark key={team} value={team} {...labelStyles}>
-              {team}
-            </SliderMark>
-          ))}
-          <SliderTrack>
-            <SliderFilledTrack />
-          </SliderTrack>
-          <SliderThumb />
-        </Slider>
-      </Box>
+        <Text>Teams</Text>
+        <Box pt={6} pb={2} width={'50%'}>
+          <Slider
+            aria-label="slider-teams"
+            onChange={(val) => setTeamsValue(val)}
+            defaultValue={12}
+            min={10}
+            max={16}
+          >
+            {Array.from({ length: 7 }, (_, i) => i + 10).map((team) => (
+              <SliderMark key={team} value={team} {...labelStyles}>
+                {team}
+              </SliderMark>
+            ))}
+            <SliderTrack>
+              <SliderFilledTrack />
+            </SliderTrack>
+            <SliderThumb />
+          </Slider>
+        </Box>
+      </Flex>
       <Heading>Cast</Heading>
-      {/* <Container maxWidth="100%">
-        <SimpleGrid minChildWidth="160px" spacing="20px">
-          {Array.from({ length: teamsValue }, (_, i) => i + 1).map((team) => (
-            <Team key={team} id={team} />
-          ))}
-        </SimpleGrid>
-      </Container> */}
       <Container maxWidth="100%">
-        <SimpleGrid minChildWidth="160px" spacing="20px">
+        <SimpleGrid minChildWidth="200px" spacing="20px">
           {cast.map((team) => (
             <Team key={team.id} data={team} />
           ))}

@@ -8,26 +8,40 @@ export default function Team(props: { data: Team }) {
 
   return (
     <Box
-      maxWidth="200px"
+      maxWidth="250px"
       display="flex"
       flexDirection="column"
       alignItems="center"
     >
       <Text>Team {props.data.id}</Text>
-      <Flex>
-        <Box width={'48%'}>
+      <Flex width="100%">
+        <Box width="48%">
           <CastImage data={team.teamMembers[0]} />
-          <Text align="center">
-            {team.teamMembers[0].firstName} {team.teamMembers[0].lastName}
+          <Text align="center" noOfLines={1}>
+            {team.teamMembers[0].firstName}
           </Text>
+          {team.teamMembers[0].lastName ? (
+            <Text align="center" noOfLines={1}>
+              {team.teamMembers[0].lastName}
+            </Text>
+          ) : (
+            <br />
+          )}
           <EditModal teamId={team.id} dancerId={0} />
         </Box>
         <Spacer />
-        <Box width={'48%'}>
+        <Box width="48%" alignItems="center">
           <CastImage data={team.teamMembers[1]} />
-          <Text align="center">
-            {team.teamMembers[1].firstName} {team.teamMembers[1].lastName}
-          </Text>{' '}
+          <Text align="center" noOfLines={1}>
+            {team.teamMembers[1].firstName}
+          </Text>
+          {team.teamMembers[1].lastName ? (
+            <Text align="center" noOfLines={1}>
+              {team.teamMembers[1].lastName}
+            </Text>
+          ) : (
+            <br />
+          )}
           <EditModal teamId={team.id} dancerId={1} />
         </Box>
       </Flex>
