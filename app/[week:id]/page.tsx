@@ -1,9 +1,11 @@
 'use client';
-import { Box, Button } from '@chakra-ui/react';
+import { Box, Button, Spinner } from '@chakra-ui/react';
 import { useSimStore } from '../store/useStore';
 import WeekButton from '../ui/weekButton';
 import ResultsButton from '../ui/resultsButton';
 import { useEffect, useRef, useState } from 'react';
+import Header from '../ui/header';
+import Dance from '../ui/dance';
 
 export default function Week() {
   //TODO: redirect when needed
@@ -23,37 +25,19 @@ export default function Week() {
   }, [prepareDances]);
 
   return loading ? (
-    <p>loading</p>
+    <Spinner />
   ) : (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
+      <Header />
       <h1>Week 1</h1>
       <p>
         Live from Hollywood, it&#39;s the season premiere of Dancing with the
         Stars!
       </p>
-      {runningOrder.map((ro, i) => {
-        const team = cast[ro].teamMembers;
-        const dance = cast[ro].dances[cast[ro].dances.length - 1];
-        const scores = dance.scores;
-        return (
-          <Box key={ro}>
-            <p>
-              {team[0].firstName} & {team[1].firstName} dancing a {dance.Style}{' '}
-              to {dance.Title} by {dance.Artist}
-            </p>
-            <Box>
-              <p>Scores -</p>
-              {scores?.map((score, i) => (
-                <p key={i}>
-                  {judges[i]} {score}
-                </p>
-              ))}
-            </Box>
-          </Box>
-        );
-      })}
+      {runningOrder.map((ro) => (
+        <Dance key={ro} team={cast[ro]} />
+      ))}
       <ResultsButton />
-      <WeekButton />
     </Box>
   );
 }

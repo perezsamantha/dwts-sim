@@ -2,6 +2,7 @@
 import { ArrowBackIcon, InfoIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 import {
   Box,
+  Divider,
   Flex,
   IconButton,
   Modal,
@@ -45,13 +46,44 @@ export default function Header() {
         />
       </Box>
 
-      <Modal isOpen={isOpen} onClose={onClose} isCentered>
+      <Modal isOpen={isOpen} onClose={onClose} scrollBehavior="outside">
         <ModalOverlay />
-        <ModalContent>
-          <ModalHeader>Sim Info</ModalHeader>
+        <ModalContent margin={5}>
+          <ModalHeader>DWTS Sim Information</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <Text>info about the simulator</Text>
+            <Text fontSize="xl">Overview</Text>
+            <Divider />
+            <Text>
+              This is a non-profit fan-created simulator inspired by the
+              television show &#39;Dancing with the Stars&#39; in which
+              celebrities are paired with professional dancers and over the
+              course of several weeks compete for judges&#39; points and
+              audience votes to crown a winner. Users can customize their own
+              cast and simulate a season of DWTS.
+            </Text>
+            <Text>
+              Link to spotify playlist containing every song in the song bank
+            </Text>
+            <Text fontSize="xl">Privacy Policy</Text>
+            <Divider />
+            <Text>
+              This simulator does not use cookies or collect your personal data.
+              The only data collected is saved simulations in the browser&#39;s
+              local storage.
+            </Text>
+            <Text fontSize="xl">Credits</Text>
+            <Divider />
+            <Text>
+              This sim was created from scratch by ___ using Next.js, Chakra UI,
+              Tailwind CSS, and Zustand for state management. The code
+              repository can be viewed here:
+            </Text>
+            <Text>
+              All rights surrounding simulator concepts and preset images belong
+              to ABC Network, BBC Global, and Disney Plus. No copyright was
+              intended.
+            </Text>
           </ModalBody>
         </ModalContent>
       </Modal>

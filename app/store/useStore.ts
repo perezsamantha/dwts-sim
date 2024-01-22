@@ -99,7 +99,7 @@ export const useSimStore = create<Sim>()(
         ),
     }),
     {
-      name: 'temp',
+      name: 'current',
       storage: createJSONStorage(() => sessionStorage),
     }
   )

@@ -1,9 +1,11 @@
 'use client';
-import { Box, Button } from '@chakra-ui/react';
+import { Box, Button, Spinner } from '@chakra-ui/react';
 import { useSimStore } from '../../store/useStore';
 import WeekButton from '../../ui/weekButton';
 import { leaderboardSort, randomElim, totalScore } from '@/app/lib/logic';
 import { useEffect, useRef, useState } from 'react';
+import Header from '@/app/ui/header';
+import Leaderboard from '@/app/ui/leaderboard';
 
 export default function Results() {
   const week = useSimStore((state) => state.currentWeek);
@@ -25,23 +27,12 @@ export default function Results() {
   }, [eliminateTeam, elimIndex, runningOrder]);
 
   return loading ? (
-    <p>loading</p>
+    <Spinner />
   ) : (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
+      <Header />
       <h1>Week {week} leaderboard</h1>
-      {sortedCast.map((obj, i) => {
-        const team = obj.teamMembers;
-        const dance = obj.dances[obj.dances.length - 1];
-        const scores = dance.scores;
-        return (
-          <Box key={i}>
-            <p>
-              {team[0].firstName} & {team[1].firstName} - {dance.Style} -{' '}
-              {totalScore(scores)}
-            </p>
-          </Box>
-        );
-      })}
+      <Leaderboard cast={sortedCast} />
       <h2>The couple going home is ...</h2>
       <p>
         {cast[elimIndex].teamMembers[0].firstName} &{' '}

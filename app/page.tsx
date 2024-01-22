@@ -12,6 +12,7 @@ export default function Home() {
       <Text>DWTS Simulator</Text>
       <Text>tips</Text>
       <Text>- invalid images will use a fallback image of a mirrorball</Text>
+      <Text>Saved Sims?</Text>
       <Button onClick={() => router.push('/setup')}>Setup</Button>
     </main>
   );
