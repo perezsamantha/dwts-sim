@@ -22,7 +22,7 @@ import Header from '../ui/header';
 export default function Home() {
   const [teamsValue, setTeamsValue] = useState(12);
 
-  const { cast, weeks, judges, updateWeeks } = useSimStore();
+  const { cast, numberWeeks, judges, updateWeeks } = useSimStore();
 
   const labelStyles = {
     mt: '2',
@@ -41,7 +41,7 @@ export default function Home() {
             aria-label="slider-weeks"
             //onChange={(val) => setWeeksValue(val)}
             onChange={(val) => updateWeeks(val)}
-            defaultValue={weeks}
+            defaultValue={numberWeeks}
             min={8}
             max={12}
           >

@@ -38,6 +38,7 @@ export default function Header() {
           aria-label="Toggle Color Mode"
           onClick={toggleColorMode}
           icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+          marginRight={1}
         />
         <IconButton
           aria-label="Info Modal"

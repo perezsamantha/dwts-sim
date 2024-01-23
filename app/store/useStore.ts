@@ -10,13 +10,14 @@ import {
 } from '../lib/logic';
 
 interface Sim {
-  weeks: number;
+  numberWeeks: number;
   currentWeek: number;
   currentDance: number;
   currentRunningOrder: number[];
   cast: Team[];
   judges: string[];
-  music: Record<string, { Title: string; Artist: string; Style: string }[]>;
+  music: Record<string, { title: string; artist: string; style: string }[]>;
+  weeks?: Team[];
   updateWeeks: (newWeeks: number) => void;
   updateTeam?: (id: number, newTeam: Team) => void;
   updateDancer?: (teamId: number, dancerId: number, newDancer: Dancer) => void;
@@ -42,24 +43,31 @@ export interface Dancer {
 }
 
 export interface Song {
-  Title: string;
-  Artist: string;
-  Style: string;
+  title: string;
+  artist: string;
+  style: string;
+  scores: number[];
+}
+
+export interface Dance {
+  teamId: number[];
+  song: Song;
   scores: number[];
 }
 
 export const useSimStore = create<Sim>()(
   persist(
     (set) => ({
-      weeks: 10,
+      numberWeeks: 10,
       currentWeek: 0,
       currentDance: 0,
       currentRunningOrder: [],
       cast: initialCast,
       judges: ['Carrie Ann Inaba', 'Derek Hough', 'Bruno Tonioli'],
       music: sortedMusic,
+      weeks: new Array<Team>(),
       updateWeeks: (newWeeks) =>
-        set((state) => ({ ...state, weeks: newWeeks })),
+        set((state) => ({ ...state, numberWeeks: newWeeks })),
       updateDancer: (teamId: number, dancerId: number, newDancer: Dancer) => {
         set(
           produce((state) => {

@@ -2,10 +2,9 @@ import { Team } from '../store/useStore';
 import music from '../data/music.json';
 
 interface Song {
-  Title: string;
-  Artist: string;
-  Style: string;
-  scores?: number[];
+  title: string;
+  artist: string;
+  style: string;
 }
 
 interface Celeb {
@@ -37,6 +36,10 @@ const styles = [
   'Jazz',
   'Rumba',
   'Foxtrot',
+  'Waltz',
+  'Paso Doble',
+  'Jive',
+  'Charleston',
 ];
 
 // reduce/sort music data by style
@@ -44,7 +47,7 @@ const styles = [
 export const sortMusic = (music: Song[]) =>
   music.reduce(
     (previous, currentItem) => {
-      const value: string = currentItem['Style'];
+      const value: string = currentItem['style'];
       const existing = previous[value] || [];
       return {
         ...previous,
@@ -129,3 +132,6 @@ export const calculatePlacement = (cast: Team[]) =>
 // determine if double elim
 
 // randomize style for redemption dance in finale
+
+// TODO: BUILD SIM FUNCTION
+// set up entire sim before beginning week 1 ???

@@ -15,8 +15,8 @@ export default function Dance(props: { team: Team }) {
   return (
     <Box width="100%" display="flex" flexDirection="column" alignItems="center">
       <Text margin={1}>
-        {celeb.firstName} & {pro.firstName} dancing a {dance.Style} to{' '}
-        {dance.Title} by {dance.Artist}
+        {celeb.firstName} & {pro.firstName} dancing a {dance.style} to{' '}
+        {dance.title} by {dance.artist}
       </Text>
       <Box display="flex" flexDirection="row">
         <Text margin={1}>Scores - </Text>

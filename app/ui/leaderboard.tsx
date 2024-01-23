@@ -47,7 +47,7 @@ export default function Leaderboard(props: { cast: Team[] }) {
                   </Flex>
                 </Td>
                 <Td>{totalScore(scores)}</Td>
-                <Td>{dance.Style}</Td>
+                <Td>{dance.style}</Td>
               </Tr>
             );
           })}
