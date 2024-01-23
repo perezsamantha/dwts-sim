@@ -21,7 +21,7 @@ import {
   Tabs,
   useDisclosure,
 } from '@chakra-ui/react';
-import { useSimStore } from '../store/useStore';
+import { useBoundStore } from '../store/useStore';
 import { useState } from 'react';
 import prosData from '../data/pros.json';
 import celebsData from '../data/celebs.json';
@@ -29,8 +29,8 @@ import { sortPros, sortCelebs } from '../lib/logic';
 
 export default function EditModal(props: { teamId: number; dancerId: number }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const updateDancer = useSimStore((state) => state.updateDancer);
-  const dancer = useSimStore(
+  const updateDancer = useBoundStore((state) => state.updateDancer);
+  const dancer = useBoundStore(
     (state) => state.cast[props.teamId - 1].teamMembers[props.dancerId]
   );
   const [custom, setCustom] = useState(dancer);

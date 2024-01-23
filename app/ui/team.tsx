@@ -1,10 +1,10 @@
 import { Box, Flex, Spacer, Text } from '@chakra-ui/react';
 import CastImage from './castImage';
-import { Team, useSimStore } from '../store/useStore';
+import { Team, useBoundStore } from '../store/useStore';
 import EditModal from './editModal';
 
 export default function Team(props: { data: Team }) {
-  const team = useSimStore((state) => state.cast[props.data.id - 1]);
+  const team = useBoundStore((state) => state.cast[props.data.id - 1]);
 
   return (
     <Box

@@ -1,10 +1,10 @@
 import { Button } from '@chakra-ui/react';
-import { useSimStore } from '../store/useStore';
+import { useBoundStore } from '../store/useStore';
 import { useRouter } from 'next/navigation';
 
 export default function ResultsButton() {
   //TODO: redirect when needed
-  const week = useSimStore((state) => state.currentWeek);
+  const week = useBoundStore((state) => state.currentWeek);
   const router = useRouter();
 
   const handleButton = () => {

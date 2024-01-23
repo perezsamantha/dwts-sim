@@ -1,15 +1,19 @@
 'use client';
 import { Box, Center, Flex, Text } from '@chakra-ui/react';
-import { Team, useSimStore } from '../store/useStore';
+import { Dance, Team, useBoundStore } from '../store/useStore';
 import CastImage from './castImage';
 import { totalScore } from '../lib/logic';
 
-export default function Dance(props: { team: Team }) {
+export default function Dance(props: { dance: Dance }) {
   //TODO: redirect when needed
-  const judges = useSimStore((state) => state.judges);
-  const celeb = props.team.teamMembers[0];
-  const pro = props.team.teamMembers[1];
-  const dance = props.team.dances[props.team.dances.length - 1];
+  const judges = useBoundStore((state) => state.judges);
+  const celeb = useBoundStore(
+    (state) => state.cast[props.dance.teamId].teamMembers[0]
+  );
+  const pro = useBoundStore(
+    (state) => state.cast[props.dance.teamId].teamMembers[1]
+  );
+  const dance = props.dance;
   const scores = dance.scores;
 
   return (

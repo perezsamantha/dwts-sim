@@ -12,17 +12,16 @@ import {
   SliderTrack,
   Text,
 } from '@chakra-ui/react';
-import { useState } from 'react';
 import Team from '../ui/team';
-import { useSimStore } from '../store/useStore';
+import { useBoundStore } from '../store/useStore';
 import WeekButton from '../ui/weekButton';
 import EditJudgesModal from '../ui/editJudgesModal';
 import Header from '../ui/header';
 
 export default function Home() {
-  const [teamsValue, setTeamsValue] = useState(12);
-
-  const { cast, numberWeeks, judges, updateWeeks } = useSimStore();
+  const { cast, numberWeeks, judges, updateNumberWeeks, numberTeams } =
+    useBoundStore();
+  const updateNumberTeams = useBoundStore((state) => state.updateNumberTeams);
 
   const labelStyles = {
     mt: '2',
@@ -40,7 +39,7 @@ export default function Home() {
           <Slider
             aria-label="slider-weeks"
             //onChange={(val) => setWeeksValue(val)}
-            onChange={(val) => updateWeeks(val)}
+            onChange={(val) => updateNumberWeeks(val)}
             defaultValue={numberWeeks}
             min={8}
             max={12}
@@ -62,8 +61,8 @@ export default function Home() {
         <Box pt={6} pb={2} width={'50%'}>
           <Slider
             aria-label="slider-teams"
-            onChange={(val) => setTeamsValue(val)}
-            defaultValue={12}
+            onChange={(val) => updateNumberTeams(val)}
+            defaultValue={numberTeams}
             min={10}
             max={16}
           >

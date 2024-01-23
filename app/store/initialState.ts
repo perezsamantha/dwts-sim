@@ -1,5 +1,11 @@
 import { shuffleStyles } from '../lib/logic';
 
+export const initialJudges = [
+  'Carrie Ann Inaba',
+  'Derek Hough',
+  'Bruno Tonioli',
+];
+
 export const initialCast = [
   {
     id: 1,

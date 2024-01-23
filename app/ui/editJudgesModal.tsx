@@ -21,13 +21,13 @@ import {
   Tabs,
   useDisclosure,
 } from '@chakra-ui/react';
-import { useSimStore } from '../store/useStore';
+import { useBoundStore } from '../store/useStore';
 import { useState } from 'react';
 
 export default function EditJudgesModal() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const judges = useSimStore((state) => state.judges);
-  const updateJudges = useSimStore((state) => state.updateJudges);
+  const judges = useBoundStore((state) => state.judges);
+  const updateJudges = useBoundStore((state) => state.updateJudges);
   const [custom, setCustom] = useState(judges);
 
   const handleCustomChange = (
