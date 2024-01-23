@@ -42,6 +42,18 @@ const styles = [
   'Charleston',
 ];
 
+// shuffle music
+// O(n) - durstenfeld shuffle, optimized fisher-yates
+const shuffleMusic = (music: Song[]) => {
+  for (let i = music.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    var tmp = music[i];
+    music[i] = music[j];
+    music[j] = tmp;
+  }
+  return music;
+};
+
 // reduce/sort music data by style
 // TODO: shuffle songs
 export const sortMusic = (music: Song[]) =>
@@ -57,7 +69,7 @@ export const sortMusic = (music: Song[]) =>
     {} as { [style: string]: Song[] }
   );
 
-export const sortedMusic = sortMusic(music);
+export const sortedMusic = sortMusic(shuffleMusic(music));
 
 //sort celebs by season, and placement
 export const sortCelebs = (celebs: Celeb[]) =>

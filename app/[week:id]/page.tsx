@@ -34,15 +34,6 @@ export default function Week() {
         Live from Hollywood, it&#39;s the season premiere of Dancing with the
         Stars!
       </p>
-      <iframe
-        style={{ borderRadius: '12px' }}
-        src="https://open.spotify.com/embed/track/11dFghVXANMlKmJXsNCbNl?utm_source=generator"
-        width="50%"
-        height="352"
-        frameBorder="0"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-      ></iframe>
       {runningOrder.map((ro) => (
         <Dance key={ro} team={cast[ro]} />
       ))}
