@@ -1,5 +1,5 @@
 'use client';
-import { Box, Button, Spinner } from '@chakra-ui/react';
+import { Box, Spinner } from '@chakra-ui/react';
 import { useBoundStore } from '../../store/useStore';
 import ResultsButton from '../../ui/resultsButton';
 import { useEffect, useRef, useState } from 'react';
@@ -9,9 +9,10 @@ import { useRouter } from 'next/navigation';
 
 export default function Week({ params }: { params: { id: string } }) {
   //TODO: redirect when needed
+  const week = Number(params.id);
   const currentWeek = useBoundStore((state) => state.currentWeek);
   const prepareWeek = useBoundStore((state) => state.prepareWeek);
-  const dances = useBoundStore((state) => state.weeks[currentWeek - 1]);
+  const dances = useBoundStore((state) => state.weeks[week - 1]);
 
   const [loading, setLoading] = useState(true);
   const effectRan = useRef(false);
@@ -19,19 +20,21 @@ export default function Week({ params }: { params: { id: string } }) {
 
   useEffect(() => {
     if (!effectRan.current) {
-      if (currentWeek + 1 < Number(params.id)) router.push('/');
-      prepareWeek();
-      setLoading(false);
+      if (currentWeek + 1 < week) router.push('/fallback');
+      else {
+        if (currentWeek + 1 === week) prepareWeek();
+        setLoading(false);
+      }
     }
     effectRan.current = true;
-  }, [prepareWeek, params, currentWeek, router]);
+  }, [prepareWeek, params, currentWeek, router, week]);
 
   return loading ? (
     <Spinner />
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header />
-      <h1>Week 1</h1>
+      <h1>Week {week}</h1>
       <p>
         Live from Hollywood, it&#39;s the season premiere of Dancing with the
         Stars!

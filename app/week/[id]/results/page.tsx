@@ -6,10 +6,12 @@ import { leaderboardSort, randomElim } from '@/app/lib/logic';
 import { useEffect, useRef, useState } from 'react';
 import Header from '@/app/ui/header';
 import Leaderboard from '@/app/ui/leaderboard';
+import { useRouter } from 'next/navigation';
 
-export default function Results() {
-  const week = useBoundStore((state) => state.currentWeek);
+export default function Results({ params }: { params: { id: string } }) {
+  const week = Number(params.id);
   const cast = useBoundStore((state) => state.cast);
+  const currentWeek = useBoundStore((state) => state.currentWeek);
   const runningOrder = useBoundStore((state) => state.currentRunningOrder);
   const sortedCast = leaderboardSort([...cast], runningOrder.length);
   const eliminateTeam = useBoundStore((state) => state.eliminateTeam);
@@ -17,14 +19,18 @@ export default function Results() {
   const [loading, setLoading] = useState(true);
   const index = randomElim(runningOrder);
   const [elimIndex] = useState(index);
+  const router = useRouter();
 
   useEffect(() => {
     if (!effectRan.current) {
-      eliminateTeam(elimIndex);
-      setLoading(false);
+      if (currentWeek < week) router.push('/fallback');
+      else {
+        if (currentWeek === week) eliminateTeam(elimIndex);
+        setLoading(false);
+      }
     }
     effectRan.current = true;
-  }, [eliminateTeam, elimIndex, runningOrder]);
+  }, [eliminateTeam, elimIndex, params, currentWeek, router, week]);
 
   return loading ? (
     <Spinner />
@@ -38,7 +44,7 @@ export default function Results() {
         {cast[elimIndex].teamMembers[0].firstName} &{' '}
         {cast[elimIndex].teamMembers[1].firstName}
       </p>
-      <WeekButton />
+      <WeekButton week={week + 1} />
     </Box>
   );
 }

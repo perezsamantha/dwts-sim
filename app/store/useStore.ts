@@ -41,6 +41,7 @@ export interface Song {
   title: string;
   artist: string;
   style: string;
+  uri?: string;
 }
 
 // export const useSimStore = create<Sim>()(
@@ -129,6 +130,7 @@ export interface Dance {
   artist: string;
   style: string;
   scores: number[];
+  uri?: string;
 }
 
 const createSetupStore: StateCreator<SetupSlice> = (set) => ({

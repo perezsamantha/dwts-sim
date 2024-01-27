@@ -1,11 +1,10 @@
 'use client';
 import { Box, Center, Flex, Text } from '@chakra-ui/react';
-import { Dance, Team, useBoundStore } from '../store/useStore';
+import { Dance, useBoundStore } from '../store/useStore';
 import CastImage from './castImage';
 import { totalScore } from '../lib/logic';
 
 export default function Dance(props: { dance: Dance }) {
-  //TODO: redirect when needed
   const judges = useBoundStore((state) => state.judges);
   const celeb = useBoundStore(
     (state) => state.cast[props.dance.teamId].teamMembers[0]
@@ -24,6 +23,7 @@ export default function Dance(props: { dance: Dance }) {
       alignItems="center"
       border="2px solid red"
       marginBottom={5}
+      maxWidth="500px"
     >
       <Flex flexDirection="row" minWidth="250px">
         <CastImage data={celeb} />
@@ -48,18 +48,30 @@ export default function Dance(props: { dance: Dance }) {
       </Center>
       <Text>Total</Text>
       <Text>{totalScore(scores)}</Text>
-      <Text margin={1}>Song Preview</Text>
-      <iframe
-        style={{
-          borderRadius: '14px',
-        }}
-        src="https://open.spotify.com/embed/track/11dFghVXANMlKmJXsNCbNl?utm_source=generator"
-        // width="50%"
-        width="100%"
-        height="80"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
-      ></iframe>
+      {dance.uri && (
+        <Box
+          width="95%"
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+        >
+          <Text margin={1}>Song Preview</Text>
+          <iframe
+            style={{
+              borderRadius: '14px',
+            }}
+            //src="https://open.spotify.com/embed/track/11dFghVXANMlKmJXsNCbNl?utm_source=generator"
+            src={`https://open.spotify.com/embed/track/${dance.uri.slice(
+              14
+            )}?utm_source=generator`}
+            // width="50%"
+            width="100%"
+            height="80"
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </Box>
+      )}
     </Box>
   );
 }

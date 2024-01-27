@@ -1,763 +1,2126 @@
 [
-  { "title": "Cuff It", "artist": "Beyoncé", "style": "Cha Cha" },
-  { "title": "Lil Boo Thang", "artist": "Paul Russell", "style": "Cha Cha" },
-  { "title": "I Can See You", "artist": "Taylor Swift", "style": "Tango" },
+  { "title": "Cuff It", "artist": "Beyoncé", "style": "Cha Cha", "uri": "" },
+  {
+    "title": "Lil Boo Thang",
+    "artist": "Paul Russell",
+    "style": "Cha Cha",
+    "uri": ""
+  },
   {
     "title": "I Can See You",
     "artist": "Taylor Swift",
-    "style": "Argentine Tango"
+    "style": "Tango",
+    "uri": ""
   },
-  { "title": "Hallelujah", "artist": "Pentatonix", "style": "Viennese Waltz" },
-  { "title": "Movement", "artist": "Hozier", "style": "Contemporary" },
+  {
+    "title": "I Can See You",
+    "artist": "Taylor Swift",
+    "style": "Argentine Tango",
+    "uri": ""
+  },
+  {
+    "title": "Hallelujah",
+    "artist": "Pentatonix",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Movement",
+    "artist": "Hozier",
+    "style": "Contemporary",
+    "uri": ""
+  },
   {
     "title": "Visiting Hours",
     "artist": "Ed Sheeran",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
-  { "title": "Lovumba", "artist": "Daddy Yankee", "style": "Salsa" },
+  { "title": "Lovumba", "artist": "Daddy Yankee", "style": "Salsa", "uri": "" },
   {
     "title": "Shivers",
     "artist": "District 78, Mikayla Lynn",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
-  { "title": "High Horse", "artist": "Kacey Musgraves", "style": "Cha Cha" },
+  {
+    "title": "High Horse",
+    "artist": "Kacey Musgraves",
+    "style": "Cha Cha",
+    "uri": ""
+  },
   {
     "title": "Teeth",
     "artist": "5 Seconds of Summer",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
-  { "title": "Cold as Ice", "artist": "Foreigner", "style": "Jazz" },
+  { "title": "Cold as Ice", "artist": "Foreigner", "style": "Jazz", "uri": "" },
   {
     "title": "No One's Here To Sleep",
     "artist": "Naughty Boy, Bastille",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
   {
     "title": "Touch It",
     "artist": "Ariana Grande",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
-  { "title": "Touch It", "artist": "Ariana Grande", "style": "Rumba" },
-  { "title": "#SELFIE", "artist": "The Chainsmokers", "style": "Jazz" },
+  {
+    "title": "Touch It",
+    "artist": "Ariana Grande",
+    "style": "Rumba",
+    "uri": ""
+  },
+  {
+    "title": "#SELFIE",
+    "artist": "The Chainsmokers",
+    "style": "Jazz",
+    "uri": ""
+  },
   {
     "title": "Potential Breakup Song (Explicit)",
     "artist": "Aly & AJ",
-    "style": "Quickstep"
+    "style": "Quickstep",
+    "uri": ""
   },
-  { "title": "Potential Breakup Song", "artist": "Aly & AJ", "style": "Jive" },
-  { "title": "Can't Be Tamed", "artist": "Miley Cyrus", "style": "Paso Doble" },
-  { "title": "Superlove", "artist": "Tinashe", "style": "Salsa" },
+  {
+    "title": "Potential Breakup Song",
+    "artist": "Aly & AJ",
+    "style": "Jive",
+    "uri": ""
+  },
+  {
+    "title": "Can't Be Tamed",
+    "artist": "Miley Cyrus",
+    "style": "Paso Doble",
+    "uri": ""
+  },
+  { "title": "Superlove", "artist": "Tinashe", "style": "Salsa", "uri": "" },
   {
     "title": "Hurry Up And Save Me",
     "artist": "Tiffany Giardina",
-    "style": "Tango"
+    "style": "Tango",
+    "uri": ""
   },
-  { "title": "she's all I wanna be", "artist": "Tate McRae", "style": "Jive" },
+  {
+    "title": "she's all I wanna be",
+    "artist": "Tate McRae",
+    "style": "Jive",
+    "uri": ""
+  },
   {
     "title": "Billie Bossa Nova",
     "artist": "Billie Eilish",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
-  { "title": "Forgive Me", "artist": "Chloe x Halle", "style": "Tango" },
-  { "title": "Hallucinate", "artist": "Dua Lipa", "style": "Cha Cha" },
-  { "title": "A-YO", "artist": "Lady Gaga", "style": "Jive" },
-  { "title": "False God", "artist": "Taylor Swift", "style": "Rumba" },
-  { "title": "She Will Be Loved", "artist": "Maroon 5", "style": "Rumba" },
+  {
+    "title": "Forgive Me",
+    "artist": "Chloe x Halle",
+    "style": "Tango",
+    "uri": ""
+  },
+  {
+    "title": "Hallucinate",
+    "artist": "Dua Lipa",
+    "style": "Cha Cha",
+    "uri": ""
+  },
+  { "title": "A-YO", "artist": "Lady Gaga", "style": "Jive", "uri": "" },
+  {
+    "title": "False God",
+    "artist": "Taylor Swift",
+    "style": "Rumba",
+    "uri": ""
+  },
+  {
+    "title": "She Will Be Loved",
+    "artist": "Maroon 5",
+    "style": "Rumba",
+    "uri": ""
+  },
   {
     "title": "Just Got Paid",
     "artist": "Sigala, Ella Eyre, Meghan Trainor, French Montana",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
   {
     "title": "Read your Mind",
     "artist": "Sabrina Carpenter",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
-  { "title": "Our Own House", "artist": "Misterwives", "style": "Cha Cha" },
+  {
+    "title": "Our Own House",
+    "artist": "Misterwives",
+    "style": "Cha Cha",
+    "uri": ""
+  },
   {
     "title": "Out of My League",
     "artist": "Fitz and The Tantrums",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
-  { "title": "First", "artist": "Cold War Kids", "style": "Foxtrot" },
-  { "title": "People Help the People", "artist": "Birdy", "style": "Foxtrot" },
-  { "title": "Breathe (2AM)", "artist": "Anna Nalick", "style": "Foxtrot" },
-  { "title": "Holy Water", "artist": "Freya Ridings", "style": "Foxtrot" },
-  { "title": "Centuries", "artist": "Fall Out Boy", "style": "Paso Doble" },
-  { "title": "Fire Burning", "artist": "Sean Kingston", "style": "Salsa" },
+  {
+    "title": "First",
+    "artist": "Cold War Kids",
+    "style": "Foxtrot",
+    "uri": ""
+  },
+  {
+    "title": "People Help the People",
+    "artist": "Birdy",
+    "style": "Foxtrot",
+    "uri": ""
+  },
+  {
+    "title": "Breathe (2AM)",
+    "artist": "Anna Nalick",
+    "style": "Foxtrot",
+    "uri": ""
+  },
+  {
+    "title": "Holy Water",
+    "artist": "Freya Ridings",
+    "style": "Foxtrot",
+    "uri": ""
+  },
+  {
+    "title": "Centuries",
+    "artist": "Fall Out Boy",
+    "style": "Paso Doble",
+    "uri": ""
+  },
+  {
+    "title": "Fire Burning",
+    "artist": "Sean Kingston",
+    "style": "Salsa",
+    "uri": ""
+  },
   {
     "title": "Hey Baby (Drop It to the Floor)",
     "artist": "Pitbull, T-Pain",
-    "style": "Salsa"
+    "style": "Salsa",
+    "uri": ""
   },
-  { "title": "Love In The Dark", "artist": "Adele", "style": "Viennese Waltz" },
-  { "title": "vampire", "artist": "Olivia Rodrigo", "style": "Tango" },
-  { "title": "bad idea right?", "artist": "Olivia Rodrigo", "style": "Tango" },
-  { "title": "Evacuate the Dancefloor", "artist": "Cascada", "style": "Tango" },
+  {
+    "title": "Love In The Dark",
+    "artist": "Adele",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
+  {
+    "title": "vampire",
+    "artist": "Olivia Rodrigo",
+    "style": "Tango",
+    "uri": ""
+  },
+  {
+    "title": "bad idea right?",
+    "artist": "Olivia Rodrigo",
+    "style": "Tango",
+    "uri": ""
+  },
+  {
+    "title": "Evacuate the Dancefloor",
+    "artist": "Cascada",
+    "style": "Tango",
+    "uri": ""
+  },
   {
     "title": "Pick Up Your Feelings",
     "artist": "Jazmine Sullivan",
-    "style": "Viennese Waltz"
+    "style": "Viennese Waltz",
+    "uri": ""
   },
   {
     "title": "Calling All the Monsters",
     "artist": "China Anne McClain",
-    "style": "Tango"
+    "style": "Tango",
+    "uri": ""
   },
   {
     "title": "Calling All the Monsters",
     "artist": "China Anne McClain",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
   {
     "title": "Tough Lover (From Burlesque)",
     "artist": "Christina Aguilera",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
   {
     "title": "But I Am A Good Girl (From Burlesque)",
     "artist": "Christina Aguilera",
-    "style": "Foxtrot"
+    "style": "Foxtrot",
+    "uri": ""
   },
   {
     "title": "Independently Owned (From Shucked)",
     "artist": "Alex Newell",
-    "style": "Foxtrot"
+    "style": "Foxtrot",
+    "uri": ""
   },
-  { "title": "Rain", "artist": "SWV", "style": "Rumba" },
+  { "title": "Rain", "artist": "SWV", "style": "Rumba", "uri": "" },
   {
     "title": "I'm Your Baby Tonight",
     "artist": "Whitney Houston",
-    "style": "Jazz"
+    "style": "Jazz",
+    "uri": ""
   },
   {
     "title": "Close",
     "artist": "Nick Jonas, Tove Lo",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
-  { "title": "Call Me", "artist": "Aretha Franklin", "style": "Waltz" },
-  { "title": "Best Part", "artist": "Daniel Caesar, H.E.R.", "style": "Waltz" },
+  {
+    "title": "Call Me",
+    "artist": "Aretha Franklin",
+    "style": "Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Best Part",
+    "artist": "Daniel Caesar, H.E.R.",
+    "style": "Waltz",
+    "uri": ""
+  },
   {
     "title": "No Hay Igual",
     "artist": "Nelly Furtado, Calle 13",
-    "style": "Salsa"
+    "style": "Salsa",
+    "uri": ""
   },
-  { "title": "Fly Girl", "artist": "FLO, Missy Elliott", "style": "Salsa" },
-  { "title": "Partition", "artist": "Beyoncé", "style": "Argentine Tango" },
+  {
+    "title": "Fly Girl",
+    "artist": "FLO, Missy Elliott",
+    "style": "Salsa",
+    "uri": ""
+  },
+  {
+    "title": "Partition",
+    "artist": "Beyoncé",
+    "style": "Argentine Tango",
+    "uri": ""
+  },
   {
     "title": "In The Kitchen",
     "artist": "Reneé Rapp",
-    "style": "Viennese Waltz"
+    "style": "Viennese Waltz",
+    "uri": ""
   },
-  { "title": "Where My Girls At", "artist": "702", "style": "Samba" },
-  { "title": "Daddy Lessons", "artist": "Beyoncé", "style": "Jive" },
+  {
+    "title": "Where My Girls At",
+    "artist": "702",
+    "style": "Samba",
+    "uri": ""
+  },
+  { "title": "Daddy Lessons", "artist": "Beyoncé", "style": "Jive", "uri": "" },
   {
     "title": "Valentine's Dance Tango (From Another Cinderella Story)",
     "artist": "The Twins",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
-  { "title": "Love Drunk", "artist": "Little Mix", "style": "Quickstep" },
-  { "title": "Medicine", "artist": "Kelly Clarkson", "style": "Cha Cha" },
-  { "title": "Waiting for You", "artist": "Alexander Jean", "style": "Tango" },
+  {
+    "title": "Love Drunk",
+    "artist": "Little Mix",
+    "style": "Quickstep",
+    "uri": ""
+  },
+  {
+    "title": "Medicine",
+    "artist": "Kelly Clarkson",
+    "style": "Cha Cha",
+    "uri": ""
+  },
+  {
+    "title": "Waiting for You",
+    "artist": "Alexander Jean",
+    "style": "Tango",
+    "uri": ""
+  },
   {
     "title": "The One I Crave",
     "artist": "Christina Grimmie",
-    "style": "Charleston"
+    "style": "Charleston",
+    "uri": ""
   },
   {
     "title": "Falling Slow",
     "artist": "Tori Kelly",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
   {
     "title": "love is embarrassing",
     "artist": "Olivia Rodrigo",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
-  { "title": "exes", "artist": "Tate McRae", "style": "" },
-  { "title": "greedy", "artist": "Tate McRae", "style": "" },
+  { "title": "exes", "artist": "Tate McRae", "style": "", "uri": "" },
+  { "title": "greedy", "artist": "Tate McRae", "style": "", "uri": "" },
   {
     "title": "Dirty Diana",
     "artist": "Michael Jackson",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
   {
     "title": "Don't Let Me Be the Last to Know",
     "artist": "Britney Spears",
-    "style": "Rumba"
+    "style": "Rumba",
+    "uri": ""
   },
-  { "title": "vampire", "artist": "Olivia Rodrigo", "style": "Viennese Waltz" },
-  { "title": "Dance The Night", "artist": "Dua Lipa", "style": "Cha Cha" },
-  { "title": "ghostin", "artist": "Ariana Grande", "style": "Contemporary" },
-  { "title": "The Longest Time", "artist": "Billy Joel", "style": "Jive" },
-  { "title": "Gee", "artist": "Girls' Generation", "style": "Quickstep" },
+  {
+    "title": "vampire",
+    "artist": "Olivia Rodrigo",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Dance The Night",
+    "artist": "Dua Lipa",
+    "style": "Cha Cha",
+    "uri": ""
+  },
+  {
+    "title": "ghostin",
+    "artist": "Ariana Grande",
+    "style": "Contemporary",
+    "uri": ""
+  },
+  {
+    "title": "The Longest Time",
+    "artist": "Billy Joel",
+    "style": "Jive",
+    "uri": ""
+  },
+  {
+    "title": "Gee",
+    "artist": "Girls' Generation",
+    "style": "Quickstep",
+    "uri": ""
+  },
   {
     "title": "Say It Right",
     "artist": "Nelly Furtado",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
   {
     "title": "I Want You to Love Me",
     "artist": "Fiona Apple",
-    "style": "Foxtrot"
+    "style": "Foxtrot",
+    "uri": ""
   },
-  { "title": "Sandcastles", "artist": "Beyoncé", "style": "Waltz" },
-  { "title": "My Love Mine All Mine", "artist": "Mitski", "style": "Rumba" },
+  { "title": "Sandcastles", "artist": "Beyoncé", "style": "Waltz", "uri": "" },
+  {
+    "title": "My Love Mine All Mine",
+    "artist": "Mitski",
+    "style": "Rumba",
+    "uri": ""
+  },
   {
     "title": "Experience",
     "artist": "Victoria Monét, Khalid, SG Lewis",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
   {
     "title": "River Deep, Mountain High",
     "artist": "Glee Cast",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
   {
     "title": "Fake ID (From Footloose)",
     "artist": "Big & Rich, Gretchen Wilson",
-    "style": "Team Dance"
+    "style": "Team Dance",
+    "uri": ""
   },
   {
     "title": "Me Against the Music",
     "artist": "Britney Spears, Madonna",
-    "style": "Salsa"
+    "style": "Salsa",
+    "uri": ""
   },
-  { "title": "Snow Angel", "artist": "Reneé Rapp", "style": "Contemporary" },
+  {
+    "title": "Snow Angel",
+    "artist": "Reneé Rapp",
+    "style": "Contemporary",
+    "uri": ""
+  },
   {
     "title": "Versace on the Floor",
     "artist": "Bruno Mars",
-    "style": "Viennese Waltz"
+    "style": "Viennese Waltz",
+    "uri": ""
   },
-  { "title": "Butterfly", "artist": "Jason Mraz", "style": "Samba" },
+  { "title": "Butterfly", "artist": "Jason Mraz", "style": "Samba", "uri": "" },
   {
     "title": "Something That I Want (From Tangled)",
     "artist": "Grace Potter",
-    "style": "Jazz"
+    "style": "Jazz",
+    "uri": ""
   },
   {
     "title": "Something About the Sunshine (From Starstruck)",
     "artist": "Anna Margaret, Christopher Wilde",
-    "style": "Foxtrot"
+    "style": "Foxtrot",
+    "uri": ""
   },
   {
     "title": "Snow Lands on Top (From TBOSAS)",
     "artist": "James Newton Howard",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
-  { "title": "Booty Swing", "artist": "Parov Stelar", "style": "Charleston" },
-  { "title": "Killer Queen", "artist": "Queen", "style": "Foxtrot" },
+  {
+    "title": "Booty Swing",
+    "artist": "Parov Stelar",
+    "style": "Charleston",
+    "uri": ""
+  },
+  { "title": "Killer Queen", "artist": "Queen", "style": "Foxtrot", "uri": "" },
   {
     "title": "The Nicest Kids In Town (From Hairspray)",
     "artist": "James Marsden, Cast of Hairspray",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
-  { "title": "Girlfriend", "artist": "Avril Lavigne", "style": "Jive" },
+  {
+    "title": "Girlfriend",
+    "artist": "Avril Lavigne",
+    "style": "Jive",
+    "uri": ""
+  },
   {
     "title": "Let's Go Crazy (From Sing 2)",
     "artist": "Tori Kelly, Taron Egerton, Reese Witherspoon, Nick Kroll",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
   {
     "title": "Could Have Been Me (From Sing 2)",
     "artist": "Halsey",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
   {
     "title": "A Cool Cat in Town",
     "artist": "Tape Five, Brenda Boykin",
-    "style": "Quickstep"
+    "style": "Quickstep",
+    "uri": ""
   },
   {
     "title": "Separate Ways (Worlds Apart)",
     "artist": "Journey",
-    "style": "Tango"
+    "style": "Tango",
+    "uri": ""
   },
   {
     "title": "Can't Remember to Forget You",
     "artist": "Shakira, Rihanna",
-    "style": "Tango"
+    "style": "Tango",
+    "uri": ""
   },
   {
     "title": "What A Wonderful Life",
     "artist": "Louis Armstrong",
-    "style": "Viennese Waltz"
+    "style": "Viennese Waltz",
+    "uri": ""
   },
   {
     "title": "My Way (From Sing)",
     "artist": "Seth MacFarlane",
-    "style": "Viennese Waltz"
+    "style": "Viennese Waltz",
+    "uri": ""
   },
-  { "title": "happier", "artist": "Olivia Rodrigo", "style": "Viennese Waltz" },
-  { "title": "Heaven", "artist": "Julia Michaels", "style": "Viennese Waltz" },
+  {
+    "title": "happier",
+    "artist": "Olivia Rodrigo",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Heaven",
+    "artist": "Julia Michaels",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
   {
     "title": "Masquerade (From The Phantom Of The Opera)",
     "artist": "Andrew Lloyd Webber",
-    "style": "Waltz"
+    "style": "Waltz",
+    "uri": ""
   },
-  { "title": "The Only Exception", "artist": "Paramore", "style": "Waltz" },
-  { "title": "Distraction", "artist": "Kehlani", "style": "Argentine Tango" },
+  {
+    "title": "The Only Exception",
+    "artist": "Paramore",
+    "style": "Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Distraction",
+    "artist": "Kehlani",
+    "style": "Argentine Tango",
+    "uri": ""
+  },
   {
     "title": "Genius",
     "artist": "Sia, Diplo, Labrinth, LSD",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
   {
     "title": "Bom Bidi Bom",
     "artist": "Nick Jonas, Nicki Minaj",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
   {
     "title": "I'm Good (Blue)",
     "artist": "David Guetta, Bebe Rexha",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
   {
     "title": "I Gotta Feeling",
     "artist": "Black Eyed Peas",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
   {
     "title": "Rum and Raybans",
     "artist": "Sean Kingston, Cher Lloyd",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
-  { "title": "Bust A Move", "artist": "Young MC", "style": "Cha Cha" },
-  { "title": "Hot Stuff", "artist": "Kygo, Donna Summer", "style": "Cha Cha" },
+  {
+    "title": "Bust A Move",
+    "artist": "Young MC",
+    "style": "Cha Cha",
+    "uri": ""
+  },
+  {
+    "title": "Hot Stuff",
+    "artist": "Kygo, Donna Summer",
+    "style": "Cha Cha",
+    "uri": ""
+  },
   {
     "title": "Say You Won't Let Go",
     "artist": "James Arthur",
-    "style": "Rumba"
+    "style": "Rumba",
+    "uri": ""
   },
-  { "title": "Best Friend", "artist": "Sofi Tukker", "style": "Samba" },
-  { "title": "Hypnotize", "artist": "The Notorious B.I.G.", "style": "Samba" },
+  {
+    "title": "Best Friend",
+    "artist": "Sofi Tukker",
+    "style": "Samba",
+    "uri": ""
+  },
+  {
+    "title": "Hypnotize",
+    "artist": "The Notorious B.I.G.",
+    "style": "Samba",
+    "uri": ""
+  },
   {
     "title": "MAMACITA",
     "artist": "Black Eyed Peas, Ozuna, J. Rey Soul",
-    "style": "Samba"
+    "style": "Samba",
+    "uri": ""
   },
-  { "title": "Generous", "artist": "Olivia Holt", "style": "Cha Cha" },
-  { "title": "Generous", "artist": "Olivia Holt", "style": "Argentine Tango" },
+  {
+    "title": "Generous",
+    "artist": "Olivia Holt",
+    "style": "Cha Cha",
+    "uri": ""
+  },
+  {
+    "title": "Generous",
+    "artist": "Olivia Holt",
+    "style": "Argentine Tango",
+    "uri": ""
+  },
   {
     "title": "Dance With Me (From The Cheetah Girls 2)",
     "artist": "Drew Seeley, Belinda",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
   {
     "title": "Queen of Mean (From Descendants 3)",
     "artist": "Sarah Jeffery",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
   {
     "title": "Beyond the Sea (From Finding Nemo)",
     "artist": "Bobby Darin",
-    "style": "Foxtrot"
+    "style": "Foxtrot",
+    "uri": ""
   },
   {
     "title": "A Night to Remember (From HSM 3)",
     "artist": "High School Musical Cast",
-    "style": "Team Dance"
+    "style": "Team Dance",
+    "uri": ""
   },
   {
     "title": "I Don't Dance (From HSM 2)",
     "artist": "Corbin Bleu, Lucas Grabeel",
-    "style": "Jazz"
+    "style": "Jazz",
+    "uri": ""
   },
   {
     "title": "Cruisin' for a Bruisin' (From Teen Beach Movie)",
     "artist": "Ross Lynch, Jason Evigan, Grace Phipps",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
   {
     "title": "You'll Always Find Your Way Back Home",
     "artist": "Hannah Montana",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
   {
     "title": "Jump To The Rhythm (From Jump In)",
     "artist": "Jordan Pruitt",
-    "style": "Quickstep"
+    "style": "Quickstep",
+    "uri": ""
   },
   {
     "title": "You'll Be In My Heart (From Tarzan)",
     "artist": "Phil Collins",
-    "style": "Rumba"
+    "style": "Rumba",
+    "uri": ""
   },
   {
     "title": "If Only (From Descendants)",
     "artist": "Dove Cameron",
-    "style": "Rumba"
+    "style": "Rumba",
+    "uri": ""
   },
   {
     "title": "Bop To The Top (From HSM)",
     "artist": "Ashley Tisdale, Lucas Grabeel",
-    "style": "Salsa"
+    "style": "Salsa",
+    "uri": ""
   },
   {
     "title": "Let's Dance (From Hannah Montana)",
     "artist": "Miley Cyrus",
-    "style": "Tango"
+    "style": "Tango",
+    "uri": ""
   },
   {
     "title": "Bella Notte (From The Lady And The Tramp)",
     "artist": "George Givot, Bill Thompson",
-    "style": "Waltz"
+    "style": "Waltz",
+    "uri": ""
   },
   {
     "title": "Evermore (From Beauty and the Beast Live Action)",
     "artist": "Dan Stevens",
-    "style": "Viennese Waltz"
+    "style": "Viennese Waltz",
+    "uri": ""
   },
   {
     "title": "Breakfast",
     "artist": "Dove Cameron",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
-  { "title": "Super Freak", "artist": "Rick James", "style": "Cha Cha" },
+  {
+    "title": "Super Freak",
+    "artist": "Rick James",
+    "style": "Cha Cha",
+    "uri": ""
+  },
   {
     "title": "The Devil Within",
     "artist": "Digital Daggers",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
-  { "title": "Goo Goo Muck", "artist": "The Cramps", "style": "Jazz" },
+  {
+    "title": "Goo Goo Muck",
+    "artist": "The Cramps",
+    "style": "Jazz",
+    "uri": ""
+  },
   {
     "title": "Skeleton Sam (From Hocus Pocus 2)",
     "artist": "LVCRFT",
-    "style": "Jive"
+    "style": "Jive",
+    "uri": ""
   },
   {
     "title": "Heads Will Roll",
     "artist": "Yeah Yeah Yeahs",
-    "style": "Paso Doble"
+    "style": "Paso Doble",
+    "uri": ""
   },
   {
     "title": "A Little Bit Longer",
     "artist": "Jonas Brothers",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
   {
     "title": "Can You Hold Me",
     "artist": "NF, Britt Nicole",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
   {
     "title": "Start of Time",
     "artist": "Gabrielle Aplin",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
   {
     "title": "Unsaid Emily (From Julie and the Phantoms)",
     "artist": "Julie and the Phantoms Cast, Charlie Gillespie",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
-  { "title": "Hungry Eyes", "artist": "Eric Carmen", "style": "Jazz" },
+  {
+    "title": "Hungry Eyes",
+    "artist": "Eric Carmen",
+    "style": "Jazz",
+    "uri": ""
+  },
   {
     "title": "Car Wash",
     "artist": "Christina Aguilera, Missy Elliott",
-    "style": "Jazz"
+    "style": "Jazz",
+    "uri": ""
   },
-  { "title": "Mr. Saxobeat", "artist": "Alexandra Stan", "style": "Jazz" },
-  { "title": "Stayin Alive", "artist": "Bee Gees", "style": "Samba" },
-  { "title": "The Motto", "artist": "Tiësto, Ava Max", "style": "Cha Cha" },
-  { "title": "The Motto", "artist": "Tiësto, Ava Max", "style": "Paso Doble" },
-  { "title": "pov", "artist": "Ariana Grande", "style": "Viennese Waltz" },
-  { "title": "Womanizer", "artist": "Britney Spears", "style": "Tango" },
+  {
+    "title": "Mr. Saxobeat",
+    "artist": "Alexandra Stan",
+    "style": "Jazz",
+    "uri": ""
+  },
+  {
+    "title": "Stayin Alive",
+    "artist": "Bee Gees",
+    "style": "Samba",
+    "uri": ""
+  },
+  {
+    "title": "The Motto",
+    "artist": "Tiësto, Ava Max",
+    "style": "Cha Cha",
+    "uri": ""
+  },
+  {
+    "title": "The Motto",
+    "artist": "Tiësto, Ava Max",
+    "style": "Paso Doble",
+    "uri": ""
+  },
+  {
+    "title": "pov",
+    "artist": "Ariana Grande",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Womanizer",
+    "artist": "Britney Spears",
+    "style": "Tango",
+    "uri": ""
+  },
   {
     "title": "El Tango De Roxanne (from Moulin Rouge)",
     "artist": "Jose Feliciano, Ewan McGregor, and Jacek Koman",
-    "style": "Tango"
+    "style": "Tango",
+    "uri": ""
   },
   {
     "title": "Rock Your Body",
     "artist": "Justin Timberlake",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
-  { "title": "Gasolina", "artist": "Daddy Yankee", "style": "Samba" },
-  { "title": "Don't Go Yet", "artist": "Camila Cabello", "style": "Salsa" },
-  { "title": "She Bangs", "artist": "Ricky Martin", "style": "Cha Cha" },
-  { "title": "Let's Get It On", "artist": "Marvin Gaye", "style": "Rumba" },
+  {
+    "title": "Gasolina",
+    "artist": "Daddy Yankee",
+    "style": "Samba",
+    "uri": ""
+  },
+  {
+    "title": "Don't Go Yet",
+    "artist": "Camila Cabello",
+    "style": "Salsa",
+    "uri": ""
+  },
+  {
+    "title": "She Bangs",
+    "artist": "Ricky Martin",
+    "style": "Cha Cha",
+    "uri": ""
+  },
+  {
+    "title": "Let's Get It On",
+    "artist": "Marvin Gaye",
+    "style": "Rumba",
+    "uri": ""
+  },
   {
     "title": "A Whole New World (from Aladdin)",
     "artist": "Lea Salonga and Brad Kane",
-    "style": "Foxtrot"
+    "style": "Foxtrot",
+    "uri": ""
   },
   {
     "title": "You've Got a Friend in Me (from Toy Story)",
     "artist": "Randy Newman",
-    "style": "Quickstep"
+    "style": "Quickstep",
+    "uri": ""
   },
   {
     "title": "Happier Than Ever",
     "artist": "Billie Eilish",
-    "style": "Viennese Waltz"
+    "style": "Viennese Waltz",
+    "uri": ""
   },
   {
     "title": "Lose You to Love Me",
     "artist": "Selena Gomez",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
-  { "title": "Perfect", "artist": "Ed Sheeran", "style": "Viennese Waltz" },
-  { "title": "Bad Guy", "artist": "Billie Eilish", "style": "Argentine Tango" },
-  { "title": "Blinding Lights", "artist": "The Weeknd", "style": "Jive" },
-  { "title": "Gangnam Style", "artist": "Psy", "style": "Team Dance" },
+  {
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Bad Guy",
+    "artist": "Billie Eilish",
+    "style": "Argentine Tango",
+    "uri": ""
+  },
+  {
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "style": "Jive",
+    "uri": ""
+  },
+  {
+    "title": "Gangnam Style",
+    "artist": "Psy",
+    "style": "Team Dance",
+    "uri": ""
+  },
   {
     "title": "I Have Nothing",
     "artist": "Whitney Houston",
-    "style": "Viennese Waltz"
+    "style": "Viennese Waltz",
+    "uri": ""
   },
   {
     "title": "I Wanna Dance with Somebody (Who Loves Me)",
     "artist": "Whitney Houston",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
-  { "title": "Paper Rings", "artist": "Taylor Swift", "style": "Quickstep" },
-  { "title": "Lover", "artist": "Taylor Swift", "style": "Viennese Waltz" },
-  { "title": "Runaway Baby", "artist": "Bruno Mars", "style": "Jive" },
-  { "title": "BO$$", "artist": "Fifth Harmony", "style": "Quickstep" },
-  { "title": "La Vie en Rose", "artist": "Lady Gaga", "style": "Waltz" },
-  { "title": "Que Calor", "artist": "District 78", "style": "Freestyle" },
-  { "title": "Tití Me Preguntó", "artist": "Bad Bunny", "style": "Salsa" },
+  {
+    "title": "Paper Rings",
+    "artist": "Taylor Swift",
+    "style": "Quickstep",
+    "uri": ""
+  },
+  {
+    "title": "Lover",
+    "artist": "Taylor Swift",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Runaway Baby",
+    "artist": "Bruno Mars",
+    "style": "Jive",
+    "uri": ""
+  },
+  {
+    "title": "BO$$",
+    "artist": "Fifth Harmony",
+    "style": "Quickstep",
+    "uri": ""
+  },
+  {
+    "title": "La Vie en Rose",
+    "artist": "Lady Gaga",
+    "style": "Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Que Calor",
+    "artist": "District 78",
+    "style": "Freestyle",
+    "uri": ""
+  },
+  {
+    "title": "Tití Me Preguntó",
+    "artist": "Bad Bunny",
+    "style": "Salsa",
+    "uri": ""
+  },
   {
     "title": "When I Grow Up",
     "artist": "The Pussycat Dolls",
-    "style": "Salsa"
+    "style": "Salsa",
+    "uri": ""
   },
-  { "title": "Pump It", "artist": "Black Eyed Peas", "style": "Jive" },
+  {
+    "title": "Pump It",
+    "artist": "Black Eyed Peas",
+    "style": "Jive",
+    "uri": ""
+  },
   {
     "title": "Savage (Remix)",
     "artist": "Megan Thee Stallion & Major Lazer",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
   {
     "title": "Bossa Nova Baby",
     "artist": "Elvis Presley",
-    "style": "Quickstep"
+    "style": "Quickstep",
+    "uri": ""
   },
-  { "title": "No Time to Die", "artist": "Billie Eilish", "style": "Rumba" },
-  { "title": "Finally Free", "artist": "Joshua Bassett", "style": "Quickstep" },
+  {
+    "title": "No Time to Die",
+    "artist": "Billie Eilish",
+    "style": "Rumba",
+    "uri": ""
+  },
+  {
+    "title": "Finally Free",
+    "artist": "Joshua Bassett",
+    "style": "Quickstep",
+    "uri": ""
+  },
   {
     "title": "Remember Me (from Coco)",
     "artist": "Benjamin Bratt",
-    "style": "Jazz"
+    "style": "Jazz",
+    "uri": ""
   },
   {
     "title": "Wait for It (from Hamilton)",
     "artist": "Leslie Odom Jr.",
-    "style": "Jazz"
+    "style": "Jazz",
+    "uri": ""
   },
   {
     "title": "What the World Needs Now Is Love",
     "artist": "Andra Day",
-    "style": "Waltz"
+    "style": "Waltz",
+    "uri": ""
   },
   {
     "title": "Good Girls Go Bad",
     "artist": "Cobra Starship and Leighton Meester",
-    "style": "Tango"
+    "style": "Tango",
+    "uri": ""
   },
   {
     "title": "Shut Up and Dance",
     "artist": "Walk the Moon",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
   {
     "title": "No Air",
     "artist": "Jordin Sparks and Chris Brown",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
   {
     "title": "It Takes Two",
     "artist": "Rob Base and DJ E-Z Rock",
-    "style": "Samba"
+    "style": "Samba",
+    "uri": ""
   },
-  { "title": "Fever", "artist": "Michael Buble", "style": "Foxtrot" },
-  { "title": "Feeling Good", "artist": "Michael Buble", "style": "Foxtrot" },
+  {
+    "title": "Fever",
+    "artist": "Michael Buble",
+    "style": "Foxtrot",
+    "uri": ""
+  },
+  {
+    "title": "Feeling Good",
+    "artist": "Michael Buble",
+    "style": "Foxtrot",
+    "uri": ""
+  },
   {
     "title": "Heads Will Roll",
     "artist": "Yeah Yeah Yeahs",
-    "style": "Team Dance"
+    "style": "Team Dance",
+    "uri": ""
   },
   {
     "title": "Livin' La Vida Loca",
     "artist": "Ricky Martin",
-    "style": "Samba"
+    "style": "Samba",
+    "uri": ""
   },
-  { "title": "Motownphilly", "artist": "Boyz II Men", "style": "Salsa" },
+  {
+    "title": "Motownphilly",
+    "artist": "Boyz II Men",
+    "style": "Salsa",
+    "uri": ""
+  },
   {
     "title": "Light It Up (Remix)",
     "artist": "Major Lazer, Nyla, and Fuse ODG",
-    "style": "Samba"
+    "style": "Samba",
+    "uri": ""
   },
   {
     "title": "Light It Up (Remix)",
     "artist": "Major Lazer, Nyla, and Fuse ODG",
-    "style": "Salsa"
+    "style": "Salsa",
+    "uri": ""
   },
-  { "title": "Glimpse of Us", "artist": "Joji", "style": "Viennese Waltz" },
-  { "title": "I'm Kissing You", "artist": "Des'ree", "style": "Waltz" },
-  { "title": "Call Me Mother", "artist": "RuPaul", "style": "Freestyle" },
+  {
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
+  {
+    "title": "I'm Kissing You",
+    "artist": "Des'ree",
+    "style": "Waltz",
+    "uri": ""
+  },
+  {
+    "title": "Call Me Mother",
+    "artist": "RuPaul",
+    "style": "Freestyle",
+    "uri": ""
+  },
   {
     "title": "Cell Block Tango (from Chicago)",
     "artist": "Original Broadway Cast",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
-  { "title": "Butter", "artist": "BTS", "style": "Cha Cha" },
-  { "title": "Hey Ya!", "artist": "Outkast", "style": "Jive" },
+  { "title": "Butter", "artist": "BTS", "style": "Cha Cha", "uri": "" },
+  { "title": "Hey Ya!", "artist": "Outkast", "style": "Jive", "uri": "" },
   {
     "title": "The Way I Are",
     "artist": "Timbaland & Keri Hilson",
-    "style": "Tango"
+    "style": "Tango",
+    "uri": ""
   },
   {
     "title": "Are You Gonna Be My Girl",
     "artist": "Jet",
-    "style": "Quickstep"
+    "style": "Quickstep",
+    "uri": ""
   },
-  { "title": "Levitating", "artist": "Dua Lipa", "style": "Samba" },
+  { "title": "Levitating", "artist": "Dua Lipa", "style": "Samba", "uri": "" },
   {
     "title": "Rain on Me",
     "artist": "Lady Gaga & Ariana Granda",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
-  { "title": "All by Myself", "artist": "Celine Dion", "style": "Rumba" },
-  { "title": "Circus", "artist": "Britney Spears", "style": "Cha Cha" },
-  { "title": "Toxic", "artist": "Britney Spears", "style": "Tango" },
+  {
+    "title": "All by Myself",
+    "artist": "Celine Dion",
+    "style": "Rumba",
+    "uri": ""
+  },
+  {
+    "title": "Circus",
+    "artist": "Britney Spears",
+    "style": "Cha Cha",
+    "uri": ""
+  },
+  { "title": "Toxic", "artist": "Britney Spears", "style": "Tango", "uri": "" },
   {
     "title": "Oops!... I Did It Again",
     "artist": "Britney Spears",
-    "style": "Salsa"
+    "style": "Salsa",
+    "uri": ""
   },
   {
     "title": "How Far I'll Go (from Moana)",
     "artist": "Auli'I Cravalho",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
   {
     "title": "Dangerous Woman",
     "artist": "Ariana Grande",
-    "style": "Viennese Waltz"
+    "style": "Viennese Waltz",
+    "uri": ""
   },
   {
     "title": "There Are Worse Things I Could Do (from Grease)",
     "artist": "Stockard Channing",
-    "style": "Rumba"
+    "style": "Rumba",
+    "uri": ""
   },
   {
     "title": "Look at Me, I'm Sandra Dee (Reprise) (from Grease)",
     "artist": "Olivia Newton-John",
-    "style": "Foxtrot"
+    "style": "Foxtrot",
+    "uri": ""
   },
   {
     "title": "I Got 5 On It (Tethered Mix) (from Us)",
     "artist": "Michael Abels, Luniz, and Michael Marshall",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
   {
     "title": "Anything Goes",
     "artist": "District 78 & Patrice Covington",
-    "style": "Jazz"
+    "style": "Jazz",
+    "uri": ""
   },
-  { "title": "Hound Dog", "artist": "Elvis Presley", "style": "Jive" },
-  { "title": "Paint It Black", "artist": "Ciara", "style": "Argentine Tango" },
-  { "title": "Beggin'", "artist": "Måneskin", "style": "Paso doble" },
-  { "title": "Don't Stop Me Now", "artist": "Queen", "style": "Jive" },
+  {
+    "title": "Hound Dog",
+    "artist": "Elvis Presley",
+    "style": "Jive",
+    "uri": ""
+  },
+  {
+    "title": "Paint It Black",
+    "artist": "Ciara",
+    "style": "Argentine Tango",
+    "uri": ""
+  },
+  {
+    "title": "Beggin'",
+    "artist": "Måneskin",
+    "style": "Paso Doble",
+    "uri": ""
+  },
+  {
+    "title": "Don't Stop Me Now",
+    "artist": "Queen",
+    "style": "Jive",
+    "uri": ""
+  },
   {
     "title": "Another One Bites the Dust",
     "artist": "Queen",
-    "style": "Paso doble"
+    "style": "Paso Doble",
+    "uri": ""
   },
-  { "title": "Body Language", "artist": "Queen", "style": "Tango" },
-  { "title": "Somebody to Love", "artist": "Queen", "style": "Viennese Waltz" },
-  { "title": "All for You", "artist": "Janet Jackson", "style": "Samba" },
-  { "title": "If", "artist": "Janet Jackson", "style": "Paso doble" },
-  { "title": "Miss You Much", "artist": "Janet Jackson", "style": "Jazz" },
-  { "title": "Rhythm Nation", "artist": "Janet Jackson", "style": "Cha Cha" },
+  { "title": "Body Language", "artist": "Queen", "style": "Tango", "uri": "" },
+  {
+    "title": "Somebody to Love",
+    "artist": "Queen",
+    "style": "Viennese Waltz",
+    "uri": ""
+  },
+  {
+    "title": "All for You",
+    "artist": "Janet Jackson",
+    "style": "Samba",
+    "uri": ""
+  },
+  {
+    "title": "If",
+    "artist": "Janet Jackson",
+    "style": "Paso Doble",
+    "uri": ""
+  },
+  {
+    "title": "Miss You Much",
+    "artist": "Janet Jackson",
+    "style": "Jazz",
+    "uri": ""
+  },
+  {
+    "title": "Rhythm Nation",
+    "artist": "Janet Jackson",
+    "style": "Cha Cha",
+    "uri": ""
+  },
   {
     "title": "That's the Way Love Goes",
     "artist": "Janet Jackson",
-    "style": "Rumba"
+    "style": "Rumba",
+    "uri": ""
   },
-  { "title": "Danza Kuduro", "artist": "Don Omar & Lucenzo", "style": "Salsa" },
-  { "title": "Dark Fantasy", "artist": "Kanye West", "style": "Jazz" },
-  { "title": "Titanium", "artist": "David Guetta & Sia", "style": "Tango" },
+  {
+    "title": "Danza Kuduro",
+    "artist": "Don Omar & Lucenzo",
+    "style": "Salsa",
+    "uri": ""
+  },
+  {
+    "title": "Dark Fantasy",
+    "artist": "Kanye West",
+    "style": "Jazz",
+    "uri": ""
+  },
+  {
+    "title": "Titanium",
+    "artist": "David Guetta & Sia",
+    "style": "Tango",
+    "uri": ""
+  },
   {
     "title": "Before You Go (Piano Version)",
     "artist": "Lewis Capaldi",
-    "style": "Contemporary"
+    "style": "Contemporary",
+    "uri": ""
   },
   {
     "title": "Santa Maria (Del Buen Ayre)",
     "artist": "Gotan Project",
-    "style": "Argentine Tango"
+    "style": "Argentine Tango",
+    "uri": ""
   },
-  { "title": "Born This Way", "artist": "Lady Gaga", "style": "Freestyle" },
+  {
+    "title": "Born This Way",
+    "artist": "Lady Gaga",
+    "style": "Freestyle",
+    "uri": ""
+  },
   {
     "title": "Lose Control",
     "artist": "Missy Elliott, Ciara, and Fat Man Scoop",
-    "style": "Freestyle"
+    "style": "Freestyle",
+    "uri": ""
   },
   {
     "title": "A Sky Full of Stars",
     "artist": "Coldplay",
-    "style": "Freestyle"
+    "style": "Freestyle",
+    "uri": ""
   },
   {
     "title": "Never Tear Us Apart",
     "artist": "Bishop Briggs",
-    "style": "Paso doble"
+    "style": "Paso Doble",
+    "uri": ""
   },
-  { "title": "Water", "artist": "Bishop Briggs", "style": "Waltz" },
+  { "title": "Water", "artist": "Bishop Briggs", "style": "Waltz", "uri": "" },
   {
     "title": "I Love It",
     "artist": "Icona Pop & Charli XCX",
-    "style": "Cha Cha"
+    "style": "Cha Cha",
+    "uri": ""
   },
   {
     "title": "Sing, Sing, Sing (With a Swing)",
     "artist": "Benny Goodman",
-    "style": "Charleston"
+    "style": "Charleston",
+    "uri": ""
   },
   {
     "title": "Living in New York City",
     "artist": "Robin Thicke",
-    "style": "Charleston"
+    "style": "Charleston",
+    "uri": ""
   },
-  { "title": "One Shot", "artist": "Hunter Hayes", "style": "Charleston" },
+  {
+    "title": "One Shot",
+    "artist": "Hunter Hayes",
+    "style": "Charleston",
+    "uri": ""
+  },
   {
     "title": "The Glory Days (from The Incredibles)",
     "artist": "Michael Giacchino",
-    "style": "Charleston"
+    "style": "Charleston",
+    "uri": ""
   },
   {
     "title": "Bad Man",
     "artist": "Pitbull, Robin Thicke, Joe Perry, and Travis Barker",
-    "style": "Charleston"
+    "style": "Charleston",
+    "uri": ""
   },
   {
     "title": "A Little Party Never Killed Nobody",
     "artist": "Fergie, Q-Tip, and Goonrock",
-    "style": "Charleston"
+    "style": "Charleston",
+    "uri": ""
   },
   {
     "title": "A Little Party Never Killed Nobody",
     "artist": "Fergie, Q-Tip, and Goonrock",
-    "style": "Jazz"
+    "style": "Jazz",
+    "uri": ""
   },
   {
     "title": "Charleston",
     "artist": "Bob Wilson & His Varsity Rhythm Boys",
-    "style": "Charleston"
+    "style": "Charleston",
+    "uri": ""
   },
   {
     "title": "Shame on Me",
     "artist": "Avicii, Sterling Fox, and Audra Mae",
-    "style": "Charleston"
+    "style": "Charleston",
+    "uri": ""
   },
   {
     "title": "All That Jazz / Hot Honey Rag (from Chicago)",
     "artist": "Original Broadway Cast",
-    "style": "Charleston"
+    "style": "Charleston",
+    "uri": ""
   },
-  { "title": "Booty Swing", "artist": "Parov Stelar", "style": "Charleston" },
-  { "title": "Honey I'm Good", "artist": "Andy Grammer", "style": "Charleston" }
+  {
+    "title": "Booty Swing",
+    "artist": "Parov Stelar",
+    "style": "Charleston",
+    "uri": ""
+  },
+  {
+    "title": "Honey I'm Good",
+    "artist": "Andy Grammer",
+    "style": "Charleston",
+    "uri": ""
+  },
+  {
+    "title": "Respect",
+    "artist": "Aretha Franklin",
+    "style": "Cha Cha",
+    "uri": "spotify:track:7s25THrKz86DM225dOYwnr"
+  },
+  {
+    "title": "Dynamite",
+    "artist": "BTS",
+    "style": "Cha Cha",
+    "uri": "spotify:track:5QDLhrAOJJdNAmCTJ8xMyW"
+  },
+  {
+    "title": "Let's Groove",
+    "artist": "Earth, Wind & Fire",
+    "style": "Cha Cha",
+    "uri": "spotify:track:3koCCeSaVUyrRo3N2gHrd8"
+  },
+  {
+    "title": "Shake It Off",
+    "artist": "Taylor Swift",
+    "style": "Jive",
+    "uri": "spotify:track:5xTtaWoae3wi06K5WfVUUH"
+  },
+  {
+    "title": "Zero to Hero (from Hercules)",
+    "artist": "Ariana Grande",
+    "style": "Quickstep",
+    "uri": "spotify:track:685FssvXssY1hyIZWDb7WX"
+  },
+  {
+    "title": "Reflection (from Mulan)",
+    "artist": "Christina Aguilera",
+    "style": "Rumba",
+    "uri": "spotify:track:5Y1id2NTv2M7x2g2V2q1Sz"
+  },
+  {
+    "title": "Married Life (from Up)",
+    "artist": "Michael Giacchino",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:7iocNjLrxPHLl8njgRlv5U"
+  },
+  {
+    "title": "Supercalifragilisticexpialidocious (from Mary Poppins)",
+    "artist": "Julie Andrews & Dick Van Dyke",
+    "style": "Charleston",
+    "uri": "spotify:track:7fImDWw5bcUhRbZ0w1ny4J"
+  },
+  {
+    "title": "Party in the U.S.A.",
+    "artist": "Miley Cyrus",
+    "style": "Samba",
+    "uri": "spotify:track:5Q0Nhxo0l2bP3pNjpGJwV1"
+  },
+  {
+    "title": "Crocodile Rock",
+    "artist": "Elton John",
+    "style": "Jive",
+    "uri": "spotify:track:6WCeFNVAXUtNczb7lqLiZU"
+  },
+  {
+    "title": "Seven Nation Army",
+    "artist": "The White Stripes",
+    "style": "Tango",
+    "uri": "spotify:track:3dPQuX8Gs42Y7b454ybpMR"
+  },
+  {
+    "title": "Ordinary People",
+    "artist": "John Legend",
+    "style": "Foxtrot",
+    "uri": "spotify:track:2ZA4uMlSZjaoWGFqP1tsLI"
+  },
+  {
+    "title": "Total Eclipse of the Heart",
+    "artist": "Bonnie Tyler",
+    "style": "Contemporary",
+    "uri": "spotify:track:7wuJGgpTNzbUyn26IOY6rj"
+  },
+  {
+    "title": "On the Floor",
+    "artist": "Jennifer Lopez & Pitbull",
+    "style": "Salsa",
+    "uri": "spotify:track:20zQZVyUNPbq8kZACdgYrh"
+  },
+  {
+    "title": "Say So",
+    "artist": "Doja Cat & Nicki Minaj",
+    "style": "Cha Cha",
+    "uri": "spotify:track:11VApNQCWLJdzxWrlmwzUa"
+  },
+  {
+    "title": "Swan Lake Remix",
+    "artist": "District 78",
+    "style": "Paso Doble",
+    "uri": "spotify:track:5bKpi9AmWmm1sxybQJAblR"
+  },
+  {
+    "title": "Creep",
+    "artist": "Vincint",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:6x99an9ChMTqfp7HBlx1NC"
+  },
+  {
+    "title": "Wonder",
+    "artist": "Shawn Mendes",
+    "style": "Foxtrot",
+    "uri": "spotify:track:5KCbr5ndeby4y4ggthdiAb"
+  },
+  {
+    "title": "Valerie",
+    "artist": "Amy Whinehouse & Mark Ronson",
+    "style": "Quickstep",
+    "uri": "spotify:track:6kopmMZiyLmw7h66uXcXR7"
+  },
+  {
+    "title": "Wake Me Up Before You Go-Go",
+    "artist": "Wham!",
+    "style": "Jive",
+    "uri": "spotify:track:0ikz6tENMONtK6qGkOrU3c"
+  },
+  {
+    "title": "X",
+    "artist": "Jonas Brothers & Karol G",
+    "style": "Salsa",
+    "uri": "spotify:track:77fvnWALKJR0ws1VUx09CY"
+  },
+  {
+    "title": "Run Boy Run",
+    "artist": "Woodkid",
+    "style": "Paso Doble",
+    "uri": "spotify:track:0boS4e6uXwp3zAvz1mLxZS"
+  },
+  {
+    "title": "Hanuman",
+    "artist": "Rodrigo y Gabriela",
+    "style": "Paso Doble",
+    "uri": "spotify:track:4vV1A6xSDVLLPTJUrSZfVP"
+  },
+  {
+    "title": "Juice",
+    "artist": "Lizzo",
+    "style": "Salsa",
+    "uri": "spotify:track:0k664IuFwVP557Gnx7RhIl"
+  },
+  {
+    "title": "Hot in Herre",
+    "artist": "Nelly",
+    "style": "Salsa",
+    "uri": "spotify:track:04KTF78FFg8sOHC1BADqbY"
+  },
+  {
+    "title": "Spice Up Your Life",
+    "artist": "Spice Girls",
+    "style": "Salsa",
+    "uri": "spotify:track:5qGwqO0lkbBXw4xNfzT7SF"
+  },
+  {
+    "title": "Whatever It Takes",
+    "artist": "Imagine Dragons",
+    "style": "Tango",
+    "uri": "spotify:track:6Qn5zhYkTa37e91HC1D7lb"
+  },
+  {
+    "title": "Confident",
+    "artist": "Demi Lovato",
+    "style": "Paso Doble",
+    "uri": "spotify:track:18xfL5bAbwy1IhIOaaHf57"
+  },
+  {
+    "title": "Fly Me to the Moon",
+    "artist": "Frank Sinatra",
+    "style": "Foxtrot",
+    "uri": "spotify:track:7FXj7Qg3YorUxdrzvrcY25"
+  },
+  {
+    "title": "Shallow",
+    "artist": "Lady Gaga & Bradley Cooper",
+    "style": "Rumba",
+    "uri": "spotify:track:2VxeLyX666F8uXCJ0dZF8B"
+  },
+  {
+    "title": "Jolene",
+    "artist": "Dolly Parton",
+    "style": "Foxtrot",
+    "uri": "spotify:track:2SpEHTbUuebeLkgs9QB7Ue"
+  },
+  {
+    "title": "Proud Mary",
+    "artist": "Tina Turner",
+    "style": "Jive",
+    "uri": "spotify:track:6gJdDnF2TzfA1WPMXuCa3x"
+  },
+  {
+    "title": "Walking on Sunshine",
+    "artist": "Katrina & The Waves",
+    "style": "Quickstep",
+    "uri": "spotify:track:05wIrZSwuaVWhcv5FfqeH0"
+  },
+  {
+    "title": "We're All in This Together",
+    "artist": "Cast of High School Musical",
+    "style": "Jazz",
+    "uri": "spotify:track:0cqNGWvuukhCiKvEX7utys"
+  },
+  {
+    "title": "He's a Pirate (from Pirates of the Caribbean)",
+    "artist": "Klaus Badelt",
+    "style": "Paso Doble",
+    "uri": "spotify:track:08QaHlMPWuO5PUxjl61bXn"
+  },
+  {
+    "title": "Survivor",
+    "artist": "2WEI",
+    "style": "Paso Doble",
+    "uri": "spotify:track:2UIkO1w2lTXDb0BLzy262r"
+  },
+  {
+    "title": "Sweet but Psycho",
+    "artist": "Ava Max",
+    "style": "Tango",
+    "uri": "spotify:track:7DnAm9FOTWE3cUvso43HhI"
+  },
+  {
+    "title": "Whatever Lola Wants",
+    "artist": "Gotan Project",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:29NRxWMbx6J6IOoE8BBl5F"
+  },
+  {
+    "title": "Somebody's Watching Me",
+    "artist": "Rockwell",
+    "style": "Team Dance",
+    "uri": "spotify:track:2H2379xRxgQVvcOSoL8Ajr"
+  },
+  {
+    "title": "Sweet Dreams",
+    "artist": "Beyoncé",
+    "style": "Team Dance",
+    "uri": "spotify:track:1FKxKGONukVFXWVJxAKmlz"
+  },
+  {
+    "title": "I Put a Spell on You",
+    "artist": "Annie Lennox",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:3sesq9P6ndjuqaq5om7sxT"
+  },
+  {
+    "title": "This Is How We Do It",
+    "artist": "Montell Jordan & Wino",
+    "style": "Salsa",
+    "uri": "spotify:track:1poBO3pO6fkqPYG6n8J5cX"
+  },
+  {
+    "title": "Rhythm Is Gonna Get You",
+    "artist": "Gloria Estefan & Miami Sound Machine",
+    "style": "Salsa",
+    "uri": "spotify:track:5KvIQUPOrWc4M3tWyH3x1i"
+  },
+  {
+    "title": "Bye Bye Bye",
+    "artist": "NSYNC",
+    "style": "Jazz",
+    "uri": "spotify:track:62bOmKYxYg7dhrC6gH9vFn"
+  },
+  {
+    "title": "Wannabe",
+    "artist": "Spice Girls",
+    "style": "Samba",
+    "uri": "spotify:track:1Je1IMUlBXcx1Fz0WE7oPT"
+  },
+  {
+    "title": "Free Your Mind",
+    "artist": "En Vogue",
+    "style": "Paso Doble",
+    "uri": "spotify:track:2vG1yrWSMiL6egg6w4e9ma"
+  },
+  {
+    "title": "Dancing with a Stranger",
+    "artist": "Sam Smith & Normani",
+    "style": "Rumba",
+    "uri": "spotify:track:6Qs4SXO9dwPj5GKvVOv8Ki"
+  },
+  {
+    "title": "Good Golly, Miss Molly",
+    "artist": "Little Richard",
+    "style": "Jive",
+    "uri": "spotify:track:3otRbR9blMGHjTSxCTIabQ"
+  },
+  {
+    "title": "Free Free Free",
+    "artist": "Pitbull & Theron Theron",
+    "style": "Cha Cha",
+    "uri": "spotify:track:1hvZ3uUcaCZrcZQXWUBRse"
+  },
+  {
+    "title": "Dinero",
+    "artist": "Jennifer Lopez, DJ Khaled, and Cardi B",
+    "style": "Salsa",
+    "uri": "spotify:track:22mQXNE0nCuWq4yOwcadIn"
+  },
+  {
+    "title": "New Dorp, New York.",
+    "artist": "SBTRKT & Ezra Koenig",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:58gwRs0kyIlI32l5nW7iep"
+  },
+  {
+    "title": "Ashes",
+    "artist": "Celine Dion",
+    "style": "Tango",
+    "uri": "spotify:track:7FihoA0WgTT21DkWR7wbYR"
+  },
+  {
+    "title": "Booty",
+    "artist": "Jennifer Lopez & Iggy Azalea",
+    "style": "Salsa",
+    "uri": "spotify:track:6dshconh2KBbGxVh7GtSTC"
+  },
+  {
+    "title": "Can You Do This",
+    "artist": "Aloe Blacc",
+    "style": "Jive",
+    "uri": "spotify:track:65DaM9LL4Zmoj04wcwbzzR"
+  },
+  {
+    "title": "How to Save a Life",
+    "artist": "The Fray",
+    "style": "Contemporary",
+    "uri": "spotify:track:5fVZC9GiM4e8vu99W0Xf6J"
+  },
+  {
+    "title": "Ni Tú Ni Yo",
+    "artist": "Jennifer Lopez & Gente de Zona",
+    "style": "Samba",
+    "uri": "spotify:track:5xMzazov0IHYllrc8U2K6F"
+  },
+  {
+    "title": "2 On",
+    "artist": "Tinashe & Schoolboy Q",
+    "style": "Rumba",
+    "uri": "spotify:track:3jVtllWS5CFFWLQng8sKsr"
+  },
+  {
+    "title": "Black Magic",
+    "artist": "Little Mix",
+    "style": "Salsa",
+    "uri": "spotify:track:6rmXhRIemCTPyMYZRDN7Qg"
+  },
+  {
+    "title": "Torn",
+    "artist": "Nathan Lanier",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:2fXKyorQajsD0gHCfjV9FA"
+  },
+  {
+    "title": "Adrenalina",
+    "artist": "Wisin, Ricky Martin, and Jennifer Lopez",
+    "style": "Salsa",
+    "uri": "spotify:track:2eqDUxbd0JPEhNrJdPlHLs"
+  },
+  {
+    "title": "Move Your Body",
+    "artist": "Sia",
+    "style": "Tango",
+    "uri": "spotify:track:73Mfgc0HTZeNCoNrDI46sJ"
+  },
+  {
+    "title": "I'm Too Sexy",
+    "artist": "Right Said Fred",
+    "style": "Salsa",
+    "uri": "spotify:track:2wmnubOPY1hyR4fSaZ9o1T"
+  },
+  {
+    "title": "Incredits 2 (from Incredibles)",
+    "artist": "Michael Giacchino",
+    "style": "Quickstep",
+    "uri": "spotify:track:0dnojq1BIyNqa89hFEqBvM"
+  },
+  {
+    "title": "Part of Your World (Reprise) (from The Little Mermaid)",
+    "artist": "Halle",
+    "style": "Waltz",
+    "uri": "spotify:track:1aYdJNJT480JVCPYayogh6"
+  },
+  {
+    "title": "Toxic",
+    "artist": "2WEI",
+    "style": "Contemporary",
+    "uri": "spotify:track:7sgvhY89MQ5ipWtgr9l3NQ"
+  },
+  {
+    "title": "Disturbia",
+    "artist": "Rihanna",
+    "style": "Tango",
+    "uri": "spotify:track:2VOomzT6VavJOGBeySqaMc"
+  },
+  {
+    "title": "Candyman",
+    "artist": "Christina Aguilera",
+    "style": "Jazz",
+    "uri": "spotify:track:5lUTzPuiloBHm1qEaJcJfF"
+  },
+  {
+    "title": "Dead Man's Party",
+    "artist": "Oingo Boingo",
+    "style": "Jive",
+    "uri": "spotify:track:2h47SG8bNphmicAll4H9RV"
+  },
+  {
+    "title": "Ladies in the '90s",
+    "artist": "Lauren Alaina",
+    "style": "Samba",
+    "uri": "spotify:track:4Whem9s6OoP7yFT60m2tU9"
+  },
+  {
+    "title": "9 to 5",
+    "artist": "Dolly Parton",
+    "style": "Team Dance",
+    "uri": "spotify:track:4w3tQBXhn5345eUXDGBWZG"
+  },
+  {
+    "title": "Country Girl (Shake It for Me)",
+    "artist": "Luke Bryan",
+    "style": "Team Dance",
+    "uri": "spotify:track:0JbSghVDghtFEurrSO8JrC"
+  },
+  {
+    "title": "Rewrite the Stars",
+    "artist": "Zac Efron & Zendaya",
+    "style": "Foxtrot",
+    "uri": "spotify:track:65fpYBrI8o2cfrwf2US4gq"
+  },
+  {
+    "title": "Yes",
+    "artist": "Merry Clayton",
+    "style": "Jive",
+    "uri": "spotify:track:7k4uHnOdJViC6EBvcvzJZJ"
+  },
+  {
+    "title": "Good Feeling",
+    "artist": "Austin French",
+    "style": "Cha Cha",
+    "uri": "spotify:track:2otqZVvW83kij45qpJaipl"
+  },
+  {
+    "title": "Libertango",
+    "artist": "Astor Piazzolla",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:1IIydYQ6LTzZpgLXYpNlNy"
+  },
+  {
+    "title": "Tu Sonrisa",
+    "artist": "Elvis Crespo",
+    "style": "Salsa",
+    "uri": "spotify:track:3IS5IWZuDJJdqBJ9XVqpbh"
+  },
+  {
+    "title": "The Greatest Show",
+    "artist": "Panic! At The Disco",
+    "style": "Freestyle",
+    "uri": "spotify:track:55PZSFcKQxXH5BOOcDA6yI"
+  },
+  {
+    "title": "Ain't No Sunshine (Lido Remix)",
+    "artist": "Bill Withers & Lido",
+    "style": "Freestyle",
+    "uri": "spotify:track:46a59ZT7JG0i3tJNaQmPom"
+  },
+  {
+    "title": "No Excuses",
+    "artist": "Meghan Trainor",
+    "style": "Salsa",
+    "uri": "spotify:track:7fCNUWi6uflDTQ08srxMZk"
+  },
+  {
+    "title": "Sissy That Walk",
+    "artist": "RuPaul",
+    "style": "Cha Cha",
+    "uri": "spotify:track:4KvHJkVdQQrskjVfGoYedT"
+  },
+  {
+    "title": "Finesse",
+    "artist": "Bruno Mars",
+    "style": "Cha Cha",
+    "uri": "spotify:track:5XMkENs3GfeRza8MfVAhjK"
+  },
+  {
+    "title": "Dance",
+    "artist": "DNCE",
+    "style": "Cha Cha",
+    "uri": "spotify:track:7BfSU2ya7PZtqrl48urKqG"
+  },
+  {
+    "title": "There's Nothing Holdin' Me Back",
+    "artist": "Shawn Mendes",
+    "style": "Tango",
+    "uri": "spotify:track:7JJmb5XwzOO8jgpou264Ml"
+  },
+  {
+    "title": "Sign of the Times",
+    "artist": "Harry Styles",
+    "style": "Foxtrot",
+    "uri": "spotify:track:5Ohxk2dO5COHF1krpoPigN"
+  },
+  {
+    "title": "Don't Wory",
+    "artist": "Madcon feat. Ray Dalton",
+    "style": "Cha Cha",
+    "uri": "spotify:track:1XlRA078Zp2Q0IfWliK42q"
+  },
+  {
+    "title": "Pillowtalk",
+    "artist": "Zayn",
+    "style": "Foxtrot",
+    "uri": "spotify:track:0PDUDa38GO8lMxLCRc4lL1"
+  },
+  {
+    "title": "Descapcito",
+    "artist": "Luis Fonsi feat. Daddy Yankee",
+    "style": "Samba",
+    "uri": "spotify:track:6habFhsOp2NvshLv26DqMb"
+  },
+  {
+    "title": "Most Girls",
+    "artist": "Hailee Steinfeld",
+    "style": "Samba",
+    "uri": "spotify:track:10GJQkjRJcZhGTLagFOC62"
+  },
+  {
+    "title": "Mi Gente",
+    "artist": "J Balvin & Willy William",
+    "style": "Samba",
+    "uri": "spotify:track:4ipnJyDU3Lq15qBAYNqlqK"
+  },
+  {
+    "title": "Lights Down Low",
+    "artist": "Max feat. gnash",
+    "style": "Rumba",
+    "uri": "spotify:track:60vvp6UXG2KmLmrNvcVHa8"
+  },
+  {
+    "title": "Havana",
+    "artist": "Camila Cabella feat. Young Thug",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:1rfofaqEpACxVEHIZBJe6W"
+  },
+  {
+    "title": "Instruction",
+    "artist": "Jax Jones feat. Demi Lovato & Stefflon Don",
+    "style": "Salsa",
+    "uri": "spotify:track:1YdVGftoNnjB4Ba9sjNKKx"
+  },
+  {
+    "title": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "style": "Jazz",
+    "uri": "spotify:track:4y1LsJpmMti1PfRQV9AWWe"
+  },
+  {
+    "title": "Love on the Brain",
+    "artist": "Rihanna",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:5oO3drDxtziYU2H1X23ZIp"
+  },
+  {
+    "title": "Desperado",
+    "artist": "Rihanna",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:4mCf3vQf7z0Yseo0RxAi3V"
+  },
+  {
+    "title": "Take Me Home",
+    "artist": "Us the Duo",
+    "style": "Contemporary",
+    "uri": "spotify:track:4zaBf1Dkn1gr7QcRxAWSSg"
+  },
+  {
+    "title": "You're Welcome",
+    "artist": "Jordan Fisher feat. Lin-Manual Miranda",
+    "style": "Foxtrot",
+    "uri": "spotify:track:4QpGKXfAEIF8TquT7oF4zA"
+  },
+  {
+    "title": "Angelica (from Pirates of the Caribbean)",
+    "artist": "Rodrigo y Gabriela",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:7eukEqNyynUahXubHfYJ79"
+  },
+  {
+    "title": "Dernière danse",
+    "artist": "Indila",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:65uoaqX5qcjXZRheAj1qQT"
+  },
+  {
+    "title": "Supermarket Flowers",
+    "artist": "Ed Sheeran",
+    "style": "Rumba",
+    "uri": "spotify:track:4VuS959DSpr82t3qBqCrWG"
+  },
+  {
+    "title": "Feel It Still",
+    "artist": "Portugal. The Man",
+    "style": "Jive",
+    "uri": "spotify:track:6QgjcU0zLnzq5OrUoSZ3OK"
+  },
+  {
+    "title": "Human",
+    "artist": "Sevdaliza",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:5h0M2GbBfvOj8GdG7sIDQT"
+  },
+  {
+    "title": "Roundtable Rival",
+    "artist": "Lindsey Stirling",
+    "style": "Paso Doble",
+    "uri": "spotify:track:7fLOFRCRe1c4kyoLJkNW1w"
+  },
+  {
+    "title": "Animals",
+    "artist": "Martin Garrix",
+    "style": "Paso Doble",
+    "uri": "spotify:track:1xMLthTaWJieT9YGV1hyS5"
+  },
+  {
+    "title": "Every Breath You Take",
+    "artist": "Chase Holfelder",
+    "style": "Contemporary",
+    "uri": "spotify:track:3rgCo7v5weniRXyS33oci5"
+  },
+  {
+    "title": "Monster Mash",
+    "artist": "Bobby \"Boris\" Pickett & The Crypt-Kickers",
+    "style": "Team Dance",
+    "uri": "spotify:track:0xxZY5C9xxij3D1HkzbnfC"
+  },
+  {
+    "title": "The Phantom of the Opera",
+    "artist": "Sarah Brightman & Michael Crawford",
+    "style": "Team Dance",
+    "uri": "spotify:track:5qlABWwod6dgDCmRAAF5J5"
+  },
+  {
+    "title": "Bad Boy Good Man",
+    "artist": "Tape Five feat. Henrik Wager",
+    "style": "Charleston",
+    "uri": "spotify:track:1vpVfdzhzioTn9gLyAY538"
+  },
+  {
+    "title": "Slow Hands",
+    "artist": "Niall Horan",
+    "style": "Rumba",
+    "uri": "spotify:track:2cOUlop2ZakjOKe4WinesN"
+  },
+  {
+    "title": "Get Up Offa That Thing",
+    "artist": "James Brown",
+    "style": "Cha Cha",
+    "uri": "spotify:track:5XeSAezNDk9tuw3viiCbZ3"
+  },
+  {
+    "title": "Morning Drums",
+    "artist": "Gregor Salto",
+    "style": "Samba",
+    "uri": "spotify:track:3Hu0UK3pKTu0BeObLXWL7k"
+  },
+  {
+    "title": "Chuck Berry",
+    "artist": "Pharrell Williams",
+    "style": "Quickstep",
+    "uri": "spotify:track:6YKsrLIfXGhOzDKVyb0VNL"
+  },
+  {
+    "title": "Que Viva La Vida",
+    "artist": "Wisin",
+    "style": "Salsa",
+    "uri": "spotify:track:6IqbQelrOB6nTORNj4q2Ma"
+  },
+  {
+    "title": "Good Place",
+    "artist": "LeoSoul",
+    "style": "Jive",
+    "uri": "spotify:track:40Z7sdcy3ICgEGGg6dSpN2"
+  },
+  {
+    "title": "To Build a Home",
+    "artist": "The Cinematic Orchestra & Patrick Watson",
+    "style": "Contemporary",
+    "uri": "spotify:track:3AqPL1n1wKc5DVFFnYuJhp"
+  },
+  {
+    "title": "Bang Bang",
+    "artist": "will.i.am",
+    "style": "Charleston",
+    "uri": "spotify:track:3owESnQzGKXJhdZQDdXppK"
+  },
+  {
+    "title": "I Won't Dance",
+    "artist": "Frank Sinatra",
+    "style": "Foxtrot",
+    "uri": "spotify:track:09xhU22OFNhBqsDXt0ZVt6"
+  },
+  {
+    "title": "Puttin' on the Ritz (Jazzy Radio Mix)",
+    "artist": "Taco feat. tomX",
+    "style": "Freestyle",
+    "uri": "spotify:track:55cQT90LKqmh162m1yyHOU"
+  },
+  {
+    "title": "Hot2Touch",
+    "artist": "Felix Jaehn feat. Hight & Alex Aiono",
+    "style": "Cha Cha",
+    "uri": "spotify:track:0m6M0TRGs7dOqZAryYcwiH"
+  },
+  {
+    "title": "Kill the Lights",
+    "artist": "Alex Newell, Jess Glynne, DJ Cassidy, & Nile Rodgers",
+    "style": "Paso Doble",
+    "uri": "spotify:track:4iCKHGl4ij4YMwFrUZLGEQ"
+  }
 ]

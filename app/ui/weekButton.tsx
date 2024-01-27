@@ -1,16 +1,12 @@
 import { Button } from '@chakra-ui/react';
-import { useBoundStore } from '../store/useStore';
 import { useRouter } from 'next/navigation';
 
-export default function WeekButton() {
-  //TODO: redirect when needed
-  const { currentWeek } = useBoundStore((state) => state);
+export default function WeekButton(props: { week: number }) {
   const router = useRouter();
 
   const handleButton = () => {
-    // update week here
-    router.push(`/week${currentWeek + 1}`);
+    router.push(`/week${props.week}`);
   };
 
-  return <Button onClick={handleButton}>Week {currentWeek + 1}</Button>;
+  return <Button onClick={handleButton}>Week {props.week}</Button>;
 }

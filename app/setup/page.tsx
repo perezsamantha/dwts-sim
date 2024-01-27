@@ -93,7 +93,7 @@ export default function Home() {
         </Box>
       ))}
       <EditJudgesModal />
-      <WeekButton />
+      <WeekButton week={1} />
     </div>
   );
 }

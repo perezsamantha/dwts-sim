@@ -38,8 +38,14 @@ export default function Leaderboard(props: { cast: Team[] }) {
                 <Td>
                   <Flex direction="row" alignItems="center">
                     <AvatarGroup>
-                      <Avatar name={`${celeb.firstName}`} src={celeb.image} />
-                      <Avatar name={`${pro.firstName}`} src={pro.image} />
+                      <Avatar
+                        name={`${celeb.firstName}`}
+                        src={celeb.image ? celeb.image : '/mirrorball.png'}
+                      />
+                      <Avatar
+                        name={`${pro.firstName}`}
+                        src={pro.image ? pro.image : '/mirrorball.png'}
+                      />
                     </AvatarGroup>
                     <Text>
                       {celeb.firstName} & {pro.firstName}
