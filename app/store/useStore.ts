@@ -2,24 +2,12 @@ import { StateCreator, create } from 'zustand';
 import { initialCast, initialJudges } from './initialState';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { produce } from 'immer';
-import { randomScores, shuffleCast, sortedMusic } from '../lib/logic';
-
-// interface Sim {
-//   numberWeeks: number;
-//   currentWeek: number;
-//   currentDance: number;
-//   currentRunningOrder: number[];
-//   cast: Team[];
-//   judges: string[];
-//   music: Record<string, { title: string; artist: string; style: string }[]>;
-//   weeks?: Team[];
-//   updateWeeks: (newWeeks: number) => void;
-//   updateTeam?: (id: number, newTeam: Team) => void;
-//   updateDancer?: (teamId: number, dancerId: number, newDancer: Dancer) => void;
-//   updateJudges?: (newJudges: string[]) => void;
-//   prepareDances: () => void;
-//   eliminateTeam: (teamId: number) => void;
-// }
+import {
+  randomElim,
+  randomScores,
+  shuffleCast,
+  sortedMusic,
+} from '../lib/logic';
 
 export interface Team {
   id: number;
@@ -44,63 +32,14 @@ export interface Song {
   uri?: string;
 }
 
-// export const useSimStore = create<Sim>()(
-//   persist(
-//     (set) => ({
-//       numberWeeks: 10,
-//       currentWeek: 0,
-//       currentDance: 0,
-//       currentRunningOrder: [],
-//       cast: initialCast,
-//       judges: ['Carrie Ann Inaba', 'Derek Hough', 'Bruno Tonioli'],
-//       music: sortedMusic,
-//       weeks: new Array<Team>(),
-//       updateWeeks: (newWeeks) =>
-//         set((state) => ({ ...state, numberWeeks: newWeeks })),
-//       updateDancer: (teamId: number, dancerId: number, newDancer: Dancer) => {
-//         set(
-//           produce((state) => {
-//             state.cast[teamId].teamMembers[dancerId] = newDancer;
-//           })
-//         );
-//       },
-//       prepareDances: () =>
-//         set(
-//           produce((state) => {
-//             const runningOrder = shuffleCast(state.cast);
-//             state.currentWeek++;
-//             runningOrder.map((teamId) => {
-//               state.cast[teamId].dances.push(
-//                 state.music[state.cast[teamId].styles[state.currentDance]][0]
-//               );
-//               state.cast[teamId].dances[state.cast[teamId].dances.length - 1][
-//                 'scores'
-//               ] = randomScores();
-//               state.music[
-//                 state.cast[teamId].styles[state.currentDance]
-//               ].shift();
-//             });
-//             state.currentRunningOrder = runningOrder;
-//             state.currentDance++;
-//           })
-//         ),
-//       updateJudges: (newJudges: string[]) =>
-//         set((state) => ({
-//           judges: newJudges,
-//         })),
-//       eliminateTeam: (teamIndex: number) =>
-//         set(
-//           produce((state) => {
-//             state.cast[teamIndex].placement = state.currentRunningOrder.length;
-//           })
-//         ),
-//     }),
-//     {
-//       name: 'current',
-//       storage: createJSONStorage(() => sessionStorage),
-//     }
-//   )
-// );
+export interface Dance {
+  teamId: number; // change to array for team dances
+  title: string;
+  artist: string;
+  style: string;
+  scores: number[];
+  uri?: string;
+}
 
 interface SetupSlice {
   numberWeeks: number;
@@ -119,18 +58,11 @@ interface SimSlice {
   currentRunningOrder: number[];
   weeks: Dance[][];
   music: Record<string, Song[]>;
+  eliminated: number[][];
   updateCurrentWeek: () => void;
   prepareWeek: () => void;
-  eliminateTeam: (elimId: number) => void;
-}
-
-export interface Dance {
-  teamId: number; // change to array for team dances
-  title: string;
-  artist: string;
-  style: string;
-  scores: number[];
-  uri?: string;
+  prepareFinale: () => void;
+  // eliminateTeam: (elimId: number) => void;
 }
 
 const createSetupStore: StateCreator<SetupSlice> = (set) => ({
@@ -163,6 +95,7 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
   currentRunningOrder: [],
   weeks: [],
   music: sortedMusic,
+  eliminated: [],
   updateCurrentWeek: () =>
     set((state) => ({ currentWeek: state.currentWeek + 1 })),
   prepareWeek: () =>
@@ -180,16 +113,71 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
           state.music[state.cast[teamId].styles[state.currentDance]].shift();
         });
         state.currentDance++;
+        // double dances
+        // if (runningOrder.length == 8) { // team dance
+        // }
+
+        if (runningOrder.length < 8) {
+          // second round
+          runningOrder.map((teamId) => {
+            const dance: Dance =
+              state.music[state.cast[teamId].styles[state.currentDance]][0];
+            dance['scores'] = randomScores();
+            state.cast[teamId].dances.push(dance);
+            dance['teamId'] = teamId;
+            state.weeks[state.currentWeek].push(dance);
+            state.music[state.cast[teamId].styles[state.currentDance]].shift();
+          });
+          state.currentDance++;
+        }
+        state.currentRunningOrder = runningOrder;
+        state.currentWeek++;
+
+        // eliminate team
+        const elimId = randomElim(state.currentRunningOrder);
+        state.cast[elimId].placement = state.currentRunningOrder.length;
+        state.eliminated.push([elimId]);
+      })
+    ),
+  prepareFinale: () =>
+    set(
+      produce((state) => {
+        const runningOrder = shuffleCast(state.cast);
+        state.weeks.push(new Array<Dance>());
+        // redemption round
+        runningOrder.map((teamId) => {
+          const randomStyleIndex = Math.floor(
+            Math.random() * state.currentDance
+          );
+          const redemptionDance: Dance =
+            state.music[state.cast[teamId].styles[randomStyleIndex]][0];
+          redemptionDance['scores'] = randomScores();
+          state.cast[teamId].dances.push(redemptionDance);
+          redemptionDance['teamId'] = teamId;
+          state.weeks[state.currentWeek].push(redemptionDance);
+          state.music[state.cast[teamId].styles[randomStyleIndex]].shift();
+        });
+        state.currentDance++;
+        // freestyle round
+        runningOrder.map((teamId) => {
+          const freestyleDance: Dance = state.music['Freestyle'][0];
+          freestyleDance['scores'] = randomScores();
+          state.cast[teamId].dances.push(freestyleDance);
+          freestyleDance['teamId'] = teamId;
+          state.weeks[state.currentWeek].push(freestyleDance);
+          state.music['Freestyle'].shift();
+        });
+        state.currentDance++;
         state.currentRunningOrder = runningOrder;
         state.currentWeek++;
       })
     ),
-  eliminateTeam: (elimId: number) =>
-    set(
-      produce((state) => {
-        state.cast[elimId].placement = state.currentRunningOrder.length;
-      })
-    ),
+  // eliminateTeam: (elimId: number) =>
+  //   set(
+  //     produce((state) => {
+  //       state.cast[elimId].placement = state.currentRunningOrder.length;
+  //     })
+  //   ),
 });
 
 export const useBoundStore = create<SetupSlice & SimSlice>()(

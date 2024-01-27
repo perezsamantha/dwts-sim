@@ -10,8 +10,8 @@ import { useRouter } from 'next/navigation';
 export default function Week({ params }: { params: { id: string } }) {
   //TODO: redirect when needed
   const week = Number(params.id);
-  const currentWeek = useBoundStore((state) => state.currentWeek);
-  const prepareWeek = useBoundStore((state) => state.prepareWeek);
+  const { currentWeek, numberWeeks, prepareWeek, prepareFinale } =
+    useBoundStore((state) => state);
   const dances = useBoundStore((state) => state.weeks[week - 1]);
 
   const [loading, setLoading] = useState(true);
@@ -22,12 +22,23 @@ export default function Week({ params }: { params: { id: string } }) {
     if (!effectRan.current) {
       if (currentWeek + 1 < week) router.push('/fallback');
       else {
-        if (currentWeek + 1 === week) prepareWeek();
+        if (currentWeek + 1 === week) {
+          if (currentWeek + 1 == numberWeeks) prepareFinale();
+          else prepareWeek();
+        }
         setLoading(false);
       }
     }
     effectRan.current = true;
-  }, [prepareWeek, params, currentWeek, router, week]);
+  }, [
+    prepareWeek,
+    params,
+    currentWeek,
+    router,
+    week,
+    prepareFinale,
+    numberWeeks,
+  ]);
 
   return loading ? (
     <Spinner />

@@ -14,9 +14,14 @@ import {
   AvatarGroup,
 } from '@chakra-ui/react';
 import { totalScore } from '@/app/lib/logic';
-import { Team } from '../store/useStore';
+import { Dance, Team } from '../store/useStore';
 
-export default function Leaderboard(props: { cast: Team[] }) {
+export default function Leaderboard(props: {
+  cast: Team[];
+  dances: { [teamId: string]: Dance[] };
+  ids: string[];
+}) {
+  const double = props.dances[props.ids[0]].length === 2;
   return (
     <TableContainer>
       <Table variant="simple" size="sm">
@@ -24,15 +29,18 @@ export default function Leaderboard(props: { cast: Team[] }) {
           <Tr>
             <Th>Team</Th>
             <Th>Score</Th>
-            <Th>Style</Th>
+            <Th>Style{double && 's'}</Th>
           </Tr>
         </Thead>
         <Tbody>
-          {props.cast.map((obj, i) => {
-            const celeb = obj.teamMembers[0];
-            const pro = obj.teamMembers[1];
-            const dance = obj.dances[obj.dances.length - 1];
-            const scores = dance.scores;
+          {props.ids.map((id, i) => {
+            const index = Number(id);
+            const celeb = props.cast[index].teamMembers[0];
+            const pro = props.cast[index].teamMembers[1];
+            const dances = props.dances[id];
+            let scores = 0;
+            for (let i = 0; i < dances.length; i++)
+              scores += totalScore(dances[i].scores);
             return (
               <Tr key={i}>
                 <Td>
@@ -52,8 +60,8 @@ export default function Leaderboard(props: { cast: Team[] }) {
                     </Text>
                   </Flex>
                 </Td>
-                <Td>{totalScore(scores)}</Td>
-                <Td>{dance.style}</Td>
+                <Td>{scores}</Td>
+                <Td>{dances.map((dance) => dance.style).join(', ')}</Td>
               </Tr>
             );
           })}

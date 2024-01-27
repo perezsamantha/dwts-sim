@@ -1,4 +1,4 @@
-import { Team } from '../store/useStore';
+import { Dance, Team } from '../store/useStore';
 import music from '../data/music.json';
 
 interface Song {
@@ -55,7 +55,6 @@ const shuffleMusic = (music: Song[]) => {
 };
 
 // reduce/sort music data by style
-// TODO: shuffle songs
 export const sortMusic = (music: Song[]) =>
   music.reduce(
     (previous, currentItem) => {
@@ -116,18 +115,34 @@ export const randomScores = () => {
   return array;
 };
 
-// sort cast for leaderboard
-export const leaderboardSort = (cast: Team[], numberTeams: number) => {
-  cast.sort((a, b) =>
-    totalScore(a.dances[a.dances.length - 1].scores) >
-    totalScore(b.dances[b.dances.length - 1].scores)
-      ? -1
-      : 1
+// group dances by team
+export const leaderboardGroup = (dances: Dance[]) =>
+  dances.reduce(
+    (previous, currentItem) => {
+      const value: number = currentItem['teamId'];
+      const existing = previous[value] || [];
+      return {
+        ...previous,
+        [value]: [...existing, currentItem],
+      };
+    },
+    {} as { [teamId: string]: Dance[] }
   );
 
-  return cast.filter(
-    (team) => team.placement == 0 || team.placement == numberTeams
-  );
+// sort dances by scores
+export const leaderboardSort = (dances: { [teamId: string]: Dance[] }) => {
+  const teamIds = Object.keys(dances);
+  teamIds.sort((a, b) => {
+    let scoresA = 0;
+    for (let i = 0; i < dances[a].length; i++)
+      scoresA += totalScore(dances[a][i].scores);
+    let scoresB = 0;
+    for (let i = 0; i < dances[b].length; i++)
+      scoresB += totalScore(dances[b][i].scores);
+    if (scoresA < scoresB) return 1;
+    else return -1;
+  });
+  return teamIds;
 };
 
 // total score
