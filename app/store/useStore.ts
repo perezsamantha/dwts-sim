@@ -3,6 +3,7 @@ import { initialCast, initialJudges } from './initialState';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { produce } from 'immer';
 import {
+  eliminate,
   randomElim,
   randomScores,
   randomizeCast,
@@ -161,9 +162,16 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
         state.currentWeek++;
 
         // eliminate team
-        const elimId = randomElim(state.currentRunningOrder);
-        state.cast[elimId].placement = state.currentRunningOrder.length;
-        state.eliminated.push([elimId]);
+        const elimIds = eliminate(
+          state.currentRunningOrder,
+          state.numberWeeks,
+          state.currentWeek
+        );
+        if (elimIds) {
+          for (let i = 0; i < elimIds.length; i++)
+            state.cast[elimIds[i]].placement = state.currentRunningOrder.length;
+        }
+        state.eliminated.push(elimIds);
       })
     ),
   prepareFinale: () =>

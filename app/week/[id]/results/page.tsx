@@ -17,9 +17,7 @@ export default function Results({ params }: { params: { id: string } }) {
   const [loading, setLoading] = useState(true);
   const groupedDances = leaderboardGroup(dances);
   const ids = leaderboardSort(groupedDances);
-  const elimId = eliminated[week - 1][0];
-  console.log(groupedDances);
-  console.log(ids);
+  const elimIds = eliminated[week - 1];
 
   useEffect(() => {
     if (!effectRan.current) {
@@ -36,11 +34,19 @@ export default function Results({ params }: { params: { id: string } }) {
       <Header />
       <h1>Week {week} leaderboard</h1>
       <Leaderboard cast={cast} dances={groupedDances} ids={ids} />
-      <h2>The couple going home is ...</h2>
-      <p>
-        {cast[elimId].teamMembers[0].firstName} &{' '}
-        {cast[elimId].teamMembers[1].firstName}
-      </p>
+      {elimIds ? (
+        <Box>
+          <h2>The couple{elimIds.length > 1 && 's'} going home is ...</h2>
+          {elimIds.map((id) => (
+            <p key={id}>
+              {cast[id].teamMembers[0].firstName} &{' '}
+              {cast[id].teamMembers[1].firstName}
+            </p>
+          ))}
+        </Box>
+      ) : (
+        <h2>No Elimination !!!</h2>
+      )}
       <WeekButton week={week + 1} />
     </Box>
   );

@@ -163,10 +163,6 @@ export const leaderboardSort = (dances: { [teamId: string]: Dance[] }) => {
 // total score
 export const totalScore = (scores: number[]) => scores.reduce((a, b) => a + b);
 
-// pick team to be eliminated
-export const randomElim = (ro: number[]) =>
-  ro[Math.floor(Math.random() * ro.length)];
-
 // determine placement
 export const calculatePlacement = (cast: Team[]) =>
   cast.filter((team) => !team.placement).length;
@@ -214,6 +210,7 @@ const createDancerObj = (id: number, type: string) => {
 };
 
 // shuffle for team dance
+// fischer-yates algorithm
 export const teamDanceShuffle = (runningOrder: number[]) => {
   for (let i = runningOrder.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -223,8 +220,57 @@ export const teamDanceShuffle = (runningOrder: number[]) => {
 };
 
 // determine if double elim
+// use numberTeamsRemaining - (numberWeeks - currentWeek) to determine elim type
+export const eliminate = (
+  arr: number[],
+  numberWeeks: number,
+  currentWeek: number
+) => {
+  const val = arr.length - (numberWeeks - currentWeek);
+  // no elim
+  if (val < 3) {
+    // no elim
+    if (arr.length - 3 < numberWeeks - currentWeek - 1) {
+      // MUST be no elim
+      return [];
+    } else {
+      // randomly decide if no elim (20% chance)
+      if (Math.random() < 0.2) return [];
+      else return singleElim(arr);
+    }
+  } else if (val > 4) {
+    // double elim
+    if (numberWeeks - currentWeek < val) {
+      // MUST be double elim
+      return doubleElim(arr);
+    } else {
+      // randomly decide if double elim (20% chance)
+      if (Math.random() < 0.2) {
+        console.log('bruh');
+        return doubleElim(arr);
+      } else return singleElim(arr);
+    }
+  } else {
+    // single elim
+    return singleElim(arr);
+  }
+};
 
-// randomize style for redemption dance in finale
+//
+const singleElim = (arr: number[]) => [
+  arr[Math.floor(Math.random() * arr.length)],
+];
 
-// TODO: BUILD SIM FUNCTION
-// set up entire sim before beginning week 1 ???
+const doubleElim = (arr: number[]) => {
+  const arrCopy = [...arr];
+  const first = Math.floor(Math.random() * arr.length);
+  arrCopy.splice(first, first);
+  const second = Math.floor(Math.random() * arrCopy.length);
+  return [arr[first], arrCopy[second]];
+};
+
+// pick team to be eliminated
+export const randomElim = (arr: number[]) =>
+  arr[Math.floor(Math.random() * arr.length)];
+
+// determine finale placements
