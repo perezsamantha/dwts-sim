@@ -1,5 +1,7 @@
-import { Dance, Team } from '../store/useStore';
+import { Dance, Team, Dancer } from '../store/useStore';
 import music from '../data/music.json';
+import celebs from '../data/celebs.json';
+import pros from '../data/pros.json';
 
 interface Song {
   title: string;
@@ -155,6 +157,48 @@ export const randomElim = (ro: number[]) =>
 // determine placement
 export const calculatePlacement = (cast: Team[]) =>
   cast.filter((team) => !team.placement).length;
+
+// randomize cast
+export const randomizeCast = (numberTeams: number) => {
+  const celebIds = new Set(),
+    proIds = new Set();
+  const cast = new Array<Team>();
+  for (let i = 0; i < numberTeams; i++) {
+    let celebId = Math.floor(Math.random() * celebs.length);
+    while (celebIds.has(celebId))
+      celebId = Math.floor(Math.random() * celebs.length);
+    celebIds.add(celebId);
+    const celeb = createDancerObj(celebId, 'celeb');
+
+    let proId = Math.floor(Math.random() * pros.length);
+    while (proIds.has(proId)) proId = Math.floor(Math.random() * pros.length);
+    proIds.add(proId);
+    const pro = createDancerObj(proId, 'pro');
+
+    cast.push({
+      id: i + 1,
+      placement: 0,
+      teamMembers: [celeb, pro],
+      dances: [],
+      styles: shuffleStyles().slice(),
+    });
+  }
+
+  return cast;
+};
+
+// create sim celeb object
+const createDancerObj = (id: number, type: string) => {
+  const dancer = type === 'celeb' ? celebs[id] : pros[id];
+  const obj: Dancer = {
+    firstName: dancer.firstName,
+    lastName: dancer.lastName,
+    image: dancer.image,
+    dataIndex: id,
+    type: type,
+  };
+  return obj;
+};
 
 // determine if double elim
 

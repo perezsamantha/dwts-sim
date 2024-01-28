@@ -1,6 +1,7 @@
 'use client';
 import {
   Box,
+  Button,
   Container,
   Flex,
   Heading,
@@ -19,8 +20,14 @@ import EditJudgesModal from '../ui/editJudgesModal';
 import Header from '../ui/header';
 
 export default function Home() {
-  const { cast, numberWeeks, judges, updateNumberWeeks, numberTeams } =
-    useBoundStore();
+  const {
+    cast,
+    numberWeeks,
+    judges,
+    updateNumberWeeks,
+    numberTeams,
+    randomizeCast,
+  } = useBoundStore();
   const updateNumberTeams = useBoundStore((state) => state.updateNumberTeams);
 
   const labelStyles = {
@@ -86,6 +93,7 @@ export default function Home() {
           ))}
         </SimpleGrid>
       </Container>
+      <Button onClick={randomizeCast}>Randomize Cast</Button>
       <Heading>Judges</Heading>
       {judges.map((judge, i) => (
         <Box key={i}>

@@ -5,6 +5,7 @@ import { produce } from 'immer';
 import {
   randomElim,
   randomScores,
+  randomizeCast,
   shuffleCast,
   sortedMusic,
 } from '../lib/logic';
@@ -50,6 +51,7 @@ interface SetupSlice {
   updateNumberTeams: (newTeams: number) => void;
   updateJudges: (newJudges: string[]) => void;
   updateDancer: (teamId: number, dancerId: number, newDancer: Dancer) => void;
+  randomizeCast: () => void;
 }
 
 interface SimSlice {
@@ -67,7 +69,7 @@ interface SimSlice {
 
 const createSetupStore: StateCreator<SetupSlice> = (set) => ({
   numberWeeks: 10,
-  numberTeams: 12,
+  numberTeams: initialCast.length,
   cast: initialCast,
   judges: initialJudges,
   updateNumberTeams: (newTeams) =>
@@ -75,9 +77,7 @@ const createSetupStore: StateCreator<SetupSlice> = (set) => ({
   updateNumberWeeks: (newWeeks) =>
     set((state) => ({ ...state, numberWeeks: newWeeks })),
   updateJudges: (newJudges: string[]) =>
-    set((state) => ({
-      judges: newJudges,
-    })),
+    set((state) => ({ ...state, judges: newJudges })),
   updateDancer: (teamId: number, dancerId: number, newDancer: Dancer) => {
     set(
       produce((state) => {
@@ -85,6 +85,8 @@ const createSetupStore: StateCreator<SetupSlice> = (set) => ({
       })
     );
   },
+  randomizeCast: () =>
+    set((state) => ({ ...state, cast: randomizeCast(state.numberTeams) })),
 });
 
 const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
