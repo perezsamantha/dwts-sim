@@ -6,10 +6,10 @@ export default function CastImage(props: { data: Dancer }) {
     <Box width="100%">
       <AspectRatio ratio={1}>
         <Image
-          src={props.data.image}
+          src={`/images${props.data.image}.jpg`}
           alt={`${props.data.firstName} ${props.data.lastName}`}
           borderRadius={5}
-          fallbackSrc="/mirrorball.png"
+          fallbackSrc="/images/mirrorball.png"
         />
       </AspectRatio>
     </Box>

@@ -1,1 +1,3154 @@
-[{"firstName":"Trista","lastName":"Sutter","image":"","gender":"female","season":"1","placement":"6"},{"firstName":"Evander","lastName":"Holyfield","image":"","gender":"male","season":"1","placement":"5"},{"firstName":"Rachel","lastName":"Hunter","image":"","gender":"female","season":"1","placement":"4"},{"firstName":"Joey","lastName":"McIntyre","image":"","gender":"male","season":"1","placement":"3"},{"firstName":"John","lastName":"O'Hurley","image":"","gender":"male","season":"1","placement":"2"},{"firstName":"Kelly","lastName":"Monaco","image":"","gender":"female","season":"1","placement":"1"},{"firstName":"Kenny","lastName":"Mayne","image":"","gender":"male","season":"2","placement":"10"},{"firstName":"Tatum","lastName":"O'Neal","image":"","gender":"female","season":"2","placement":"9"},{"firstName":"Giselle","lastName":"Fernandez","image":"","gender":"female","season":"2","placement":"8"},{"firstName":"Master","lastName":"P","image":"","gender":"male","season":"2","placement":"7"},{"firstName":"Tia","lastName":"Carrere","image":"","gender":"female","season":"2","placement":"6"},{"firstName":"George","lastName":"Hamilton","image":"","gender":"male","season":"2","placement":"5"},{"firstName":"Lisa","lastName":"Rinna","image":"","gender":"female","season":"2","placement":"4"},{"firstName":"Stacy","lastName":"Keibler","image":"","gender":"female","season":"2","placement":"3"},{"firstName":"Jerry","lastName":"Rice","image":"","gender":"male","season":"2","placement":"2"},{"firstName":"Drew","lastName":"Lachey","image":"","gender":"male","season":"2","placement":"1"},{"firstName":"Tucker","lastName":"Carlson","image":"","gender":"male","season":"3","placement":"11"},{"firstName":"Shanna","lastName":"Moakler","image":"","gender":"female","season":"3","placement":"10"},{"firstName":"Harry","lastName":"Hamlin","image":"","gender":"male","season":"3","placement":"9"},{"firstName":"Vivica","lastName":"A. Fox","image":"","gender":"female","season":"3","placement":"8"},{"firstName":"Willa","lastName":"Ford","image":"","gender":"female","season":"3","placement":"7"},{"firstName":"Sara","lastName":"Evans","image":"","gender":"female","season":"3","placement":"6"},{"firstName":"Jerry","lastName":"Springer","image":"","gender":"male","season":"3","placement":"5"},{"firstName":"Monique","lastName":"Coleman","image":"","gender":"female","season":"3","placement":"4"},{"firstName":"Joey","lastName":"Lawrence","image":"","gender":"male","season":"3","placement":"3"},{"firstName":"Mario","lastName":"Lopez","image":"","gender":"male","season":"3","placement":"2"},{"firstName":"Emmitt","lastName":"Smith","image":"","gender":"male","season":"3","placement":"1"},{"firstName":"Paulina","lastName":"Porizkova","image":"","gender":"female","season":"4","placement":"11"},{"firstName":"Shandi","lastName":"Finnessey","image":"","gender":"female","season":"4","placement":"10"},{"firstName":"Leeza","lastName":"Gibbons","image":"","gender":"female","season":"4","placement":"9"},{"firstName":"Clyde","lastName":"Drexler","image":"","gender":"male","season":"4","placement":"8"},{"firstName":"Heather","lastName":"Mills","image":"","gender":"female","season":"4","placement":"7"},{"firstName":"John","lastName":"Ratzenberger","image":"","gender":"male","season":"4","placement":"6"},{"firstName":"Billy Ray","lastName":"Cyrus","image":"","gender":"male","season":"4","placement":"5"},{"firstName":"Ian","lastName":"Ziering","image":"","gender":"male","season":"4","placement":"4"},{"firstName":"Laila","lastName":"Ali","image":"","gender":"female","season":"4","placement":"3"},{"firstName":"Joey","lastName":"Fatone","image":"","gender":"male","season":"4","placement":"2"},{"firstName":"Apolo","lastName":"Anton Ohno","image":"","gender":"male","season":"4","placement":"1"},{"firstName":"Josie","lastName":"Maran","image":"","gender":"female","season":"5","placement":"12"},{"firstName":"Albert","lastName":"Reed","image":"","gender":"male","season":"5","placement":"11"},{"firstName":"Wayne","lastName":"Newton","image":"","gender":"male","season":"5","placement":"10"},{"firstName":"Floyd","lastName":"Mayweather Jr.","image":"","gender":"male","season":"5","placement":"9"},{"firstName":"Mark","lastName":"Cuban","image":"","gender":"male","season":"5","placement":"8"},{"firstName":"Sabrina","lastName":"Bryan","image":"","gender":"female","season":"5","placement":"7"},{"firstName":"Jane","lastName":"Seymour","image":"","gender":"female","season":"5","placement":"6"},{"firstName":"Cameron","lastName":"Mathison","image":"","gender":"male","season":"5","placement":"5"},{"firstName":"Jennie","lastName":"Garth","image":"","gender":"female","season":"5","placement":"4"},{"firstName":"Marie","lastName":"Osmond","image":"","gender":"female","season":"5","placement":"3"},{"firstName":"Mel","lastName":"B","image":"","gender":"female","season":"5","placement":"2"},{"firstName":"Hélio","lastName":"Castroneves","image":"","gender":"male","season":"5","placement":"1"},{"firstName":"Penn","lastName":"Jillette","image":"","gender":"male","season":"6","placement":"12"},{"firstName":"Monica","lastName":"Seles","image":"","gender":"female","season":"6","placement":"11"},{"firstName":"Steve","lastName":"Guttenberg","image":"","gender":"male","season":"6","placement":"10"},{"firstName":"Adam","lastName":"Carolla","image":"","gender":"male","season":"6","placement":"9"},{"firstName":"Priscilla","lastName":"Presley","image":"","gender":"female","season":"6","placement":"8"},{"firstName":"Marlee","lastName":"Matlin","image":"","gender":"female","season":"6","placement":"7"},{"firstName":"Shannon","lastName":"Elizabeth","image":"","gender":"female","season":"6","placement":"6"},{"firstName":"Mario","lastName":"","image":"","gender":"male","season":"6","placement":"5"},{"firstName":"Marissa","lastName":"Jaret Winkour","image":"","gender":"female","season":"6","placement":"4"},{"firstName":"Christián","lastName":"de la Fuente","image":"","gender":"male","season":"6","placement":"3"},{"firstName":"Jason","lastName":"Taylor","image":"","gender":"male","season":"6","placement":"2"},{"firstName":"Kristi","lastName":"Yamaguchi","image":"","gender":"female","season":"6","placement":"1"},{"firstName":"Jeffrey","lastName":"Ross","image":"","gender":"male","season":"7","placement":"13"},{"firstName":"Ted","lastName":"McGinley","image":"","gender":"male","season":"7","placement":"12"},{"firstName":"Kim","lastName":"Kardashian","image":"","gender":"female","season":"7","placement":"11"},{"firstName":"Misty","lastName":"May-Trainor","image":"","gender":"female","season":"7","placement":"10"},{"firstName":"Rocco","lastName":"DiSpirito","image":"","gender":"male","season":"7","placement":"9"},{"firstName":"Toni","lastName":"Braxton","image":"","gender":"female","season":"7","placement":"8"},{"firstName":"Cloris","lastName":"Leachman","image":"","gender":"female","season":"7","placement":"7"},{"firstName":"Susan","lastName":"Lucci","image":"","gender":"female","season":"7","placement":"6"},{"firstName":"Maurice","lastName":"Greene","image":"","gender":"male","season":"7","placement":"5"},{"firstName":"Cody","lastName":"Linley","image":"","gender":"male","season":"7","placement":"4"},{"firstName":"Lance","lastName":"Bass","image":"","gender":"male","season":"7","placement":"3"},{"firstName":"Warren","lastName":"Sapp","image":"","gender":"male","season":"7","placement":"2"},{"firstName":"Brooke","lastName":"Burke","image":"","gender":"female","season":"7","placement":"1"},{"firstName":"Belinda","lastName":"Carlisle","image":"","gender":"female","season":"8","placement":"13"},{"firstName":"Denise","lastName":"Richards","image":"","gender":"female","season":"8","placement":"12"},{"firstName":"Holly","lastName":"Madison","image":"","gender":"female","season":"8","placement":"11"},{"firstName":"Steve","lastName":"Wozniak","image":"","gender":"male","season":"8","placement":"10"},{"firstName":"David","lastName":"Alan Grier","image":"","gender":"male","season":"8","placement":"9"},{"firstName":"Steve-O","lastName":"","image":"","gender":"male","season":"8","placement":"8"},{"firstName":"Lawrence","lastName":"Taylor","image":"","gender":"male","season":"8","placement":"7"},{"firstName":"Chuck","lastName":"Wicks","image":"","gender":"male","season":"8","placement":"6"},{"firstName":"Lil' Kim","lastName":"","image":"","gender":"female","season":"8","placement":"5"},{"firstName":"Ty","lastName":"Murray","image":"","gender":"male","season":"8","placement":"4"},{"firstName":"Melissa","lastName":"Rycroft","image":"","gender":"female","season":"8","placement":"3"},{"firstName":"Gilles","lastName":"Marini","image":"","gender":"male","season":"8","placement":"2"},{"firstName":"Shawn","lastName":"Johnson","image":"","gender":"female","season":"8","placement":"1"},{"firstName":"Ashley","lastName":"Hamilton","image":"","gender":"female","season":"9","placement":"16"},{"firstName":"Macy","lastName":"Gray","image":"","gender":"female","season":"9","placement":"15"},{"firstName":"Kathy","lastName":"Ireland","image":"","gender":"female","season":"9","placement":"14"},{"firstName":"Tom","lastName":"Delay","image":"","gender":"male","season":"9","placement":"13"},{"firstName":"Debi","lastName":"Mazar","image":"","gender":"female","season":"9","placement":"12"},{"firstName":"Chuck","lastName":"Liddell","image":"","gender":"male","season":"9","placement":"11"},{"firstName":"Natalie","lastName":"Coughlin","image":"","gender":"female","season":"9","placement":"10"},{"firstName":"Melissa","lastName":"Joan Hart","image":"","gender":"female","season":"9","placement":"9"},{"firstName":"Louie","lastName":"Vito","image":"","gender":"male","season":"9","placement":"8"},{"firstName":"Michael","lastName":"Irvin","image":"","gender":"male","season":"9","placement":"7"},{"firstName":"Mark","lastName":"Dacascos","image":"","gender":"male","season":"9","placement":"6"},{"firstName":"Aaron","lastName":"Carter","image":"","gender":"male","season":"9","placement":"5"},{"firstName":"Joanna","lastName":"Krupa","image":"","gender":"female","season":"9","placement":"4"},{"firstName":"Kelly","lastName":"Osbourne","image":"","gender":"female","season":"9","placement":"3"},{"firstName":"Mýa","lastName":"","image":"","gender":"female","season":"9","placement":"2"},{"firstName":"Donny","lastName":"Osmond","image":"","gender":"male","season":"9","placement":"1"},{"firstName":"Shannen","lastName":"Doherty","image":"","gender":"female","season":"10","placement":"11"},{"firstName":"Buzz","lastName":"Aldrin","image":"","gender":"male","season":"10","placement":"10"},{"firstName":"Aiden","lastName":"Turner","image":"","gender":"male","season":"10","placement":"9"},{"firstName":"Kate","lastName":"Gosselin","image":"","gender":"female","season":"10","placement":"8"},{"firstName":"Jake","lastName":"Pavelka","image":"","gender":"male","season":"10","placement":"7"},{"firstName":"Pamela","lastName":"Anderson","image":"","gender":"female","season":"10","placement":"6"},{"firstName":"Niecy","lastName":"Nash","image":"","gender":"female","season":"10","placement":"5"},{"firstName":"Chad","lastName":"Ochocinco","image":"","gender":"male","season":"10","placement":"4"},{"firstName":"Erin","lastName":"Andrews","image":"","gender":"female","season":"10","placement":"3"},{"firstName":"Evander","lastName":"Lysacek","image":"","gender":"male","season":"10","placement":"2"},{"firstName":"Nicole","lastName":"Scherzinger","image":"","gender":"female","season":"10","placement":"1"},{"firstName":"David","lastName":"Hasselhoff","image":"","gender":"male","season":"11","placement":"12"},{"firstName":"Michael","lastName":"Bolton","image":"","gender":"male","season":"11","placement":"11"},{"firstName":"Margaret","lastName":"Cho","image":"","gender":"female","season":"11","placement":"10"},{"firstName":"The Situation","lastName":"","image":"","gender":"male","season":"11","placement":"9"},{"firstName":"Florence","lastName":"Henderson","image":"","gender":"female","season":"11","placement":"8"},{"firstName":"Audrina","lastName":"Patridge","image":"","gender":"female","season":"11","placement":"7"},{"firstName":"Rick","lastName":"Fox","image":"","gender":"male","season":"11","placement":"6"},{"firstName":"Kurt","lastName":"Warner","image":"","gender":"male","season":"11","placement":"5"},{"firstName":"Brandy","lastName":"","image":"","gender":"female","season":"11","placement":"4"},{"firstName":"Bristol","lastName":"Palin","image":"","gender":"female","season":"11","placement":"3"},{"firstName":"Kyle","lastName":"Massey","image":"","gender":"male","season":"11","placement":"2"},{"firstName":"Jennifer","lastName":"Grey","image":"","gender":"female","season":"11","placement":"1"},{"firstName":"Mike","lastName":"Catherwood","image":"","gender":"male","season":"12","placement":"11"},{"firstName":"Wendy","lastName":"Williams","image":"","gender":"female","season":"12","placement":"10"},{"firstName":"Sugar Ray","lastName":"Leonard","image":"","gender":"male","season":"12","placement":"9"},{"firstName":"Petra","lastName":"Němcová","image":"","gender":"female","season":"12","placement":"8"},{"firstName":"Chris","lastName":"Jericho","image":"","gender":"male","season":"12","placement":"7"},{"firstName":"Kendra","lastName":"Wilkinson","image":"","gender":"female","season":"12","placement":"6"},{"firstName":"Romeo","lastName":"","image":"","gender":"male","season":"12","placement":"5"},{"firstName":"Ralph","lastName":"Macchio","image":"","gender":"male","season":"12","placement":"4"},{"firstName":"Chelsea","lastName":"Kane","image":"","gender":"female","season":"12","placement":"3"},{"firstName":"Kirstie","lastName":"Alley","image":"","gender":"female","season":"12","placement":"2"},{"firstName":"Hines","lastName":"Ward","image":"","gender":"male","season":"12","placement":"1"},{"firstName":"Metta World Peace","lastName":"","image":"","gender":"male","season":"13","placement":"12"},{"firstName":"Elisabetta","lastName":"Canalis","image":"","gender":"female","season":"13","placement":"11"},{"firstName":"Kristin","lastName":"Cavallari","image":"","gender":"female","season":"13","placement":"10"},{"firstName":"Chynna","lastName":"Phillips","image":"","gender":"female","season":"13","placement":"9"},{"firstName":"Carson","lastName":"Kressley","image":"","gender":"male","season":"13","placement":"8"},{"firstName":"Chaz","lastName":"Bono","image":"","gender":"male","season":"13","placement":"7"},{"firstName":"David","lastName":"Arquette","image":"","gender":"male","season":"13","placement":"6"},{"firstName":"Nancy","lastName":"Grace","image":"","gender":"female","season":"13","placement":"5"},{"firstName":"Hope","lastName":"Solo","image":"","gender":"female","season":"13","placement":"4"},{"firstName":"Ricki","lastName":"Lake","image":"","gender":"female","season":"13","placement":"3"},{"firstName":"Rob","lastName":"Kardashian","image":"","gender":"male","season":"13","placement":"2"},{"firstName":"J.R.","lastName":"Martinez","image":"","gender":"male","season":"13","placement":"1"},{"firstName":"Martina","lastName":"Navratilova","image":"","gender":"female","season":"14","placement":"12"},{"firstName":"Jack","lastName":"Wagner","image":"","gender":"male","season":"14","placement":"11"},{"firstName":"Sherri","lastName":"Shepherd","image":"","gender":"female","season":"14","placement":"10"},{"firstName":"Gavin","lastName":"DeGraw","image":"","gender":"male","season":"14","placement":"9"},{"firstName":"Gladys","lastName":"Knight","image":"","gender":"female","season":"14","placement":"8"},{"firstName":"Jaleel","lastName":"White","image":"","gender":"male","season":"14","placement":"7"},{"firstName":"Roshon","lastName":"Fegan","image":"","gender":"male","season":"14","placement":"6"},{"firstName":"Melissa","lastName":"Gilbert","image":"","gender":"female","season":"14","placement":"5"},{"firstName":"Maria","lastName":"Menounos","image":"","gender":"female","season":"14","placement":"4"},{"firstName":"William","lastName":"Levy","image":"","gender":"male","season":"14","placement":"3"},{"firstName":"Katherine","lastName":"Jenkins","image":"","gender":"female","season":"14","placement":"2"},{"firstName":"Donald","lastName":"Driver","image":"","gender":"male","season":"14","placement":"1"},{"firstName":"Pamela","lastName":"Anderson","image":"","gender":"female","season":"15","placement":"13"},{"firstName":"Joey","lastName":"Fatone","image":"","gender":"male","season":"15","placement":"12"},{"firstName":"Drew","lastName":"Lachey","image":"","gender":"male","season":"15","placement":"11"},{"firstName":"Hélio","lastName":"Castroneves","image":"","gender":"male","season":"15","placement":"10"},{"firstName":"Bristol","lastName":"Palin","image":"","gender":"female","season":"15","placement":"9"},{"firstName":"Sabrina","lastName":"Bryan","image":"","gender":"female","season":"15","placement":"8"},{"firstName":"Kirstie","lastName":"Alley","image":"","gender":"female","season":"15","placement":"7"},{"firstName":"Gilles","lastName":"Marini","image":"","gender":"male","season":"15","placement":"6"},{"firstName":"Apolo","lastName":"Anton Ohno","image":"","gender":"male","season":"15","placement":"5"},{"firstName":"Emmitt","lastName":"Smith","image":"","gender":"male","season":"15","placement":"4"},{"firstName":"Kelly","lastName":"Monaco","image":"","gender":"female","season":"15","placement":"3"},{"firstName":"Shawn","lastName":"Johnson","image":"","gender":"female","season":"15","placement":"2"},{"firstName":"Melissa","lastName":"Rycroft","image":"","gender":"female","season":"15","placement":"1"},{"firstName":"Dorothy","lastName":"Hamill","image":"","gender":"female","season":"16","placement":"12"},{"firstName":"Wynonna","lastName":"Judd","image":"","gender":"female","season":"16","placement":"11"},{"firstName":"Lisa","lastName":"Vanderpump","image":"","gender":"female","season":"16","placement":"10"},{"firstName":"D.L.","lastName":"Hughley","image":"","gender":"male","season":"16","placement":"9"},{"firstName":"Victor","lastName":"Ortiz","image":"","gender":"male","season":"16","placement":"8"},{"firstName":"Andy","lastName":"Dick","image":"","gender":"male","season":"16","placement":"7"},{"firstName":"Sean","lastName":"Lowe","image":"","gender":"male","season":"16","placement":"6"},{"firstName":"Ingo","lastName":"Rademacher","image":"","gender":"male","season":"16","placement":"5"},{"firstName":"Alexandra","lastName":"Raisman","image":"","gender":"female","season":"16","placement":"4"},{"firstName":"Jacoby","lastName":"Jones","image":"","gender":"male","season":"16","placement":"3"},{"firstName":"Zendaya","lastName":"","image":"","gender":"female","season":"16","placement":"2"},{"firstName":"Kellie","lastName":"Pickler","image":"","gender":"female","season":"16","placement":"1"},{"firstName":"Keyshawn","lastName":"Johnson","image":"","gender":"male","season":"17","placement":"12"},{"firstName":"Bill","lastName":"Nye","image":"","gender":"male","season":"17","placement":"11"},{"firstName":"Valerie","lastName":"Harper","image":"","gender":"female","season":"17","placement":"10"},{"firstName":"Christina","lastName":"Milian","image":"","gender":"female","season":"17","placement":"9"},{"firstName":"Nicole (Snooki)","lastName":"Polizzi","image":"","gender":"female","season":"17","placement":"8"},{"firstName":"Brant","lastName":"Daugherty","image":"","gender":"male","season":"17","placement":"7"},{"firstName":"Elizabeth","lastName":"Berkley Lauren","image":"","gender":"female","season":"17","placement":"6"},{"firstName":"Leah","lastName":"Remini","image":"","gender":"female","season":"17","placement":"5"},{"firstName":"Bill","lastName":"Engvall","image":"","gender":"male","season":"17","placement":"4"},{"firstName":"Jack","lastName":"Osbourne","image":"","gender":"male","season":"17","placement":"3"},{"firstName":"Corbin","lastName":"Bleu","image":"","gender":"male","season":"17","placement":"2"},{"firstName":"Amber","lastName":"Riley","image":"","gender":"female","season":"17","placement":"1"},{"firstName":"Diana","lastName":"Nyad","image":"","gender":"female","season":"18","placement":"12"},{"firstName":"Sean","lastName":"Avery","image":"","gender":"male","season":"18","placement":"11"},{"firstName":"Billy Dee","lastName":"Williams","image":"","gender":"male","season":"18","placement":"10"},{"firstName":"Cody","lastName":"Simpson","image":"","gender":"male","season":"18","placement":"9"},{"firstName":"Drew","lastName":"Carey","image":"","gender":"male","season":"18","placement":"8"},{"firstName":"NeNe","lastName":"Leakes","image":"","gender":"female","season":"18","placement":"7"},{"firstName":"Danica","lastName":"McKellar","image":"","gender":"female","season":"18","placement":"6"},{"firstName":"Charlie","lastName":"White","image":"","gender":"male","season":"18","placement":"5"},{"firstName":"James","lastName":"Maslow","image":"","gender":"male","season":"18","placement":"4"},{"firstName":"Candace","lastName":"Cameron Bure","image":"","gender":"female","season":"18","placement":"3"},{"firstName":"Amy","lastName":"Purdy","image":"","gender":"female","season":"18","placement":"2"},{"firstName":"Meryl","lastName":"Davis","image":"","gender":"female","season":"18","placement":"1"},{"firstName":"Lolo","lastName":"Jones","image":"","gender":"female","season":"19","placement":"13"},{"firstName":"Tavis","lastName":"Smiley","image":"","gender":"male","season":"19","placement":"12"},{"firstName":"Randy","lastName":"Couture","image":"","gender":"male","season":"19","placement":"11"},{"firstName":"Betsey","lastName":"Johnson","image":"","gender":"female","season":"19","placement":"10"},{"firstName":"Jonathan","lastName":"Bennett","image":"","gender":"male","season":"19","placement":"9"},{"firstName":"Antonio","lastName":"Sabàto Jr.","image":"","gender":"male","season":"19","placement":"8"},{"firstName":"Michael","lastName":"Waltrip","image":"","gender":"male","season":"19","placement":"7"},{"firstName":"Lea","lastName":"Thompson","image":"","gender":"female","season":"19","placement":"6"},{"firstName":"Tommy","lastName":"Chong","image":"","gender":"male","season":"19","placement":"5"},{"firstName":"Bethany","lastName":"Mota","image":"","gender":"female","season":"19","placement":"4"},{"firstName":"Janel","lastName":"Parrish","image":"","gender":"female","season":"19","placement":"3"},{"firstName":"Sadie","lastName":"Robertson","image":"","gender":"female","season":"19","placement":"2"},{"firstName":"Alfonso","lastName":"Ribeiro","image":"","gender":"male","season":"19","placement":"1"},{"firstName":"Redfoo","lastName":"","image":"","gender":"male","season":"20","placement":"12"},{"firstName":"Charlotte","lastName":"McKinney","image":"","gender":"female","season":"20","placement":"11"},{"firstName":"Michael","lastName":"Sam","image":"","gender":"male","season":"20","placement":"10"},{"firstName":"Suzanne","lastName":"Somers","image":"","gender":"female","season":"20","placement":"9"},{"firstName":"Patti","lastName":"LaBelle","image":"","gender":"female","season":"20","placement":"8"},{"firstName":"Willow","lastName":"Shields","image":"","gender":"female","season":"20","placement":"7"},{"firstName":"Robert","lastName":"Herjavec","image":"","gender":"male","season":"20","placement":"6"},{"firstName":"Chris","lastName":"Soules","image":"","gender":"male","season":"20","placement":"5"},{"firstName":"Nastia","lastName":"Liukin","image":"","gender":"female","season":"20","placement":"4"},{"firstName":"Noah","lastName":"Galloway","image":"","gender":"male","season":"20","placement":"3"},{"firstName":"Riker","lastName":"Lynch","image":"","gender":"male","season":"20","placement":"2"},{"firstName":"Rumer","lastName":"Willis","image":"","gender":"female","season":"20","placement":"1"},{"firstName":"Chaka","lastName":"Khan","image":"","gender":"female","season":"21","placement":"13"},{"firstName":"Victor","lastName":"Espinoza","image":"","gender":"male","season":"21","placement":"12"},{"firstName":"Kim","lastName":"Zolciak-Biermann","image":"","gender":"female","season":"21","placement":"11"},{"firstName":"Gary","lastName":"Busey","image":"","gender":"male","season":"21","placement":"10"},{"firstName":"Paula","lastName":"Deen","image":"","gender":"female","season":"21","placement":"9"},{"firstName":"Hayes","lastName":"Grier","image":"","gender":"male","season":"21","placement":"8"},{"firstName":"Andy","lastName":"Grammer","image":"","gender":"male","season":"21","placement":"7"},{"firstName":"Alexa","lastName":"PenaVega","image":"","gender":"female","season":"21","placement":"6"},{"firstName":"Tamar","lastName":"Braxton","image":"","gender":"female","season":"21","placement":"5"},{"firstName":"Carlos","lastName":"PenaVega","image":"","gender":"male","season":"21","placement":"4"},{"firstName":"Alek","lastName":"Skarlatos","image":"","gender":"male","season":"21","placement":"3"},{"firstName":"Nick","lastName":"Carter","image":"","gender":"male","season":"21","placement":"2"},{"firstName":"Bindi","lastName":"Irwin","image":"","gender":"female","season":"21","placement":"1"},{"firstName":"Geraldo","lastName":"Rivera","image":"","gender":"male","season":"22","placement":"12"},{"firstName":"Mischa","lastName":"Barton","image":"","gender":"female","season":"22","placement":"11"},{"firstName":"Marla","lastName":"Maples","image":"","gender":"female","season":"22","placement":"10"},{"firstName":"Doug","lastName":"Flutie","image":"","gender":"male","season":"22","placement":"9"},{"firstName":"Kim","lastName":"Fields","image":"","gender":"female","season":"22","placement":"7"},{"firstName":"Von","lastName":"Miller","image":"","gender":"male","season":"22","placement":"7"},{"firstName":"Jodie","lastName":"Sweetin","image":"","gender":"female","season":"22","placement":"6"},{"firstName":"Antonio","lastName":"Brown","image":"","gender":"male","season":"22","placement":"4"},{"firstName":"Wanyá","lastName":"Morris","image":"","gender":"male","season":"22","placement":"4"},{"firstName":"Ginger","lastName":"Zee","image":"","gender":"female","season":"22","placement":"3"},{"firstName":"Paige","lastName":"VanZant","image":"","gender":"female","season":"22","placement":"2"},{"firstName":"Nyle","lastName":"DiMarco","image":"","gender":"male","season":"22","placement":"1"},{"firstName":"Jake","lastName":"T. Austin","image":"","gender":"male","season":"23","placement":"13"},{"firstName":"Rick","lastName":"Perry","image":"","gender":"male","season":"23","placement":"12"},{"firstName":"Babyface","lastName":"","image":"","gender":"male","season":"23","placement":"10"},{"firstName":"Vanilla Ice","lastName":"","image":"","gender":"male","season":"23","placement":"10"},{"firstName":"Amber","lastName":"Rose","image":"","gender":"female","season":"23","placement":"9"},{"firstName":"Maureen","lastName":"McCormick","image":"","gender":"female","season":"23","placement":"8"},{"firstName":"Ryan","lastName":"Lochte","image":"","gender":"male","season":"23","placement":"7"},{"firstName":"Marilu","lastName":"Henner","image":"","gender":"female","season":"23","placement":"6"},{"firstName":"Terra","lastName":"Jolé","image":"","gender":"female","season":"23","placement":"5"},{"firstName":"Jana","lastName":"Kramer","image":"","gender":"female","season":"23","placement":"4"},{"firstName":"Calvin","lastName":"Johnson Jr.","image":"","gender":"male","season":"23","placement":"3"},{"firstName":"James","lastName":"Hinchcliffe","image":"","gender":"male","season":"23","placement":"2"},{"firstName":"Laurie","lastName":"Hernandez","image":"","gender":"female","season":"23","placement":"1"},{"firstName":"Chris","lastName":"Kattan","image":"","gender":"male","season":"24","placement":"12"},{"firstName":"Charo","lastName":"","image":"","gender":"female","season":"24","placement":"11"},{"firstName":"Mr. T","lastName":"","image":"","gender":"male","season":"24","placement":"10"},{"firstName":"Erika","lastName":"Jayne","image":"","gender":"female","season":"24","placement":"9"},{"firstName":"Heather","lastName":"Morris","image":"","gender":"female","season":"24","placement":"8"},{"firstName":"Nancy","lastName":"Kerrigan","image":"","gender":"female","season":"24","placement":"6"},{"firstName":"Nick","lastName":"Viall","image":"","gender":"male","season":"24","placement":"6"},{"firstName":"Bonner","lastName":"Bolton","image":"","gender":"male","season":"24","placement":"5"},{"firstName":"Simone","lastName":"Biles","image":"","gender":"female","season":"24","placement":"4"},{"firstName":"Normani","lastName":"","image":"","gender":"female","season":"24","placement":"3"},{"firstName":"David","lastName":"Ross","image":"","gender":"male","season":"24","placement":"2"},{"firstName":"Rashad","lastName":"Jennings","image":"","gender":"female","season":"24","placement":"1"},{"firstName":"Barbara","lastName":"Corcoran","image":"","gender":"female","season":"25","placement":"13"},{"firstName":"Debbie","lastName":"Gibson","image":"","gender":"female","season":"25","placement":"12"},{"firstName":"Derek","lastName":"Fisher","image":"","gender":"male","season":"25","placement":"11"},{"firstName":"Sasha","lastName":"Pieterse","image":"","gender":"female","season":"25","placement":"10"},{"firstName":"Nick","lastName":"Lachey","image":"","gender":"male","season":"25","placement":"9"},{"firstName":"Nikki","lastName":"Bella","image":"","gender":"female","season":"25","placement":"7"},{"firstName":"Vanessa","lastName":"Lachey","image":"","gender":"female","season":"25","placement":"7"},{"firstName":"Terrell","lastName":"Owens","image":"","gender":"male","season":"25","placement":"6"},{"firstName":"Victoria","lastName":"Arlen","image":"","gender":"female","season":"25","placement":"5"},{"firstName":"Drew","lastName":"Scott","image":"","gender":"male","season":"25","placement":"4"},{"firstName":"Frankie","lastName":"Muniz","image":"","gender":"male","season":"25","placement":"3"},{"firstName":"Lindsey","lastName":"Stirling","image":"","gender":"female","season":"25","placement":"2"},{"firstName":"Jordan","lastName":"Fisher","image":"","gender":"male","season":"25","placement":"1"},{"firstName":"Jamie","lastName":"Anderson","image":"","gender":"female","season":"26","placement":"9"},{"firstName":"Johnny","lastName":"Damon","image":"","gender":"male","season":"26","placement":"9"},{"firstName":"Kareem","lastName":"Abdul-Jabbar","image":"","gender":"male","season":"26","placement":"7"},{"firstName":"Arike","lastName":"Ogunbowale","image":"","gender":"female","season":"26","placement":"7"},{"firstName":"Jennie","lastName":"Finch Daigle","image":"","gender":"female","season":"26","placement":"4"},{"firstName":"Chris","lastName":"Mazder","image":"","gender":"male","season":"26","placement":"4"},{"firstName":"Mirai","lastName":"Nagasu","image":"","gender":"female","season":"26","placement":"4"},{"firstName":"Tonya","lastName":"Harding","image":"","gender":"female","season":"26","placement":"3"},{"firstName":"Josh","lastName":"Norman","image":"","gender":"male","season":"26","placement":"2"},{"firstName":"Adam","lastName":"Rippon","image":"","gender":"male","season":"26","placement":"1"},{"firstName":"Nikki","lastName":"Glaser","image":"","gender":"female","season":"27","placement":"13"},{"firstName":"Danelle","lastName":"Umstead","image":"","gender":"female","season":"27","placement":"12"},{"firstName":"Nancy","lastName":"McKeon","image":"","gender":"female","season":"27","placement":"11"},{"firstName":"Tinashe","lastName":"","image":"","gender":"female","season":"27","placement":"10"},{"firstName":"Mary Lou","lastName":"Retton","image":"","gender":"female","season":"27","placement":"9"},{"firstName":"John","lastName":"Schneider","image":"","gender":"male","season":"27","placement":"7"},{"firstName":"DeMarcus","lastName":"Ware","image":"","gender":"male","season":"27","placement":"7"},{"firstName":"Joe","lastName":"Amabile","image":"","gender":"male","season":"27","placement":"5"},{"firstName":"Juan Pablo","lastName":"Di Pace","image":"","gender":"male","season":"27","placement":"5"},{"firstName":"Alexis","lastName":"Ren","image":"","gender":"female","season":"27","placement":"4"},{"firstName":"Evanna","lastName":"Lynch","image":"","gender":"female","season":"27","placement":"3"},{"firstName":"Milo","lastName":"Manheim","image":"","gender":"male","season":"27","placement":"2"},{"firstName":"Bobby","lastName":"Bones","image":"","gender":"male","season":"27","placement":"1"},{"firstName":"Mary","lastName":"Wilson","image":"","gender":"female","season":"28","placement":"12"},{"firstName":"Ray","lastName":"Lewis","image":"","gender":"male","season":"28","placement":"11"},{"firstName":"Lamar","lastName":"Odom","image":"","gender":"male","season":"28","placement":"10"},{"firstName":"Sailor","lastName":"Brinkley-Cook","image":"","gender":"female","season":"28","placement":"9"},{"firstName":"Karamo","lastName":"Brown","image":"","gender":"male","season":"28","placement":"8"},{"firstName":"Kate","lastName":"Flannery","image":"","gender":"female","season":"28","placement":"7"},{"firstName":"Sean","lastName":"Spicer","image":"","gender":"male","season":"28","placement":"6"},{"firstName":"James","lastName":"Van Der Beek","image":"","gender":"male","season":"28","placement":"5"},{"firstName":"Lauren","lastName":"Alaina","image":"","gender":"female","season":"28","placement":"4"},{"firstName":"Ally","lastName":"Brooke","image":"","gender":"female","season":"28","placement":"3"},{"firstName":"Kel","lastName":"Mitchell","image":"","gender":"male","season":"28","placement":"2"},{"firstName":"Hannah","lastName":"Brown","image":"","gender":"female","season":"28","placement":"1"},{"firstName":"Charles","lastName":"Oakley","image":"","gender":"male","season":"29","placement":"15"},{"firstName":"Carole","lastName":"Baskin","image":"","gender":"female","season":"29","placement":"14"},{"firstName":"Anne","lastName":"Heche","image":"","gender":"female","season":"29","placement":"13"},{"firstName":"Jesse","lastName":"Metcalfe","image":"","gender":"female","season":"29","placement":"12"},{"firstName":"Vernon","lastName":"Davis","image":"","gender":"male","season":"29","placement":"11"},{"firstName":"Monica","lastName":"Aldama","image":"","gender":"female","season":"29","placement":"10"},{"firstName":"Jeannie","lastName":"Mai","image":"","gender":"female","season":"29","placement":"9"},{"firstName":"Chrishell","lastName":"Stause","image":"","gender":"female","season":"29","placement":"8"},{"firstName":"AJ","lastName":"McLean","image":"","gender":"male","season":"29","placement":"7"},{"firstName":"Johnny","lastName":"Weir","image":"","gender":"male","season":"29","placement":"6"},{"firstName":"Skai","lastName":"Jackson","image":"","gender":"female","season":"29","placement":"5"},{"firstName":"Justina","lastName":"Machado","image":"","gender":"female","season":"29","placement":"4"},{"firstName":"Nelly","lastName":"","image":"","gender":"male","season":"29","placement":"3"},{"firstName":"Nev","lastName":"Schulman","image":"","gender":"male","season":"29","placement":"2"},{"firstName":"Kaitlyn","lastName":"Bristowe","image":"","gender":"female","season":"29","placement":"1"},{"firstName":"Martin","lastName":"Kove","image":"","gender":"male","season":"30","placement":"15"},{"firstName":"Christine","lastName":"Chiu","image":"","gender":"female","season":"30","placement":"14"},{"firstName":"Brian","lastName":"Austin Green","image":"","gender":"male","season":"30","placement":"13"},{"firstName":"Matt","lastName":"James","image":"","gender":"male","season":"30","placement":"12"},{"firstName":"Melanie","lastName":"C","image":"","gender":"female","season":"30","placement":"11"},{"firstName":"Kenya","lastName":"Moore","image":"","gender":"female","season":"30","placement":"10"},{"firstName":"Mike \"The Miz\"","lastName":"Mizanin","image":"","gender":"male","season":"30","placement":"9"},{"firstName":"Olivia","lastName":"Jade","image":"","gender":"female","season":"30","placement":"8"},{"firstName":"Jimmie","lastName":"Allen","image":"","gender":"male","season":"30","placement":"7"},{"firstName":"Melora","lastName":"Hardin","image":"","gender":"female","season":"30","placement":"6"},{"firstName":"Suni","lastName":"Lee","image":"","gender":"female","season":"30","placement":"5"},{"firstName":"Amanda","lastName":"Kloots","image":"","gender":"female","season":"30","placement":"4"},{"firstName":"Cody","lastName":"Rigsby","image":"","gender":"male","season":"30","placement":"3"},{"firstName":"JoJo","lastName":"Siwa","image":"","gender":"female","season":"30","placement":"2"},{"firstName":"Iman","lastName":"Shumpert","image":"","gender":"male","season":"30","placement":"1"},{"firstName":"Jason","lastName":"Lewis","image":"","gender":"male","season":"31","placement":"16"},{"firstName":"Teresa","lastName":"Giudice","image":"","gender":"female","season":"31","placement":"15"},{"firstName":"Cheryl","lastName":"Ladd","image":"","gender":"female","season":"31","placement":"14"},{"firstName":"Sam","lastName":"Champion","image":"","gender":"male","season":"31","placement":"13"},{"firstName":"Selma","lastName":"Blair","image":"","gender":"female","season":"31","placement":"12"},{"firstName":"Joseph","lastName":"Baena","image":"","gender":"male","season":"31","placement":"11"},{"firstName":"Jessie James","lastName":"Decker","image":"","gender":"female","season":"31","placement":"10"},{"firstName":"Jordin","lastName":"Sparks","image":"","gender":"female","season":"31","placement":"9"},{"firstName":"Heidi","lastName":"D'Amelio","image":"","gender":"female","season":"31","placement":"8"},{"firstName":"Vinny","lastName":"Guadagnino","image":"","gender":"male","season":"31","placement":"7"},{"firstName":"Trevor","lastName":"Donovan","image":"","gender":"male","season":"31","placement":"6"},{"firstName":"Daniel","lastName":"Durant","image":"","gender":"male","season":"31","placement":"5"},{"firstName":"Shangela","lastName":"","image":"","gender":"female","season":"31","placement":"4"},{"firstName":"Wayne","lastName":"Brady","image":"","gender":"male","season":"31","placement":"3"},{"firstName":"Gabby","lastName":"Windey","image":"","gender":"female","season":"31","placement":"2"},{"firstName":"Charli","lastName":"D'Amelio","image":"","gender":"female","season":"31","placement":"1"},{"firstName":"Matt","lastName":"Walsh","image":"","gender":"male","season":"32","placement":"14"},{"firstName":"Jamie Lynn","lastName":"Spears","image":"","gender":"female","season":"32","placement":"13"},{"firstName":"Tyson","lastName":"Beckford","image":"","gender":"male","season":"32","placement":"12"},{"firstName":"Adrian","lastName":"Peterson","image":"","gender":"male","season":"32","placement":"11"},{"firstName":"Mira","lastName":"Sorvino","image":"","gender":"female","season":"32","placement":"10"},{"firstName":"Mauricio","lastName":"Umansky","image":"","gender":"male","season":"32","placement":"9"},{"firstName":"Lele","lastName":"Pons","image":"","gender":"female","season":"32","placement":"8"},{"firstName":"Barry","lastName":"Williams","image":"","gender":"male","season":"32","placement":"7"},{"firstName":"Harry","lastName":"Jowsey","image":"","gender":"male","season":"32","placement":"6"},{"firstName":"Alyson","lastName":"Hannigan","image":"","gender":"female","season":"32","placement":"5"},{"firstName":"Charity","lastName":"Lawson","image":"","gender":"female","season":"32","placement":"4"},{"firstName":"Ariana","lastName":"Madix","image":"","gender":"female","season":"32","placement":"3"},{"firstName":"Jason","lastName":"Mraz","image":"","gender":"male","season":"32","placement":"2"},{"firstName":"Xochitl","lastName":"Gomez","image":"","gender":"female","season":"32","placement":"1"}]
+[
+  {
+    "firstName": "Trista",
+    "lastName": "Sutter",
+    "image": "",
+    "gender": "female",
+    "season": "1",
+    "placement": "6"
+  },
+  {
+    "firstName": "Evander",
+    "lastName": "Holyfield",
+    "image": "",
+    "gender": "male",
+    "season": "1",
+    "placement": "5"
+  },
+  {
+    "firstName": "Rachel",
+    "lastName": "Hunter",
+    "image": "",
+    "gender": "female",
+    "season": "1",
+    "placement": "4"
+  },
+  {
+    "firstName": "Joey",
+    "lastName": "McIntyre",
+    "image": "",
+    "gender": "male",
+    "season": "1",
+    "placement": "3"
+  },
+  {
+    "firstName": "John",
+    "lastName": "O'Hurley",
+    "image": "",
+    "gender": "male",
+    "season": "1",
+    "placement": "2"
+  },
+  {
+    "firstName": "Kelly",
+    "lastName": "Monaco",
+    "image": "",
+    "gender": "female",
+    "season": "1",
+    "placement": "1"
+  },
+  {
+    "firstName": "Kenny",
+    "lastName": "Mayne",
+    "image": "",
+    "gender": "male",
+    "season": "2",
+    "placement": "10"
+  },
+  {
+    "firstName": "Tatum",
+    "lastName": "O'Neal",
+    "image": "",
+    "gender": "female",
+    "season": "2",
+    "placement": "9"
+  },
+  {
+    "firstName": "Giselle",
+    "lastName": "Fernandez",
+    "image": "",
+    "gender": "female",
+    "season": "2",
+    "placement": "8"
+  },
+  {
+    "firstName": "Master",
+    "lastName": "P",
+    "image": "",
+    "gender": "male",
+    "season": "2",
+    "placement": "7"
+  },
+  {
+    "firstName": "Tia",
+    "lastName": "Carrere",
+    "image": "",
+    "gender": "female",
+    "season": "2",
+    "placement": "6"
+  },
+  {
+    "firstName": "George",
+    "lastName": "Hamilton",
+    "image": "",
+    "gender": "male",
+    "season": "2",
+    "placement": "5"
+  },
+  {
+    "firstName": "Lisa",
+    "lastName": "Rinna",
+    "image": "",
+    "gender": "female",
+    "season": "2",
+    "placement": "4"
+  },
+  {
+    "firstName": "Stacy",
+    "lastName": "Keibler",
+    "image": "",
+    "gender": "female",
+    "season": "2",
+    "placement": "3"
+  },
+  {
+    "firstName": "Jerry",
+    "lastName": "Rice",
+    "image": "",
+    "gender": "male",
+    "season": "2",
+    "placement": "2"
+  },
+  {
+    "firstName": "Drew",
+    "lastName": "Lachey",
+    "image": "",
+    "gender": "male",
+    "season": "2",
+    "placement": "1"
+  },
+  {
+    "firstName": "Tucker",
+    "lastName": "Carlson",
+    "image": "",
+    "gender": "male",
+    "season": "3",
+    "placement": "11"
+  },
+  {
+    "firstName": "Shanna",
+    "lastName": "Moakler",
+    "image": "",
+    "gender": "female",
+    "season": "3",
+    "placement": "10"
+  },
+  {
+    "firstName": "Harry",
+    "lastName": "Hamlin",
+    "image": "",
+    "gender": "male",
+    "season": "3",
+    "placement": "9"
+  },
+  {
+    "firstName": "Vivica",
+    "lastName": "A. Fox",
+    "image": "",
+    "gender": "female",
+    "season": "3",
+    "placement": "8"
+  },
+  {
+    "firstName": "Willa",
+    "lastName": "Ford",
+    "image": "",
+    "gender": "female",
+    "season": "3",
+    "placement": "7"
+  },
+  {
+    "firstName": "Sara",
+    "lastName": "Evans",
+    "image": "",
+    "gender": "female",
+    "season": "3",
+    "placement": "6"
+  },
+  {
+    "firstName": "Jerry",
+    "lastName": "Springer",
+    "image": "",
+    "gender": "male",
+    "season": "3",
+    "placement": "5"
+  },
+  {
+    "firstName": "Monique",
+    "lastName": "Coleman",
+    "image": "",
+    "gender": "female",
+    "season": "3",
+    "placement": "4"
+  },
+  {
+    "firstName": "Joey",
+    "lastName": "Lawrence",
+    "image": "",
+    "gender": "male",
+    "season": "3",
+    "placement": "3"
+  },
+  {
+    "firstName": "Mario",
+    "lastName": "Lopez",
+    "image": "",
+    "gender": "male",
+    "season": "3",
+    "placement": "2"
+  },
+  {
+    "firstName": "Emmitt",
+    "lastName": "Smith",
+    "image": "",
+    "gender": "male",
+    "season": "3",
+    "placement": "1"
+  },
+  {
+    "firstName": "Paulina",
+    "lastName": "Porizkova",
+    "image": "",
+    "gender": "female",
+    "season": "4",
+    "placement": "11"
+  },
+  {
+    "firstName": "Shandi",
+    "lastName": "Finnessey",
+    "image": "",
+    "gender": "female",
+    "season": "4",
+    "placement": "10"
+  },
+  {
+    "firstName": "Leeza",
+    "lastName": "Gibbons",
+    "image": "",
+    "gender": "female",
+    "season": "4",
+    "placement": "9"
+  },
+  {
+    "firstName": "Clyde",
+    "lastName": "Drexler",
+    "image": "",
+    "gender": "male",
+    "season": "4",
+    "placement": "8"
+  },
+  {
+    "firstName": "Heather",
+    "lastName": "Mills",
+    "image": "",
+    "gender": "female",
+    "season": "4",
+    "placement": "7"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Ratzenberger",
+    "image": "",
+    "gender": "male",
+    "season": "4",
+    "placement": "6"
+  },
+  {
+    "firstName": "Billy Ray",
+    "lastName": "Cyrus",
+    "image": "",
+    "gender": "male",
+    "season": "4",
+    "placement": "5"
+  },
+  {
+    "firstName": "Ian",
+    "lastName": "Ziering",
+    "image": "",
+    "gender": "male",
+    "season": "4",
+    "placement": "4"
+  },
+  {
+    "firstName": "Laila",
+    "lastName": "Ali",
+    "image": "",
+    "gender": "female",
+    "season": "4",
+    "placement": "3"
+  },
+  {
+    "firstName": "Joey",
+    "lastName": "Fatone",
+    "image": "",
+    "gender": "male",
+    "season": "4",
+    "placement": "2"
+  },
+  {
+    "firstName": "Apolo",
+    "lastName": "Anton Ohno",
+    "image": "",
+    "gender": "male",
+    "season": "4",
+    "placement": "1"
+  },
+  {
+    "firstName": "Josie",
+    "lastName": "Maran",
+    "image": "",
+    "gender": "female",
+    "season": "5",
+    "placement": "12"
+  },
+  {
+    "firstName": "Albert",
+    "lastName": "Reed",
+    "image": "",
+    "gender": "male",
+    "season": "5",
+    "placement": "11"
+  },
+  {
+    "firstName": "Wayne",
+    "lastName": "Newton",
+    "image": "",
+    "gender": "male",
+    "season": "5",
+    "placement": "10"
+  },
+  {
+    "firstName": "Floyd",
+    "lastName": "Mayweather Jr.",
+    "image": "",
+    "gender": "male",
+    "season": "5",
+    "placement": "9"
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Cuban",
+    "image": "",
+    "gender": "male",
+    "season": "5",
+    "placement": "8"
+  },
+  {
+    "firstName": "Sabrina",
+    "lastName": "Bryan",
+    "image": "",
+    "gender": "female",
+    "season": "5",
+    "placement": "7"
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Seymour",
+    "image": "",
+    "gender": "female",
+    "season": "5",
+    "placement": "6"
+  },
+  {
+    "firstName": "Cameron",
+    "lastName": "Mathison",
+    "image": "",
+    "gender": "male",
+    "season": "5",
+    "placement": "5"
+  },
+  {
+    "firstName": "Jennie",
+    "lastName": "Garth",
+    "image": "",
+    "gender": "female",
+    "season": "5",
+    "placement": "4"
+  },
+  {
+    "firstName": "Marie",
+    "lastName": "Osmond",
+    "image": "",
+    "gender": "female",
+    "season": "5",
+    "placement": "3"
+  },
+  {
+    "firstName": "Mel",
+    "lastName": "B",
+    "image": "",
+    "gender": "female",
+    "season": "5",
+    "placement": "2"
+  },
+  {
+    "firstName": "Hélio",
+    "lastName": "Castroneves",
+    "image": "",
+    "gender": "male",
+    "season": "5",
+    "placement": "1"
+  },
+  {
+    "firstName": "Penn",
+    "lastName": "Jillette",
+    "image": "",
+    "gender": "male",
+    "season": "6",
+    "placement": "12"
+  },
+  {
+    "firstName": "Monica",
+    "lastName": "Seles",
+    "image": "",
+    "gender": "female",
+    "season": "6",
+    "placement": "11"
+  },
+  {
+    "firstName": "Steve",
+    "lastName": "Guttenberg",
+    "image": "",
+    "gender": "male",
+    "season": "6",
+    "placement": "10"
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Carolla",
+    "image": "",
+    "gender": "male",
+    "season": "6",
+    "placement": "9"
+  },
+  {
+    "firstName": "Priscilla",
+    "lastName": "Presley",
+    "image": "",
+    "gender": "female",
+    "season": "6",
+    "placement": "8"
+  },
+  {
+    "firstName": "Marlee",
+    "lastName": "Matlin",
+    "image": "",
+    "gender": "female",
+    "season": "6",
+    "placement": "7"
+  },
+  {
+    "firstName": "Shannon",
+    "lastName": "Elizabeth",
+    "image": "",
+    "gender": "female",
+    "season": "6",
+    "placement": "6"
+  },
+  {
+    "firstName": "Mario",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "6",
+    "placement": "5"
+  },
+  {
+    "firstName": "Marissa",
+    "lastName": "Jaret Winkour",
+    "image": "",
+    "gender": "female",
+    "season": "6",
+    "placement": "4"
+  },
+  {
+    "firstName": "Christián",
+    "lastName": "de la Fuente",
+    "image": "",
+    "gender": "male",
+    "season": "6",
+    "placement": "3"
+  },
+  {
+    "firstName": "Jason",
+    "lastName": "Taylor",
+    "image": "",
+    "gender": "male",
+    "season": "6",
+    "placement": "2"
+  },
+  {
+    "firstName": "Kristi",
+    "lastName": "Yamaguchi",
+    "image": "",
+    "gender": "female",
+    "season": "6",
+    "placement": "1"
+  },
+  {
+    "firstName": "Jeffrey",
+    "lastName": "Ross",
+    "image": "",
+    "gender": "male",
+    "season": "7",
+    "placement": "13"
+  },
+  {
+    "firstName": "Ted",
+    "lastName": "McGinley",
+    "image": "",
+    "gender": "male",
+    "season": "7",
+    "placement": "12"
+  },
+  {
+    "firstName": "Kim",
+    "lastName": "Kardashian",
+    "image": "",
+    "gender": "female",
+    "season": "7",
+    "placement": "11"
+  },
+  {
+    "firstName": "Misty",
+    "lastName": "May-Trainor",
+    "image": "",
+    "gender": "female",
+    "season": "7",
+    "placement": "10"
+  },
+  {
+    "firstName": "Rocco",
+    "lastName": "DiSpirito",
+    "image": "",
+    "gender": "male",
+    "season": "7",
+    "placement": "9"
+  },
+  {
+    "firstName": "Toni",
+    "lastName": "Braxton",
+    "image": "",
+    "gender": "female",
+    "season": "7",
+    "placement": "8"
+  },
+  {
+    "firstName": "Cloris",
+    "lastName": "Leachman",
+    "image": "",
+    "gender": "female",
+    "season": "7",
+    "placement": "7"
+  },
+  {
+    "firstName": "Susan",
+    "lastName": "Lucci",
+    "image": "",
+    "gender": "female",
+    "season": "7",
+    "placement": "6"
+  },
+  {
+    "firstName": "Maurice",
+    "lastName": "Greene",
+    "image": "",
+    "gender": "male",
+    "season": "7",
+    "placement": "5"
+  },
+  {
+    "firstName": "Cody",
+    "lastName": "Linley",
+    "image": "",
+    "gender": "male",
+    "season": "7",
+    "placement": "4"
+  },
+  {
+    "firstName": "Lance",
+    "lastName": "Bass",
+    "image": "",
+    "gender": "male",
+    "season": "7",
+    "placement": "3"
+  },
+  {
+    "firstName": "Warren",
+    "lastName": "Sapp",
+    "image": "",
+    "gender": "male",
+    "season": "7",
+    "placement": "2"
+  },
+  {
+    "firstName": "Brooke",
+    "lastName": "Burke",
+    "image": "",
+    "gender": "female",
+    "season": "7",
+    "placement": "1"
+  },
+  {
+    "firstName": "Belinda",
+    "lastName": "Carlisle",
+    "image": "",
+    "gender": "female",
+    "season": "8",
+    "placement": "13"
+  },
+  {
+    "firstName": "Denise",
+    "lastName": "Richards",
+    "image": "",
+    "gender": "female",
+    "season": "8",
+    "placement": "12"
+  },
+  {
+    "firstName": "Holly",
+    "lastName": "Madison",
+    "image": "",
+    "gender": "female",
+    "season": "8",
+    "placement": "11"
+  },
+  {
+    "firstName": "Steve",
+    "lastName": "Wozniak",
+    "image": "",
+    "gender": "male",
+    "season": "8",
+    "placement": "10"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Alan Grier",
+    "image": "",
+    "gender": "male",
+    "season": "8",
+    "placement": "9"
+  },
+  {
+    "firstName": "Steve-O",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "8",
+    "placement": "8"
+  },
+  {
+    "firstName": "Lawrence",
+    "lastName": "Taylor",
+    "image": "",
+    "gender": "male",
+    "season": "8",
+    "placement": "7"
+  },
+  {
+    "firstName": "Chuck",
+    "lastName": "Wicks",
+    "image": "",
+    "gender": "male",
+    "season": "8",
+    "placement": "6"
+  },
+  {
+    "firstName": "Lil' Kim",
+    "lastName": "",
+    "image": "",
+    "gender": "female",
+    "season": "8",
+    "placement": "5"
+  },
+  {
+    "firstName": "Ty",
+    "lastName": "Murray",
+    "image": "",
+    "gender": "male",
+    "season": "8",
+    "placement": "4"
+  },
+  {
+    "firstName": "Melissa",
+    "lastName": "Rycroft",
+    "image": "",
+    "gender": "female",
+    "season": "8",
+    "placement": "3"
+  },
+  {
+    "firstName": "Gilles",
+    "lastName": "Marini",
+    "image": "",
+    "gender": "male",
+    "season": "8",
+    "placement": "2"
+  },
+  {
+    "firstName": "Shawn",
+    "lastName": "Johnson",
+    "image": "",
+    "gender": "female",
+    "season": "8",
+    "placement": "1"
+  },
+  {
+    "firstName": "Ashley",
+    "lastName": "Hamilton",
+    "image": "",
+    "gender": "female",
+    "season": "9",
+    "placement": "16"
+  },
+  {
+    "firstName": "Macy",
+    "lastName": "Gray",
+    "image": "",
+    "gender": "female",
+    "season": "9",
+    "placement": "15"
+  },
+  {
+    "firstName": "Kathy",
+    "lastName": "Ireland",
+    "image": "",
+    "gender": "female",
+    "season": "9",
+    "placement": "14"
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "Delay",
+    "image": "",
+    "gender": "male",
+    "season": "9",
+    "placement": "13"
+  },
+  {
+    "firstName": "Debi",
+    "lastName": "Mazar",
+    "image": "",
+    "gender": "female",
+    "season": "9",
+    "placement": "12"
+  },
+  {
+    "firstName": "Chuck",
+    "lastName": "Liddell",
+    "image": "",
+    "gender": "male",
+    "season": "9",
+    "placement": "11"
+  },
+  {
+    "firstName": "Natalie",
+    "lastName": "Coughlin",
+    "image": "",
+    "gender": "female",
+    "season": "9",
+    "placement": "10"
+  },
+  {
+    "firstName": "Melissa",
+    "lastName": "Joan Hart",
+    "image": "",
+    "gender": "female",
+    "season": "9",
+    "placement": "9"
+  },
+  {
+    "firstName": "Louie",
+    "lastName": "Vito",
+    "image": "",
+    "gender": "male",
+    "season": "9",
+    "placement": "8"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Irvin",
+    "image": "",
+    "gender": "male",
+    "season": "9",
+    "placement": "7"
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Dacascos",
+    "image": "",
+    "gender": "male",
+    "season": "9",
+    "placement": "6"
+  },
+  {
+    "firstName": "Aaron",
+    "lastName": "Carter",
+    "image": "",
+    "gender": "male",
+    "season": "9",
+    "placement": "5"
+  },
+  {
+    "firstName": "Joanna",
+    "lastName": "Krupa",
+    "image": "",
+    "gender": "female",
+    "season": "9",
+    "placement": "4"
+  },
+  {
+    "firstName": "Kelly",
+    "lastName": "Osbourne",
+    "image": "",
+    "gender": "female",
+    "season": "9",
+    "placement": "3"
+  },
+  {
+    "firstName": "Mýa",
+    "lastName": "",
+    "image": "",
+    "gender": "female",
+    "season": "9",
+    "placement": "2"
+  },
+  {
+    "firstName": "Donny",
+    "lastName": "Osmond",
+    "image": "",
+    "gender": "male",
+    "season": "9",
+    "placement": "1"
+  },
+  {
+    "firstName": "Shannen",
+    "lastName": "Doherty",
+    "image": "",
+    "gender": "female",
+    "season": "10",
+    "placement": "11"
+  },
+  {
+    "firstName": "Buzz",
+    "lastName": "Aldrin",
+    "image": "",
+    "gender": "male",
+    "season": "10",
+    "placement": "10"
+  },
+  {
+    "firstName": "Aiden",
+    "lastName": "Turner",
+    "image": "",
+    "gender": "male",
+    "season": "10",
+    "placement": "9"
+  },
+  {
+    "firstName": "Kate",
+    "lastName": "Gosselin",
+    "image": "",
+    "gender": "female",
+    "season": "10",
+    "placement": "8"
+  },
+  {
+    "firstName": "Jake",
+    "lastName": "Pavelka",
+    "image": "",
+    "gender": "male",
+    "season": "10",
+    "placement": "7"
+  },
+  {
+    "firstName": "Pamela",
+    "lastName": "Anderson",
+    "image": "",
+    "gender": "female",
+    "season": "10",
+    "placement": "6"
+  },
+  {
+    "firstName": "Niecy",
+    "lastName": "Nash",
+    "image": "",
+    "gender": "female",
+    "season": "10",
+    "placement": "5"
+  },
+  {
+    "firstName": "Chad",
+    "lastName": "Ochocinco",
+    "image": "",
+    "gender": "male",
+    "season": "10",
+    "placement": "4"
+  },
+  {
+    "firstName": "Erin",
+    "lastName": "Andrews",
+    "image": "",
+    "gender": "female",
+    "season": "10",
+    "placement": "3"
+  },
+  {
+    "firstName": "Evander",
+    "lastName": "Lysacek",
+    "image": "",
+    "gender": "male",
+    "season": "10",
+    "placement": "2"
+  },
+  {
+    "firstName": "Nicole",
+    "lastName": "Scherzinger",
+    "image": "",
+    "gender": "female",
+    "season": "10",
+    "placement": "1"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Hasselhoff",
+    "image": "",
+    "gender": "male",
+    "season": "11",
+    "placement": "12"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Bolton",
+    "image": "",
+    "gender": "male",
+    "season": "11",
+    "placement": "11"
+  },
+  {
+    "firstName": "Margaret",
+    "lastName": "Cho",
+    "image": "",
+    "gender": "female",
+    "season": "11",
+    "placement": "10"
+  },
+  {
+    "firstName": "The Situation",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "11",
+    "placement": "9"
+  },
+  {
+    "firstName": "Florence",
+    "lastName": "Henderson",
+    "image": "",
+    "gender": "female",
+    "season": "11",
+    "placement": "8"
+  },
+  {
+    "firstName": "Audrina",
+    "lastName": "Patridge",
+    "image": "",
+    "gender": "female",
+    "season": "11",
+    "placement": "7"
+  },
+  {
+    "firstName": "Rick",
+    "lastName": "Fox",
+    "image": "",
+    "gender": "male",
+    "season": "11",
+    "placement": "6"
+  },
+  {
+    "firstName": "Kurt",
+    "lastName": "Warner",
+    "image": "",
+    "gender": "male",
+    "season": "11",
+    "placement": "5"
+  },
+  {
+    "firstName": "Brandy",
+    "lastName": "",
+    "image": "",
+    "gender": "female",
+    "season": "11",
+    "placement": "4"
+  },
+  {
+    "firstName": "Bristol",
+    "lastName": "Palin",
+    "image": "",
+    "gender": "female",
+    "season": "11",
+    "placement": "3"
+  },
+  {
+    "firstName": "Kyle",
+    "lastName": "Massey",
+    "image": "",
+    "gender": "male",
+    "season": "11",
+    "placement": "2"
+  },
+  {
+    "firstName": "Jennifer",
+    "lastName": "Grey",
+    "image": "",
+    "gender": "female",
+    "season": "11",
+    "placement": "1"
+  },
+  {
+    "firstName": "Mike",
+    "lastName": "Catherwood",
+    "image": "",
+    "gender": "male",
+    "season": "12",
+    "placement": "11"
+  },
+  {
+    "firstName": "Wendy",
+    "lastName": "Williams",
+    "image": "",
+    "gender": "female",
+    "season": "12",
+    "placement": "10"
+  },
+  {
+    "firstName": "Sugar Ray",
+    "lastName": "Leonard",
+    "image": "",
+    "gender": "male",
+    "season": "12",
+    "placement": "9"
+  },
+  {
+    "firstName": "Petra",
+    "lastName": "Němcová",
+    "image": "",
+    "gender": "female",
+    "season": "12",
+    "placement": "8"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Jericho",
+    "image": "",
+    "gender": "male",
+    "season": "12",
+    "placement": "7"
+  },
+  {
+    "firstName": "Kendra",
+    "lastName": "Wilkinson",
+    "image": "",
+    "gender": "female",
+    "season": "12",
+    "placement": "6"
+  },
+  {
+    "firstName": "Romeo",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "12",
+    "placement": "5"
+  },
+  {
+    "firstName": "Ralph",
+    "lastName": "Macchio",
+    "image": "",
+    "gender": "male",
+    "season": "12",
+    "placement": "4"
+  },
+  {
+    "firstName": "Chelsea",
+    "lastName": "Kane",
+    "image": "",
+    "gender": "female",
+    "season": "12",
+    "placement": "3"
+  },
+  {
+    "firstName": "Kirstie",
+    "lastName": "Alley",
+    "image": "",
+    "gender": "female",
+    "season": "12",
+    "placement": "2"
+  },
+  {
+    "firstName": "Hines",
+    "lastName": "Ward",
+    "image": "",
+    "gender": "male",
+    "season": "12",
+    "placement": "1"
+  },
+  {
+    "firstName": "Metta World Peace",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "13",
+    "placement": "12"
+  },
+  {
+    "firstName": "Elisabetta",
+    "lastName": "Canalis",
+    "image": "",
+    "gender": "female",
+    "season": "13",
+    "placement": "11"
+  },
+  {
+    "firstName": "Kristin",
+    "lastName": "Cavallari",
+    "image": "",
+    "gender": "female",
+    "season": "13",
+    "placement": "10"
+  },
+  {
+    "firstName": "Chynna",
+    "lastName": "Phillips",
+    "image": "",
+    "gender": "female",
+    "season": "13",
+    "placement": "9"
+  },
+  {
+    "firstName": "Carson",
+    "lastName": "Kressley",
+    "image": "",
+    "gender": "male",
+    "season": "13",
+    "placement": "8"
+  },
+  {
+    "firstName": "Chaz",
+    "lastName": "Bono",
+    "image": "",
+    "gender": "male",
+    "season": "13",
+    "placement": "7"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Arquette",
+    "image": "",
+    "gender": "male",
+    "season": "13",
+    "placement": "6"
+  },
+  {
+    "firstName": "Nancy",
+    "lastName": "Grace",
+    "image": "",
+    "gender": "female",
+    "season": "13",
+    "placement": "5"
+  },
+  {
+    "firstName": "Hope",
+    "lastName": "Solo",
+    "image": "",
+    "gender": "female",
+    "season": "13",
+    "placement": "4"
+  },
+  {
+    "firstName": "Ricki",
+    "lastName": "Lake",
+    "image": "",
+    "gender": "female",
+    "season": "13",
+    "placement": "3"
+  },
+  {
+    "firstName": "Rob",
+    "lastName": "Kardashian",
+    "image": "",
+    "gender": "male",
+    "season": "13",
+    "placement": "2"
+  },
+  {
+    "firstName": "J.R.",
+    "lastName": "Martinez",
+    "image": "",
+    "gender": "male",
+    "season": "13",
+    "placement": "1"
+  },
+  {
+    "firstName": "Martina",
+    "lastName": "Navratilova",
+    "image": "",
+    "gender": "female",
+    "season": "14",
+    "placement": "12"
+  },
+  {
+    "firstName": "Jack",
+    "lastName": "Wagner",
+    "image": "",
+    "gender": "male",
+    "season": "14",
+    "placement": "11"
+  },
+  {
+    "firstName": "Sherri",
+    "lastName": "Shepherd",
+    "image": "",
+    "gender": "female",
+    "season": "14",
+    "placement": "10"
+  },
+  {
+    "firstName": "Gavin",
+    "lastName": "DeGraw",
+    "image": "",
+    "gender": "male",
+    "season": "14",
+    "placement": "9"
+  },
+  {
+    "firstName": "Gladys",
+    "lastName": "Knight",
+    "image": "",
+    "gender": "female",
+    "season": "14",
+    "placement": "8"
+  },
+  {
+    "firstName": "Jaleel",
+    "lastName": "White",
+    "image": "",
+    "gender": "male",
+    "season": "14",
+    "placement": "7"
+  },
+  {
+    "firstName": "Roshon",
+    "lastName": "Fegan",
+    "image": "",
+    "gender": "male",
+    "season": "14",
+    "placement": "6"
+  },
+  {
+    "firstName": "Melissa",
+    "lastName": "Gilbert",
+    "image": "",
+    "gender": "female",
+    "season": "14",
+    "placement": "5"
+  },
+  {
+    "firstName": "Maria",
+    "lastName": "Menounos",
+    "image": "",
+    "gender": "female",
+    "season": "14",
+    "placement": "4"
+  },
+  {
+    "firstName": "William",
+    "lastName": "Levy",
+    "image": "",
+    "gender": "male",
+    "season": "14",
+    "placement": "3"
+  },
+  {
+    "firstName": "Katherine",
+    "lastName": "Jenkins",
+    "image": "",
+    "gender": "female",
+    "season": "14",
+    "placement": "2"
+  },
+  {
+    "firstName": "Donald",
+    "lastName": "Driver",
+    "image": "",
+    "gender": "male",
+    "season": "14",
+    "placement": "1"
+  },
+  {
+    "firstName": "Pamela",
+    "lastName": "Anderson",
+    "image": "",
+    "gender": "female",
+    "season": "15",
+    "placement": "13"
+  },
+  {
+    "firstName": "Joey",
+    "lastName": "Fatone",
+    "image": "",
+    "gender": "male",
+    "season": "15",
+    "placement": "12"
+  },
+  {
+    "firstName": "Drew",
+    "lastName": "Lachey",
+    "image": "",
+    "gender": "male",
+    "season": "15",
+    "placement": "11"
+  },
+  {
+    "firstName": "Hélio",
+    "lastName": "Castroneves",
+    "image": "",
+    "gender": "male",
+    "season": "15",
+    "placement": "10"
+  },
+  {
+    "firstName": "Bristol",
+    "lastName": "Palin",
+    "image": "",
+    "gender": "female",
+    "season": "15",
+    "placement": "9"
+  },
+  {
+    "firstName": "Sabrina",
+    "lastName": "Bryan",
+    "image": "",
+    "gender": "female",
+    "season": "15",
+    "placement": "8"
+  },
+  {
+    "firstName": "Kirstie",
+    "lastName": "Alley",
+    "image": "",
+    "gender": "female",
+    "season": "15",
+    "placement": "7"
+  },
+  {
+    "firstName": "Gilles",
+    "lastName": "Marini",
+    "image": "",
+    "gender": "male",
+    "season": "15",
+    "placement": "6"
+  },
+  {
+    "firstName": "Apolo",
+    "lastName": "Anton Ohno",
+    "image": "",
+    "gender": "male",
+    "season": "15",
+    "placement": "5"
+  },
+  {
+    "firstName": "Emmitt",
+    "lastName": "Smith",
+    "image": "",
+    "gender": "male",
+    "season": "15",
+    "placement": "4"
+  },
+  {
+    "firstName": "Kelly",
+    "lastName": "Monaco",
+    "image": "",
+    "gender": "female",
+    "season": "15",
+    "placement": "3"
+  },
+  {
+    "firstName": "Shawn",
+    "lastName": "Johnson",
+    "image": "",
+    "gender": "female",
+    "season": "15",
+    "placement": "2"
+  },
+  {
+    "firstName": "Melissa",
+    "lastName": "Rycroft",
+    "image": "",
+    "gender": "female",
+    "season": "15",
+    "placement": "1"
+  },
+  {
+    "firstName": "Dorothy",
+    "lastName": "Hamill",
+    "image": "",
+    "gender": "female",
+    "season": "16",
+    "placement": "12"
+  },
+  {
+    "firstName": "Wynonna",
+    "lastName": "Judd",
+    "image": "",
+    "gender": "female",
+    "season": "16",
+    "placement": "11"
+  },
+  {
+    "firstName": "Lisa",
+    "lastName": "Vanderpump",
+    "image": "",
+    "gender": "female",
+    "season": "16",
+    "placement": "10"
+  },
+  {
+    "firstName": "D.L.",
+    "lastName": "Hughley",
+    "image": "",
+    "gender": "male",
+    "season": "16",
+    "placement": "9"
+  },
+  {
+    "firstName": "Victor",
+    "lastName": "Ortiz",
+    "image": "",
+    "gender": "male",
+    "season": "16",
+    "placement": "8"
+  },
+  {
+    "firstName": "Andy",
+    "lastName": "Dick",
+    "image": "",
+    "gender": "male",
+    "season": "16",
+    "placement": "7"
+  },
+  {
+    "firstName": "Sean",
+    "lastName": "Lowe",
+    "image": "",
+    "gender": "male",
+    "season": "16",
+    "placement": "6"
+  },
+  {
+    "firstName": "Ingo",
+    "lastName": "Rademacher",
+    "image": "",
+    "gender": "male",
+    "season": "16",
+    "placement": "5"
+  },
+  {
+    "firstName": "Alexandra",
+    "lastName": "Raisman",
+    "image": "",
+    "gender": "female",
+    "season": "16",
+    "placement": "4"
+  },
+  {
+    "firstName": "Jacoby",
+    "lastName": "Jones",
+    "image": "",
+    "gender": "male",
+    "season": "16",
+    "placement": "3"
+  },
+  {
+    "firstName": "Zendaya",
+    "lastName": "",
+    "image": "",
+    "gender": "female",
+    "season": "16",
+    "placement": "2"
+  },
+  {
+    "firstName": "Kellie",
+    "lastName": "Pickler",
+    "image": "",
+    "gender": "female",
+    "season": "16",
+    "placement": "1"
+  },
+  {
+    "firstName": "Keyshawn",
+    "lastName": "Johnson",
+    "image": "",
+    "gender": "male",
+    "season": "17",
+    "placement": "12"
+  },
+  {
+    "firstName": "Bill",
+    "lastName": "Nye",
+    "image": "",
+    "gender": "male",
+    "season": "17",
+    "placement": "11"
+  },
+  {
+    "firstName": "Valerie",
+    "lastName": "Harper",
+    "image": "",
+    "gender": "female",
+    "season": "17",
+    "placement": "10"
+  },
+  {
+    "firstName": "Christina",
+    "lastName": "Milian",
+    "image": "",
+    "gender": "female",
+    "season": "17",
+    "placement": "9"
+  },
+  {
+    "firstName": "Nicole (Snooki)",
+    "lastName": "Polizzi",
+    "image": "",
+    "gender": "female",
+    "season": "17",
+    "placement": "8"
+  },
+  {
+    "firstName": "Brant",
+    "lastName": "Daugherty",
+    "image": "",
+    "gender": "male",
+    "season": "17",
+    "placement": "7"
+  },
+  {
+    "firstName": "Elizabeth",
+    "lastName": "Berkley Lauren",
+    "image": "",
+    "gender": "female",
+    "season": "17",
+    "placement": "6"
+  },
+  {
+    "firstName": "Leah",
+    "lastName": "Remini",
+    "image": "",
+    "gender": "female",
+    "season": "17",
+    "placement": "5"
+  },
+  {
+    "firstName": "Bill",
+    "lastName": "Engvall",
+    "image": "",
+    "gender": "male",
+    "season": "17",
+    "placement": "4"
+  },
+  {
+    "firstName": "Jack",
+    "lastName": "Osbourne",
+    "image": "",
+    "gender": "male",
+    "season": "17",
+    "placement": "3"
+  },
+  {
+    "firstName": "Corbin",
+    "lastName": "Bleu",
+    "image": "",
+    "gender": "male",
+    "season": "17",
+    "placement": "2"
+  },
+  {
+    "firstName": "Amber",
+    "lastName": "Riley",
+    "image": "",
+    "gender": "female",
+    "season": "17",
+    "placement": "1"
+  },
+  {
+    "firstName": "Diana",
+    "lastName": "Nyad",
+    "image": "",
+    "gender": "female",
+    "season": "18",
+    "placement": "12"
+  },
+  {
+    "firstName": "Sean",
+    "lastName": "Avery",
+    "image": "",
+    "gender": "male",
+    "season": "18",
+    "placement": "11"
+  },
+  {
+    "firstName": "Billy Dee",
+    "lastName": "Williams",
+    "image": "",
+    "gender": "male",
+    "season": "18",
+    "placement": "10"
+  },
+  {
+    "firstName": "Cody",
+    "lastName": "Simpson",
+    "image": "",
+    "gender": "male",
+    "season": "18",
+    "placement": "9"
+  },
+  {
+    "firstName": "Drew",
+    "lastName": "Carey",
+    "image": "",
+    "gender": "male",
+    "season": "18",
+    "placement": "8"
+  },
+  {
+    "firstName": "NeNe",
+    "lastName": "Leakes",
+    "image": "",
+    "gender": "female",
+    "season": "18",
+    "placement": "7"
+  },
+  {
+    "firstName": "Danica",
+    "lastName": "McKellar",
+    "image": "",
+    "gender": "female",
+    "season": "18",
+    "placement": "6"
+  },
+  {
+    "firstName": "Charlie",
+    "lastName": "White",
+    "image": "",
+    "gender": "male",
+    "season": "18",
+    "placement": "5"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Maslow",
+    "image": "",
+    "gender": "male",
+    "season": "18",
+    "placement": "4"
+  },
+  {
+    "firstName": "Candace",
+    "lastName": "Cameron Bure",
+    "image": "",
+    "gender": "female",
+    "season": "18",
+    "placement": "3"
+  },
+  {
+    "firstName": "Amy",
+    "lastName": "Purdy",
+    "image": "",
+    "gender": "female",
+    "season": "18",
+    "placement": "2"
+  },
+  {
+    "firstName": "Meryl",
+    "lastName": "Davis",
+    "image": "",
+    "gender": "female",
+    "season": "18",
+    "placement": "1"
+  },
+  {
+    "firstName": "Lolo",
+    "lastName": "Jones",
+    "image": "",
+    "gender": "female",
+    "season": "19",
+    "placement": "13"
+  },
+  {
+    "firstName": "Tavis",
+    "lastName": "Smiley",
+    "image": "",
+    "gender": "male",
+    "season": "19",
+    "placement": "12"
+  },
+  {
+    "firstName": "Randy",
+    "lastName": "Couture",
+    "image": "",
+    "gender": "male",
+    "season": "19",
+    "placement": "11"
+  },
+  {
+    "firstName": "Betsey",
+    "lastName": "Johnson",
+    "image": "",
+    "gender": "female",
+    "season": "19",
+    "placement": "10"
+  },
+  {
+    "firstName": "Jonathan",
+    "lastName": "Bennett",
+    "image": "",
+    "gender": "male",
+    "season": "19",
+    "placement": "9"
+  },
+  {
+    "firstName": "Antonio",
+    "lastName": "Sabàto Jr.",
+    "image": "",
+    "gender": "male",
+    "season": "19",
+    "placement": "8"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Waltrip",
+    "image": "",
+    "gender": "male",
+    "season": "19",
+    "placement": "7"
+  },
+  {
+    "firstName": "Lea",
+    "lastName": "Thompson",
+    "image": "",
+    "gender": "female",
+    "season": "19",
+    "placement": "6"
+  },
+  {
+    "firstName": "Tommy",
+    "lastName": "Chong",
+    "image": "",
+    "gender": "male",
+    "season": "19",
+    "placement": "5"
+  },
+  {
+    "firstName": "Bethany",
+    "lastName": "Mota",
+    "image": "",
+    "gender": "female",
+    "season": "19",
+    "placement": "4"
+  },
+  {
+    "firstName": "Janel",
+    "lastName": "Parrish",
+    "image": "",
+    "gender": "female",
+    "season": "19",
+    "placement": "3"
+  },
+  {
+    "firstName": "Sadie",
+    "lastName": "Robertson",
+    "image": "",
+    "gender": "female",
+    "season": "19",
+    "placement": "2"
+  },
+  {
+    "firstName": "Alfonso",
+    "lastName": "Ribeiro",
+    "image": "",
+    "gender": "male",
+    "season": "19",
+    "placement": "1"
+  },
+  {
+    "firstName": "Redfoo",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "20",
+    "placement": "12"
+  },
+  {
+    "firstName": "Charlotte",
+    "lastName": "McKinney",
+    "image": "",
+    "gender": "female",
+    "season": "20",
+    "placement": "11"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Sam",
+    "image": "",
+    "gender": "male",
+    "season": "20",
+    "placement": "10"
+  },
+  {
+    "firstName": "Suzanne",
+    "lastName": "Somers",
+    "image": "",
+    "gender": "female",
+    "season": "20",
+    "placement": "9"
+  },
+  {
+    "firstName": "Patti",
+    "lastName": "LaBelle",
+    "image": "",
+    "gender": "female",
+    "season": "20",
+    "placement": "8"
+  },
+  {
+    "firstName": "Willow",
+    "lastName": "Shields",
+    "image": "",
+    "gender": "female",
+    "season": "20",
+    "placement": "7"
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Herjavec",
+    "image": "",
+    "gender": "male",
+    "season": "20",
+    "placement": "6"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Soules",
+    "image": "",
+    "gender": "male",
+    "season": "20",
+    "placement": "5"
+  },
+  {
+    "firstName": "Nastia",
+    "lastName": "Liukin",
+    "image": "",
+    "gender": "female",
+    "season": "20",
+    "placement": "4"
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "Galloway",
+    "image": "",
+    "gender": "male",
+    "season": "20",
+    "placement": "3"
+  },
+  {
+    "firstName": "Riker",
+    "lastName": "Lynch",
+    "image": "",
+    "gender": "male",
+    "season": "20",
+    "placement": "2"
+  },
+  {
+    "firstName": "Rumer",
+    "lastName": "Willis",
+    "image": "",
+    "gender": "female",
+    "season": "20",
+    "placement": "1"
+  },
+  {
+    "firstName": "Chaka",
+    "lastName": "Khan",
+    "image": "",
+    "gender": "female",
+    "season": "21",
+    "placement": "13"
+  },
+  {
+    "firstName": "Victor",
+    "lastName": "Espinoza",
+    "image": "",
+    "gender": "male",
+    "season": "21",
+    "placement": "12"
+  },
+  {
+    "firstName": "Kim",
+    "lastName": "Zolciak-Biermann",
+    "image": "",
+    "gender": "female",
+    "season": "21",
+    "placement": "11"
+  },
+  {
+    "firstName": "Gary",
+    "lastName": "Busey",
+    "image": "",
+    "gender": "male",
+    "season": "21",
+    "placement": "10"
+  },
+  {
+    "firstName": "Paula",
+    "lastName": "Deen",
+    "image": "",
+    "gender": "female",
+    "season": "21",
+    "placement": "9"
+  },
+  {
+    "firstName": "Hayes",
+    "lastName": "Grier",
+    "image": "",
+    "gender": "male",
+    "season": "21",
+    "placement": "8"
+  },
+  {
+    "firstName": "Andy",
+    "lastName": "Grammer",
+    "image": "",
+    "gender": "male",
+    "season": "21",
+    "placement": "7"
+  },
+  {
+    "firstName": "Alexa",
+    "lastName": "PenaVega",
+    "image": "",
+    "gender": "female",
+    "season": "21",
+    "placement": "6"
+  },
+  {
+    "firstName": "Tamar",
+    "lastName": "Braxton",
+    "image": "",
+    "gender": "female",
+    "season": "21",
+    "placement": "5"
+  },
+  {
+    "firstName": "Carlos",
+    "lastName": "PenaVega",
+    "image": "",
+    "gender": "male",
+    "season": "21",
+    "placement": "4"
+  },
+  {
+    "firstName": "Alek",
+    "lastName": "Skarlatos",
+    "image": "",
+    "gender": "male",
+    "season": "21",
+    "placement": "3"
+  },
+  {
+    "firstName": "Nick",
+    "lastName": "Carter",
+    "image": "",
+    "gender": "male",
+    "season": "21",
+    "placement": "2"
+  },
+  {
+    "firstName": "Bindi",
+    "lastName": "Irwin",
+    "image": "",
+    "gender": "female",
+    "season": "21",
+    "placement": "1"
+  },
+  {
+    "firstName": "Geraldo",
+    "lastName": "Rivera",
+    "image": "",
+    "gender": "male",
+    "season": "22",
+    "placement": "12"
+  },
+  {
+    "firstName": "Mischa",
+    "lastName": "Barton",
+    "image": "",
+    "gender": "female",
+    "season": "22",
+    "placement": "11"
+  },
+  {
+    "firstName": "Marla",
+    "lastName": "Maples",
+    "image": "",
+    "gender": "female",
+    "season": "22",
+    "placement": "10"
+  },
+  {
+    "firstName": "Doug",
+    "lastName": "Flutie",
+    "image": "",
+    "gender": "male",
+    "season": "22",
+    "placement": "9"
+  },
+  {
+    "firstName": "Kim",
+    "lastName": "Fields",
+    "image": "",
+    "gender": "female",
+    "season": "22",
+    "placement": "7"
+  },
+  {
+    "firstName": "Von",
+    "lastName": "Miller",
+    "image": "",
+    "gender": "male",
+    "season": "22",
+    "placement": "7"
+  },
+  {
+    "firstName": "Jodie",
+    "lastName": "Sweetin",
+    "image": "",
+    "gender": "female",
+    "season": "22",
+    "placement": "6"
+  },
+  {
+    "firstName": "Antonio",
+    "lastName": "Brown",
+    "image": "",
+    "gender": "male",
+    "season": "22",
+    "placement": "4"
+  },
+  {
+    "firstName": "Wanyá",
+    "lastName": "Morris",
+    "image": "",
+    "gender": "male",
+    "season": "22",
+    "placement": "4"
+  },
+  {
+    "firstName": "Ginger",
+    "lastName": "Zee",
+    "image": "",
+    "gender": "female",
+    "season": "22",
+    "placement": "3"
+  },
+  {
+    "firstName": "Paige",
+    "lastName": "VanZant",
+    "image": "",
+    "gender": "female",
+    "season": "22",
+    "placement": "2"
+  },
+  {
+    "firstName": "Nyle",
+    "lastName": "DiMarco",
+    "image": "",
+    "gender": "male",
+    "season": "22",
+    "placement": "1"
+  },
+  {
+    "firstName": "Jake",
+    "lastName": "T. Austin",
+    "image": "",
+    "gender": "male",
+    "season": "23",
+    "placement": "13"
+  },
+  {
+    "firstName": "Rick",
+    "lastName": "Perry",
+    "image": "",
+    "gender": "male",
+    "season": "23",
+    "placement": "12"
+  },
+  {
+    "firstName": "Babyface",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "23",
+    "placement": "10"
+  },
+  {
+    "firstName": "Vanilla Ice",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "23",
+    "placement": "10"
+  },
+  {
+    "firstName": "Amber",
+    "lastName": "Rose",
+    "image": "",
+    "gender": "female",
+    "season": "23",
+    "placement": "9"
+  },
+  {
+    "firstName": "Maureen",
+    "lastName": "McCormick",
+    "image": "",
+    "gender": "female",
+    "season": "23",
+    "placement": "8"
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Lochte",
+    "image": "",
+    "gender": "male",
+    "season": "23",
+    "placement": "7"
+  },
+  {
+    "firstName": "Marilu",
+    "lastName": "Henner",
+    "image": "",
+    "gender": "female",
+    "season": "23",
+    "placement": "6"
+  },
+  {
+    "firstName": "Terra",
+    "lastName": "Jolé",
+    "image": "",
+    "gender": "female",
+    "season": "23",
+    "placement": "5"
+  },
+  {
+    "firstName": "Jana",
+    "lastName": "Kramer",
+    "image": "",
+    "gender": "female",
+    "season": "23",
+    "placement": "4"
+  },
+  {
+    "firstName": "Calvin",
+    "lastName": "Johnson Jr.",
+    "image": "",
+    "gender": "male",
+    "season": "23",
+    "placement": "3"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Hinchcliffe",
+    "image": "",
+    "gender": "male",
+    "season": "23",
+    "placement": "2"
+  },
+  {
+    "firstName": "Laurie",
+    "lastName": "Hernandez",
+    "image": "",
+    "gender": "female",
+    "season": "23",
+    "placement": "1"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Kattan",
+    "image": "",
+    "gender": "male",
+    "season": "24",
+    "placement": "12"
+  },
+  {
+    "firstName": "Charo",
+    "lastName": "",
+    "image": "",
+    "gender": "female",
+    "season": "24",
+    "placement": "11"
+  },
+  {
+    "firstName": "Mr. T",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "24",
+    "placement": "10"
+  },
+  {
+    "firstName": "Erika",
+    "lastName": "Jayne",
+    "image": "",
+    "gender": "female",
+    "season": "24",
+    "placement": "9"
+  },
+  {
+    "firstName": "Heather",
+    "lastName": "Morris",
+    "image": "",
+    "gender": "female",
+    "season": "24",
+    "placement": "8"
+  },
+  {
+    "firstName": "Nancy",
+    "lastName": "Kerrigan",
+    "image": "",
+    "gender": "female",
+    "season": "24",
+    "placement": "6"
+  },
+  {
+    "firstName": "Nick",
+    "lastName": "Viall",
+    "image": "",
+    "gender": "male",
+    "season": "24",
+    "placement": "6"
+  },
+  {
+    "firstName": "Bonner",
+    "lastName": "Bolton",
+    "image": "",
+    "gender": "male",
+    "season": "24",
+    "placement": "5"
+  },
+  {
+    "firstName": "Simone",
+    "lastName": "Biles",
+    "image": "",
+    "gender": "female",
+    "season": "24",
+    "placement": "4"
+  },
+  {
+    "firstName": "Normani",
+    "lastName": "",
+    "image": "",
+    "gender": "female",
+    "season": "24",
+    "placement": "3"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Ross",
+    "image": "",
+    "gender": "male",
+    "season": "24",
+    "placement": "2"
+  },
+  {
+    "firstName": "Rashad",
+    "lastName": "Jennings",
+    "image": "",
+    "gender": "female",
+    "season": "24",
+    "placement": "1"
+  },
+  {
+    "firstName": "Barbara",
+    "lastName": "Corcoran",
+    "image": "",
+    "gender": "female",
+    "season": "25",
+    "placement": "13"
+  },
+  {
+    "firstName": "Debbie",
+    "lastName": "Gibson",
+    "image": "",
+    "gender": "female",
+    "season": "25",
+    "placement": "12"
+  },
+  {
+    "firstName": "Derek",
+    "lastName": "Fisher",
+    "image": "",
+    "gender": "male",
+    "season": "25",
+    "placement": "11"
+  },
+  {
+    "firstName": "Sasha",
+    "lastName": "Pieterse",
+    "image": "",
+    "gender": "female",
+    "season": "25",
+    "placement": "10"
+  },
+  {
+    "firstName": "Nick",
+    "lastName": "Lachey",
+    "image": "",
+    "gender": "male",
+    "season": "25",
+    "placement": "9"
+  },
+  {
+    "firstName": "Nikki",
+    "lastName": "Bella",
+    "image": "",
+    "gender": "female",
+    "season": "25",
+    "placement": "7"
+  },
+  {
+    "firstName": "Vanessa",
+    "lastName": "Lachey",
+    "image": "",
+    "gender": "female",
+    "season": "25",
+    "placement": "7"
+  },
+  {
+    "firstName": "Terrell",
+    "lastName": "Owens",
+    "image": "",
+    "gender": "male",
+    "season": "25",
+    "placement": "6"
+  },
+  {
+    "firstName": "Victoria",
+    "lastName": "Arlen",
+    "image": "",
+    "gender": "female",
+    "season": "25",
+    "placement": "5"
+  },
+  {
+    "firstName": "Drew",
+    "lastName": "Scott",
+    "image": "",
+    "gender": "male",
+    "season": "25",
+    "placement": "4"
+  },
+  {
+    "firstName": "Frankie",
+    "lastName": "Muniz",
+    "image": "",
+    "gender": "male",
+    "season": "25",
+    "placement": "3"
+  },
+  {
+    "firstName": "Lindsey",
+    "lastName": "Stirling",
+    "image": "",
+    "gender": "female",
+    "season": "25",
+    "placement": "2"
+  },
+  {
+    "firstName": "Jordan",
+    "lastName": "Fisher",
+    "image": "",
+    "gender": "male",
+    "season": "25",
+    "placement": "1"
+  },
+  {
+    "firstName": "Jamie",
+    "lastName": "Anderson",
+    "image": "",
+    "gender": "female",
+    "season": "26",
+    "placement": "9"
+  },
+  {
+    "firstName": "Johnny",
+    "lastName": "Damon",
+    "image": "",
+    "gender": "male",
+    "season": "26",
+    "placement": "9"
+  },
+  {
+    "firstName": "Kareem",
+    "lastName": "Abdul-Jabbar",
+    "image": "",
+    "gender": "male",
+    "season": "26",
+    "placement": "7"
+  },
+  {
+    "firstName": "Arike",
+    "lastName": "Ogunbowale",
+    "image": "",
+    "gender": "female",
+    "season": "26",
+    "placement": "7"
+  },
+  {
+    "firstName": "Jennie",
+    "lastName": "Finch Daigle",
+    "image": "",
+    "gender": "female",
+    "season": "26",
+    "placement": "4"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Mazder",
+    "image": "",
+    "gender": "male",
+    "season": "26",
+    "placement": "4"
+  },
+  {
+    "firstName": "Mirai",
+    "lastName": "Nagasu",
+    "image": "",
+    "gender": "female",
+    "season": "26",
+    "placement": "4"
+  },
+  {
+    "firstName": "Tonya",
+    "lastName": "Harding",
+    "image": "",
+    "gender": "female",
+    "season": "26",
+    "placement": "3"
+  },
+  {
+    "firstName": "Josh",
+    "lastName": "Norman",
+    "image": "",
+    "gender": "male",
+    "season": "26",
+    "placement": "2"
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Rippon",
+    "image": "",
+    "gender": "male",
+    "season": "26",
+    "placement": "1"
+  },
+  {
+    "firstName": "Nikki",
+    "lastName": "Glaser",
+    "image": "",
+    "gender": "female",
+    "season": "27",
+    "placement": "13"
+  },
+  {
+    "firstName": "Danelle",
+    "lastName": "Umstead",
+    "image": "",
+    "gender": "female",
+    "season": "27",
+    "placement": "12"
+  },
+  {
+    "firstName": "Nancy",
+    "lastName": "McKeon",
+    "image": "",
+    "gender": "female",
+    "season": "27",
+    "placement": "11"
+  },
+  {
+    "firstName": "Tinashe",
+    "lastName": "",
+    "image": "",
+    "gender": "female",
+    "season": "27",
+    "placement": "10"
+  },
+  {
+    "firstName": "Mary Lou",
+    "lastName": "Retton",
+    "image": "",
+    "gender": "female",
+    "season": "27",
+    "placement": "9"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Schneider",
+    "image": "",
+    "gender": "male",
+    "season": "27",
+    "placement": "7"
+  },
+  {
+    "firstName": "DeMarcus",
+    "lastName": "Ware",
+    "image": "",
+    "gender": "male",
+    "season": "27",
+    "placement": "7"
+  },
+  {
+    "firstName": "Joe",
+    "lastName": "Amabile",
+    "image": "",
+    "gender": "male",
+    "season": "27",
+    "placement": "5"
+  },
+  {
+    "firstName": "Juan Pablo",
+    "lastName": "Di Pace",
+    "image": "",
+    "gender": "male",
+    "season": "27",
+    "placement": "5"
+  },
+  {
+    "firstName": "Alexis",
+    "lastName": "Ren",
+    "image": "",
+    "gender": "female",
+    "season": "27",
+    "placement": "4"
+  },
+  {
+    "firstName": "Evanna",
+    "lastName": "Lynch",
+    "image": "",
+    "gender": "female",
+    "season": "27",
+    "placement": "3"
+  },
+  {
+    "firstName": "Milo",
+    "lastName": "Manheim",
+    "image": "",
+    "gender": "male",
+    "season": "27",
+    "placement": "2"
+  },
+  {
+    "firstName": "Bobby",
+    "lastName": "Bones",
+    "image": "",
+    "gender": "male",
+    "season": "27",
+    "placement": "1"
+  },
+  {
+    "firstName": "Mary",
+    "lastName": "Wilson",
+    "image": "",
+    "gender": "female",
+    "season": "28",
+    "placement": "12"
+  },
+  {
+    "firstName": "Ray",
+    "lastName": "Lewis",
+    "image": "",
+    "gender": "male",
+    "season": "28",
+    "placement": "11"
+  },
+  {
+    "firstName": "Lamar",
+    "lastName": "Odom",
+    "image": "",
+    "gender": "male",
+    "season": "28",
+    "placement": "10"
+  },
+  {
+    "firstName": "Sailor",
+    "lastName": "Brinkley-Cook",
+    "image": "",
+    "gender": "female",
+    "season": "28",
+    "placement": "9"
+  },
+  {
+    "firstName": "Karamo",
+    "lastName": "Brown",
+    "image": "",
+    "gender": "male",
+    "season": "28",
+    "placement": "8"
+  },
+  {
+    "firstName": "Kate",
+    "lastName": "Flannery",
+    "image": "",
+    "gender": "female",
+    "season": "28",
+    "placement": "7"
+  },
+  {
+    "firstName": "Sean",
+    "lastName": "Spicer",
+    "image": "",
+    "gender": "male",
+    "season": "28",
+    "placement": "6"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Van Der Beek",
+    "image": "",
+    "gender": "male",
+    "season": "28",
+    "placement": "5"
+  },
+  {
+    "firstName": "Lauren",
+    "lastName": "Alaina",
+    "image": "",
+    "gender": "female",
+    "season": "28",
+    "placement": "4"
+  },
+  {
+    "firstName": "Ally",
+    "lastName": "Brooke",
+    "image": "",
+    "gender": "female",
+    "season": "28",
+    "placement": "3"
+  },
+  {
+    "firstName": "Kel",
+    "lastName": "Mitchell",
+    "image": "",
+    "gender": "male",
+    "season": "28",
+    "placement": "2"
+  },
+  {
+    "firstName": "Hannah",
+    "lastName": "Brown",
+    "image": "",
+    "gender": "female",
+    "season": "28",
+    "placement": "1"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Oakley",
+    "image": "",
+    "gender": "male",
+    "season": "29",
+    "placement": "15"
+  },
+  {
+    "firstName": "Carole",
+    "lastName": "Baskin",
+    "image": "",
+    "gender": "female",
+    "season": "29",
+    "placement": "14"
+  },
+  {
+    "firstName": "Anne",
+    "lastName": "Heche",
+    "image": "",
+    "gender": "female",
+    "season": "29",
+    "placement": "13"
+  },
+  {
+    "firstName": "Jesse",
+    "lastName": "Metcalfe",
+    "image": "",
+    "gender": "female",
+    "season": "29",
+    "placement": "12"
+  },
+  {
+    "firstName": "Vernon",
+    "lastName": "Davis",
+    "image": "",
+    "gender": "male",
+    "season": "29",
+    "placement": "11"
+  },
+  {
+    "firstName": "Monica",
+    "lastName": "Aldama",
+    "image": "",
+    "gender": "female",
+    "season": "29",
+    "placement": "10"
+  },
+  {
+    "firstName": "Jeannie",
+    "lastName": "Mai",
+    "image": "",
+    "gender": "female",
+    "season": "29",
+    "placement": "9"
+  },
+  {
+    "firstName": "Chrishell",
+    "lastName": "Stause",
+    "image": "",
+    "gender": "female",
+    "season": "29",
+    "placement": "8"
+  },
+  {
+    "firstName": "AJ",
+    "lastName": "McLean",
+    "image": "",
+    "gender": "male",
+    "season": "29",
+    "placement": "7"
+  },
+  {
+    "firstName": "Johnny",
+    "lastName": "Weir",
+    "image": "",
+    "gender": "male",
+    "season": "29",
+    "placement": "6"
+  },
+  {
+    "firstName": "Skai",
+    "lastName": "Jackson",
+    "image": "",
+    "gender": "female",
+    "season": "29",
+    "placement": "5"
+  },
+  {
+    "firstName": "Justina",
+    "lastName": "Machado",
+    "image": "",
+    "gender": "female",
+    "season": "29",
+    "placement": "4"
+  },
+  {
+    "firstName": "Nelly",
+    "lastName": "",
+    "image": "",
+    "gender": "male",
+    "season": "29",
+    "placement": "3"
+  },
+  {
+    "firstName": "Nev",
+    "lastName": "Schulman",
+    "image": "",
+    "gender": "male",
+    "season": "29",
+    "placement": "2"
+  },
+  {
+    "firstName": "Kaitlyn",
+    "lastName": "Bristowe",
+    "image": "",
+    "gender": "female",
+    "season": "29",
+    "placement": "1"
+  },
+  {
+    "firstName": "Martin",
+    "lastName": "Kove",
+    "image": "",
+    "gender": "male",
+    "season": "30",
+    "placement": "15"
+  },
+  {
+    "firstName": "Christine",
+    "lastName": "Chiu",
+    "image": "",
+    "gender": "female",
+    "season": "30",
+    "placement": "14"
+  },
+  {
+    "firstName": "Brian",
+    "lastName": "Austin Green",
+    "image": "",
+    "gender": "male",
+    "season": "30",
+    "placement": "13"
+  },
+  {
+    "firstName": "Matt",
+    "lastName": "James",
+    "image": "",
+    "gender": "male",
+    "season": "30",
+    "placement": "12"
+  },
+  {
+    "firstName": "Melanie",
+    "lastName": "C",
+    "image": "",
+    "gender": "female",
+    "season": "30",
+    "placement": "11"
+  },
+  {
+    "firstName": "Kenya",
+    "lastName": "Moore",
+    "image": "",
+    "gender": "female",
+    "season": "30",
+    "placement": "10"
+  },
+  {
+    "firstName": "Mike \"The Miz\"",
+    "lastName": "Mizanin",
+    "image": "",
+    "gender": "male",
+    "season": "30",
+    "placement": "9"
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Jade",
+    "image": "",
+    "gender": "female",
+    "season": "30",
+    "placement": "8"
+  },
+  {
+    "firstName": "Jimmie",
+    "lastName": "Allen",
+    "image": "",
+    "gender": "male",
+    "season": "30",
+    "placement": "7"
+  },
+  {
+    "firstName": "Melora",
+    "lastName": "Hardin",
+    "image": "",
+    "gender": "female",
+    "season": "30",
+    "placement": "6"
+  },
+  {
+    "firstName": "Suni",
+    "lastName": "Lee",
+    "image": "",
+    "gender": "female",
+    "season": "30",
+    "placement": "5"
+  },
+  {
+    "firstName": "Amanda",
+    "lastName": "Kloots",
+    "image": "",
+    "gender": "female",
+    "season": "30",
+    "placement": "4"
+  },
+  {
+    "firstName": "Cody",
+    "lastName": "Rigsby",
+    "image": "",
+    "gender": "male",
+    "season": "30",
+    "placement": "3"
+  },
+  {
+    "firstName": "JoJo",
+    "lastName": "Siwa",
+    "image": "",
+    "gender": "female",
+    "season": "30",
+    "placement": "2"
+  },
+  {
+    "firstName": "Iman",
+    "lastName": "Shumpert",
+    "image": "",
+    "gender": "male",
+    "season": "30",
+    "placement": "1"
+  },
+  {
+    "firstName": "Jason",
+    "lastName": "Lewis",
+    "image": "",
+    "gender": "male",
+    "season": "31",
+    "placement": "16"
+  },
+  {
+    "firstName": "Teresa",
+    "lastName": "Giudice",
+    "image": "",
+    "gender": "female",
+    "season": "31",
+    "placement": "15"
+  },
+  {
+    "firstName": "Cheryl",
+    "lastName": "Ladd",
+    "image": "",
+    "gender": "female",
+    "season": "31",
+    "placement": "14"
+  },
+  {
+    "firstName": "Sam",
+    "lastName": "Champion",
+    "image": "",
+    "gender": "male",
+    "season": "31",
+    "placement": "13"
+  },
+  {
+    "firstName": "Selma",
+    "lastName": "Blair",
+    "image": "",
+    "gender": "female",
+    "season": "31",
+    "placement": "12"
+  },
+  {
+    "firstName": "Joseph",
+    "lastName": "Baena",
+    "image": "",
+    "gender": "male",
+    "season": "31",
+    "placement": "11"
+  },
+  {
+    "firstName": "Jessie James",
+    "lastName": "Decker",
+    "image": "",
+    "gender": "female",
+    "season": "31",
+    "placement": "10"
+  },
+  {
+    "firstName": "Jordin",
+    "lastName": "Sparks",
+    "image": "",
+    "gender": "female",
+    "season": "31",
+    "placement": "9"
+  },
+  {
+    "firstName": "Heidi",
+    "lastName": "D'Amelio",
+    "image": "",
+    "gender": "female",
+    "season": "31",
+    "placement": "8"
+  },
+  {
+    "firstName": "Vinny",
+    "lastName": "Guadagnino",
+    "image": "",
+    "gender": "male",
+    "season": "31",
+    "placement": "7"
+  },
+  {
+    "firstName": "Trevor",
+    "lastName": "Donovan",
+    "image": "",
+    "gender": "male",
+    "season": "31",
+    "placement": "6"
+  },
+  {
+    "firstName": "Daniel",
+    "lastName": "Durant",
+    "image": "",
+    "gender": "male",
+    "season": "31",
+    "placement": "5"
+  },
+  {
+    "firstName": "Shangela",
+    "lastName": "",
+    "image": "",
+    "gender": "female",
+    "season": "31",
+    "placement": "4"
+  },
+  {
+    "firstName": "Wayne",
+    "lastName": "Brady",
+    "image": "",
+    "gender": "male",
+    "season": "31",
+    "placement": "3"
+  },
+  {
+    "firstName": "Gabby",
+    "lastName": "Windey",
+    "image": "",
+    "gender": "female",
+    "season": "31",
+    "placement": "2"
+  },
+  {
+    "firstName": "Charli",
+    "lastName": "D'Amelio",
+    "image": "",
+    "gender": "female",
+    "season": "31",
+    "placement": "1"
+  },
+  {
+    "firstName": "Matt",
+    "lastName": "Walsh",
+    "image": "/32/matt",
+    "gender": "male",
+    "season": "32",
+    "placement": "14"
+  },
+  {
+    "firstName": "Jamie Lynn",
+    "lastName": "Spears",
+    "image": "/32/jamielynn",
+    "gender": "female",
+    "season": "32",
+    "placement": "13"
+  },
+  {
+    "firstName": "Tyson",
+    "lastName": "Beckford",
+    "image": "/32/tyson",
+    "gender": "male",
+    "season": "32",
+    "placement": "12"
+  },
+  {
+    "firstName": "Adrian",
+    "lastName": "Peterson",
+    "image": "/32/adrian",
+    "gender": "male",
+    "season": "32",
+    "placement": "11"
+  },
+  {
+    "firstName": "Mira",
+    "lastName": "Sorvino",
+    "image": "/32/mira",
+    "gender": "female",
+    "season": "32",
+    "placement": "10"
+  },
+  {
+    "firstName": "Mauricio",
+    "lastName": "Umansky",
+    "image": "/32/mauricio",
+    "gender": "male",
+    "season": "32",
+    "placement": "9"
+  },
+  {
+    "firstName": "Lele",
+    "lastName": "Pons",
+    "image": "/32/lele",
+    "gender": "female",
+    "season": "32",
+    "placement": "8"
+  },
+  {
+    "firstName": "Barry",
+    "lastName": "Williams",
+    "image": "/32/barry",
+    "gender": "male",
+    "season": "32",
+    "placement": "7"
+  },
+  {
+    "firstName": "Harry",
+    "lastName": "Jowsey",
+    "image": "/32/harry",
+    "gender": "male",
+    "season": "32",
+    "placement": "6"
+  },
+  {
+    "firstName": "Alyson",
+    "lastName": "Hannigan",
+    "image": "/32/alyson",
+    "gender": "female",
+    "season": "32",
+    "placement": "5"
+  },
+  {
+    "firstName": "Charity",
+    "lastName": "Lawson",
+    "image": "/32/charity",
+    "gender": "female",
+    "season": "32",
+    "placement": "4"
+  },
+  {
+    "firstName": "Ariana",
+    "lastName": "Madix",
+    "image": "/32/ariana",
+    "gender": "female",
+    "season": "32",
+    "placement": "3"
+  },
+  {
+    "firstName": "Jason",
+    "lastName": "Mraz",
+    "image": "/32/jason",
+    "gender": "male",
+    "season": "32",
+    "placement": "2"
+  },
+  {
+    "firstName": "Xochitl",
+    "lastName": "Gomez",
+    "image": "/32/xochitl",
+    "gender": "female",
+    "season": "32",
+    "placement": "1"
+  }
+]
