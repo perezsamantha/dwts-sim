@@ -8,6 +8,7 @@ import {
   randomizeCast,
   shuffleCast,
   sortedMusic,
+  teamDanceShuffle,
 } from '../lib/logic';
 
 export interface Team {
@@ -35,6 +36,7 @@ export interface Song {
 
 export interface Dance {
   teamId: number; // change to array for team dances
+  teamIds?: number[];
   title: string;
   artist: string;
   style: string;
@@ -116,8 +118,31 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
         });
         state.currentDance++;
         // double dances
-        // if (runningOrder.length == 8) { // team dance
-        // }
+        if (runningOrder.length == 8) {
+          // team dance
+          const shuffled = teamDanceShuffle(runningOrder);
+          const team1 = shuffled.slice(0, shuffled.length / 2);
+          const team2 = shuffled.slice(shuffled.length / 2, shuffled.length);
+          const dance1 = state.music['Team Dance'][0];
+          dance1['scores'] = randomScores();
+          dance1['teamIds'] = [];
+          for (let i = 0; i < team1.length; i++) {
+            state.cast[team1[i]].dances.push(dance1);
+            dance1.teamIds.push(team1[i]);
+          }
+          state.weeks[state.currentWeek].push(dance1);
+          state.music['Team Dance'].shift();
+
+          const dance2 = state.music['Team Dance'][0];
+          dance2['scores'] = randomScores();
+          dance2['teamIds'] = [];
+          for (let i = 0; i < team2.length; i++) {
+            state.cast[team2[i]].dances.push(dance2);
+            dance2.teamIds.push(team2[i]);
+          }
+          state.weeks[state.currentWeek].push(dance2);
+          state.music['Team Dance'].shift();
+        }
 
         if (runningOrder.length < 8) {
           // second round
@@ -159,7 +184,7 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
           state.weeks[state.currentWeek].push(redemptionDance);
           state.music[state.cast[teamId].styles[randomStyleIndex]].shift();
         });
-        state.currentDance++;
+        //state.currentDance++;
         // freestyle round
         runningOrder.map((teamId) => {
           const freestyleDance: Dance = state.music['Freestyle'][0];

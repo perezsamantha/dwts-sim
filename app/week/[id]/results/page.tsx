@@ -18,6 +18,8 @@ export default function Results({ params }: { params: { id: string } }) {
   const groupedDances = leaderboardGroup(dances);
   const ids = leaderboardSort(groupedDances);
   const elimId = eliminated[week - 1][0];
+  console.log(groupedDances);
+  console.log(ids);
 
   useEffect(() => {
     if (!effectRan.current) {

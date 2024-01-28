@@ -121,12 +121,25 @@ export const randomScores = () => {
 export const leaderboardGroup = (dances: Dance[]) =>
   dances.reduce(
     (previous, currentItem) => {
-      const value: number = currentItem['teamId'];
-      const existing = previous[value] || [];
-      return {
-        ...previous,
-        [value]: [...existing, currentItem],
-      };
+      let value: number;
+      if (currentItem.teamIds) {
+        currentItem['teamIds'].map((id) => {
+          value = id;
+          const existing = previous[value] || [];
+          previous = {
+            ...previous,
+            [id]: [...existing, currentItem],
+          };
+        });
+        return previous;
+      } else {
+        value = currentItem['teamId'];
+        const existing = previous[value] || [];
+        return {
+          ...previous,
+          [value]: [...existing, currentItem],
+        };
+      }
     },
     {} as { [teamId: string]: Dance[] }
   );
@@ -198,6 +211,15 @@ const createDancerObj = (id: number, type: string) => {
     type: type,
   };
   return obj;
+};
+
+// shuffle for team dance
+export const teamDanceShuffle = (runningOrder: number[]) => {
+  for (let i = runningOrder.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [runningOrder[i], runningOrder[j]] = [runningOrder[j], runningOrder[i]];
+  }
+  return runningOrder;
 };
 
 // determine if double elim
