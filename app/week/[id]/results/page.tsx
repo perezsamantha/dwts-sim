@@ -7,12 +7,15 @@ import { useEffect, useRef, useState } from 'react';
 import Header from '@/app/ui/header';
 import Leaderboard from '@/app/ui/leaderboard';
 import { useRouter } from 'next/navigation';
+import SummaryButton from '@/app/ui/summaryButton';
 
 export default function Results({ params }: { params: { id: string } }) {
   const router = useRouter();
   const effectRan = useRef(false);
   const week = Number(params.id);
-  const { cast, currentWeek, eliminated } = useBoundStore((state) => state);
+  const { cast, currentWeek, numberWeeks, eliminated } = useBoundStore(
+    (state) => state
+  );
   const dances = useBoundStore((state) => state.weeks[week - 1]);
   const [loading, setLoading] = useState(true);
   const groupedDances = leaderboardGroup(dances);
@@ -47,7 +50,11 @@ export default function Results({ params }: { params: { id: string } }) {
       ) : (
         <h2>No Elimination !!!</h2>
       )}
-      <WeekButton week={week + 1} />
+      {currentWeek === numberWeeks ? (
+        <SummaryButton />
+      ) : (
+        <WeekButton week={week + 1} />
+      )}
     </Box>
   );
 }

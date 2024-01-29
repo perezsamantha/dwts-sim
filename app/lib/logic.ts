@@ -246,7 +246,6 @@ export const eliminate = (
     } else {
       // randomly decide if double elim (20% chance)
       if (Math.random() < 0.2) {
-        console.log('bruh');
         return doubleElim(arr);
       } else return singleElim(arr);
     }
@@ -273,4 +272,19 @@ const doubleElim = (arr: number[]) => {
 export const randomElim = (arr: number[]) =>
   arr[Math.floor(Math.random() * arr.length)];
 
-// determine finale placements
+// TODO: determine finale placements
+
+// sort cast by placement
+export const sortByPlacement = (cast: Team[]) =>
+  cast.sort((a, b) => (a.placement < b.placement ? -1 : 1));
+
+// calculate average score
+export const calculateAverage = (dances: Dance[]) =>
+  Math.round(
+    (dances.reduce(function (sum, value) {
+      return sum + totalScore(value.scores);
+    }, 0) /
+      dances.length /
+      3) *
+      100
+  ) / 100;
