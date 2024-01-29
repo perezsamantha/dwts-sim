@@ -119,7 +119,7 @@ export const randomScores = () => {
 
 // group dances by team
 export const leaderboardGroup = (dances: Dance[]) =>
-  dances.reduce(
+  dances?.reduce(
     (previous, currentItem) => {
       let value: number;
       if (currentItem.teamIds) {
@@ -146,6 +146,7 @@ export const leaderboardGroup = (dances: Dance[]) =>
 
 // sort dances by scores
 export const leaderboardSort = (dances: { [teamId: string]: Dance[] }) => {
+  if (!dances) return [];
   const teamIds = Object.keys(dances);
   teamIds.sort((a, b) => {
     let scoresA = 0;

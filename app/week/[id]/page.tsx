@@ -1,14 +1,14 @@
 'use client';
-import { Box, Spinner } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import { useBoundStore } from '../../store/useStore';
 import ResultsButton from '../../ui/resultsButton';
 import { useEffect, useRef, useState } from 'react';
 import Header from '../../ui/header';
 import Dance from '../../ui/dance';
 import { useRouter } from 'next/navigation';
+import Loading from '@/app/ui/loading';
 
 export default function Week({ params }: { params: { id: string } }) {
-  //TODO: redirect when needed
   const week = Number(params.id);
   const { currentWeek, numberWeeks, prepareWeek, prepareFinale } =
     useBoundStore((state) => state);
@@ -20,7 +20,8 @@ export default function Week({ params }: { params: { id: string } }) {
 
   useEffect(() => {
     if (!effectRan.current) {
-      if (currentWeek + 1 < week) router.push('/fallback');
+      if (currentWeek + 1 < week || week > numberWeeks)
+        router.push('/fallback');
       else {
         if (currentWeek + 1 === week) {
           if (currentWeek + 1 == numberWeeks) prepareFinale();
@@ -41,10 +42,10 @@ export default function Week({ params }: { params: { id: string } }) {
   ]);
 
   return loading ? (
-    <Spinner />
+    <Loading />
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
-      <Header />
+      <Header type="week" week={week} />
       <h1>Week {week}</h1>
       <p>
         Live from Hollywood, it&#39;s the season premiere of Dancing with the

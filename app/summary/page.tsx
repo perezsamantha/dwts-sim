@@ -7,7 +7,6 @@ import { useRouter } from 'next/navigation';
 import {
   Box,
   Button,
-  Spinner,
   Table,
   TableContainer,
   Tbody,
@@ -18,8 +17,9 @@ import {
 } from '@chakra-ui/react';
 import Header from '../ui/header';
 import { calculateAverage, sortByPlacement, totalScore } from '../lib/logic';
+import Loading from '../ui/loading';
 
-export default function Summary({ params }: { params: { id: string } }) {
+export default function Summary() {
   const router = useRouter();
   const effectRan = useRef(false);
   const [loading, setLoading] = useState(true);
@@ -32,7 +32,7 @@ export default function Summary({ params }: { params: { id: string } }) {
       else setLoading(false);
     }
     effectRan.current = true;
-  }, [params, currentWeek, router, numberWeeks]);
+  }, [currentWeek, router, numberWeeks]);
 
   function DancePreview(dance: Dance) {
     return (
@@ -44,10 +44,10 @@ export default function Summary({ params }: { params: { id: string } }) {
   }
 
   return loading ? (
-    <Spinner />
+    <Loading />
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
-      <Header />
+      <Header type="summary" week={numberWeeks} />
       <h1>Sim Summary</h1>
       <TableContainer>
         <Table variant="simple" size="sm">

@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col items-center justify-between p-12">
-      <Header />
+      <Header type="home" week={0} />
       <Text>DWTS Simulator</Text>
       <Text>tips</Text>
       <Text>- invalid images will use a fallback image of a mirrorball</Text>

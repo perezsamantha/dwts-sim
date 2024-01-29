@@ -56,7 +56,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-between p-12">
-      <Header />
+      <Header type="setup" week={0} />
       <h2>Customize Simulator</h2>
       <Flex width="100%">
         <Text>Weeks</Text>

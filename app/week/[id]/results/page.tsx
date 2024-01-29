@@ -1,5 +1,5 @@
 'use client';
-import { Box, Spinner } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import { useBoundStore } from '../../../store/useStore';
 import WeekButton from '../../../ui/weekButton';
 import { leaderboardGroup, leaderboardSort } from '@/app/lib/logic';
@@ -8,6 +8,7 @@ import Header from '@/app/ui/header';
 import Leaderboard from '@/app/ui/leaderboard';
 import { useRouter } from 'next/navigation';
 import SummaryButton from '@/app/ui/summaryButton';
+import Loading from '@/app/ui/loading';
 
 export default function Results({ params }: { params: { id: string } }) {
   const router = useRouter();
@@ -24,17 +25,17 @@ export default function Results({ params }: { params: { id: string } }) {
 
   useEffect(() => {
     if (!effectRan.current) {
-      if (currentWeek < week) router.push('/fallback');
+      if (currentWeek < week || week > numberWeeks) router.push('/fallback');
       else setLoading(false);
     }
     effectRan.current = true;
-  }, [params, currentWeek, router, week]);
+  }, [params, currentWeek, router, week, numberWeeks]);
 
   return loading ? (
-    <Spinner />
+    <Loading />
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
-      <Header />
+      <Header type="results" week={week} />
       <h1>Week {week} leaderboard</h1>
       <Leaderboard cast={cast} dances={groupedDances} ids={ids} />
       {elimIds ? (

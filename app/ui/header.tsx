@@ -18,11 +18,24 @@ import {
 } from '@chakra-ui/react';
 import { useRouter, usePathname } from 'next/navigation';
 
-export default function Header() {
+export default function Header(props: {
+  type: 'home' | 'setup' | 'week' | 'results' | 'summary';
+  week: number;
+}) {
   const router = useRouter();
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
   const pathname = usePathname();
+
+  const handleRouter = () => {
+    if (props.type === 'setup') router.push('/');
+    else if (props.type === 'week') {
+      if (props.week === 1) router.push('/setup');
+      else router.push(`/week${props.week - 1}/results`);
+    } else if (props.type === 'results') router.push(`/week${props.week}`);
+    else if (props.type === 'summary')
+      router.push(`/week${props.week}/results`);
+  };
 
   return (
     <Flex width="100%">
@@ -31,7 +44,7 @@ export default function Header() {
           <IconButton
             aria-label="Previous Page"
             icon={<ArrowBackIcon />}
-            onClick={() => router.back()}
+            onClick={handleRouter}
           />
         )}
       </Box>

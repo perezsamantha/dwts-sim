@@ -14,7 +14,7 @@ export default function Fallback() {
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
-      <Text>Invalid Page!</Text>
+      <Text>Invalid page! Return to most recent week below.</Text>
       {currentWeek == 0 ? (
         <Button onClick={handleButton}>Return Home</Button>
       ) : (
