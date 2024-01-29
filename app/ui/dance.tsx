@@ -1,6 +1,7 @@
 'use client';
 import { Box, Center, Flex, Text } from '@chakra-ui/react';
-import { Dance, useBoundStore } from '../store/useStore';
+import { useBoundStore } from '../store/useStore';
+import { Dance } from '../store/interfaces';
 import CastImage from './castImage';
 import { totalScore } from '../lib/logic';
 

@@ -55,7 +55,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-between p-12">
+    <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="setup" week={0} />
       <h2>Customize Simulator</h2>
       <Flex width="100%">
@@ -119,6 +119,6 @@ export default function Home() {
       ))}
       <EditJudgesModal />
       <WeekButton week={1} />
-    </div>
+    </Box>
   );
 }

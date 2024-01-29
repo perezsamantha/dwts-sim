@@ -1,14 +1,12 @@
 'use client';
-import { Button, Text } from '@chakra-ui/react';
-import { useRouter } from 'next/navigation';
+import { Box, Text } from '@chakra-ui/react';
+import HomeButton from './ui/homeButton';
 
 export default function Custom404() {
-  const router = useRouter();
-
   return (
-    <main className="flex flex-col items-center justify-between p-12">
+    <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Text>Page Not Found</Text>
-      <Button onClick={() => router.push('/')}>Home</Button>
-    </main>
+      <HomeButton />
+    </Box>
   );
 }

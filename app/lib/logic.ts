@@ -1,48 +1,8 @@
-import { Dance, Team, Dancer } from '../store/useStore';
+import { Dance, Team, Dancer, Song, Pro, Celeb } from '../store/interfaces';
 import music from '../data/music.json';
 import celebs from '../data/celebs.json';
 import pros from '../data/pros.json';
-
-interface Song {
-  title: string;
-  artist: string;
-  style: string;
-}
-
-interface Celeb {
-  firstName: string;
-  lastName: string;
-  image: string;
-  gender: string;
-  season: string;
-  placement: string;
-}
-
-interface Pro {
-  firstName: string;
-  lastName: string;
-  image: string;
-  gender: string;
-  current: string;
-}
-
-const styles = [
-  'Cha Cha',
-  'Viennese Waltz',
-  'Samba',
-  'Salsa',
-  'Argentine Tango',
-  'Tango',
-  'Quickstep',
-  'Contemporary',
-  'Jazz',
-  'Rumba',
-  'Foxtrot',
-  'Waltz',
-  'Paso Doble',
-  'Jive',
-  'Charleston',
-];
+import { styles } from '../data/styles';
 
 // shuffle music
 // O(n) - durstenfeld shuffle, optimized fisher-yates
@@ -57,7 +17,7 @@ export const shuffleMusic = (music: Song[]) => {
 };
 
 // reduce/sort music data by style
-export const sortMusicByStyle = (music: Song[]) =>
+const sortMusicByStyle = (music: Song[]) =>
   music.reduce(
     (previous, currentItem) => {
       const value: string = currentItem['style'];
@@ -71,6 +31,8 @@ export const sortMusicByStyle = (music: Song[]) =>
   );
 
 export const sortMusic = () => sortMusicByStyle(shuffleMusic(music));
+
+export const sortStyles = () => styles.sort((a, b) => (a < b ? -1 : 1));
 
 //sort celebs by season, and placement
 export const sortCelebs = (celebs: Celeb[]) =>

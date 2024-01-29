@@ -7,6 +7,27 @@ const config: ThemeConfig = {
   useSystemColorMode: true,
 };
 
-const theme = extendTheme({ config });
+const theme = extendTheme({
+  ...config,
+  // styles: {
+  //   global: {
+  //     'html, body': {
+  //       color: 'blue.600',
+  //       lineHeight: 'tall',
+  //     },
+  //     a: {
+  //       color: 'teal.500',
+  //     },
+  //   },
+  // },
+  components: {
+    Button: {
+      baseStyle: { textTransform: 'uppercase' },
+      defaultProps: {
+        variant: 'solid',
+      },
+    },
+  },
+});
 
 export default theme;

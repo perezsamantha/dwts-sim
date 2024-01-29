@@ -3,7 +3,6 @@ import { useBoundStore } from '../store/useStore';
 import { useRouter } from 'next/navigation';
 
 export default function ResultsButton() {
-  //TODO: redirect when needed
   const week = useBoundStore((state) => state.currentWeek);
   const router = useRouter();
 

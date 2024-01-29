@@ -1,5 +1,5 @@
 import { AspectRatio, Box, Image } from '@chakra-ui/react';
-import { Dancer } from '../store/useStore';
+import { Dancer } from '../store/interfaces';
 
 export default function CastImage(props: { data: Dancer }) {
   return (

@@ -1,0 +1,17 @@
+export const styles = [
+  'Cha Cha',
+  'Viennese Waltz',
+  'Samba',
+  'Salsa',
+  'Argentine Tango',
+  'Tango',
+  'Quickstep',
+  'Contemporary',
+  'Jazz',
+  'Rumba',
+  'Foxtrot',
+  'Waltz',
+  'Paso Doble',
+  'Jive',
+  'Charleston',
+];

@@ -1,6 +1,7 @@
 import { Box, Flex, Spacer, Text } from '@chakra-ui/react';
 import CastImage from './castImage';
-import { Team, useBoundStore } from '../store/useStore';
+import { useBoundStore } from '../store/useStore';
+import { Team } from '../store/interfaces';
 import EditModal from './editModal';
 
 export default function Team(props: { teamId: number }) {

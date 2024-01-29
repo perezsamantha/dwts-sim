@@ -1,6 +1,7 @@
 import { StateCreator, create } from 'zustand';
 import { initialCast, initialJudges, initialSim } from './initialState';
 import { createJSONStorage, persist } from 'zustand/middleware';
+import { Team, Dancer, Dance, Song } from './interfaces';
 import { produce } from 'immer';
 import {
   eliminate,
@@ -11,39 +12,6 @@ import {
   sortMusic,
   teamDanceShuffle,
 } from '../lib/logic';
-
-export interface Team {
-  teamMembers: Dancer[];
-  placement: number;
-  dances: Dance[];
-  styles: string[];
-}
-
-export interface Dancer {
-  firstName: string;
-  lastName: string;
-  image: string;
-  type: string;
-  dataIndex: number;
-}
-
-export interface Song {
-  title: string;
-  artist: string;
-  style: string;
-  uri?: string;
-}
-
-export interface Dance {
-  teamId: number; // change to array for team dances
-  teamIds?: number[];
-  week: number;
-  title: string;
-  artist: string;
-  style: string;
-  scores: number[];
-  uri?: string;
-}
 
 interface SetupSlice {
   numberWeeks: number;

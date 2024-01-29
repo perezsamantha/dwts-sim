@@ -14,7 +14,7 @@ import {
   AvatarGroup,
 } from '@chakra-ui/react';
 import { totalScore } from '@/app/lib/logic';
-import { Dance, Team } from '../store/useStore';
+import { Dance, Team } from '../store/interfaces';
 
 export default function Leaderboard(props: {
   cast: Team[];

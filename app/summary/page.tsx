@@ -1,12 +1,10 @@
-// table to summarize season sim
-// return to home button
 'use client';
 import { useEffect, useRef, useState } from 'react';
-import { Dance, useBoundStore } from '../store/useStore';
+import { useBoundStore } from '../store/useStore';
+import { Dance } from '../store/interfaces';
 import { useRouter } from 'next/navigation';
 import {
   Box,
-  Button,
   Table,
   TableContainer,
   Tbody,
@@ -18,6 +16,7 @@ import {
 import Header from '../ui/header';
 import { calculateAverage, sortByPlacement, totalScore } from '../lib/logic';
 import Loading from '../ui/loading';
+import HomeButton from '../ui/homeButton';
 
 export default function Summary() {
   const router = useRouter();
@@ -96,7 +95,7 @@ export default function Summary() {
         </Table>
       </TableContainer>
 
-      <Button onClick={() => router.push('/')}>Start Over</Button>
+      <HomeButton />
     </Box>
   );
 }
