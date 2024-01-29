@@ -27,13 +27,31 @@ export default function Home() {
     updateNumberWeeks,
     numberTeams,
     randomizeCast,
+    resetSim,
+    updateNumberTeams,
+    updateCastSize,
   } = useBoundStore();
-  const updateNumberTeams = useBoundStore((state) => state.updateNumberTeams);
 
   const labelStyles = {
     mt: '2',
     ml: '-2',
     fontSize: 'sm',
+  };
+
+  const handleWeeks = (val: number) => {
+    updateNumberWeeks(val);
+    resetSim();
+  };
+
+  const handleTeams = (val: number) => {
+    updateNumberTeams(val);
+    updateCastSize();
+    resetSim();
+  };
+
+  const handleRandomize = () => {
+    randomizeCast();
+    resetSim();
   };
 
   return (
@@ -45,8 +63,7 @@ export default function Home() {
         <Box pt={6} pb={2} width={'50%'}>
           <Slider
             aria-label="slider-weeks"
-            //onChange={(val) => setWeeksValue(val)}
-            onChange={(val) => updateNumberWeeks(val)}
+            onChange={(val) => handleWeeks(val)}
             defaultValue={numberWeeks}
             min={8}
             max={12}
@@ -68,7 +85,7 @@ export default function Home() {
         <Box pt={6} pb={2} width={'50%'}>
           <Slider
             aria-label="slider-teams"
-            onChange={(val) => updateNumberTeams(val)}
+            onChange={(val) => handleTeams(val)}
             defaultValue={numberTeams}
             min={10}
             max={16}
@@ -88,12 +105,12 @@ export default function Home() {
       <Heading>Cast</Heading>
       <Container maxWidth="100%">
         <SimpleGrid minChildWidth="200px" spacing="20px">
-          {cast.map((team) => (
-            <Team key={team.id} data={team} />
+          {cast.map((team, i) => (
+            <Team key={i} teamId={i} />
           ))}
         </SimpleGrid>
       </Container>
-      <Button onClick={randomizeCast}>Randomize Cast</Button>
+      <Button onClick={handleRandomize}>Randomize Cast</Button>
       <Heading>Judges</Heading>
       {judges.map((judge, i) => (
         <Box key={i}>

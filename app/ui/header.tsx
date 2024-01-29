@@ -16,21 +16,24 @@ import {
   useColorMode,
   useDisclosure,
 } from '@chakra-ui/react';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 
 export default function Header() {
   const router = useRouter();
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const pathname = usePathname();
 
   return (
     <Flex width="100%">
       <Box>
-        <IconButton
-          aria-label="Previous Page"
-          icon={<ArrowBackIcon />}
-          onClick={() => router.back()}
-        />
+        {pathname !== '/' && (
+          <IconButton
+            aria-label="Previous Page"
+            icon={<ArrowBackIcon />}
+            onClick={() => router.back()}
+          />
+        )}
       </Box>
       <Spacer />
       <Box>

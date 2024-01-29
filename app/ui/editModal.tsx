@@ -29,9 +29,9 @@ import { sortPros, sortCelebs } from '../lib/logic';
 
 export default function EditModal(props: { teamId: number; dancerId: number }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const updateDancer = useBoundStore((state) => state.updateDancer);
+  const { updateDancer, resetSim } = useBoundStore((state) => state);
   const dancer = useBoundStore(
-    (state) => state.cast[props.teamId - 1].teamMembers[props.dancerId]
+    (state) => state.cast[props.teamId].teamMembers[props.dancerId]
   );
   const [custom, setCustom] = useState(dancer);
   const [celebIndex, setCelebIndex] = useState(0);
@@ -52,9 +52,9 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
   const saveChanges = () => {
     if (isError) return;
     if (updateDancer) {
-      if (tab === 0) updateDancer(props.teamId - 1, props.dancerId, custom);
+      if (tab === 0) updateDancer(props.teamId, props.dancerId, custom);
       else if (tab == 1)
-        updateDancer(props.teamId - 1, props.dancerId, {
+        updateDancer(props.teamId, props.dancerId, {
           firstName: celebs[celebIndex].firstName,
           lastName: celebs[celebIndex].lastName,
           image: celebs[celebIndex].image,
@@ -62,13 +62,14 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
           dataIndex: celebIndex,
         });
       else if (tab === 2)
-        updateDancer(props.teamId - 1, props.dancerId, {
+        updateDancer(props.teamId, props.dancerId, {
           firstName: pros[proIndex].firstName,
           lastName: pros[proIndex].lastName,
           image: pros[proIndex].image,
           type: 'pro',
           dataIndex: proIndex,
         });
+      resetSim();
       onClose();
     }
   };
@@ -119,7 +120,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>
-            Edit Team {props.teamId}{' '}
+            Edit Team {props.teamId + 1}{' '}
             {props.dancerId === 1 ? 'Celebrity' : 'Professional'}
           </ModalHeader>
           <ModalCloseButton />

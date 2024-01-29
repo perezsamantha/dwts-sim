@@ -46,7 +46,7 @@ const styles = [
 
 // shuffle music
 // O(n) - durstenfeld shuffle, optimized fisher-yates
-const shuffleMusic = (music: Song[]) => {
+export const shuffleMusic = (music: Song[]) => {
   for (let i = music.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     var tmp = music[i];
@@ -57,7 +57,7 @@ const shuffleMusic = (music: Song[]) => {
 };
 
 // reduce/sort music data by style
-export const sortMusic = (music: Song[]) =>
+export const sortMusicByStyle = (music: Song[]) =>
   music.reduce(
     (previous, currentItem) => {
       const value: string = currentItem['style'];
@@ -70,7 +70,7 @@ export const sortMusic = (music: Song[]) =>
     {} as { [style: string]: Song[] }
   );
 
-export const sortedMusic = sortMusic(shuffleMusic(music));
+export const sortMusic = () => sortMusicByStyle(shuffleMusic(music));
 
 //sort celebs by season, and placement
 export const sortCelebs = (celebs: Celeb[]) =>
@@ -185,15 +185,26 @@ export const randomizeCast = (numberTeams: number) => {
     const pro = createDancerObj(proId, 'pro');
 
     cast.push({
-      id: i + 1,
       placement: 0,
       teamMembers: [celeb, pro],
       dances: [],
       styles: shuffleStyles().slice(),
     });
   }
-
   return cast;
+};
+
+// randomize ONE team
+export const randomizeTeam = () => {
+  let celebId = Math.floor(Math.random() * celebs.length);
+  let proId = Math.floor(Math.random() * pros.length);
+
+  return {
+    placement: 0,
+    teamMembers: [celebs[celebId], pros[proId]],
+    dances: [],
+    styles: shuffleStyles().slice(),
+  };
 };
 
 // create sim celeb object

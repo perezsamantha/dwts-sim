@@ -1,4 +1,4 @@
-import { shuffleStyles } from '../lib/logic';
+import { shuffleStyles, sortMusic } from '../lib/logic';
 
 export const initialJudges = [
   'Carrie Ann Inaba',
@@ -6,9 +6,17 @@ export const initialJudges = [
   'Bruno Tonioli',
 ];
 
+export const initialSim = {
+  currentWeek: 0,
+  currentDance: 0,
+  currentRunningOrder: [],
+  weeks: [],
+  music: sortMusic(),
+  eliminated: [],
+};
+
 export const initialCast = [
   {
-    id: 1,
     placement: 0,
     teamMembers: [
       {
@@ -30,7 +38,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 2,
     placement: 0,
     teamMembers: [
       {
@@ -52,7 +59,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 3,
     placement: 0,
     teamMembers: [
       {
@@ -74,7 +80,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 4,
     placement: 0,
     teamMembers: [
       {
@@ -96,7 +101,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 5,
     placement: 0,
     teamMembers: [
       {
@@ -118,7 +122,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 6,
     placement: 0,
     teamMembers: [
       {
@@ -140,7 +143,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 7,
     placement: 0,
     teamMembers: [
       {
@@ -162,7 +164,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 8,
     placement: 0,
     teamMembers: [
       {
@@ -184,7 +185,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 9,
     placement: 0,
     teamMembers: [
       {
@@ -206,7 +206,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 10,
     placement: 0,
     teamMembers: [
       {
@@ -228,7 +227,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 11,
     placement: 0,
     teamMembers: [
       {
@@ -250,7 +248,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 12,
     placement: 0,
     teamMembers: [
       {
@@ -272,7 +269,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 13,
     placement: 0,
     teamMembers: [
       {
@@ -294,7 +290,6 @@ export const initialCast = [
     styles: shuffleStyles().slice(),
   },
   {
-    id: 14,
     placement: 0,
     teamMembers: [
       {

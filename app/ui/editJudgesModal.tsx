@@ -26,8 +26,7 @@ import { useState } from 'react';
 
 export default function EditJudgesModal() {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const judges = useBoundStore((state) => state.judges);
-  const updateJudges = useBoundStore((state) => state.updateJudges);
+  const { judges, updateJudges, resetSim } = useBoundStore((state) => state);
   const [custom, setCustom] = useState(judges);
 
   const handleCustomChange = (
@@ -44,6 +43,7 @@ export default function EditJudgesModal() {
 
     if (updateJudges) {
       updateJudges(custom);
+      resetSim();
       onClose();
     }
   };

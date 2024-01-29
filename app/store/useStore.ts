@@ -1,19 +1,18 @@
 import { StateCreator, create } from 'zustand';
-import { initialCast, initialJudges } from './initialState';
+import { initialCast, initialJudges, initialSim } from './initialState';
 import { createJSONStorage, persist } from 'zustand/middleware';
 import { produce } from 'immer';
 import {
   eliminate,
-  randomElim,
   randomScores,
   randomizeCast,
+  randomizeTeam,
   shuffleCast,
-  sortedMusic,
+  sortMusic,
   teamDanceShuffle,
 } from '../lib/logic';
 
 export interface Team {
-  id: number;
   teamMembers: Dancer[];
   placement: number;
   dances: Dance[];
@@ -55,6 +54,7 @@ interface SetupSlice {
   updateNumberTeams: (newTeams: number) => void;
   updateJudges: (newJudges: string[]) => void;
   updateDancer: (teamId: number, dancerId: number, newDancer: Dancer) => void;
+  updateCastSize: () => void;
   randomizeCast: () => void;
 }
 
@@ -65,10 +65,9 @@ interface SimSlice {
   weeks: Dance[][];
   music: Record<string, Song[]>;
   eliminated: number[][];
-  updateCurrentWeek: () => void;
   prepareWeek: () => void;
   prepareFinale: () => void;
-  // eliminateTeam: (elimId: number) => void;
+  resetSim: () => void;
 }
 
 const createSetupStore: StateCreator<SetupSlice> = (set) => ({
@@ -89,6 +88,14 @@ const createSetupStore: StateCreator<SetupSlice> = (set) => ({
       })
     );
   },
+  updateCastSize: () =>
+    set(
+      produce((state) => {
+        if (state.cast.length < state.numberTeams)
+          state.cast.push(randomizeTeam());
+        else if (state.cast.length > state.numberTeams) state.cast.pop();
+      })
+    ),
   randomizeCast: () =>
     set((state) => ({ ...state, cast: randomizeCast(state.numberTeams) })),
 });
@@ -96,14 +103,7 @@ const createSetupStore: StateCreator<SetupSlice> = (set) => ({
 const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
   set
 ) => ({
-  currentWeek: 0,
-  currentDance: 0,
-  currentRunningOrder: [],
-  weeks: [],
-  music: sortedMusic,
-  eliminated: [],
-  updateCurrentWeek: () =>
-    set((state) => ({ currentWeek: state.currentWeek + 1 })),
+  ...initialSim,
   prepareWeek: () =>
     set(
       produce((state) => {
@@ -214,12 +214,12 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
         state.currentWeek++;
       })
     ),
-  // eliminateTeam: (elimId: number) =>
-  //   set(
-  //     produce((state) => {
-  //       state.cast[elimId].placement = state.currentRunningOrder.length;
-  //     })
-  //   ),
+  resetSim: () =>
+    set((state) => ({
+      ...state,
+      ...initialSim,
+      music: sortMusic(),
+    })),
 });
 
 export const useBoundStore = create<SetupSlice & SimSlice>()(

@@ -3,8 +3,8 @@ import CastImage from './castImage';
 import { Team, useBoundStore } from '../store/useStore';
 import EditModal from './editModal';
 
-export default function Team(props: { data: Team }) {
-  const team = useBoundStore((state) => state.cast[props.data.id - 1]);
+export default function Team(props: { teamId: number }) {
+  const team = useBoundStore((state) => state.cast[props.teamId]);
 
   return (
     <Box
@@ -13,7 +13,7 @@ export default function Team(props: { data: Team }) {
       flexDirection="column"
       alignItems="center"
     >
-      <Text>Team {props.data.id}</Text>
+      <Text>Team {props.teamId + 1}</Text>
       <Flex width="100%">
         <Box width="48%">
           <CastImage data={team.teamMembers[0]} />
@@ -27,7 +27,7 @@ export default function Team(props: { data: Team }) {
           ) : (
             <br />
           )}
-          <EditModal teamId={team.id} dancerId={0} />
+          <EditModal teamId={props.teamId} dancerId={0} />
         </Box>
         <Spacer />
         <Box width="48%" alignItems="center">
@@ -42,7 +42,7 @@ export default function Team(props: { data: Team }) {
           ) : (
             <br />
           )}
-          <EditModal teamId={team.id} dancerId={1} />
+          <EditModal teamId={props.teamId} dancerId={1} />
         </Box>
       </Flex>
     </Box>
