@@ -160,11 +160,13 @@ export const randomizeCast = (numberTeams: number) => {
 // randomize ONE team
 export const randomizeTeam = () => {
   let celebId = Math.floor(Math.random() * celebs.length);
+  const celeb = createDancerObj(celebId, 'celeb');
   let proId = Math.floor(Math.random() * pros.length);
+  const pro = createDancerObj(proId, 'pro');
 
   return {
     placement: 0,
-    teamMembers: [celebs[celebId], pros[proId]],
+    teamMembers: [celeb, pro],
     dances: [],
     styles: shuffleStyles().slice(),
   };
@@ -172,11 +174,20 @@ export const randomizeTeam = () => {
 
 // create sim celeb object
 const createDancerObj = (id: number, type: string) => {
-  const dancer = type === 'celeb' ? celebs[id] : pros[id];
+  let dancer, image;
+  //const dancer: Celeb | Pro = type === 'celeb' ? celebs[id] : pros[id];
+  if (type === 'celeb') {
+    dancer = celebs[id];
+    image = `/images/${dancer.season}/${dancer.image}.jpg`;
+  } else {
+    dancer = pros[id];
+    image = `/images/pros/${dancer.image}.jpg`;
+  }
+
   const obj: Dancer = {
     firstName: dancer.firstName,
     lastName: dancer.lastName,
-    image: dancer.image,
+    image: image,
     dataIndex: id,
     type: type,
   };

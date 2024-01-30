@@ -2,350 +2,364 @@
   {
     "firstName": "Alan",
     "lastName": "Bersten",
-    "image": "",
+    "image": "alan",
     "current": "TRUE",
     "gender": "male"
   },
   {
     "firstName": "Artem",
     "lastName": "Chigvintsev",
-    "image": "",
+    "image": "artem",
     "current": "TRUE",
     "gender": "male"
   },
   {
     "firstName": "Brandon",
     "lastName": "Armstrong",
-    "image": "",
+    "image": "brandon",
     "current": "TRUE",
     "gender": "male"
   },
   {
     "firstName": "Britt",
     "lastName": "Stewart",
-    "image": "",
+    "image": "britt",
     "current": "TRUE",
     "gender": "female"
   },
   {
     "firstName": "Daniella",
     "lastName": "Karagach",
-    "image": "",
+    "image": "daniella",
     "current": "TRUE",
     "gender": "female"
   },
   {
     "firstName": "Emma",
     "lastName": "Slater",
-    "image": "",
+    "image": "emma",
     "current": "TRUE",
     "gender": "female"
   },
   {
     "firstName": "Ezra",
     "lastName": "Sosa",
-    "image": "",
+    "image": "ezra",
     "current": "TRUE",
     "gender": "male"
   },
   {
     "firstName": "Gleb",
     "lastName": "Savchenko",
-    "image": "",
+    "image": "gleb",
     "current": "TRUE",
     "gender": "male"
   },
   {
     "firstName": "Jenna",
     "lastName": "Johnson",
-    "image": "",
+    "image": "jenna",
     "current": "TRUE",
     "gender": "female"
   },
   {
     "firstName": "Pasha",
     "lastName": "Pashkov",
-    "image": "",
+    "image": "pasha",
     "current": "TRUE",
     "gender": "male"
   },
   {
     "firstName": "Peta",
     "lastName": "Murgatroyd",
-    "image": "",
+    "image": "peta",
     "current": "TRUE",
     "gender": "female"
   },
   {
     "firstName": "Rylee",
     "lastName": "Arnold",
-    "image": "",
+    "image": "rylee",
     "current": "TRUE",
     "gender": "female"
   },
   {
     "firstName": "Sasha",
     "lastName": "Farber",
-    "image": "",
+    "image": "sasha",
     "current": "TRUE",
     "gender": "male"
   },
   {
     "firstName": "Val",
     "lastName": "Chmerkovskiy",
-    "image": "",
+    "image": "val",
     "current": "TRUE",
     "gender": "male"
   },
   {
     "firstName": "Koko",
     "lastName": "Iwasaki",
-    "image": "",
+    "image": "koko",
     "current": "TRUE",
     "gender": "female"
   },
   {
     "firstName": "Alec",
     "lastName": "Mazo",
-    "image": "",
+    "image": "alec",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Allison",
     "lastName": "Holker",
-    "image": "",
+    "image": "allison",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Andrea",
     "lastName": "Hale",
-    "image": "",
+    "image": "andrea",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Anna",
     "lastName": "Demidova",
-    "image": "",
+    "image": "anna_d",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Anna",
     "lastName": "Trebunskaya",
-    "image": "",
+    "image": "anna_t",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Ashly",
-    "lastName": "DelGrosso",
-    "image": "",
+    "lastName": "DelGrosso-Costa",
+    "image": "ashly",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Brian",
     "lastName": "Fortuna",
-    "image": "",
+    "image": "brian",
     "current": "FALSE",
     "gender": "male"
   },
   {
+    "firstName": "Charlotte",
+    "lastName": "Jørgensen",
+    "image": "charlotte",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
     "firstName": "Chelsie",
     "lastName": "Hightower",
-    "image": "",
+    "image": "chelsie",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Cheryl",
     "lastName": "Burke",
-    "image": "",
+    "image": "cheryl",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Corky",
     "lastName": "Ballas",
-    "image": "",
+    "image": "corky",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Damian",
     "lastName": "Whitewood",
-    "image": "",
+    "image": "damian",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Derek",
     "lastName": "Hough",
-    "image": "",
+    "image": "derek",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Dmitry",
     "lastName": "Chaplin",
-    "image": "",
+    "image": "dmitry",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Edyta",
     "lastName": "Śliwińska",
-    "image": "",
+    "image": "edyta",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Elena",
     "lastName": "Grinenko",
-    "image": "",
+    "image": "elena",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Fabian",
     "lastName": "Sanchez",
-    "image": "",
+    "image": "fabian",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Hayley",
     "lastName": "Erbert",
-    "image": "",
+    "image": "hayley",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Henry",
     "lastName": "Byalikov",
-    "image": "",
+    "image": "henry",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Inna",
     "lastName": "Brayer",
-    "image": "",
+    "image": "inna",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Jesse",
     "lastName": "DeSoto",
-    "image": "",
+    "image": "jesse",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Jonathan",
     "lastName": "Roberts",
-    "image": "",
+    "image": "jonathan",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Julianne",
     "lastName": "Hough",
-    "image": "",
+    "image": "julianne",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Karina",
     "lastName": "Smirnoff",
-    "image": "",
+    "image": "karina",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Keo",
     "lastName": "Motsepe",
-    "image": "",
+    "image": "keo",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Kym",
     "lastName": "Johnson",
-    "image": "",
+    "image": "kym",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Lacey",
     "lastName": "Schwimmer",
-    "image": "",
+    "image": "lacey",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Lindsay",
     "lastName": "Arnold",
-    "image": "",
+    "image": "lindsay",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Louis",
     "lastName": "van Amstel",
-    "image": "",
+    "image": "louis",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Maks",
     "lastName": "Chmerkovskiy",
-    "image": "",
+    "image": "maks",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Mark",
     "lastName": "Ballas",
-    "image": "",
+    "image": "mark",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Nick",
     "lastName": "Kosovich",
-    "image": "",
+    "image": "nick",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Sharna",
     "lastName": "Burgess",
-    "image": "",
+    "image": "sharna",
     "current": "FALSE",
     "gender": "female"
   },
   {
     "firstName": "Tony",
     "lastName": "Dovolani",
-    "image": "",
+    "image": "tony",
     "current": "FALSE",
     "gender": "male"
   },
   {
     "firstName": "Tristan",
     "lastName": "MacManus",
-    "image": "",
+    "image": "tristan",
     "current": "FALSE",
     "gender": "male"
   },
   {
+    "firstName": "Tyne",
+    "lastName": "Stecklein",
+    "image": "tyne",
+    "current": "FALSE",
+    "gender": "female"
+  },
+  {
     "firstName": "Witney",
     "lastName": "Carson",
-    "image": "",
+    "image": "witney",
     "current": "FALSE",
     "gender": "female"
   }

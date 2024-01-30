@@ -2,7 +2,7 @@
   {
     "firstName": "Trista",
     "lastName": "Sutter",
-    "image": "",
+    "image": "trista",
     "gender": "female",
     "season": "1",
     "placement": "6"
@@ -10,7 +10,7 @@
   {
     "firstName": "Evander",
     "lastName": "Holyfield",
-    "image": "",
+    "image": "evander",
     "gender": "male",
     "season": "1",
     "placement": "5"
@@ -18,7 +18,7 @@
   {
     "firstName": "Rachel",
     "lastName": "Hunter",
-    "image": "",
+    "image": "rachel",
     "gender": "female",
     "season": "1",
     "placement": "4"
@@ -26,7 +26,7 @@
   {
     "firstName": "Joey",
     "lastName": "McIntyre",
-    "image": "",
+    "image": "joey",
     "gender": "male",
     "season": "1",
     "placement": "3"
@@ -34,7 +34,7 @@
   {
     "firstName": "John",
     "lastName": "O'Hurley",
-    "image": "",
+    "image": "john",
     "gender": "male",
     "season": "1",
     "placement": "2"
@@ -42,7 +42,7 @@
   {
     "firstName": "Kelly",
     "lastName": "Monaco",
-    "image": "",
+    "image": "kelly",
     "gender": "female",
     "season": "1",
     "placement": "1"
@@ -50,7 +50,7 @@
   {
     "firstName": "Kenny",
     "lastName": "Mayne",
-    "image": "",
+    "image": "kenny",
     "gender": "male",
     "season": "2",
     "placement": "10"
@@ -58,7 +58,7 @@
   {
     "firstName": "Tatum",
     "lastName": "O'Neal",
-    "image": "",
+    "image": "tatum",
     "gender": "female",
     "season": "2",
     "placement": "9"
@@ -66,7 +66,7 @@
   {
     "firstName": "Giselle",
     "lastName": "Fernandez",
-    "image": "",
+    "image": "giselle",
     "gender": "female",
     "season": "2",
     "placement": "8"
@@ -74,7 +74,7 @@
   {
     "firstName": "Master",
     "lastName": "P",
-    "image": "",
+    "image": "masterp",
     "gender": "male",
     "season": "2",
     "placement": "7"
@@ -82,7 +82,7 @@
   {
     "firstName": "Tia",
     "lastName": "Carrere",
-    "image": "",
+    "image": "tia",
     "gender": "female",
     "season": "2",
     "placement": "6"
@@ -90,7 +90,7 @@
   {
     "firstName": "George",
     "lastName": "Hamilton",
-    "image": "",
+    "image": "george",
     "gender": "male",
     "season": "2",
     "placement": "5"
@@ -98,7 +98,7 @@
   {
     "firstName": "Lisa",
     "lastName": "Rinna",
-    "image": "",
+    "image": "lisa",
     "gender": "female",
     "season": "2",
     "placement": "4"
@@ -106,7 +106,7 @@
   {
     "firstName": "Stacy",
     "lastName": "Keibler",
-    "image": "",
+    "image": "stacy",
     "gender": "female",
     "season": "2",
     "placement": "3"
@@ -114,7 +114,7 @@
   {
     "firstName": "Jerry",
     "lastName": "Rice",
-    "image": "",
+    "image": "jerry",
     "gender": "male",
     "season": "2",
     "placement": "2"
@@ -122,7 +122,7 @@
   {
     "firstName": "Drew",
     "lastName": "Lachey",
-    "image": "",
+    "image": "drew",
     "gender": "male",
     "season": "2",
     "placement": "1"
@@ -130,7 +130,7 @@
   {
     "firstName": "Tucker",
     "lastName": "Carlson",
-    "image": "",
+    "image": "tucker",
     "gender": "male",
     "season": "3",
     "placement": "11"
@@ -138,7 +138,7 @@
   {
     "firstName": "Shanna",
     "lastName": "Moakler",
-    "image": "",
+    "image": "shanna",
     "gender": "female",
     "season": "3",
     "placement": "10"
@@ -146,7 +146,7 @@
   {
     "firstName": "Harry",
     "lastName": "Hamlin",
-    "image": "",
+    "image": "harry",
     "gender": "male",
     "season": "3",
     "placement": "9"
@@ -154,7 +154,7 @@
   {
     "firstName": "Vivica",
     "lastName": "A. Fox",
-    "image": "",
+    "image": "vivica",
     "gender": "female",
     "season": "3",
     "placement": "8"
@@ -162,7 +162,7 @@
   {
     "firstName": "Willa",
     "lastName": "Ford",
-    "image": "",
+    "image": "willa",
     "gender": "female",
     "season": "3",
     "placement": "7"
@@ -170,7 +170,7 @@
   {
     "firstName": "Sara",
     "lastName": "Evans",
-    "image": "",
+    "image": "sara",
     "gender": "female",
     "season": "3",
     "placement": "6"
@@ -178,7 +178,7 @@
   {
     "firstName": "Jerry",
     "lastName": "Springer",
-    "image": "",
+    "image": "jerry",
     "gender": "male",
     "season": "3",
     "placement": "5"
@@ -186,7 +186,7 @@
   {
     "firstName": "Monique",
     "lastName": "Coleman",
-    "image": "",
+    "image": "monique",
     "gender": "female",
     "season": "3",
     "placement": "4"
@@ -194,7 +194,7 @@
   {
     "firstName": "Joey",
     "lastName": "Lawrence",
-    "image": "",
+    "image": "joey",
     "gender": "male",
     "season": "3",
     "placement": "3"
@@ -202,7 +202,7 @@
   {
     "firstName": "Mario",
     "lastName": "Lopez",
-    "image": "",
+    "image": "mario",
     "gender": "male",
     "season": "3",
     "placement": "2"
@@ -210,7 +210,7 @@
   {
     "firstName": "Emmitt",
     "lastName": "Smith",
-    "image": "",
+    "image": "emmitt",
     "gender": "male",
     "season": "3",
     "placement": "1"
@@ -218,7 +218,7 @@
   {
     "firstName": "Paulina",
     "lastName": "Porizkova",
-    "image": "",
+    "image": "paulina",
     "gender": "female",
     "season": "4",
     "placement": "11"
@@ -226,7 +226,7 @@
   {
     "firstName": "Shandi",
     "lastName": "Finnessey",
-    "image": "",
+    "image": "shandi",
     "gender": "female",
     "season": "4",
     "placement": "10"
@@ -234,7 +234,7 @@
   {
     "firstName": "Leeza",
     "lastName": "Gibbons",
-    "image": "",
+    "image": "leeza",
     "gender": "female",
     "season": "4",
     "placement": "9"
@@ -242,7 +242,7 @@
   {
     "firstName": "Clyde",
     "lastName": "Drexler",
-    "image": "",
+    "image": "clyde",
     "gender": "male",
     "season": "4",
     "placement": "8"
@@ -250,7 +250,7 @@
   {
     "firstName": "Heather",
     "lastName": "Mills",
-    "image": "",
+    "image": "heather",
     "gender": "female",
     "season": "4",
     "placement": "7"
@@ -258,7 +258,7 @@
   {
     "firstName": "John",
     "lastName": "Ratzenberger",
-    "image": "",
+    "image": "john",
     "gender": "male",
     "season": "4",
     "placement": "6"
@@ -266,7 +266,7 @@
   {
     "firstName": "Billy Ray",
     "lastName": "Cyrus",
-    "image": "",
+    "image": "billyray",
     "gender": "male",
     "season": "4",
     "placement": "5"
@@ -274,7 +274,7 @@
   {
     "firstName": "Ian",
     "lastName": "Ziering",
-    "image": "",
+    "image": "ian",
     "gender": "male",
     "season": "4",
     "placement": "4"
@@ -282,7 +282,7 @@
   {
     "firstName": "Laila",
     "lastName": "Ali",
-    "image": "",
+    "image": "laila",
     "gender": "female",
     "season": "4",
     "placement": "3"
@@ -290,7 +290,7 @@
   {
     "firstName": "Joey",
     "lastName": "Fatone",
-    "image": "",
+    "image": "joey",
     "gender": "male",
     "season": "4",
     "placement": "2"
@@ -298,7 +298,7 @@
   {
     "firstName": "Apolo",
     "lastName": "Anton Ohno",
-    "image": "",
+    "image": "apolo",
     "gender": "male",
     "season": "4",
     "placement": "1"
@@ -306,7 +306,7 @@
   {
     "firstName": "Josie",
     "lastName": "Maran",
-    "image": "",
+    "image": "josie",
     "gender": "female",
     "season": "5",
     "placement": "12"
@@ -314,7 +314,7 @@
   {
     "firstName": "Albert",
     "lastName": "Reed",
-    "image": "",
+    "image": "albert",
     "gender": "male",
     "season": "5",
     "placement": "11"
@@ -322,7 +322,7 @@
   {
     "firstName": "Wayne",
     "lastName": "Newton",
-    "image": "",
+    "image": "wayne",
     "gender": "male",
     "season": "5",
     "placement": "10"
@@ -330,7 +330,7 @@
   {
     "firstName": "Floyd",
     "lastName": "Mayweather Jr.",
-    "image": "",
+    "image": "floyd",
     "gender": "male",
     "season": "5",
     "placement": "9"
@@ -338,7 +338,7 @@
   {
     "firstName": "Mark",
     "lastName": "Cuban",
-    "image": "",
+    "image": "mark",
     "gender": "male",
     "season": "5",
     "placement": "8"
@@ -346,7 +346,7 @@
   {
     "firstName": "Sabrina",
     "lastName": "Bryan",
-    "image": "",
+    "image": "sabrina",
     "gender": "female",
     "season": "5",
     "placement": "7"
@@ -354,7 +354,7 @@
   {
     "firstName": "Jane",
     "lastName": "Seymour",
-    "image": "",
+    "image": "jane",
     "gender": "female",
     "season": "5",
     "placement": "6"
@@ -362,7 +362,7 @@
   {
     "firstName": "Cameron",
     "lastName": "Mathison",
-    "image": "",
+    "image": "cameron",
     "gender": "male",
     "season": "5",
     "placement": "5"
@@ -370,7 +370,7 @@
   {
     "firstName": "Jennie",
     "lastName": "Garth",
-    "image": "",
+    "image": "jennie",
     "gender": "female",
     "season": "5",
     "placement": "4"
@@ -378,7 +378,7 @@
   {
     "firstName": "Marie",
     "lastName": "Osmond",
-    "image": "",
+    "image": "marie",
     "gender": "female",
     "season": "5",
     "placement": "3"
@@ -386,7 +386,7 @@
   {
     "firstName": "Mel",
     "lastName": "B",
-    "image": "",
+    "image": "melb",
     "gender": "female",
     "season": "5",
     "placement": "2"
@@ -394,7 +394,7 @@
   {
     "firstName": "Hélio",
     "lastName": "Castroneves",
-    "image": "",
+    "image": "helio",
     "gender": "male",
     "season": "5",
     "placement": "1"
@@ -402,7 +402,7 @@
   {
     "firstName": "Penn",
     "lastName": "Jillette",
-    "image": "",
+    "image": "penn",
     "gender": "male",
     "season": "6",
     "placement": "12"
@@ -410,7 +410,7 @@
   {
     "firstName": "Monica",
     "lastName": "Seles",
-    "image": "",
+    "image": "monica",
     "gender": "female",
     "season": "6",
     "placement": "11"
@@ -418,7 +418,7 @@
   {
     "firstName": "Steve",
     "lastName": "Guttenberg",
-    "image": "",
+    "image": "steve",
     "gender": "male",
     "season": "6",
     "placement": "10"
@@ -426,7 +426,7 @@
   {
     "firstName": "Adam",
     "lastName": "Carolla",
-    "image": "",
+    "image": "adam",
     "gender": "male",
     "season": "6",
     "placement": "9"
@@ -434,7 +434,7 @@
   {
     "firstName": "Priscilla",
     "lastName": "Presley",
-    "image": "",
+    "image": "priscilla",
     "gender": "female",
     "season": "6",
     "placement": "8"
@@ -442,7 +442,7 @@
   {
     "firstName": "Marlee",
     "lastName": "Matlin",
-    "image": "",
+    "image": "marlee",
     "gender": "female",
     "season": "6",
     "placement": "7"
@@ -450,7 +450,7 @@
   {
     "firstName": "Shannon",
     "lastName": "Elizabeth",
-    "image": "",
+    "image": "shannon",
     "gender": "female",
     "season": "6",
     "placement": "6"
@@ -458,7 +458,7 @@
   {
     "firstName": "Mario",
     "lastName": "",
-    "image": "",
+    "image": "mario",
     "gender": "male",
     "season": "6",
     "placement": "5"
@@ -466,15 +466,15 @@
   {
     "firstName": "Marissa",
     "lastName": "Jaret Winkour",
-    "image": "",
+    "image": "marissa",
     "gender": "female",
     "season": "6",
     "placement": "4"
   },
   {
-    "firstName": "Christián",
+    "firstName": "Cristián",
     "lastName": "de la Fuente",
-    "image": "",
+    "image": "cristian",
     "gender": "male",
     "season": "6",
     "placement": "3"
@@ -482,7 +482,7 @@
   {
     "firstName": "Jason",
     "lastName": "Taylor",
-    "image": "",
+    "image": "jason",
     "gender": "male",
     "season": "6",
     "placement": "2"
@@ -490,7 +490,7 @@
   {
     "firstName": "Kristi",
     "lastName": "Yamaguchi",
-    "image": "",
+    "image": "kristi",
     "gender": "female",
     "season": "6",
     "placement": "1"
@@ -498,7 +498,7 @@
   {
     "firstName": "Jeffrey",
     "lastName": "Ross",
-    "image": "",
+    "image": "jeffrey",
     "gender": "male",
     "season": "7",
     "placement": "13"
@@ -506,7 +506,7 @@
   {
     "firstName": "Ted",
     "lastName": "McGinley",
-    "image": "",
+    "image": "ted",
     "gender": "male",
     "season": "7",
     "placement": "12"
@@ -514,7 +514,7 @@
   {
     "firstName": "Kim",
     "lastName": "Kardashian",
-    "image": "",
+    "image": "kim",
     "gender": "female",
     "season": "7",
     "placement": "11"
@@ -522,7 +522,7 @@
   {
     "firstName": "Misty",
     "lastName": "May-Trainor",
-    "image": "",
+    "image": "misty",
     "gender": "female",
     "season": "7",
     "placement": "10"
@@ -530,7 +530,7 @@
   {
     "firstName": "Rocco",
     "lastName": "DiSpirito",
-    "image": "",
+    "image": "rocco",
     "gender": "male",
     "season": "7",
     "placement": "9"
@@ -538,7 +538,7 @@
   {
     "firstName": "Toni",
     "lastName": "Braxton",
-    "image": "",
+    "image": "toni",
     "gender": "female",
     "season": "7",
     "placement": "8"
@@ -546,7 +546,7 @@
   {
     "firstName": "Cloris",
     "lastName": "Leachman",
-    "image": "",
+    "image": "cloris",
     "gender": "female",
     "season": "7",
     "placement": "7"
@@ -554,7 +554,7 @@
   {
     "firstName": "Susan",
     "lastName": "Lucci",
-    "image": "",
+    "image": "susan",
     "gender": "female",
     "season": "7",
     "placement": "6"
@@ -562,7 +562,7 @@
   {
     "firstName": "Maurice",
     "lastName": "Greene",
-    "image": "",
+    "image": "maurice",
     "gender": "male",
     "season": "7",
     "placement": "5"
@@ -570,7 +570,7 @@
   {
     "firstName": "Cody",
     "lastName": "Linley",
-    "image": "",
+    "image": "cody",
     "gender": "male",
     "season": "7",
     "placement": "4"
@@ -578,7 +578,7 @@
   {
     "firstName": "Lance",
     "lastName": "Bass",
-    "image": "",
+    "image": "lance",
     "gender": "male",
     "season": "7",
     "placement": "3"
@@ -586,7 +586,7 @@
   {
     "firstName": "Warren",
     "lastName": "Sapp",
-    "image": "",
+    "image": "warren",
     "gender": "male",
     "season": "7",
     "placement": "2"
@@ -594,7 +594,7 @@
   {
     "firstName": "Brooke",
     "lastName": "Burke",
-    "image": "",
+    "image": "brooke",
     "gender": "female",
     "season": "7",
     "placement": "1"
@@ -602,7 +602,7 @@
   {
     "firstName": "Belinda",
     "lastName": "Carlisle",
-    "image": "",
+    "image": "belinda",
     "gender": "female",
     "season": "8",
     "placement": "13"
@@ -610,7 +610,7 @@
   {
     "firstName": "Denise",
     "lastName": "Richards",
-    "image": "",
+    "image": "denise",
     "gender": "female",
     "season": "8",
     "placement": "12"
@@ -618,7 +618,7 @@
   {
     "firstName": "Holly",
     "lastName": "Madison",
-    "image": "",
+    "image": "holly",
     "gender": "female",
     "season": "8",
     "placement": "11"
@@ -626,7 +626,7 @@
   {
     "firstName": "Steve",
     "lastName": "Wozniak",
-    "image": "",
+    "image": "steve",
     "gender": "male",
     "season": "8",
     "placement": "10"
@@ -634,7 +634,7 @@
   {
     "firstName": "David",
     "lastName": "Alan Grier",
-    "image": "",
+    "image": "david",
     "gender": "male",
     "season": "8",
     "placement": "9"
@@ -642,7 +642,7 @@
   {
     "firstName": "Steve-O",
     "lastName": "",
-    "image": "",
+    "image": "steveo",
     "gender": "male",
     "season": "8",
     "placement": "8"
@@ -650,7 +650,7 @@
   {
     "firstName": "Lawrence",
     "lastName": "Taylor",
-    "image": "",
+    "image": "lawrence",
     "gender": "male",
     "season": "8",
     "placement": "7"
@@ -658,7 +658,7 @@
   {
     "firstName": "Chuck",
     "lastName": "Wicks",
-    "image": "",
+    "image": "chuck",
     "gender": "male",
     "season": "8",
     "placement": "6"
@@ -666,7 +666,7 @@
   {
     "firstName": "Lil' Kim",
     "lastName": "",
-    "image": "",
+    "image": "lilkim",
     "gender": "female",
     "season": "8",
     "placement": "5"
@@ -674,7 +674,7 @@
   {
     "firstName": "Ty",
     "lastName": "Murray",
-    "image": "",
+    "image": "ty",
     "gender": "male",
     "season": "8",
     "placement": "4"
@@ -682,7 +682,7 @@
   {
     "firstName": "Melissa",
     "lastName": "Rycroft",
-    "image": "",
+    "image": "melissa",
     "gender": "female",
     "season": "8",
     "placement": "3"
@@ -690,7 +690,7 @@
   {
     "firstName": "Gilles",
     "lastName": "Marini",
-    "image": "",
+    "image": "gilles",
     "gender": "male",
     "season": "8",
     "placement": "2"
@@ -698,7 +698,7 @@
   {
     "firstName": "Shawn",
     "lastName": "Johnson",
-    "image": "",
+    "image": "shawn",
     "gender": "female",
     "season": "8",
     "placement": "1"
@@ -706,7 +706,7 @@
   {
     "firstName": "Ashley",
     "lastName": "Hamilton",
-    "image": "",
+    "image": "ashley",
     "gender": "female",
     "season": "9",
     "placement": "16"
@@ -714,7 +714,7 @@
   {
     "firstName": "Macy",
     "lastName": "Gray",
-    "image": "",
+    "image": "macy",
     "gender": "female",
     "season": "9",
     "placement": "15"
@@ -722,7 +722,7 @@
   {
     "firstName": "Kathy",
     "lastName": "Ireland",
-    "image": "",
+    "image": "kathy",
     "gender": "female",
     "season": "9",
     "placement": "14"
@@ -730,7 +730,7 @@
   {
     "firstName": "Tom",
     "lastName": "Delay",
-    "image": "",
+    "image": "tom",
     "gender": "male",
     "season": "9",
     "placement": "13"
@@ -738,7 +738,7 @@
   {
     "firstName": "Debi",
     "lastName": "Mazar",
-    "image": "",
+    "image": "debi",
     "gender": "female",
     "season": "9",
     "placement": "12"
@@ -746,7 +746,7 @@
   {
     "firstName": "Chuck",
     "lastName": "Liddell",
-    "image": "",
+    "image": "chuck",
     "gender": "male",
     "season": "9",
     "placement": "11"
@@ -754,7 +754,7 @@
   {
     "firstName": "Natalie",
     "lastName": "Coughlin",
-    "image": "",
+    "image": "natalie",
     "gender": "female",
     "season": "9",
     "placement": "10"
@@ -762,7 +762,7 @@
   {
     "firstName": "Melissa",
     "lastName": "Joan Hart",
-    "image": "",
+    "image": "melissa",
     "gender": "female",
     "season": "9",
     "placement": "9"
@@ -770,7 +770,7 @@
   {
     "firstName": "Louie",
     "lastName": "Vito",
-    "image": "",
+    "image": "louie",
     "gender": "male",
     "season": "9",
     "placement": "8"
@@ -778,7 +778,7 @@
   {
     "firstName": "Michael",
     "lastName": "Irvin",
-    "image": "",
+    "image": "michael",
     "gender": "male",
     "season": "9",
     "placement": "7"
@@ -786,7 +786,7 @@
   {
     "firstName": "Mark",
     "lastName": "Dacascos",
-    "image": "",
+    "image": "mark",
     "gender": "male",
     "season": "9",
     "placement": "6"
@@ -794,7 +794,7 @@
   {
     "firstName": "Aaron",
     "lastName": "Carter",
-    "image": "",
+    "image": "aaron",
     "gender": "male",
     "season": "9",
     "placement": "5"
@@ -802,7 +802,7 @@
   {
     "firstName": "Joanna",
     "lastName": "Krupa",
-    "image": "",
+    "image": "joanna",
     "gender": "female",
     "season": "9",
     "placement": "4"
@@ -810,7 +810,7 @@
   {
     "firstName": "Kelly",
     "lastName": "Osbourne",
-    "image": "",
+    "image": "kelly",
     "gender": "female",
     "season": "9",
     "placement": "3"
@@ -818,7 +818,7 @@
   {
     "firstName": "Mýa",
     "lastName": "",
-    "image": "",
+    "image": "mya",
     "gender": "female",
     "season": "9",
     "placement": "2"
@@ -826,7 +826,7 @@
   {
     "firstName": "Donny",
     "lastName": "Osmond",
-    "image": "",
+    "image": "donny",
     "gender": "male",
     "season": "9",
     "placement": "1"
@@ -834,7 +834,7 @@
   {
     "firstName": "Shannen",
     "lastName": "Doherty",
-    "image": "",
+    "image": "shannen",
     "gender": "female",
     "season": "10",
     "placement": "11"
@@ -842,7 +842,7 @@
   {
     "firstName": "Buzz",
     "lastName": "Aldrin",
-    "image": "",
+    "image": "buzz",
     "gender": "male",
     "season": "10",
     "placement": "10"
@@ -850,7 +850,7 @@
   {
     "firstName": "Aiden",
     "lastName": "Turner",
-    "image": "",
+    "image": "aiden",
     "gender": "male",
     "season": "10",
     "placement": "9"
@@ -858,7 +858,7 @@
   {
     "firstName": "Kate",
     "lastName": "Gosselin",
-    "image": "",
+    "image": "kate",
     "gender": "female",
     "season": "10",
     "placement": "8"
@@ -866,7 +866,7 @@
   {
     "firstName": "Jake",
     "lastName": "Pavelka",
-    "image": "",
+    "image": "jake",
     "gender": "male",
     "season": "10",
     "placement": "7"
@@ -874,7 +874,7 @@
   {
     "firstName": "Pamela",
     "lastName": "Anderson",
-    "image": "",
+    "image": "pamela",
     "gender": "female",
     "season": "10",
     "placement": "6"
@@ -882,7 +882,7 @@
   {
     "firstName": "Niecy",
     "lastName": "Nash",
-    "image": "",
+    "image": "niecy",
     "gender": "female",
     "season": "10",
     "placement": "5"
@@ -890,7 +890,7 @@
   {
     "firstName": "Chad",
     "lastName": "Ochocinco",
-    "image": "",
+    "image": "chad",
     "gender": "male",
     "season": "10",
     "placement": "4"
@@ -898,7 +898,7 @@
   {
     "firstName": "Erin",
     "lastName": "Andrews",
-    "image": "",
+    "image": "erin",
     "gender": "female",
     "season": "10",
     "placement": "3"
@@ -906,7 +906,7 @@
   {
     "firstName": "Evander",
     "lastName": "Lysacek",
-    "image": "",
+    "image": "evander",
     "gender": "male",
     "season": "10",
     "placement": "2"
@@ -914,7 +914,7 @@
   {
     "firstName": "Nicole",
     "lastName": "Scherzinger",
-    "image": "",
+    "image": "nicole",
     "gender": "female",
     "season": "10",
     "placement": "1"
@@ -922,7 +922,7 @@
   {
     "firstName": "David",
     "lastName": "Hasselhoff",
-    "image": "",
+    "image": "david",
     "gender": "male",
     "season": "11",
     "placement": "12"
@@ -930,7 +930,7 @@
   {
     "firstName": "Michael",
     "lastName": "Bolton",
-    "image": "",
+    "image": "michael",
     "gender": "male",
     "season": "11",
     "placement": "11"
@@ -938,7 +938,7 @@
   {
     "firstName": "Margaret",
     "lastName": "Cho",
-    "image": "",
+    "image": "margaret",
     "gender": "female",
     "season": "11",
     "placement": "10"
@@ -946,7 +946,7 @@
   {
     "firstName": "The Situation",
     "lastName": "",
-    "image": "",
+    "image": "mike",
     "gender": "male",
     "season": "11",
     "placement": "9"
@@ -954,7 +954,7 @@
   {
     "firstName": "Florence",
     "lastName": "Henderson",
-    "image": "",
+    "image": "florence",
     "gender": "female",
     "season": "11",
     "placement": "8"
@@ -962,7 +962,7 @@
   {
     "firstName": "Audrina",
     "lastName": "Patridge",
-    "image": "",
+    "image": "audrina",
     "gender": "female",
     "season": "11",
     "placement": "7"
@@ -970,7 +970,7 @@
   {
     "firstName": "Rick",
     "lastName": "Fox",
-    "image": "",
+    "image": "rick",
     "gender": "male",
     "season": "11",
     "placement": "6"
@@ -978,7 +978,7 @@
   {
     "firstName": "Kurt",
     "lastName": "Warner",
-    "image": "",
+    "image": "kurt",
     "gender": "male",
     "season": "11",
     "placement": "5"
@@ -986,7 +986,7 @@
   {
     "firstName": "Brandy",
     "lastName": "",
-    "image": "",
+    "image": "brandy",
     "gender": "female",
     "season": "11",
     "placement": "4"
@@ -994,7 +994,7 @@
   {
     "firstName": "Bristol",
     "lastName": "Palin",
-    "image": "",
+    "image": "bristol",
     "gender": "female",
     "season": "11",
     "placement": "3"
@@ -1002,7 +1002,7 @@
   {
     "firstName": "Kyle",
     "lastName": "Massey",
-    "image": "",
+    "image": "kyle",
     "gender": "male",
     "season": "11",
     "placement": "2"
@@ -1010,7 +1010,7 @@
   {
     "firstName": "Jennifer",
     "lastName": "Grey",
-    "image": "",
+    "image": "jennifer",
     "gender": "female",
     "season": "11",
     "placement": "1"
@@ -1018,7 +1018,7 @@
   {
     "firstName": "Mike",
     "lastName": "Catherwood",
-    "image": "",
+    "image": "mike",
     "gender": "male",
     "season": "12",
     "placement": "11"
@@ -1026,7 +1026,7 @@
   {
     "firstName": "Wendy",
     "lastName": "Williams",
-    "image": "",
+    "image": "wendy",
     "gender": "female",
     "season": "12",
     "placement": "10"
@@ -1034,7 +1034,7 @@
   {
     "firstName": "Sugar Ray",
     "lastName": "Leonard",
-    "image": "",
+    "image": "sugarray",
     "gender": "male",
     "season": "12",
     "placement": "9"
@@ -1042,7 +1042,7 @@
   {
     "firstName": "Petra",
     "lastName": "Němcová",
-    "image": "",
+    "image": "petra",
     "gender": "female",
     "season": "12",
     "placement": "8"
@@ -1050,7 +1050,7 @@
   {
     "firstName": "Chris",
     "lastName": "Jericho",
-    "image": "",
+    "image": "chris",
     "gender": "male",
     "season": "12",
     "placement": "7"
@@ -1058,7 +1058,7 @@
   {
     "firstName": "Kendra",
     "lastName": "Wilkinson",
-    "image": "",
+    "image": "kendra",
     "gender": "female",
     "season": "12",
     "placement": "6"
@@ -1066,7 +1066,7 @@
   {
     "firstName": "Romeo",
     "lastName": "",
-    "image": "",
+    "image": "romeo",
     "gender": "male",
     "season": "12",
     "placement": "5"
@@ -1074,7 +1074,7 @@
   {
     "firstName": "Ralph",
     "lastName": "Macchio",
-    "image": "",
+    "image": "ralph",
     "gender": "male",
     "season": "12",
     "placement": "4"
@@ -1082,7 +1082,7 @@
   {
     "firstName": "Chelsea",
     "lastName": "Kane",
-    "image": "",
+    "image": "chelsea",
     "gender": "female",
     "season": "12",
     "placement": "3"
@@ -1090,7 +1090,7 @@
   {
     "firstName": "Kirstie",
     "lastName": "Alley",
-    "image": "",
+    "image": "kirstie",
     "gender": "female",
     "season": "12",
     "placement": "2"
@@ -1098,7 +1098,7 @@
   {
     "firstName": "Hines",
     "lastName": "Ward",
-    "image": "",
+    "image": "hines",
     "gender": "male",
     "season": "12",
     "placement": "1"
@@ -1106,7 +1106,7 @@
   {
     "firstName": "Metta World Peace",
     "lastName": "",
-    "image": "",
+    "image": "metta",
     "gender": "male",
     "season": "13",
     "placement": "12"
@@ -1114,7 +1114,7 @@
   {
     "firstName": "Elisabetta",
     "lastName": "Canalis",
-    "image": "",
+    "image": "elisabetta",
     "gender": "female",
     "season": "13",
     "placement": "11"
@@ -1122,7 +1122,7 @@
   {
     "firstName": "Kristin",
     "lastName": "Cavallari",
-    "image": "",
+    "image": "kristin",
     "gender": "female",
     "season": "13",
     "placement": "10"
@@ -1130,7 +1130,7 @@
   {
     "firstName": "Chynna",
     "lastName": "Phillips",
-    "image": "",
+    "image": "chynna",
     "gender": "female",
     "season": "13",
     "placement": "9"
@@ -1138,7 +1138,7 @@
   {
     "firstName": "Carson",
     "lastName": "Kressley",
-    "image": "",
+    "image": "carson",
     "gender": "male",
     "season": "13",
     "placement": "8"
@@ -1146,7 +1146,7 @@
   {
     "firstName": "Chaz",
     "lastName": "Bono",
-    "image": "",
+    "image": "chaz",
     "gender": "male",
     "season": "13",
     "placement": "7"
@@ -1154,7 +1154,7 @@
   {
     "firstName": "David",
     "lastName": "Arquette",
-    "image": "",
+    "image": "david",
     "gender": "male",
     "season": "13",
     "placement": "6"
@@ -1162,7 +1162,7 @@
   {
     "firstName": "Nancy",
     "lastName": "Grace",
-    "image": "",
+    "image": "nancy",
     "gender": "female",
     "season": "13",
     "placement": "5"
@@ -1170,7 +1170,7 @@
   {
     "firstName": "Hope",
     "lastName": "Solo",
-    "image": "",
+    "image": "hope",
     "gender": "female",
     "season": "13",
     "placement": "4"
@@ -1178,7 +1178,7 @@
   {
     "firstName": "Ricki",
     "lastName": "Lake",
-    "image": "",
+    "image": "ricki",
     "gender": "female",
     "season": "13",
     "placement": "3"
@@ -1186,7 +1186,7 @@
   {
     "firstName": "Rob",
     "lastName": "Kardashian",
-    "image": "",
+    "image": "rob",
     "gender": "male",
     "season": "13",
     "placement": "2"
@@ -1194,7 +1194,7 @@
   {
     "firstName": "J.R.",
     "lastName": "Martinez",
-    "image": "",
+    "image": "jr",
     "gender": "male",
     "season": "13",
     "placement": "1"
@@ -1202,7 +1202,7 @@
   {
     "firstName": "Martina",
     "lastName": "Navratilova",
-    "image": "",
+    "image": "martina",
     "gender": "female",
     "season": "14",
     "placement": "12"
@@ -1210,7 +1210,7 @@
   {
     "firstName": "Jack",
     "lastName": "Wagner",
-    "image": "",
+    "image": "jack",
     "gender": "male",
     "season": "14",
     "placement": "11"
@@ -1218,7 +1218,7 @@
   {
     "firstName": "Sherri",
     "lastName": "Shepherd",
-    "image": "",
+    "image": "sherri",
     "gender": "female",
     "season": "14",
     "placement": "10"
@@ -1226,7 +1226,7 @@
   {
     "firstName": "Gavin",
     "lastName": "DeGraw",
-    "image": "",
+    "image": "gavin",
     "gender": "male",
     "season": "14",
     "placement": "9"
@@ -1234,7 +1234,7 @@
   {
     "firstName": "Gladys",
     "lastName": "Knight",
-    "image": "",
+    "image": "gladys",
     "gender": "female",
     "season": "14",
     "placement": "8"
@@ -1242,7 +1242,7 @@
   {
     "firstName": "Jaleel",
     "lastName": "White",
-    "image": "",
+    "image": "jaleel",
     "gender": "male",
     "season": "14",
     "placement": "7"
@@ -1250,7 +1250,7 @@
   {
     "firstName": "Roshon",
     "lastName": "Fegan",
-    "image": "",
+    "image": "roshon",
     "gender": "male",
     "season": "14",
     "placement": "6"
@@ -1258,7 +1258,7 @@
   {
     "firstName": "Melissa",
     "lastName": "Gilbert",
-    "image": "",
+    "image": "melissa",
     "gender": "female",
     "season": "14",
     "placement": "5"
@@ -1266,7 +1266,7 @@
   {
     "firstName": "Maria",
     "lastName": "Menounos",
-    "image": "",
+    "image": "maria",
     "gender": "female",
     "season": "14",
     "placement": "4"
@@ -1274,7 +1274,7 @@
   {
     "firstName": "William",
     "lastName": "Levy",
-    "image": "",
+    "image": "william",
     "gender": "male",
     "season": "14",
     "placement": "3"
@@ -1282,7 +1282,7 @@
   {
     "firstName": "Katherine",
     "lastName": "Jenkins",
-    "image": "",
+    "image": "katherine",
     "gender": "female",
     "season": "14",
     "placement": "2"
@@ -1290,7 +1290,7 @@
   {
     "firstName": "Donald",
     "lastName": "Driver",
-    "image": "",
+    "image": "donald",
     "gender": "male",
     "season": "14",
     "placement": "1"
@@ -1298,7 +1298,7 @@
   {
     "firstName": "Pamela",
     "lastName": "Anderson",
-    "image": "",
+    "image": "pamela",
     "gender": "female",
     "season": "15",
     "placement": "13"
@@ -1306,7 +1306,7 @@
   {
     "firstName": "Joey",
     "lastName": "Fatone",
-    "image": "",
+    "image": "joey",
     "gender": "male",
     "season": "15",
     "placement": "12"
@@ -1314,7 +1314,7 @@
   {
     "firstName": "Drew",
     "lastName": "Lachey",
-    "image": "",
+    "image": "drew",
     "gender": "male",
     "season": "15",
     "placement": "11"
@@ -1322,7 +1322,7 @@
   {
     "firstName": "Hélio",
     "lastName": "Castroneves",
-    "image": "",
+    "image": "helio",
     "gender": "male",
     "season": "15",
     "placement": "10"
@@ -1330,7 +1330,7 @@
   {
     "firstName": "Bristol",
     "lastName": "Palin",
-    "image": "",
+    "image": "bristol",
     "gender": "female",
     "season": "15",
     "placement": "9"
@@ -1338,7 +1338,7 @@
   {
     "firstName": "Sabrina",
     "lastName": "Bryan",
-    "image": "",
+    "image": "sabrina",
     "gender": "female",
     "season": "15",
     "placement": "8"
@@ -1346,7 +1346,7 @@
   {
     "firstName": "Kirstie",
     "lastName": "Alley",
-    "image": "",
+    "image": "kirstie",
     "gender": "female",
     "season": "15",
     "placement": "7"
@@ -1354,7 +1354,7 @@
   {
     "firstName": "Gilles",
     "lastName": "Marini",
-    "image": "",
+    "image": "gilles",
     "gender": "male",
     "season": "15",
     "placement": "6"
@@ -1362,7 +1362,7 @@
   {
     "firstName": "Apolo",
     "lastName": "Anton Ohno",
-    "image": "",
+    "image": "apolo",
     "gender": "male",
     "season": "15",
     "placement": "5"
@@ -1370,7 +1370,7 @@
   {
     "firstName": "Emmitt",
     "lastName": "Smith",
-    "image": "",
+    "image": "emmitt",
     "gender": "male",
     "season": "15",
     "placement": "4"
@@ -1378,7 +1378,7 @@
   {
     "firstName": "Kelly",
     "lastName": "Monaco",
-    "image": "",
+    "image": "kelly",
     "gender": "female",
     "season": "15",
     "placement": "3"
@@ -1386,7 +1386,7 @@
   {
     "firstName": "Shawn",
     "lastName": "Johnson",
-    "image": "",
+    "image": "shawn",
     "gender": "female",
     "season": "15",
     "placement": "2"
@@ -1394,7 +1394,7 @@
   {
     "firstName": "Melissa",
     "lastName": "Rycroft",
-    "image": "",
+    "image": "melissa",
     "gender": "female",
     "season": "15",
     "placement": "1"
@@ -1402,7 +1402,7 @@
   {
     "firstName": "Dorothy",
     "lastName": "Hamill",
-    "image": "",
+    "image": "dorothy",
     "gender": "female",
     "season": "16",
     "placement": "12"
@@ -1410,7 +1410,7 @@
   {
     "firstName": "Wynonna",
     "lastName": "Judd",
-    "image": "",
+    "image": "wynonna",
     "gender": "female",
     "season": "16",
     "placement": "11"
@@ -1418,7 +1418,7 @@
   {
     "firstName": "Lisa",
     "lastName": "Vanderpump",
-    "image": "",
+    "image": "lisa",
     "gender": "female",
     "season": "16",
     "placement": "10"
@@ -1426,7 +1426,7 @@
   {
     "firstName": "D.L.",
     "lastName": "Hughley",
-    "image": "",
+    "image": "dl",
     "gender": "male",
     "season": "16",
     "placement": "9"
@@ -1434,7 +1434,7 @@
   {
     "firstName": "Victor",
     "lastName": "Ortiz",
-    "image": "",
+    "image": "victor",
     "gender": "male",
     "season": "16",
     "placement": "8"
@@ -1442,7 +1442,7 @@
   {
     "firstName": "Andy",
     "lastName": "Dick",
-    "image": "",
+    "image": "andy",
     "gender": "male",
     "season": "16",
     "placement": "7"
@@ -1450,7 +1450,7 @@
   {
     "firstName": "Sean",
     "lastName": "Lowe",
-    "image": "",
+    "image": "sean",
     "gender": "male",
     "season": "16",
     "placement": "6"
@@ -1458,15 +1458,15 @@
   {
     "firstName": "Ingo",
     "lastName": "Rademacher",
-    "image": "",
+    "image": "ingo",
     "gender": "male",
     "season": "16",
     "placement": "5"
   },
   {
-    "firstName": "Alexandra",
+    "firstName": "Aly",
     "lastName": "Raisman",
-    "image": "",
+    "image": "aly",
     "gender": "female",
     "season": "16",
     "placement": "4"
@@ -1474,7 +1474,7 @@
   {
     "firstName": "Jacoby",
     "lastName": "Jones",
-    "image": "",
+    "image": "jacoby",
     "gender": "male",
     "season": "16",
     "placement": "3"
@@ -1482,7 +1482,7 @@
   {
     "firstName": "Zendaya",
     "lastName": "",
-    "image": "",
+    "image": "zendaya",
     "gender": "female",
     "season": "16",
     "placement": "2"
@@ -1490,7 +1490,7 @@
   {
     "firstName": "Kellie",
     "lastName": "Pickler",
-    "image": "",
+    "image": "kellie",
     "gender": "female",
     "season": "16",
     "placement": "1"
@@ -1498,7 +1498,7 @@
   {
     "firstName": "Keyshawn",
     "lastName": "Johnson",
-    "image": "",
+    "image": "keyshawn",
     "gender": "male",
     "season": "17",
     "placement": "12"
@@ -1506,7 +1506,7 @@
   {
     "firstName": "Bill",
     "lastName": "Nye",
-    "image": "",
+    "image": "bill_n",
     "gender": "male",
     "season": "17",
     "placement": "11"
@@ -1514,7 +1514,7 @@
   {
     "firstName": "Valerie",
     "lastName": "Harper",
-    "image": "",
+    "image": "valerie",
     "gender": "female",
     "season": "17",
     "placement": "10"
@@ -1522,7 +1522,7 @@
   {
     "firstName": "Christina",
     "lastName": "Milian",
-    "image": "",
+    "image": "christina",
     "gender": "female",
     "season": "17",
     "placement": "9"
@@ -1530,7 +1530,7 @@
   {
     "firstName": "Nicole (Snooki)",
     "lastName": "Polizzi",
-    "image": "",
+    "image": "nicole",
     "gender": "female",
     "season": "17",
     "placement": "8"
@@ -1538,7 +1538,7 @@
   {
     "firstName": "Brant",
     "lastName": "Daugherty",
-    "image": "",
+    "image": "brant",
     "gender": "male",
     "season": "17",
     "placement": "7"
@@ -1546,7 +1546,7 @@
   {
     "firstName": "Elizabeth",
     "lastName": "Berkley Lauren",
-    "image": "",
+    "image": "elizabeth",
     "gender": "female",
     "season": "17",
     "placement": "6"
@@ -1554,7 +1554,7 @@
   {
     "firstName": "Leah",
     "lastName": "Remini",
-    "image": "",
+    "image": "leah",
     "gender": "female",
     "season": "17",
     "placement": "5"
@@ -1562,7 +1562,7 @@
   {
     "firstName": "Bill",
     "lastName": "Engvall",
-    "image": "",
+    "image": "bill_e",
     "gender": "male",
     "season": "17",
     "placement": "4"
@@ -1570,7 +1570,7 @@
   {
     "firstName": "Jack",
     "lastName": "Osbourne",
-    "image": "",
+    "image": "jack",
     "gender": "male",
     "season": "17",
     "placement": "3"
@@ -1578,7 +1578,7 @@
   {
     "firstName": "Corbin",
     "lastName": "Bleu",
-    "image": "",
+    "image": "corbin",
     "gender": "male",
     "season": "17",
     "placement": "2"
@@ -1586,7 +1586,7 @@
   {
     "firstName": "Amber",
     "lastName": "Riley",
-    "image": "",
+    "image": "amber",
     "gender": "female",
     "season": "17",
     "placement": "1"
@@ -1594,7 +1594,7 @@
   {
     "firstName": "Diana",
     "lastName": "Nyad",
-    "image": "",
+    "image": "diana",
     "gender": "female",
     "season": "18",
     "placement": "12"
@@ -1602,7 +1602,7 @@
   {
     "firstName": "Sean",
     "lastName": "Avery",
-    "image": "",
+    "image": "sean",
     "gender": "male",
     "season": "18",
     "placement": "11"
@@ -1610,7 +1610,7 @@
   {
     "firstName": "Billy Dee",
     "lastName": "Williams",
-    "image": "",
+    "image": "billy",
     "gender": "male",
     "season": "18",
     "placement": "10"
@@ -1618,7 +1618,7 @@
   {
     "firstName": "Cody",
     "lastName": "Simpson",
-    "image": "",
+    "image": "cody",
     "gender": "male",
     "season": "18",
     "placement": "9"
@@ -1626,7 +1626,7 @@
   {
     "firstName": "Drew",
     "lastName": "Carey",
-    "image": "",
+    "image": "drew",
     "gender": "male",
     "season": "18",
     "placement": "8"
@@ -1634,7 +1634,7 @@
   {
     "firstName": "NeNe",
     "lastName": "Leakes",
-    "image": "",
+    "image": "nene",
     "gender": "female",
     "season": "18",
     "placement": "7"
@@ -1642,7 +1642,7 @@
   {
     "firstName": "Danica",
     "lastName": "McKellar",
-    "image": "",
+    "image": "danica",
     "gender": "female",
     "season": "18",
     "placement": "6"
@@ -1650,7 +1650,7 @@
   {
     "firstName": "Charlie",
     "lastName": "White",
-    "image": "",
+    "image": "charlie",
     "gender": "male",
     "season": "18",
     "placement": "5"
@@ -1658,7 +1658,7 @@
   {
     "firstName": "James",
     "lastName": "Maslow",
-    "image": "",
+    "image": "james",
     "gender": "male",
     "season": "18",
     "placement": "4"
@@ -1666,7 +1666,7 @@
   {
     "firstName": "Candace",
     "lastName": "Cameron Bure",
-    "image": "",
+    "image": "candace",
     "gender": "female",
     "season": "18",
     "placement": "3"
@@ -1674,7 +1674,7 @@
   {
     "firstName": "Amy",
     "lastName": "Purdy",
-    "image": "",
+    "image": "amy",
     "gender": "female",
     "season": "18",
     "placement": "2"
@@ -1682,7 +1682,7 @@
   {
     "firstName": "Meryl",
     "lastName": "Davis",
-    "image": "",
+    "image": "meryl",
     "gender": "female",
     "season": "18",
     "placement": "1"
@@ -1690,7 +1690,7 @@
   {
     "firstName": "Lolo",
     "lastName": "Jones",
-    "image": "",
+    "image": "lolo",
     "gender": "female",
     "season": "19",
     "placement": "13"
@@ -1698,7 +1698,7 @@
   {
     "firstName": "Tavis",
     "lastName": "Smiley",
-    "image": "",
+    "image": "tavis",
     "gender": "male",
     "season": "19",
     "placement": "12"
@@ -1706,7 +1706,7 @@
   {
     "firstName": "Randy",
     "lastName": "Couture",
-    "image": "",
+    "image": "randy",
     "gender": "male",
     "season": "19",
     "placement": "11"
@@ -1714,7 +1714,7 @@
   {
     "firstName": "Betsey",
     "lastName": "Johnson",
-    "image": "",
+    "image": "betsey",
     "gender": "female",
     "season": "19",
     "placement": "10"
@@ -1722,7 +1722,7 @@
   {
     "firstName": "Jonathan",
     "lastName": "Bennett",
-    "image": "",
+    "image": "jonathan",
     "gender": "male",
     "season": "19",
     "placement": "9"
@@ -1730,7 +1730,7 @@
   {
     "firstName": "Antonio",
     "lastName": "Sabàto Jr.",
-    "image": "",
+    "image": "antonio",
     "gender": "male",
     "season": "19",
     "placement": "8"
@@ -1738,7 +1738,7 @@
   {
     "firstName": "Michael",
     "lastName": "Waltrip",
-    "image": "",
+    "image": "michael",
     "gender": "male",
     "season": "19",
     "placement": "7"
@@ -1746,7 +1746,7 @@
   {
     "firstName": "Lea",
     "lastName": "Thompson",
-    "image": "",
+    "image": "lea",
     "gender": "female",
     "season": "19",
     "placement": "6"
@@ -1754,7 +1754,7 @@
   {
     "firstName": "Tommy",
     "lastName": "Chong",
-    "image": "",
+    "image": "tommy",
     "gender": "male",
     "season": "19",
     "placement": "5"
@@ -1762,7 +1762,7 @@
   {
     "firstName": "Bethany",
     "lastName": "Mota",
-    "image": "",
+    "image": "bethany",
     "gender": "female",
     "season": "19",
     "placement": "4"
@@ -1770,7 +1770,7 @@
   {
     "firstName": "Janel",
     "lastName": "Parrish",
-    "image": "",
+    "image": "janel",
     "gender": "female",
     "season": "19",
     "placement": "3"
@@ -1778,7 +1778,7 @@
   {
     "firstName": "Sadie",
     "lastName": "Robertson",
-    "image": "",
+    "image": "sadie",
     "gender": "female",
     "season": "19",
     "placement": "2"
@@ -1786,7 +1786,7 @@
   {
     "firstName": "Alfonso",
     "lastName": "Ribeiro",
-    "image": "",
+    "image": "alfonso",
     "gender": "male",
     "season": "19",
     "placement": "1"
@@ -1794,7 +1794,7 @@
   {
     "firstName": "Redfoo",
     "lastName": "",
-    "image": "",
+    "image": "redfoo",
     "gender": "male",
     "season": "20",
     "placement": "12"
@@ -1802,7 +1802,7 @@
   {
     "firstName": "Charlotte",
     "lastName": "McKinney",
-    "image": "",
+    "image": "charlotte",
     "gender": "female",
     "season": "20",
     "placement": "11"
@@ -1810,7 +1810,7 @@
   {
     "firstName": "Michael",
     "lastName": "Sam",
-    "image": "",
+    "image": "michael",
     "gender": "male",
     "season": "20",
     "placement": "10"
@@ -1818,7 +1818,7 @@
   {
     "firstName": "Suzanne",
     "lastName": "Somers",
-    "image": "",
+    "image": "suzanne",
     "gender": "female",
     "season": "20",
     "placement": "9"
@@ -1826,7 +1826,7 @@
   {
     "firstName": "Patti",
     "lastName": "LaBelle",
-    "image": "",
+    "image": "patti",
     "gender": "female",
     "season": "20",
     "placement": "8"
@@ -1834,7 +1834,7 @@
   {
     "firstName": "Willow",
     "lastName": "Shields",
-    "image": "",
+    "image": "willow",
     "gender": "female",
     "season": "20",
     "placement": "7"
@@ -1842,7 +1842,7 @@
   {
     "firstName": "Robert",
     "lastName": "Herjavec",
-    "image": "",
+    "image": "robert",
     "gender": "male",
     "season": "20",
     "placement": "6"
@@ -1850,7 +1850,7 @@
   {
     "firstName": "Chris",
     "lastName": "Soules",
-    "image": "",
+    "image": "chris",
     "gender": "male",
     "season": "20",
     "placement": "5"
@@ -1858,7 +1858,7 @@
   {
     "firstName": "Nastia",
     "lastName": "Liukin",
-    "image": "",
+    "image": "nastia",
     "gender": "female",
     "season": "20",
     "placement": "4"
@@ -1866,7 +1866,7 @@
   {
     "firstName": "Noah",
     "lastName": "Galloway",
-    "image": "",
+    "image": "noah",
     "gender": "male",
     "season": "20",
     "placement": "3"
@@ -1874,7 +1874,7 @@
   {
     "firstName": "Riker",
     "lastName": "Lynch",
-    "image": "",
+    "image": "riker",
     "gender": "male",
     "season": "20",
     "placement": "2"
@@ -1882,7 +1882,7 @@
   {
     "firstName": "Rumer",
     "lastName": "Willis",
-    "image": "",
+    "image": "rumer",
     "gender": "female",
     "season": "20",
     "placement": "1"
@@ -1890,7 +1890,7 @@
   {
     "firstName": "Chaka",
     "lastName": "Khan",
-    "image": "",
+    "image": "chaka",
     "gender": "female",
     "season": "21",
     "placement": "13"
@@ -1898,7 +1898,7 @@
   {
     "firstName": "Victor",
     "lastName": "Espinoza",
-    "image": "",
+    "image": "victor",
     "gender": "male",
     "season": "21",
     "placement": "12"
@@ -1906,7 +1906,7 @@
   {
     "firstName": "Kim",
     "lastName": "Zolciak-Biermann",
-    "image": "",
+    "image": "kim",
     "gender": "female",
     "season": "21",
     "placement": "11"
@@ -1914,7 +1914,7 @@
   {
     "firstName": "Gary",
     "lastName": "Busey",
-    "image": "",
+    "image": "gary",
     "gender": "male",
     "season": "21",
     "placement": "10"
@@ -1922,7 +1922,7 @@
   {
     "firstName": "Paula",
     "lastName": "Deen",
-    "image": "",
+    "image": "paula",
     "gender": "female",
     "season": "21",
     "placement": "9"
@@ -1930,7 +1930,7 @@
   {
     "firstName": "Hayes",
     "lastName": "Grier",
-    "image": "",
+    "image": "hayes",
     "gender": "male",
     "season": "21",
     "placement": "8"
@@ -1938,7 +1938,7 @@
   {
     "firstName": "Andy",
     "lastName": "Grammer",
-    "image": "",
+    "image": "andy",
     "gender": "male",
     "season": "21",
     "placement": "7"
@@ -1946,7 +1946,7 @@
   {
     "firstName": "Alexa",
     "lastName": "PenaVega",
-    "image": "",
+    "image": "alexa",
     "gender": "female",
     "season": "21",
     "placement": "6"
@@ -1954,7 +1954,7 @@
   {
     "firstName": "Tamar",
     "lastName": "Braxton",
-    "image": "",
+    "image": "tamar",
     "gender": "female",
     "season": "21",
     "placement": "5"
@@ -1962,7 +1962,7 @@
   {
     "firstName": "Carlos",
     "lastName": "PenaVega",
-    "image": "",
+    "image": "carlos",
     "gender": "male",
     "season": "21",
     "placement": "4"
@@ -1970,7 +1970,7 @@
   {
     "firstName": "Alek",
     "lastName": "Skarlatos",
-    "image": "",
+    "image": "alek",
     "gender": "male",
     "season": "21",
     "placement": "3"
@@ -1978,7 +1978,7 @@
   {
     "firstName": "Nick",
     "lastName": "Carter",
-    "image": "",
+    "image": "nick",
     "gender": "male",
     "season": "21",
     "placement": "2"
@@ -1986,7 +1986,7 @@
   {
     "firstName": "Bindi",
     "lastName": "Irwin",
-    "image": "",
+    "image": "bindi",
     "gender": "female",
     "season": "21",
     "placement": "1"
@@ -1994,7 +1994,7 @@
   {
     "firstName": "Geraldo",
     "lastName": "Rivera",
-    "image": "",
+    "image": "geraldo",
     "gender": "male",
     "season": "22",
     "placement": "12"
@@ -2002,7 +2002,7 @@
   {
     "firstName": "Mischa",
     "lastName": "Barton",
-    "image": "",
+    "image": "mischa",
     "gender": "female",
     "season": "22",
     "placement": "11"
@@ -2010,7 +2010,7 @@
   {
     "firstName": "Marla",
     "lastName": "Maples",
-    "image": "",
+    "image": "marla",
     "gender": "female",
     "season": "22",
     "placement": "10"
@@ -2018,7 +2018,7 @@
   {
     "firstName": "Doug",
     "lastName": "Flutie",
-    "image": "",
+    "image": "doug",
     "gender": "male",
     "season": "22",
     "placement": "9"
@@ -2026,7 +2026,7 @@
   {
     "firstName": "Kim",
     "lastName": "Fields",
-    "image": "",
+    "image": "kim",
     "gender": "female",
     "season": "22",
     "placement": "7"
@@ -2034,7 +2034,7 @@
   {
     "firstName": "Von",
     "lastName": "Miller",
-    "image": "",
+    "image": "von",
     "gender": "male",
     "season": "22",
     "placement": "7"
@@ -2042,7 +2042,7 @@
   {
     "firstName": "Jodie",
     "lastName": "Sweetin",
-    "image": "",
+    "image": "jodie",
     "gender": "female",
     "season": "22",
     "placement": "6"
@@ -2050,7 +2050,7 @@
   {
     "firstName": "Antonio",
     "lastName": "Brown",
-    "image": "",
+    "image": "antonio",
     "gender": "male",
     "season": "22",
     "placement": "4"
@@ -2058,7 +2058,7 @@
   {
     "firstName": "Wanyá",
     "lastName": "Morris",
-    "image": "",
+    "image": "wanya",
     "gender": "male",
     "season": "22",
     "placement": "4"
@@ -2066,7 +2066,7 @@
   {
     "firstName": "Ginger",
     "lastName": "Zee",
-    "image": "",
+    "image": "ginger",
     "gender": "female",
     "season": "22",
     "placement": "3"
@@ -2074,7 +2074,7 @@
   {
     "firstName": "Paige",
     "lastName": "VanZant",
-    "image": "",
+    "image": "paige",
     "gender": "female",
     "season": "22",
     "placement": "2"
@@ -2082,7 +2082,7 @@
   {
     "firstName": "Nyle",
     "lastName": "DiMarco",
-    "image": "",
+    "image": "nyle",
     "gender": "male",
     "season": "22",
     "placement": "1"
@@ -2090,7 +2090,7 @@
   {
     "firstName": "Jake",
     "lastName": "T. Austin",
-    "image": "",
+    "image": "jake",
     "gender": "male",
     "season": "23",
     "placement": "13"
@@ -2098,7 +2098,7 @@
   {
     "firstName": "Rick",
     "lastName": "Perry",
-    "image": "",
+    "image": "rick",
     "gender": "male",
     "season": "23",
     "placement": "12"
@@ -2106,7 +2106,7 @@
   {
     "firstName": "Babyface",
     "lastName": "",
-    "image": "",
+    "image": "babyface",
     "gender": "male",
     "season": "23",
     "placement": "10"
@@ -2114,7 +2114,7 @@
   {
     "firstName": "Vanilla Ice",
     "lastName": "",
-    "image": "",
+    "image": "vanillaice",
     "gender": "male",
     "season": "23",
     "placement": "10"
@@ -2122,7 +2122,7 @@
   {
     "firstName": "Amber",
     "lastName": "Rose",
-    "image": "",
+    "image": "amber",
     "gender": "female",
     "season": "23",
     "placement": "9"
@@ -2130,7 +2130,7 @@
   {
     "firstName": "Maureen",
     "lastName": "McCormick",
-    "image": "",
+    "image": "maureen",
     "gender": "female",
     "season": "23",
     "placement": "8"
@@ -2138,7 +2138,7 @@
   {
     "firstName": "Ryan",
     "lastName": "Lochte",
-    "image": "",
+    "image": "ryan",
     "gender": "male",
     "season": "23",
     "placement": "7"
@@ -2146,7 +2146,7 @@
   {
     "firstName": "Marilu",
     "lastName": "Henner",
-    "image": "",
+    "image": "marilu",
     "gender": "female",
     "season": "23",
     "placement": "6"
@@ -2154,7 +2154,7 @@
   {
     "firstName": "Terra",
     "lastName": "Jolé",
-    "image": "",
+    "image": "terra",
     "gender": "female",
     "season": "23",
     "placement": "5"
@@ -2162,7 +2162,7 @@
   {
     "firstName": "Jana",
     "lastName": "Kramer",
-    "image": "",
+    "image": "jana",
     "gender": "female",
     "season": "23",
     "placement": "4"
@@ -2170,7 +2170,7 @@
   {
     "firstName": "Calvin",
     "lastName": "Johnson Jr.",
-    "image": "",
+    "image": "calvin",
     "gender": "male",
     "season": "23",
     "placement": "3"
@@ -2178,7 +2178,7 @@
   {
     "firstName": "James",
     "lastName": "Hinchcliffe",
-    "image": "",
+    "image": "james",
     "gender": "male",
     "season": "23",
     "placement": "2"
@@ -2186,7 +2186,7 @@
   {
     "firstName": "Laurie",
     "lastName": "Hernandez",
-    "image": "",
+    "image": "laurie",
     "gender": "female",
     "season": "23",
     "placement": "1"
@@ -2194,7 +2194,7 @@
   {
     "firstName": "Chris",
     "lastName": "Kattan",
-    "image": "",
+    "image": "chris",
     "gender": "male",
     "season": "24",
     "placement": "12"
@@ -2202,7 +2202,7 @@
   {
     "firstName": "Charo",
     "lastName": "",
-    "image": "",
+    "image": "charo",
     "gender": "female",
     "season": "24",
     "placement": "11"
@@ -2210,7 +2210,7 @@
   {
     "firstName": "Mr. T",
     "lastName": "",
-    "image": "",
+    "image": "mrt",
     "gender": "male",
     "season": "24",
     "placement": "10"
@@ -2218,7 +2218,7 @@
   {
     "firstName": "Erika",
     "lastName": "Jayne",
-    "image": "",
+    "image": "erika",
     "gender": "female",
     "season": "24",
     "placement": "9"
@@ -2226,7 +2226,7 @@
   {
     "firstName": "Heather",
     "lastName": "Morris",
-    "image": "",
+    "image": "heather",
     "gender": "female",
     "season": "24",
     "placement": "8"
@@ -2234,7 +2234,7 @@
   {
     "firstName": "Nancy",
     "lastName": "Kerrigan",
-    "image": "",
+    "image": "nancy",
     "gender": "female",
     "season": "24",
     "placement": "6"
@@ -2242,7 +2242,7 @@
   {
     "firstName": "Nick",
     "lastName": "Viall",
-    "image": "",
+    "image": "nick",
     "gender": "male",
     "season": "24",
     "placement": "6"
@@ -2250,7 +2250,7 @@
   {
     "firstName": "Bonner",
     "lastName": "Bolton",
-    "image": "",
+    "image": "bonner",
     "gender": "male",
     "season": "24",
     "placement": "5"
@@ -2258,7 +2258,7 @@
   {
     "firstName": "Simone",
     "lastName": "Biles",
-    "image": "",
+    "image": "simone",
     "gender": "female",
     "season": "24",
     "placement": "4"
@@ -2266,7 +2266,7 @@
   {
     "firstName": "Normani",
     "lastName": "",
-    "image": "",
+    "image": "normani",
     "gender": "female",
     "season": "24",
     "placement": "3"
@@ -2274,7 +2274,7 @@
   {
     "firstName": "David",
     "lastName": "Ross",
-    "image": "",
+    "image": "david",
     "gender": "male",
     "season": "24",
     "placement": "2"
@@ -2282,7 +2282,7 @@
   {
     "firstName": "Rashad",
     "lastName": "Jennings",
-    "image": "",
+    "image": "rashad",
     "gender": "female",
     "season": "24",
     "placement": "1"
@@ -2290,7 +2290,7 @@
   {
     "firstName": "Barbara",
     "lastName": "Corcoran",
-    "image": "",
+    "image": "barbara",
     "gender": "female",
     "season": "25",
     "placement": "13"
@@ -2298,7 +2298,7 @@
   {
     "firstName": "Debbie",
     "lastName": "Gibson",
-    "image": "",
+    "image": "debbie",
     "gender": "female",
     "season": "25",
     "placement": "12"
@@ -2306,7 +2306,7 @@
   {
     "firstName": "Derek",
     "lastName": "Fisher",
-    "image": "",
+    "image": "derek",
     "gender": "male",
     "season": "25",
     "placement": "11"
@@ -2314,7 +2314,7 @@
   {
     "firstName": "Sasha",
     "lastName": "Pieterse",
-    "image": "",
+    "image": "sasha",
     "gender": "female",
     "season": "25",
     "placement": "10"
@@ -2322,7 +2322,7 @@
   {
     "firstName": "Nick",
     "lastName": "Lachey",
-    "image": "",
+    "image": "nick",
     "gender": "male",
     "season": "25",
     "placement": "9"
@@ -2330,7 +2330,7 @@
   {
     "firstName": "Nikki",
     "lastName": "Bella",
-    "image": "",
+    "image": "nikki",
     "gender": "female",
     "season": "25",
     "placement": "7"
@@ -2338,7 +2338,7 @@
   {
     "firstName": "Vanessa",
     "lastName": "Lachey",
-    "image": "",
+    "image": "vanessa",
     "gender": "female",
     "season": "25",
     "placement": "7"
@@ -2346,7 +2346,7 @@
   {
     "firstName": "Terrell",
     "lastName": "Owens",
-    "image": "",
+    "image": "terrell",
     "gender": "male",
     "season": "25",
     "placement": "6"
@@ -2354,7 +2354,7 @@
   {
     "firstName": "Victoria",
     "lastName": "Arlen",
-    "image": "",
+    "image": "victoria",
     "gender": "female",
     "season": "25",
     "placement": "5"
@@ -2362,7 +2362,7 @@
   {
     "firstName": "Drew",
     "lastName": "Scott",
-    "image": "",
+    "image": "drew",
     "gender": "male",
     "season": "25",
     "placement": "4"
@@ -2370,7 +2370,7 @@
   {
     "firstName": "Frankie",
     "lastName": "Muniz",
-    "image": "",
+    "image": "frankie",
     "gender": "male",
     "season": "25",
     "placement": "3"
@@ -2378,7 +2378,7 @@
   {
     "firstName": "Lindsey",
     "lastName": "Stirling",
-    "image": "",
+    "image": "lindsey",
     "gender": "female",
     "season": "25",
     "placement": "2"
@@ -2386,7 +2386,7 @@
   {
     "firstName": "Jordan",
     "lastName": "Fisher",
-    "image": "",
+    "image": "jordan",
     "gender": "male",
     "season": "25",
     "placement": "1"
@@ -2394,7 +2394,7 @@
   {
     "firstName": "Jamie",
     "lastName": "Anderson",
-    "image": "",
+    "image": "jamie",
     "gender": "female",
     "season": "26",
     "placement": "9"
@@ -2402,7 +2402,7 @@
   {
     "firstName": "Johnny",
     "lastName": "Damon",
-    "image": "",
+    "image": "johnny",
     "gender": "male",
     "season": "26",
     "placement": "9"
@@ -2410,7 +2410,7 @@
   {
     "firstName": "Kareem",
     "lastName": "Abdul-Jabbar",
-    "image": "",
+    "image": "kareem",
     "gender": "male",
     "season": "26",
     "placement": "7"
@@ -2418,7 +2418,7 @@
   {
     "firstName": "Arike",
     "lastName": "Ogunbowale",
-    "image": "",
+    "image": "arike",
     "gender": "female",
     "season": "26",
     "placement": "7"
@@ -2426,7 +2426,7 @@
   {
     "firstName": "Jennie",
     "lastName": "Finch Daigle",
-    "image": "",
+    "image": "jennie",
     "gender": "female",
     "season": "26",
     "placement": "4"
@@ -2434,7 +2434,7 @@
   {
     "firstName": "Chris",
     "lastName": "Mazder",
-    "image": "",
+    "image": "chris",
     "gender": "male",
     "season": "26",
     "placement": "4"
@@ -2442,7 +2442,7 @@
   {
     "firstName": "Mirai",
     "lastName": "Nagasu",
-    "image": "",
+    "image": "mirai",
     "gender": "female",
     "season": "26",
     "placement": "4"
@@ -2450,7 +2450,7 @@
   {
     "firstName": "Tonya",
     "lastName": "Harding",
-    "image": "",
+    "image": "tonya",
     "gender": "female",
     "season": "26",
     "placement": "3"
@@ -2458,7 +2458,7 @@
   {
     "firstName": "Josh",
     "lastName": "Norman",
-    "image": "",
+    "image": "josh",
     "gender": "male",
     "season": "26",
     "placement": "2"
@@ -2466,7 +2466,7 @@
   {
     "firstName": "Adam",
     "lastName": "Rippon",
-    "image": "",
+    "image": "adam",
     "gender": "male",
     "season": "26",
     "placement": "1"
@@ -2474,7 +2474,7 @@
   {
     "firstName": "Nikki",
     "lastName": "Glaser",
-    "image": "",
+    "image": "nikki",
     "gender": "female",
     "season": "27",
     "placement": "13"
@@ -2482,7 +2482,7 @@
   {
     "firstName": "Danelle",
     "lastName": "Umstead",
-    "image": "",
+    "image": "danelle",
     "gender": "female",
     "season": "27",
     "placement": "12"
@@ -2490,7 +2490,7 @@
   {
     "firstName": "Nancy",
     "lastName": "McKeon",
-    "image": "",
+    "image": "nancy",
     "gender": "female",
     "season": "27",
     "placement": "11"
@@ -2498,7 +2498,7 @@
   {
     "firstName": "Tinashe",
     "lastName": "",
-    "image": "",
+    "image": "tinashe",
     "gender": "female",
     "season": "27",
     "placement": "10"
@@ -2506,7 +2506,7 @@
   {
     "firstName": "Mary Lou",
     "lastName": "Retton",
-    "image": "",
+    "image": "marylou",
     "gender": "female",
     "season": "27",
     "placement": "9"
@@ -2514,7 +2514,7 @@
   {
     "firstName": "John",
     "lastName": "Schneider",
-    "image": "",
+    "image": "john",
     "gender": "male",
     "season": "27",
     "placement": "7"
@@ -2522,7 +2522,7 @@
   {
     "firstName": "DeMarcus",
     "lastName": "Ware",
-    "image": "",
+    "image": "demarcus",
     "gender": "male",
     "season": "27",
     "placement": "7"
@@ -2530,7 +2530,7 @@
   {
     "firstName": "Joe",
     "lastName": "Amabile",
-    "image": "",
+    "image": "joe",
     "gender": "male",
     "season": "27",
     "placement": "5"
@@ -2538,7 +2538,7 @@
   {
     "firstName": "Juan Pablo",
     "lastName": "Di Pace",
-    "image": "",
+    "image": "juanpablo",
     "gender": "male",
     "season": "27",
     "placement": "5"
@@ -2546,7 +2546,7 @@
   {
     "firstName": "Alexis",
     "lastName": "Ren",
-    "image": "",
+    "image": "alexis",
     "gender": "female",
     "season": "27",
     "placement": "4"
@@ -2554,7 +2554,7 @@
   {
     "firstName": "Evanna",
     "lastName": "Lynch",
-    "image": "",
+    "image": "evanna",
     "gender": "female",
     "season": "27",
     "placement": "3"
@@ -2562,7 +2562,7 @@
   {
     "firstName": "Milo",
     "lastName": "Manheim",
-    "image": "",
+    "image": "milo",
     "gender": "male",
     "season": "27",
     "placement": "2"
@@ -2570,7 +2570,7 @@
   {
     "firstName": "Bobby",
     "lastName": "Bones",
-    "image": "",
+    "image": "bobby",
     "gender": "male",
     "season": "27",
     "placement": "1"
@@ -2578,7 +2578,7 @@
   {
     "firstName": "Mary",
     "lastName": "Wilson",
-    "image": "",
+    "image": "mary",
     "gender": "female",
     "season": "28",
     "placement": "12"
@@ -2586,7 +2586,7 @@
   {
     "firstName": "Ray",
     "lastName": "Lewis",
-    "image": "",
+    "image": "ray",
     "gender": "male",
     "season": "28",
     "placement": "11"
@@ -2594,7 +2594,7 @@
   {
     "firstName": "Lamar",
     "lastName": "Odom",
-    "image": "",
+    "image": "lamar",
     "gender": "male",
     "season": "28",
     "placement": "10"
@@ -2602,7 +2602,7 @@
   {
     "firstName": "Sailor",
     "lastName": "Brinkley-Cook",
-    "image": "",
+    "image": "sailor",
     "gender": "female",
     "season": "28",
     "placement": "9"
@@ -2610,7 +2610,7 @@
   {
     "firstName": "Karamo",
     "lastName": "Brown",
-    "image": "",
+    "image": "karamo",
     "gender": "male",
     "season": "28",
     "placement": "8"
@@ -2618,7 +2618,7 @@
   {
     "firstName": "Kate",
     "lastName": "Flannery",
-    "image": "",
+    "image": "kate",
     "gender": "female",
     "season": "28",
     "placement": "7"
@@ -2626,7 +2626,7 @@
   {
     "firstName": "Sean",
     "lastName": "Spicer",
-    "image": "",
+    "image": "sean",
     "gender": "male",
     "season": "28",
     "placement": "6"
@@ -2634,7 +2634,7 @@
   {
     "firstName": "James",
     "lastName": "Van Der Beek",
-    "image": "",
+    "image": "james",
     "gender": "male",
     "season": "28",
     "placement": "5"
@@ -2642,7 +2642,7 @@
   {
     "firstName": "Lauren",
     "lastName": "Alaina",
-    "image": "",
+    "image": "lauren",
     "gender": "female",
     "season": "28",
     "placement": "4"
@@ -2650,7 +2650,7 @@
   {
     "firstName": "Ally",
     "lastName": "Brooke",
-    "image": "",
+    "image": "ally",
     "gender": "female",
     "season": "28",
     "placement": "3"
@@ -2658,7 +2658,7 @@
   {
     "firstName": "Kel",
     "lastName": "Mitchell",
-    "image": "",
+    "image": "kel",
     "gender": "male",
     "season": "28",
     "placement": "2"
@@ -2666,7 +2666,7 @@
   {
     "firstName": "Hannah",
     "lastName": "Brown",
-    "image": "",
+    "image": "hannah",
     "gender": "female",
     "season": "28",
     "placement": "1"
@@ -2674,7 +2674,7 @@
   {
     "firstName": "Charles",
     "lastName": "Oakley",
-    "image": "",
+    "image": "charles",
     "gender": "male",
     "season": "29",
     "placement": "15"
@@ -2682,7 +2682,7 @@
   {
     "firstName": "Carole",
     "lastName": "Baskin",
-    "image": "",
+    "image": "carole",
     "gender": "female",
     "season": "29",
     "placement": "14"
@@ -2690,7 +2690,7 @@
   {
     "firstName": "Anne",
     "lastName": "Heche",
-    "image": "",
+    "image": "anne",
     "gender": "female",
     "season": "29",
     "placement": "13"
@@ -2698,7 +2698,7 @@
   {
     "firstName": "Jesse",
     "lastName": "Metcalfe",
-    "image": "",
+    "image": "jesse",
     "gender": "female",
     "season": "29",
     "placement": "12"
@@ -2706,7 +2706,7 @@
   {
     "firstName": "Vernon",
     "lastName": "Davis",
-    "image": "",
+    "image": "vernon",
     "gender": "male",
     "season": "29",
     "placement": "11"
@@ -2714,7 +2714,7 @@
   {
     "firstName": "Monica",
     "lastName": "Aldama",
-    "image": "",
+    "image": "monica",
     "gender": "female",
     "season": "29",
     "placement": "10"
@@ -2722,7 +2722,7 @@
   {
     "firstName": "Jeannie",
     "lastName": "Mai",
-    "image": "",
+    "image": "jeannie",
     "gender": "female",
     "season": "29",
     "placement": "9"
@@ -2730,7 +2730,7 @@
   {
     "firstName": "Chrishell",
     "lastName": "Stause",
-    "image": "",
+    "image": "chrishell",
     "gender": "female",
     "season": "29",
     "placement": "8"
@@ -2738,7 +2738,7 @@
   {
     "firstName": "AJ",
     "lastName": "McLean",
-    "image": "",
+    "image": "aj",
     "gender": "male",
     "season": "29",
     "placement": "7"
@@ -2746,7 +2746,7 @@
   {
     "firstName": "Johnny",
     "lastName": "Weir",
-    "image": "",
+    "image": "johnny",
     "gender": "male",
     "season": "29",
     "placement": "6"
@@ -2754,7 +2754,7 @@
   {
     "firstName": "Skai",
     "lastName": "Jackson",
-    "image": "",
+    "image": "skai",
     "gender": "female",
     "season": "29",
     "placement": "5"
@@ -2762,7 +2762,7 @@
   {
     "firstName": "Justina",
     "lastName": "Machado",
-    "image": "",
+    "image": "justina",
     "gender": "female",
     "season": "29",
     "placement": "4"
@@ -2770,7 +2770,7 @@
   {
     "firstName": "Nelly",
     "lastName": "",
-    "image": "",
+    "image": "nelly",
     "gender": "male",
     "season": "29",
     "placement": "3"
@@ -2778,7 +2778,7 @@
   {
     "firstName": "Nev",
     "lastName": "Schulman",
-    "image": "",
+    "image": "nev",
     "gender": "male",
     "season": "29",
     "placement": "2"
@@ -2786,7 +2786,7 @@
   {
     "firstName": "Kaitlyn",
     "lastName": "Bristowe",
-    "image": "",
+    "image": "kaitlyn",
     "gender": "female",
     "season": "29",
     "placement": "1"
@@ -2794,7 +2794,7 @@
   {
     "firstName": "Martin",
     "lastName": "Kove",
-    "image": "",
+    "image": "martin",
     "gender": "male",
     "season": "30",
     "placement": "15"
@@ -2802,7 +2802,7 @@
   {
     "firstName": "Christine",
     "lastName": "Chiu",
-    "image": "",
+    "image": "christine",
     "gender": "female",
     "season": "30",
     "placement": "14"
@@ -2810,7 +2810,7 @@
   {
     "firstName": "Brian",
     "lastName": "Austin Green",
-    "image": "",
+    "image": "brian",
     "gender": "male",
     "season": "30",
     "placement": "13"
@@ -2818,7 +2818,7 @@
   {
     "firstName": "Matt",
     "lastName": "James",
-    "image": "",
+    "image": "matt",
     "gender": "male",
     "season": "30",
     "placement": "12"
@@ -2826,7 +2826,7 @@
   {
     "firstName": "Melanie",
     "lastName": "C",
-    "image": "",
+    "image": "melanie",
     "gender": "female",
     "season": "30",
     "placement": "11"
@@ -2834,7 +2834,7 @@
   {
     "firstName": "Kenya",
     "lastName": "Moore",
-    "image": "",
+    "image": "kenya",
     "gender": "female",
     "season": "30",
     "placement": "10"
@@ -2842,7 +2842,7 @@
   {
     "firstName": "Mike \"The Miz\"",
     "lastName": "Mizanin",
-    "image": "",
+    "image": "mike",
     "gender": "male",
     "season": "30",
     "placement": "9"
@@ -2850,7 +2850,7 @@
   {
     "firstName": "Olivia",
     "lastName": "Jade",
-    "image": "",
+    "image": "olivia",
     "gender": "female",
     "season": "30",
     "placement": "8"
@@ -2858,7 +2858,7 @@
   {
     "firstName": "Jimmie",
     "lastName": "Allen",
-    "image": "",
+    "image": "jimmie",
     "gender": "male",
     "season": "30",
     "placement": "7"
@@ -2866,7 +2866,7 @@
   {
     "firstName": "Melora",
     "lastName": "Hardin",
-    "image": "",
+    "image": "melora",
     "gender": "female",
     "season": "30",
     "placement": "6"
@@ -2874,7 +2874,7 @@
   {
     "firstName": "Suni",
     "lastName": "Lee",
-    "image": "",
+    "image": "suni",
     "gender": "female",
     "season": "30",
     "placement": "5"
@@ -2882,7 +2882,7 @@
   {
     "firstName": "Amanda",
     "lastName": "Kloots",
-    "image": "",
+    "image": "amanda",
     "gender": "female",
     "season": "30",
     "placement": "4"
@@ -2890,7 +2890,7 @@
   {
     "firstName": "Cody",
     "lastName": "Rigsby",
-    "image": "",
+    "image": "cody",
     "gender": "male",
     "season": "30",
     "placement": "3"
@@ -2898,7 +2898,7 @@
   {
     "firstName": "JoJo",
     "lastName": "Siwa",
-    "image": "",
+    "image": "jojo",
     "gender": "female",
     "season": "30",
     "placement": "2"
@@ -2906,7 +2906,7 @@
   {
     "firstName": "Iman",
     "lastName": "Shumpert",
-    "image": "",
+    "image": "iman",
     "gender": "male",
     "season": "30",
     "placement": "1"
@@ -2914,7 +2914,7 @@
   {
     "firstName": "Jason",
     "lastName": "Lewis",
-    "image": "",
+    "image": "jason",
     "gender": "male",
     "season": "31",
     "placement": "16"
@@ -2922,7 +2922,7 @@
   {
     "firstName": "Teresa",
     "lastName": "Giudice",
-    "image": "",
+    "image": "teresa",
     "gender": "female",
     "season": "31",
     "placement": "15"
@@ -2930,7 +2930,7 @@
   {
     "firstName": "Cheryl",
     "lastName": "Ladd",
-    "image": "",
+    "image": "cheryl",
     "gender": "female",
     "season": "31",
     "placement": "14"
@@ -2938,7 +2938,7 @@
   {
     "firstName": "Sam",
     "lastName": "Champion",
-    "image": "",
+    "image": "sam",
     "gender": "male",
     "season": "31",
     "placement": "13"
@@ -2946,7 +2946,7 @@
   {
     "firstName": "Selma",
     "lastName": "Blair",
-    "image": "",
+    "image": "selma",
     "gender": "female",
     "season": "31",
     "placement": "12"
@@ -2954,7 +2954,7 @@
   {
     "firstName": "Joseph",
     "lastName": "Baena",
-    "image": "",
+    "image": "joseph",
     "gender": "male",
     "season": "31",
     "placement": "11"
@@ -2962,7 +2962,7 @@
   {
     "firstName": "Jessie James",
     "lastName": "Decker",
-    "image": "",
+    "image": "jessie",
     "gender": "female",
     "season": "31",
     "placement": "10"
@@ -2970,7 +2970,7 @@
   {
     "firstName": "Jordin",
     "lastName": "Sparks",
-    "image": "",
+    "image": "jordin",
     "gender": "female",
     "season": "31",
     "placement": "9"
@@ -2978,7 +2978,7 @@
   {
     "firstName": "Heidi",
     "lastName": "D'Amelio",
-    "image": "",
+    "image": "heidi",
     "gender": "female",
     "season": "31",
     "placement": "8"
@@ -2986,7 +2986,7 @@
   {
     "firstName": "Vinny",
     "lastName": "Guadagnino",
-    "image": "",
+    "image": "vinny",
     "gender": "male",
     "season": "31",
     "placement": "7"
@@ -2994,7 +2994,7 @@
   {
     "firstName": "Trevor",
     "lastName": "Donovan",
-    "image": "",
+    "image": "trevor",
     "gender": "male",
     "season": "31",
     "placement": "6"
@@ -3002,7 +3002,7 @@
   {
     "firstName": "Daniel",
     "lastName": "Durant",
-    "image": "",
+    "image": "daniel",
     "gender": "male",
     "season": "31",
     "placement": "5"
@@ -3010,7 +3010,7 @@
   {
     "firstName": "Shangela",
     "lastName": "",
-    "image": "",
+    "image": "shangela",
     "gender": "female",
     "season": "31",
     "placement": "4"
@@ -3018,7 +3018,7 @@
   {
     "firstName": "Wayne",
     "lastName": "Brady",
-    "image": "",
+    "image": "wayne",
     "gender": "male",
     "season": "31",
     "placement": "3"
@@ -3026,7 +3026,7 @@
   {
     "firstName": "Gabby",
     "lastName": "Windey",
-    "image": "",
+    "image": "gabby",
     "gender": "female",
     "season": "31",
     "placement": "2"
@@ -3034,7 +3034,7 @@
   {
     "firstName": "Charli",
     "lastName": "D'Amelio",
-    "image": "",
+    "image": "charli",
     "gender": "female",
     "season": "31",
     "placement": "1"
@@ -3042,7 +3042,7 @@
   {
     "firstName": "Matt",
     "lastName": "Walsh",
-    "image": "/32/matt",
+    "image": "matt",
     "gender": "male",
     "season": "32",
     "placement": "14"
@@ -3050,7 +3050,7 @@
   {
     "firstName": "Jamie Lynn",
     "lastName": "Spears",
-    "image": "/32/jamielynn",
+    "image": "jamielynn",
     "gender": "female",
     "season": "32",
     "placement": "13"
@@ -3058,7 +3058,7 @@
   {
     "firstName": "Tyson",
     "lastName": "Beckford",
-    "image": "/32/tyson",
+    "image": "tyson",
     "gender": "male",
     "season": "32",
     "placement": "12"
@@ -3066,7 +3066,7 @@
   {
     "firstName": "Adrian",
     "lastName": "Peterson",
-    "image": "/32/adrian",
+    "image": "adrian",
     "gender": "male",
     "season": "32",
     "placement": "11"
@@ -3074,7 +3074,7 @@
   {
     "firstName": "Mira",
     "lastName": "Sorvino",
-    "image": "/32/mira",
+    "image": "mirai",
     "gender": "female",
     "season": "32",
     "placement": "10"
@@ -3082,7 +3082,7 @@
   {
     "firstName": "Mauricio",
     "lastName": "Umansky",
-    "image": "/32/mauricio",
+    "image": "mauricio",
     "gender": "male",
     "season": "32",
     "placement": "9"
@@ -3090,7 +3090,7 @@
   {
     "firstName": "Lele",
     "lastName": "Pons",
-    "image": "/32/lele",
+    "image": "lele",
     "gender": "female",
     "season": "32",
     "placement": "8"
@@ -3098,7 +3098,7 @@
   {
     "firstName": "Barry",
     "lastName": "Williams",
-    "image": "/32/barry",
+    "image": "barry",
     "gender": "male",
     "season": "32",
     "placement": "7"
@@ -3106,7 +3106,7 @@
   {
     "firstName": "Harry",
     "lastName": "Jowsey",
-    "image": "/32/harry",
+    "image": "harry",
     "gender": "male",
     "season": "32",
     "placement": "6"
@@ -3114,7 +3114,7 @@
   {
     "firstName": "Alyson",
     "lastName": "Hannigan",
-    "image": "/32/alyson",
+    "image": "alyson",
     "gender": "female",
     "season": "32",
     "placement": "5"
@@ -3122,7 +3122,7 @@
   {
     "firstName": "Charity",
     "lastName": "Lawson",
-    "image": "/32/charity",
+    "image": "charity",
     "gender": "female",
     "season": "32",
     "placement": "4"
@@ -3130,7 +3130,7 @@
   {
     "firstName": "Ariana",
     "lastName": "Madix",
-    "image": "/32/ariana",
+    "image": "ariana",
     "gender": "female",
     "season": "32",
     "placement": "3"
@@ -3138,7 +3138,7 @@
   {
     "firstName": "Jason",
     "lastName": "Mraz",
-    "image": "/32/jason",
+    "image": "jason",
     "gender": "male",
     "season": "32",
     "placement": "2"
@@ -3146,7 +3146,7 @@
   {
     "firstName": "Xochitl",
     "lastName": "Gomez",
-    "image": "/32/xochitl",
+    "image": "xochitl",
     "gender": "female",
     "season": "32",
     "placement": "1"

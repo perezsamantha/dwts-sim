@@ -2,7 +2,7 @@
 import {
   Box,
   Button,
-  Container,
+  Center,
   Flex,
   Heading,
   SimpleGrid,
@@ -103,13 +103,13 @@ export default function Home() {
         </Box>
       </Flex>
       <Heading>Cast</Heading>
-      <Container maxWidth="100%">
+      <Box width="100%">
         <SimpleGrid minChildWidth="200px" spacing="20px">
           {cast.map((team, i) => (
             <Team key={i} teamId={i} />
           ))}
         </SimpleGrid>
-      </Container>
+      </Box>
       <Button onClick={handleRandomize}>Randomize Cast</Button>
       <Heading>Judges</Heading>
       {judges.map((judge, i) => (

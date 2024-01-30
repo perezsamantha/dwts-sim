@@ -49,18 +49,12 @@ export default function Leaderboard(props: {
                       <Avatar
                         name={`${celeb.firstName}`}
                         src={
-                          celeb.image
-                            ? `/images${celeb.image}.jpg`
-                            : '/images/mirrorball.png'
+                          celeb.image ? celeb.image : '/images/mirrorball.png'
                         }
                       />
                       <Avatar
                         name={`${pro.firstName}`}
-                        src={
-                          pro.image
-                            ? `/images${pro.image}.jpg`
-                            : '/images/mirrorball.png'
-                        }
+                        src={pro.image ? pro.image : '/images/mirrorball.png'}
                       />
                     </AvatarGroup>
                     <Text>
