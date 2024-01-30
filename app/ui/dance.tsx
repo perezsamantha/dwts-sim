@@ -36,7 +36,12 @@ export default function Dance(props: { dance: Dance }) {
     return (
       <>
         {dance.teamIds?.map((id) => (
-          <>
+          <Box
+            key={id}
+            display="flex"
+            flexDirection="column"
+            alignItems="center"
+          >
             <Flex flexDirection="row" minWidth="250px">
               <CastImage data={cast[id].teamMembers[0]} />
               <CastImage data={cast[id].teamMembers[1]} />
@@ -45,7 +50,7 @@ export default function Dance(props: { dance: Dance }) {
               {cast[id].teamMembers[0].firstName} &{' '}
               {cast[id].teamMembers[1].firstName}
             </Text>
-          </>
+          </Box>
         ))}
       </>
     );

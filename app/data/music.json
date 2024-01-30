@@ -1,1407 +1,1497 @@
 [
-  { "title": "Cuff It", "artist": "Beyoncé", "style": "Cha Cha", "uri": "" },
+  {
+    "title": "Cuff It",
+    "artist": "Beyoncé",
+    "style": "Cha Cha",
+    "uri": "spotify:track:1xzi1Jcr7mEi9K2RfzLOqS"
+  },
   {
     "title": "Lil Boo Thang",
     "artist": "Paul Russell",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:0cVyQfDyRnMJ0V3rjjdlU3"
   },
   {
     "title": "I Can See You",
     "artist": "Taylor Swift",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:5kHMfzgLZP95O9NBy0ku4v"
   },
   {
     "title": "I Can See You",
     "artist": "Taylor Swift",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:5kHMfzgLZP95O9NBy0ku4v"
   },
   {
     "title": "Hallelujah",
     "artist": "Pentatonix",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:0HZk0QsXPhMNAWNDR3rYE8"
   },
   {
     "title": "Movement",
     "artist": "Hozier",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:1djzKW3eYLyzjjHXazEWWh"
   },
   {
     "title": "Visiting Hours",
     "artist": "Ed Sheeran",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:0rt63HYAAIzUZo5O2D0uA6"
   },
-  { "title": "Lovumba", "artist": "Daddy Yankee", "style": "Salsa", "uri": "" },
+  {
+    "title": "Lovumba",
+    "artist": "Daddy Yankee",
+    "style": "Salsa",
+    "uri": "spotify:track:6oyl7ELfrMqXLhGmIjXY9R"
+  },
   {
     "title": "Shivers",
-    "artist": "District 78, Mikayla Lynn",
+    "artist": "District 78 & Mikayla Lynn",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:6osbz91EwmZOagTf0VapU1"
   },
   {
     "title": "High Horse",
     "artist": "Kacey Musgraves",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:2U2Z1IXnmJIvlknWizFykZ"
   },
   {
     "title": "Teeth",
     "artist": "5 Seconds of Summer",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:3NxWJWftvkstyxvb1pZlFo"
   },
-  { "title": "Cold as Ice", "artist": "Foreigner", "style": "Jazz", "uri": "" },
+  {
+    "title": "Cold as Ice",
+    "artist": "Foreigner",
+    "style": "Jazz",
+    "uri": "spotify:track:7vidktgNZFQylTgH1GEnMs"
+  },
   {
     "title": "No One's Here To Sleep",
-    "artist": "Naughty Boy, Bastille",
+    "artist": "Naughty Boy & Bastille",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:2oyiRrtSRCSdSSLWPS3E8j"
   },
   {
     "title": "Touch It",
     "artist": "Ariana Grande",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:7rlKlsYacU3PFLGD7ca1HL"
   },
   {
     "title": "Touch It",
     "artist": "Ariana Grande",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:7rlKlsYacU3PFLGD7ca1HL"
   },
   {
     "title": "#SELFIE",
     "artist": "The Chainsmokers",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:1HOlb9rdNOmy9b1Fakicjo"
   },
   {
     "title": "Potential Breakup Song (Explicit)",
     "artist": "Aly & AJ",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:6fyzsHCwnt8oL4XgGIMrdN"
   },
   {
-    "title": "Potential Breakup Song",
+    "title": "Potential Breakup Song (Explicit)",
     "artist": "Aly & AJ",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:6fyzsHCwnt8oL4XgGIMrdN"
   },
   {
     "title": "Can't Be Tamed",
     "artist": "Miley Cyrus",
     "style": "Paso Doble",
-    "uri": ""
+    "uri": "spotify:track:2r6DdaSbkbwoPzuK6NjLPn"
   },
-  { "title": "Superlove", "artist": "Tinashe", "style": "Salsa", "uri": "" },
+  {
+    "title": "Superlove",
+    "artist": "Tinashe",
+    "style": "Salsa",
+    "uri": "spotify:track:1uTXtV2r7DSRnMGKh3HxGi"
+  },
   {
     "title": "Hurry Up And Save Me",
     "artist": "Tiffany Giardina",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:6uQvcYL43YFWOldj7R4YqL"
   },
   {
     "title": "she's all I wanna be",
     "artist": "Tate McRae",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:0IuVhCflrQPMGRrOyoY5RW"
   },
   {
     "title": "Billie Bossa Nova",
     "artist": "Billie Eilish",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:2KnuaZYoGzDoHiBTNYOTXG"
   },
   {
     "title": "Forgive Me",
     "artist": "Chloe x Halle",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:0qU3XhIH9xczYPUWV6OopS"
   },
   {
     "title": "Hallucinate",
     "artist": "Dua Lipa",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:1nYeVF5vIBxMxfPoL0SIWg"
   },
-  { "title": "A-YO", "artist": "Lady Gaga", "style": "Jive", "uri": "" },
+  {
+    "title": "A-YO",
+    "artist": "Lady Gaga",
+    "style": "Jive",
+    "uri": "spotify:track:4aea4osXbQHKgeOwZGzgEV"
+  },
   {
     "title": "False God",
     "artist": "Taylor Swift",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:5hQSXkFgbxjZo9uCwd11so"
   },
   {
     "title": "She Will Be Loved",
     "artist": "Maroon 5",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:7sapKrjDij2fpDVj0GxP66"
   },
   {
     "title": "Just Got Paid",
-    "artist": "Sigala, Ella Eyre, Meghan Trainor, French Montana",
+    "artist": "Sigala, Ella Eyre, Meghan Trainor, & French Montana",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:0v3BMLcwUmAwyqJaf5997o"
   },
   {
     "title": "Read your Mind",
     "artist": "Sabrina Carpenter",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:4Wos0h9ECU2Z3oJMTQxpbc"
   },
   {
     "title": "Our Own House",
     "artist": "Misterwives",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:3QzbEvmnuZIONNv82PylZb"
   },
   {
     "title": "Out of My League",
     "artist": "Fitz and The Tantrums",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:2AYEOC02WLhUiOoaig2SEH"
   },
   {
     "title": "First",
     "artist": "Cold War Kids",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:3omXshBamrREltcf24gYDC"
   },
   {
     "title": "People Help the People",
     "artist": "Birdy",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:0YywjDvFudcaHG74NuWISy"
   },
   {
     "title": "Breathe (2AM)",
     "artist": "Anna Nalick",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:5auMzVHFr5Zfw6IbKarZ56"
   },
   {
     "title": "Holy Water",
     "artist": "Freya Ridings",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:4LX046nDpHzhRRap1FOgm6"
   },
   {
     "title": "Centuries",
     "artist": "Fall Out Boy",
     "style": "Paso Doble",
-    "uri": ""
+    "uri": "spotify:track:04aAxqtGp5pv12UXAg4pkq"
   },
   {
     "title": "Fire Burning",
     "artist": "Sean Kingston",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:2oENJa1T33GJ0w8dC167G4"
   },
   {
     "title": "Hey Baby (Drop It to the Floor)",
-    "artist": "Pitbull, T-Pain",
+    "artist": "Pitbull feat. T-Pain",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:3rfhI32Il2hVRKDkuGeeen"
   },
   {
     "title": "Love In The Dark",
     "artist": "Adele",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:7B5Npv8NjjTCzk8PLpU66h"
   },
   {
     "title": "vampire",
     "artist": "Olivia Rodrigo",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:1kuGVB7EU95pJObxwvfwKS"
   },
   {
     "title": "bad idea right?",
     "artist": "Olivia Rodrigo",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:3IX0yuEVvDbnqUwMBB3ouC"
   },
   {
     "title": "Evacuate the Dancefloor",
     "artist": "Cascada",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:4Zfq7r0v4FKeoxwhyLYSyb"
   },
   {
     "title": "Pick Up Your Feelings",
     "artist": "Jazmine Sullivan",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:2JLVZYEMmqPWbUoAJAMKfm"
   },
   {
     "title": "Calling All the Monsters",
     "artist": "China Anne McClain",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:0QTUoI90fBFdKkd4h8fsOu"
   },
   {
     "title": "Calling All the Monsters",
     "artist": "China Anne McClain",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:0QTUoI90fBFdKkd4h8fsOu"
   },
   {
     "title": "Tough Lover (From Burlesque)",
     "artist": "Christina Aguilera",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:6avzWHBjDq4it2Lk9ZViPm"
   },
   {
     "title": "But I Am A Good Girl (From Burlesque)",
     "artist": "Christina Aguilera",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:3OYOZLoYStvNnGpsiCxrBf"
   },
   {
     "title": "Independently Owned (From Shucked)",
     "artist": "Alex Newell",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:3iOL9G1ENCSNUw0X6yv5pF"
   },
-  { "title": "Rain", "artist": "SWV", "style": "Rumba", "uri": "" },
+  {
+    "title": "Rain",
+    "artist": "SWV",
+    "style": "Rumba",
+    "uri": "spotify:track:4G1qRhOk1YY0kewtMaCrMC"
+  },
   {
     "title": "I'm Your Baby Tonight",
     "artist": "Whitney Houston",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:3SmPl0CGxvvkQCrTv7edEE"
   },
   {
     "title": "Close",
-    "artist": "Nick Jonas, Tove Lo",
+    "artist": "Nick Jonas & Tove Lo",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:3lSDIJ2abCrOdDJ6pshUap"
   },
   {
     "title": "Call Me",
     "artist": "Aretha Franklin",
     "style": "Waltz",
-    "uri": ""
+    "uri": "spotify:track:1JEFsHZxUy24AvyC49GKVj"
   },
   {
     "title": "Best Part",
-    "artist": "Daniel Caesar, H.E.R.",
+    "artist": "Daniel Caesar & H.E.R.",
     "style": "Waltz",
-    "uri": ""
+    "uri": "spotify:track:1RMJOxR6GRPsBHL8qeC2ux"
   },
   {
     "title": "No Hay Igual",
-    "artist": "Nelly Furtado, Calle 13",
+    "artist": "Nelly Furtado & Calle 13",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:0BgX7TDa89qyA38xJimJxs"
   },
   {
     "title": "Fly Girl",
-    "artist": "FLO, Missy Elliott",
+    "artist": "FLO, &Missy Elliott",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:2sITbbWIOeg2Lwp4WN2jqr"
   },
   {
     "title": "Partition",
     "artist": "Beyoncé",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:5hgnY0mVcVetszbb85qeDg"
   },
   {
     "title": "In The Kitchen",
     "artist": "Reneé Rapp",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:2VFetGqLYq0Pc8ZtRYCaeL"
   },
   {
     "title": "Where My Girls At",
     "artist": "702",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:4VSyH8AkIt3kaR5xIPFVVi"
   },
-  { "title": "Daddy Lessons", "artist": "Beyoncé", "style": "Jive", "uri": "" },
+  {
+    "title": "Daddy Lessons",
+    "artist": "Beyoncé",
+    "style": "Jive",
+    "uri": "spotify:track:71OvX5NNLrmz7rpq1ANTQn"
+  },
   {
     "title": "Valentine's Dance Tango (From Another Cinderella Story)",
     "artist": "The Twins",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:6d7rangO5oKL2XrRs9J8dQ"
   },
   {
     "title": "Love Drunk",
     "artist": "Little Mix",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:0BS9fMzFfHTFNp9Sj97o58"
   },
   {
     "title": "Medicine",
     "artist": "Kelly Clarkson",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:0gQrcNUTkpoK5LvNmCa2eC"
   },
   {
     "title": "Waiting for You",
     "artist": "Alexander Jean",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:4oXynxae94rn20oncawmCN"
   },
   {
     "title": "The One I Crave",
     "artist": "Christina Grimmie",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:2YwGFhXKCDtohvDuT5nvll"
   },
   {
     "title": "Falling Slow",
     "artist": "Tori Kelly",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:2jotacrxKMZ96oSIYDb1C9"
   },
   {
     "title": "love is embarrassing",
     "artist": "Olivia Rodrigo",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:26QLJMK8G0M06sk7h7Fkse"
   },
-  { "title": "exes", "artist": "Tate McRae", "style": "", "uri": "" },
-  { "title": "greedy", "artist": "Tate McRae", "style": "", "uri": "" },
+  {
+    "title": "exes",
+    "artist": "Tate McRae",
+    "style": "Jive",
+    "uri": "spotify:track:0HD8mbiPjp3o94X3EaZp0o"
+  },
+  {
+    "title": "greedy",
+    "artist": "Tate McRae",
+    "style": "Freestyle",
+    "uri": "spotify:track:3rUGC1vUpkDG9CZFHMur1t"
+  },
   {
     "title": "Dirty Diana",
     "artist": "Michael Jackson",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:6JZYMxvcoeLD4IifJPvDux"
   },
   {
     "title": "Don't Let Me Be the Last to Know",
     "artist": "Britney Spears",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:3OitWDgR4SzAUOm3TBmvhw"
   },
   {
     "title": "vampire",
     "artist": "Olivia Rodrigo",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:1kuGVB7EU95pJObxwvfwKS"
   },
   {
     "title": "Dance The Night",
     "artist": "Dua Lipa",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:11C4y2Yz1XbHmaQwO06s9f"
   },
   {
     "title": "ghostin",
     "artist": "Ariana Grande",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:2vdBo4ALPYbHRUPKgtE5iC"
   },
   {
     "title": "The Longest Time",
     "artist": "Billy Joel",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:5DH7nDryMhpixm4G4B7RP9"
   },
   {
     "title": "Gee",
     "artist": "Girls' Generation",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:0t7kjpVLgOYITrSfFCoBEA"
   },
   {
     "title": "Say It Right",
     "artist": "Nelly Furtado",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:2aI21FnmY7TJVKeMaoQZ0t"
   },
   {
     "title": "I Want You to Love Me",
     "artist": "Fiona Apple",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:73SBAGI4fPFm4VkB3NjXq8"
   },
-  { "title": "Sandcastles", "artist": "Beyoncé", "style": "Waltz", "uri": "" },
+  {
+    "title": "Sandcastles",
+    "artist": "Beyoncé",
+    "style": "Waltz",
+    "uri": "spotify:track:2FNPJWVdGxYhWaotd6rULS"
+  },
   {
     "title": "My Love Mine All Mine",
     "artist": "Mitski",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:3vkCueOmm7xQDoJ17W1Pm3"
   },
   {
     "title": "Experience",
-    "artist": "Victoria Monét, Khalid, SG Lewis",
+    "artist": "Victoria Monét, Khalid, and SG Lewis",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:2oap3QptGISyIvwKpnJJId"
   },
   {
     "title": "River Deep, Mountain High",
     "artist": "Glee Cast",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:6w8tGzTSdZKkKG4IWh1n6h"
   },
   {
     "title": "Fake ID (From Footloose)",
-    "artist": "Big & Rich, Gretchen Wilson",
+    "artist": "Big & Rich and Gretchen Wilson",
     "style": "Team Dance",
-    "uri": ""
+    "uri": "spotify:track:577IUr2FQGAOgA9HlxGsfS"
   },
   {
     "title": "Me Against the Music",
-    "artist": "Britney Spears, Madonna",
+    "artist": "Britney Spears & Madonna",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:7mS8RbJji2UZAaguRGsOCH"
   },
   {
     "title": "Snow Angel",
     "artist": "Reneé Rapp",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:6skUuqrKMQIjjo75hWGAvQ"
   },
   {
     "title": "Versace on the Floor",
     "artist": "Bruno Mars",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:0kN8xEmgMW9mh7UmDYHlJP"
   },
-  { "title": "Butterfly", "artist": "Jason Mraz", "style": "Samba", "uri": "" },
+  {
+    "title": "Butterfly",
+    "artist": "Jason Mraz",
+    "style": "Samba",
+    "uri": "spotify:track:7rrmHHc1kY9vkIZnXrcH7T"
+  },
   {
     "title": "Something That I Want (From Tangled)",
     "artist": "Grace Potter",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:3eR3lWuvQqOzhTn91nbRCa"
   },
   {
     "title": "Something About the Sunshine (From Starstruck)",
-    "artist": "Anna Margaret, Christopher Wilde",
+    "artist": "Anna Margaret & Christopher Wilde",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:0Jcnr8HUGQdaOiSkqpdEKX"
   },
   {
     "title": "Snow Lands on Top (From TBOSAS)",
     "artist": "James Newton Howard",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:6tNOpqQtBGUDlgXKpptZke"
   },
   {
     "title": "Booty Swing",
     "artist": "Parov Stelar",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:3sMleqdCDalZ6xsAQe8xuY"
   },
-  { "title": "Killer Queen", "artist": "Queen", "style": "Foxtrot", "uri": "" },
+  {
+    "title": "Killer Queen",
+    "artist": "Queen",
+    "style": "Foxtrot",
+    "uri": "spotify:track:7GqWnsKhMtEW0nzki5o0d8"
+  },
   {
     "title": "The Nicest Kids In Town (From Hairspray)",
-    "artist": "James Marsden, Cast of Hairspray",
+    "artist": "James Marsden & Cast of Hairspray",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:0GikgKKBEhOBSU0dK5kv3B"
   },
   {
     "title": "Girlfriend",
     "artist": "Avril Lavigne",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:45hOioMDJktr86iKDHC8gr"
   },
   {
     "title": "Let's Go Crazy (From Sing 2)",
-    "artist": "Tori Kelly, Taron Egerton, Reese Witherspoon, Nick Kroll",
+    "artist": "Tori Kelly, Taron Egerton, Reese Witherspoon, and Nick Kroll",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:7dmc5hYruMriVSJZVQXNiT"
   },
   {
     "title": "Could Have Been Me (From Sing 2)",
     "artist": "Halsey",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:16nCYYc1lCxCyvaR1lgo0i"
   },
   {
     "title": "A Cool Cat in Town",
-    "artist": "Tape Five, Brenda Boykin",
+    "artist": "Tape Five & Brenda Boykin",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:1HoHfpXSkrnp3yRgHzRpB4"
   },
   {
     "title": "Separate Ways (Worlds Apart)",
     "artist": "Journey",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:59XnaH9k3ZYBUpBHM6PAfE"
   },
   {
     "title": "Can't Remember to Forget You",
-    "artist": "Shakira, Rihanna",
+    "artist": "Shakira feat. Rihanna",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:2Sh4sAOfnSHEVKFyysxzat"
   },
   {
-    "title": "What A Wonderful Life",
+    "title": "What A Wonderful World",
     "artist": "Louis Armstrong",
-    "style": "Viennese Waltz",
-    "uri": ""
+    "style": "Waltz",
+    "uri": "spotify:track:29U7stRjqHU6rMiS8BfaI9"
   },
   {
     "title": "My Way (From Sing)",
     "artist": "Seth MacFarlane",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:48xkeKtFEUgJtAVaqWTz5U"
   },
   {
     "title": "happier",
     "artist": "Olivia Rodrigo",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:2tGvwE8GcFKwNdAXMnlbfl"
   },
   {
     "title": "Heaven",
     "artist": "Julia Michaels",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:1T575AhHueYinKSDflEsGK"
   },
   {
     "title": "Masquerade (From The Phantom Of The Opera)",
     "artist": "Andrew Lloyd Webber",
     "style": "Waltz",
-    "uri": ""
+    "uri": "spotify:track:61zSTvYuEWrj0ZfllX7Aew"
   },
   {
     "title": "The Only Exception",
     "artist": "Paramore",
     "style": "Waltz",
-    "uri": ""
+    "uri": "spotify:track:7JIuqL4ZqkpfGKQhYlrirs"
   },
   {
     "title": "Distraction",
     "artist": "Kehlani",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:2wSQyp6VzUopSFBinRo1iD"
   },
   {
     "title": "Genius",
-    "artist": "Sia, Diplo, Labrinth, LSD",
+    "artist": "Sia, Diplo, Labrinth, and LSD",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:4xigPf2sigSPmuFH3qCelB"
   },
   {
     "title": "Bom Bidi Bom",
-    "artist": "Nick Jonas, Nicki Minaj",
+    "artist": "Nick Jonas feat. Nicki Minaj",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:4PxDHEEyHgYC6NUgqMtDFy"
   },
   {
     "title": "I'm Good (Blue)",
-    "artist": "David Guetta, Bebe Rexha",
+    "artist": "David Guetta & Bebe Rexha",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:4uUG5RXrOk84mYEfFvj3cK"
   },
   {
     "title": "I Gotta Feeling",
     "artist": "Black Eyed Peas",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:2H1047e0oMSj10dgp7p2VG"
   },
   {
     "title": "Rum and Raybans",
-    "artist": "Sean Kingston, Cher Lloyd",
+    "artist": "Sean Kingston & Cher Lloyd",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:1GsB2wrTk9mchn2jjFluPy"
   },
   {
     "title": "Bust A Move",
     "artist": "Young MC",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:3IeCYkdKI55mNMl2o4vX0k"
   },
   {
     "title": "Hot Stuff",
-    "artist": "Kygo, Donna Summer",
+    "artist": "Kygo & Donna Summer",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:00ETaeHUQ6lops3oWU1Wrt"
   },
   {
     "title": "Say You Won't Let Go",
     "artist": "James Arthur",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:5uCax9HTNlzGybIStD3vDh"
   },
   {
     "title": "Best Friend",
     "artist": "Sofi Tukker",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:6twQJ2KMwNzODCY0HzXP2E"
   },
   {
     "title": "Hypnotize",
     "artist": "The Notorious B.I.G.",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:6Tsu3OsuMz4KEGKbOYd6A0"
   },
   {
     "title": "MAMACITA",
-    "artist": "Black Eyed Peas, Ozuna, J. Rey Soul",
+    "artist": "Black Eyed Peas, Ozuna, and J. Rey Soul",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:14wf185UxfNbSy8dwt4r4q"
   },
   {
     "title": "Generous",
     "artist": "Olivia Holt",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:73OWgoHXpLZcPbqid0R1x4"
   },
   {
     "title": "Generous",
     "artist": "Olivia Holt",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:73OWgoHXpLZcPbqid0R1x4"
   },
   {
     "title": "Dance With Me (From The Cheetah Girls 2)",
-    "artist": "Drew Seeley, Belinda",
+    "artist": "Drew Seeley & Belinda",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:2sggS6A5pA0KWaleWsHzmL"
   },
   {
     "title": "Queen of Mean (From Descendants 3)",
     "artist": "Sarah Jeffery",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:4o05DiC0RQ9DNtGJGauwna"
   },
   {
     "title": "Beyond the Sea (From Finding Nemo)",
     "artist": "Bobby Darin",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:3KzgdYUlqV6TOG7JCmx2Wg"
   },
   {
     "title": "A Night to Remember (From HSM 3)",
     "artist": "High School Musical Cast",
     "style": "Team Dance",
-    "uri": ""
+    "uri": "spotify:track:3RuXekS5criwismaaj87iF"
   },
   {
     "title": "I Don't Dance (From HSM 2)",
-    "artist": "Corbin Bleu, Lucas Grabeel",
+    "artist": "Corbin Bleu & Lucas Grabeel",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:6p6TjiJHc1kJQt5dXzkdrs"
   },
   {
     "title": "Cruisin' for a Bruisin' (From Teen Beach Movie)",
-    "artist": "Ross Lynch, Jason Evigan, Grace Phipps",
+    "artist": "Ross Lynch, Jason Evigan, and Grace Phipps",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:5e3UWcbvTaF5CJWu81MqlQ"
   },
   {
     "title": "You'll Always Find Your Way Back Home",
     "artist": "Hannah Montana",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:12wSL3tGk3MtbDEhfG7xy3"
   },
   {
     "title": "Jump To The Rhythm (From Jump In)",
     "artist": "Jordan Pruitt",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:4QFbZ1cSkL718J6A8cMJdA"
   },
   {
     "title": "You'll Be In My Heart (From Tarzan)",
     "artist": "Phil Collins",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:4Y8vb1uy9IjM2V1hqvrAid"
   },
   {
     "title": "If Only (From Descendants)",
     "artist": "Dove Cameron",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:1mRBJdpIgc3jZH8C3cN2WV"
   },
   {
     "title": "Bop To The Top (From HSM)",
-    "artist": "Ashley Tisdale, Lucas Grabeel",
+    "artist": "Ashley Tisdale & Lucas Grabeel",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:4gqjxYiEorFk0y9b92uFdE"
   },
   {
     "title": "Let's Dance (From Hannah Montana)",
     "artist": "Miley Cyrus",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:5eDPpYSyy8ag1V9sPMThEB"
   },
   {
     "title": "Bella Notte (From The Lady And The Tramp)",
-    "artist": "George Givot, Bill Thompson",
+    "artist": "George Givot & Bill Thompson",
     "style": "Waltz",
-    "uri": ""
+    "uri": "spotify:track:6suDwyuHm9aTkEGEd5FSNf"
   },
   {
     "title": "Evermore (From Beauty and the Beast Live Action)",
     "artist": "Dan Stevens",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:3Yn97I3qIj7Px0Bi4rkD2q"
   },
   {
     "title": "Breakfast",
     "artist": "Dove Cameron",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:6GUiIbJ834FcHewby3PwV0"
   },
   {
     "title": "Super Freak",
     "artist": "Rick James",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:2dCmGcEOQrMQhMMS8Vj7Ca"
   },
   {
     "title": "The Devil Within",
     "artist": "Digital Daggers",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:6iwkG1eYvx0y95sDebLlW3"
   },
   {
     "title": "Goo Goo Muck",
     "artist": "The Cramps",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:3EEd6ldsPat620GVYMEhOP"
   },
   {
     "title": "Skeleton Sam (From Hocus Pocus 2)",
     "artist": "LVCRFT",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:2tscKg9DAFFhOhp8X3Ssf8"
   },
   {
     "title": "Heads Will Roll",
     "artist": "Yeah Yeah Yeahs",
     "style": "Paso Doble",
-    "uri": ""
+    "uri": "spotify:track:18oWEPapjNt32E6sCM6VLb"
   },
   {
     "title": "A Little Bit Longer",
     "artist": "Jonas Brothers",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:1C9CSFviMwp3kyZHmV09ed"
   },
   {
     "title": "Can You Hold Me",
-    "artist": "NF, Britt Nicole",
+    "artist": "NF & Britt Nicole",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:1isXdpzFMO6EIkgdWjV2D8"
   },
   {
     "title": "Start of Time",
     "artist": "Gabrielle Aplin",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:1WSF2SjtfkV8LjTlF8uCZH"
   },
   {
     "title": "Unsaid Emily (From Julie and the Phantoms)",
-    "artist": "Julie and the Phantoms Cast, Charlie Gillespie",
+    "artist": "Julie and the Phantoms Cast & Charlie Gillespie",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:2vEDOWuYM6r2LO9HXI47F1"
   },
   {
     "title": "Hungry Eyes",
     "artist": "Eric Carmen",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:3sTSo8X7UCDTVUVMJ63LJO"
   },
   {
     "title": "Car Wash",
-    "artist": "Christina Aguilera, Missy Elliott",
+    "artist": "Christina Aguilera feat. Missy Elliott",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:2PPIXmNFfB6AM6xMxIqWbw"
   },
   {
     "title": "Mr. Saxobeat",
     "artist": "Alexandra Stan",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:6HTprulGfeFVrLLvfi3t8a"
   },
   {
     "title": "Stayin Alive",
     "artist": "Bee Gees",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:5ubvP9oKmxLUVq506fgLhk"
   },
   {
     "title": "The Motto",
-    "artist": "Tiësto, Ava Max",
+    "artist": "Tiësto & Ava Max",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:18asYwWugKjjsihZ0YvRxO"
   },
   {
     "title": "The Motto",
-    "artist": "Tiësto, Ava Max",
+    "artist": "Tiësto & Ava Max",
     "style": "Paso Doble",
-    "uri": ""
+    "uri": "spotify:track:18asYwWugKjjsihZ0YvRxO"
   },
   {
     "title": "pov",
     "artist": "Ariana Grande",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:3UoULw70kMsiVXxW0L3A33"
   },
   {
     "title": "Womanizer",
     "artist": "Britney Spears",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:4fixebDZAVToLbUCuEloa2"
   },
   {
     "title": "El Tango De Roxanne (from Moulin Rouge)",
     "artist": "Jose Feliciano, Ewan McGregor, and Jacek Koman",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:606WoZeEY2gs7wCne8VPUN"
   },
   {
     "title": "Rock Your Body",
     "artist": "Justin Timberlake",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:606WoZeEY2gs7wCne8VPUN"
   },
   {
     "title": "Gasolina",
     "artist": "Daddy Yankee",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:228BxWXUYQPJrJYHDLOHkj"
   },
   {
     "title": "Don't Go Yet",
     "artist": "Camila Cabello",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:1058fW9H3fZA6QjYCdOBad"
   },
   {
     "title": "She Bangs",
     "artist": "Ricky Martin",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:1uPrIHgYztXSkkcts9jet8"
   },
   {
     "title": "Let's Get It On",
     "artist": "Marvin Gaye",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:5yr8pi3uCjTYOnTqstBBdm"
   },
   {
     "title": "A Whole New World (from Aladdin)",
     "artist": "Lea Salonga and Brad Kane",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:1hwdPQtFHISvZ9SXMkNrIK"
   },
   {
     "title": "You've Got a Friend in Me (from Toy Story)",
     "artist": "Randy Newman",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:2stkLJ0JNcXkIRDNF3ld6c"
   },
   {
     "title": "Happier Than Ever",
     "artist": "Billie Eilish",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:4RVwu0g32PAqgUiJoXsdF8"
   },
   {
     "title": "Lose You to Love Me",
     "artist": "Selena Gomez",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:4l0Mvzj72xxOpRrp6h8nHi"
   },
   {
     "title": "Perfect",
     "artist": "Ed Sheeran",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:0tgVpDi06FyKpA1z0VMD4v"
   },
   {
     "title": "Bad Guy",
     "artist": "Billie Eilish",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:2Fxmhks0bxGSBdJ92vM42m"
   },
   {
     "title": "Blinding Lights",
     "artist": "The Weeknd",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:0VjIjW4GlUZAMYd2vXMi3b"
   },
   {
     "title": "Gangnam Style",
     "artist": "Psy",
     "style": "Team Dance",
-    "uri": ""
+    "uri": "spotify:track:03UrZgTINDqvnUMbbIMhql"
   },
   {
     "title": "I Have Nothing",
     "artist": "Whitney Houston",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:31er9IGsfFbwqy1pH4aiTP"
   },
   {
     "title": "I Wanna Dance with Somebody (Who Loves Me)",
     "artist": "Whitney Houston",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:2tUBqZG2AbRi7Q0BIrVrEj"
   },
   {
     "title": "Paper Rings",
     "artist": "Taylor Swift",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:4y5bvROuBDPr5fuwXbIBZR"
   },
   {
     "title": "Lover",
     "artist": "Taylor Swift",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:1dGr1c8CrMLDpV6mPbImSI"
   },
   {
     "title": "Runaway Baby",
     "artist": "Bruno Mars",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:5MMLS3xm12D7N26xlfFApr"
   },
   {
     "title": "BO$$",
     "artist": "Fifth Harmony",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:1COvXs6jaykXC73h9OSBVM"
   },
   {
     "title": "La Vie en Rose",
     "artist": "Lady Gaga",
     "style": "Waltz",
-    "uri": ""
+    "uri": "spotify:track:3WKnfkgwrARwElktHSU5Ik"
   },
   {
     "title": "Que Calor",
     "artist": "District 78",
     "style": "Freestyle",
-    "uri": ""
+    "uri": "spotify:track:32pr4a5yA0uJNvbo4yqCjZ"
   },
   {
     "title": "Tití Me Preguntó",
     "artist": "Bad Bunny",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:1IHWl5LamUGEuP4ozKQSXZ"
   },
   {
     "title": "When I Grow Up",
     "artist": "The Pussycat Dolls",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:21pySLskKIKrhDziCX5ojQ"
   },
   {
     "title": "Pump It",
     "artist": "Black Eyed Peas",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:6btyEL6NwUa97Nex9cZFvo"
   },
   {
     "title": "Savage (Remix)",
     "artist": "Megan Thee Stallion & Major Lazer",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:6QhABlOZKHWqt2LBa8WbXw"
   },
   {
     "title": "Bossa Nova Baby",
     "artist": "Elvis Presley",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:22Z6ClJxSRovjPiswfCg3V"
   },
   {
     "title": "No Time to Die",
     "artist": "Billie Eilish",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:73SpzrcaHk0RQPFP73vqVR"
   },
   {
     "title": "Finally Free",
     "artist": "Joshua Bassett",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:5qELFdy1PLLinCg5462HES"
   },
   {
     "title": "Remember Me (from Coco)",
     "artist": "Benjamin Bratt",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:4ljlAxfaEjO4Q4g9FMtVj4"
   },
   {
     "title": "Wait for It (from Hamilton)",
     "artist": "Leslie Odom Jr.",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:7EqpEBPOohgk7NnKvBGFWo"
   },
   {
     "title": "What the World Needs Now Is Love",
     "artist": "Andra Day",
     "style": "Waltz",
-    "uri": ""
+    "uri": "spotify:track:1E2qfOtDbT1NPaGQnI3L12"
   },
   {
     "title": "Good Girls Go Bad",
-    "artist": "Cobra Starship and Leighton Meester",
+    "artist": "Cobra Starship feat. Leighton Meester",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:7kMfu3KUydmrFVGEAhjtyl"
   },
   {
     "title": "Shut Up and Dance",
     "artist": "Walk the Moon",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:4kbj5MwxO1bq9wjT5g9HaA"
   },
   {
     "title": "No Air",
-    "artist": "Jordin Sparks and Chris Brown",
+    "artist": "Jordin Sparks & Chris Brown",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:1jUA4rb6ZCv4gby4YU53xq"
   },
   {
     "title": "It Takes Two",
-    "artist": "Rob Base and DJ E-Z Rock",
+    "artist": "Rob Base & DJ E-Z Rock",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:0gFB5H3pHN13ERt2FyMuWi"
   },
   {
     "title": "Fever",
     "artist": "Michael Buble",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:17Syv0SV6ThWwgZM3umr1E"
   },
   {
     "title": "Feeling Good",
     "artist": "Michael Buble",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:3I09LQbHS3NSU46Ly3tPpR"
   },
   {
     "title": "Heads Will Roll",
     "artist": "Yeah Yeah Yeahs",
     "style": "Team Dance",
-    "uri": ""
+    "uri": "spotify:track:18oWEPapjNt32E6sCM6VLb"
   },
   {
     "title": "Livin' La Vida Loca",
     "artist": "Ricky Martin",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:0Ph6L4l8dYUuXFmb71Ajnd"
   },
   {
     "title": "Motownphilly",
     "artist": "Boyz II Men",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:4LxIGAVfcQIw0zAQRyFhU8"
   },
   {
     "title": "Light It Up (Remix)",
     "artist": "Major Lazer, Nyla, and Fuse ODG",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:1qFSPn37zEeCyRiVpkW9dt"
   },
   {
     "title": "Light It Up (Remix)",
     "artist": "Major Lazer, Nyla, and Fuse ODG",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:1qFSPn37zEeCyRiVpkW9dt"
   },
   {
     "title": "Glimpse of Us",
     "artist": "Joji",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:6xGruZOHLs39ZbVccQTuPZ"
   },
   {
     "title": "I'm Kissing You",
     "artist": "Des'ree",
     "style": "Waltz",
-    "uri": ""
+    "uri": "spotify:track:1Xp8MKmfoFDib6dHM6JF53"
   },
   {
     "title": "Call Me Mother",
     "artist": "RuPaul",
     "style": "Freestyle",
-    "uri": ""
+    "uri": "spotify:track:0SENYBHXBj0TI1ZygWwxee"
   },
   {
     "title": "Cell Block Tango (from Chicago)",
     "artist": "Original Broadway Cast",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:3LisyzjjwJM3exOcrIEdcZ"
   },
-  { "title": "Butter", "artist": "BTS", "style": "Cha Cha", "uri": "" },
-  { "title": "Hey Ya!", "artist": "Outkast", "style": "Jive", "uri": "" },
+  {
+    "title": "Butter",
+    "artist": "BTS",
+    "style": "Cha Cha",
+    "uri": "spotify:track:1mWdTewIgB3gtBM3TOSFhB"
+  },
+  {
+    "title": "Hey Ya!",
+    "artist": "Outkast",
+    "style": "Jive",
+    "uri": "spotify:track:2PpruBYCo4H7WOBJ7Q2EwM"
+  },
   {
     "title": "The Way I Are",
     "artist": "Timbaland & Keri Hilson",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:2bLqfJjuC5syrsgDsZfGmn"
   },
   {
     "title": "Are You Gonna Be My Girl",
     "artist": "Jet",
     "style": "Quickstep",
-    "uri": ""
+    "uri": "spotify:track:305WCRhhS10XUcH6AEwZk6"
   },
-  { "title": "Levitating", "artist": "Dua Lipa", "style": "Samba", "uri": "" },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "style": "Samba",
+    "uri": "spotify:track:39LLxExYz6ewLAcYrzQQyP"
+  },
   {
     "title": "Rain on Me",
     "artist": "Lady Gaga & Ariana Granda",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:7ju97lgwC2rKQ6wwsf9no9"
   },
   {
     "title": "All by Myself",
     "artist": "Celine Dion",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:0gsl92EMIScPGV1AU35nuD"
   },
   {
     "title": "Circus",
     "artist": "Britney Spears",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:7jk7gqyEonmVVYahZN5zhW"
   },
-  { "title": "Toxic", "artist": "Britney Spears", "style": "Tango", "uri": "" },
+  {
+    "title": "Toxic",
+    "artist": "Britney Spears",
+    "style": "Tango",
+    "uri": "spotify:track:6I9VzXrHxO9rA9A5euc8Ak"
+  },
   {
     "title": "Oops!... I Did It Again",
     "artist": "Britney Spears",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:6naxalmIoLFWR0siv8dnQQ"
   },
   {
     "title": "How Far I'll Go (from Moana)",
     "artist": "Auli'I Cravalho",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:6mb6lVLNrcUgLnEN8QnDJd"
   },
   {
     "title": "Dangerous Woman",
     "artist": "Ariana Grande",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:6RUhbFEhrvGISaQ8u2j2JN"
   },
   {
     "title": "There Are Worse Things I Could Do (from Grease)",
     "artist": "Stockard Channing",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:0pDB9JmbZxupqmZuuevxjS"
   },
   {
     "title": "Look at Me, I'm Sandra Dee (Reprise) (from Grease)",
     "artist": "Olivia Newton-John",
     "style": "Foxtrot",
-    "uri": ""
+    "uri": "spotify:track:2SMbVw0jPM8LapbjhIDjO4"
   },
   {
     "title": "I Got 5 On It (Tethered Mix) (from Us)",
     "artist": "Michael Abels, Luniz, and Michael Marshall",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:5TvLB4zBOFWHcnDoWVI4Mw"
   },
   {
     "title": "Anything Goes",
     "artist": "District 78 & Patrice Covington",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:6W7DJGHsL1KSptqOkKnAmY"
   },
   {
     "title": "Hound Dog",
     "artist": "Elvis Presley",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:64Ny7djQ6rNJspquof2KoX"
   },
   {
     "title": "Paint It Black",
     "artist": "Ciara",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:2VP6E3tkWSbD2uHBioBDLp"
   },
   {
     "title": "Beggin'",
     "artist": "Måneskin",
     "style": "Paso Doble",
-    "uri": ""
+    "uri": "spotify:track:3Wrjm47oTz2sjIgck11l5e"
   },
   {
     "title": "Don't Stop Me Now",
     "artist": "Queen",
     "style": "Jive",
-    "uri": ""
+    "uri": "spotify:track:7hQJA50XrCWABAu5v6QZ4i"
   },
   {
     "title": "Another One Bites the Dust",
     "artist": "Queen",
     "style": "Paso Doble",
-    "uri": ""
+    "uri": "spotify:track:5Lsg8jlCoTyxRch9LvJo3E"
   },
-  { "title": "Body Language", "artist": "Queen", "style": "Tango", "uri": "" },
+  {
+    "title": "Body Language",
+    "artist": "Queen",
+    "style": "Tango",
+    "uri": "spotify:track:2Mu43PmiJHMTNbtUjUWwOf"
+  },
   {
     "title": "Somebody to Love",
     "artist": "Queen",
     "style": "Viennese Waltz",
-    "uri": ""
+    "uri": "spotify:track:6cFZ4PLC19taNlpl9pbGMf"
   },
   {
     "title": "All for You",
     "artist": "Janet Jackson",
     "style": "Samba",
-    "uri": ""
+    "uri": "spotify:track:5X8kkUaUlAyAUr9TYqDFTH"
   },
   {
     "title": "If",
     "artist": "Janet Jackson",
     "style": "Paso Doble",
-    "uri": ""
+    "uri": "spotify:track:0t414ewhjcIiuPVF3QECz2"
   },
   {
     "title": "Miss You Much",
     "artist": "Janet Jackson",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:4r5VaK6H1bq0cTGPMTN97Z"
   },
   {
     "title": "Rhythm Nation",
     "artist": "Janet Jackson",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:4nTYxxF8iWBq54LO3dBUie"
   },
   {
     "title": "That's the Way Love Goes",
     "artist": "Janet Jackson",
     "style": "Rumba",
-    "uri": ""
+    "uri": "spotify:track:29rQJydAlO0uMyWvRIZxQg"
   },
   {
     "title": "Danza Kuduro",
     "artist": "Don Omar & Lucenzo",
     "style": "Salsa",
-    "uri": ""
+    "uri": "spotify:track:2a1o6ZejUi8U3wzzOtCOYw"
   },
   {
     "title": "Dark Fantasy",
     "artist": "Kanye West",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:7yNK27ZTpHew0c55VvIJgm"
   },
   {
     "title": "Titanium",
     "artist": "David Guetta & Sia",
     "style": "Tango",
-    "uri": ""
+    "uri": "spotify:track:0lHAMNU8RGiIObScrsRgmP"
   },
   {
     "title": "Before You Go (Piano Version)",
     "artist": "Lewis Capaldi",
     "style": "Contemporary",
-    "uri": ""
+    "uri": "spotify:track:7slfeXbuzr9RYXX6XS6Npi"
   },
   {
     "title": "Santa Maria (Del Buen Ayre)",
     "artist": "Gotan Project",
     "style": "Argentine Tango",
-    "uri": ""
+    "uri": "spotify:track:3sPkMFWk9zi5LAA0T1qvpc"
   },
   {
     "title": "Born This Way",
     "artist": "Lady Gaga",
     "style": "Freestyle",
-    "uri": ""
+    "uri": "spotify:track:6r2BECwMgEoRb5yLfp0Hca"
   },
   {
     "title": "Lose Control",
     "artist": "Missy Elliott, Ciara, and Fat Man Scoop",
     "style": "Freestyle",
-    "uri": ""
+    "uri": "spotify:track:0UaMYEvWZi0ZqiDOoHU3YI"
   },
   {
     "title": "A Sky Full of Stars",
     "artist": "Coldplay",
     "style": "Freestyle",
-    "uri": ""
+    "uri": "spotify:track:0FDzzruyVECATHXKHFs9eJ"
   },
   {
     "title": "Never Tear Us Apart",
     "artist": "Bishop Briggs",
     "style": "Paso Doble",
-    "uri": ""
+    "uri": "spotify:track:0zdzgfhY18Au7dD1hOrTrX"
   },
-  { "title": "Water", "artist": "Bishop Briggs", "style": "Waltz", "uri": "" },
+  {
+    "title": "Water",
+    "artist": "Bishop Briggs",
+    "style": "Waltz",
+    "uri": "spotify:track:0gwR22fn1mk9XLm6mpJnk8"
+  },
   {
     "title": "I Love It",
-    "artist": "Icona Pop & Charli XCX",
+    "artist": "Icona Pop feat. Charli XCX",
     "style": "Cha Cha",
-    "uri": ""
+    "uri": "spotify:track:6HZ9VeI5IRFCNQLXhpF4bq"
   },
   {
     "title": "Sing, Sing, Sing (With a Swing)",
     "artist": "Benny Goodman",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:5L8ta4ECl5zeA6bGqY7G38"
   },
   {
     "title": "Living in New York City",
     "artist": "Robin Thicke",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:6WlEua2Gy03cfwU15TBebH"
   },
   {
     "title": "One Shot",
     "artist": "Hunter Hayes",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:6smVfDjrVkJKfO1MasrbE9"
   },
   {
     "title": "The Glory Days (from The Incredibles)",
     "artist": "Michael Giacchino",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:59Djq0zGIu8HDZ8QXs2oiz"
   },
   {
     "title": "Bad Man",
     "artist": "Pitbull, Robin Thicke, Joe Perry, and Travis Barker",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:4eRrRWQ06cnqhXUwJOOnKJ"
   },
   {
     "title": "A Little Party Never Killed Nobody",
     "artist": "Fergie, Q-Tip, and Goonrock",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:1yW00C89gUWPvUh5fkyzz4"
   },
   {
     "title": "A Little Party Never Killed Nobody",
     "artist": "Fergie, Q-Tip, and Goonrock",
     "style": "Jazz",
-    "uri": ""
+    "uri": "spotify:track:1yW00C89gUWPvUh5fkyzz5"
   },
   {
     "title": "Charleston",
     "artist": "Bob Wilson & His Varsity Rhythm Boys",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:57uNSuavNyQc6aJwsOAKk5"
   },
   {
     "title": "Shame on Me",
     "artist": "Avicii, Sterling Fox, and Audra Mae",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:13bHItq1R7F0k0mVZ4PUG8"
   },
   {
     "title": "All That Jazz / Hot Honey Rag (from Chicago)",
     "artist": "Original Broadway Cast",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:4ERxganD5hjNzyAKf43RVi"
   },
   {
     "title": "Booty Swing",
     "artist": "Parov Stelar",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:3sMleqdCDalZ6xsAQe8xuY"
   },
   {
     "title": "Honey I'm Good",
     "artist": "Andy Grammer",
     "style": "Charleston",
-    "uri": ""
+    "uri": "spotify:track:4Tt6GiWS2V9sQjZjS2xjp2"
   },
   {
     "title": "Respect",
@@ -2122,5 +2212,851 @@
     "artist": "Alex Newell, Jess Glynne, DJ Cassidy, & Nile Rodgers",
     "style": "Paso Doble",
     "uri": "spotify:track:4iCKHGl4ij4YMwFrUZLGEQ"
+  },
+  {
+    "title": "Grown",
+    "artist": "Little Mix",
+    "style": "Jive",
+    "uri": "spotify:track:33ubpYqvUMqczi4w0a2ktf"
+  },
+  {
+    "title": "Candy Shop",
+    "artist": "50 Cent feat. Olivia",
+    "style": "Jazz",
+    "uri": "spotify:track:5D2mYZuzcgjpchVY1pmTPh"
+  },
+  {
+    "title": "Shake Your Bon-Bon",
+    "artist": "Ricky Martin",
+    "style": "Samba",
+    "uri": "spotify:track:1yKDl9K9lrbIFSpPBzEQtb"
+  },
+  {
+    "title": "Big Spender",
+    "artist": "Shirley Bassey",
+    "style": "Foxtrot",
+    "uri": "spotify:track:3wFxvVpzsOJ4Ag54i2Nr5A"
+  },
+  {
+    "title": "That's How You Know (From Enchanted)",
+    "artist": "Amy Adams",
+    "style": "Jazz",
+    "uri": "spotify:track:1OzSfjFW08DTD51XoNnog7"
+  },
+  {
+    "title": "I'll Make a Man Out of You",
+    "artist": "Donny Osmond",
+    "style": "Paso Doble",
+    "uri": "spotify:track:28UMEtwyUUy5u0UWOVHwiI"
+  },
+  {
+    "title": "Best Song Ever",
+    "artist": "One Direction",
+    "style": "Team Dance",
+    "uri": "spotify:track:5T7ZFtCcOgkpjxcuaeZbw0"
+  },
+  {
+    "title": "Quizás, Quizás, Quizás",
+    "artist": "Andrea Bocelli feat. Jennifer Lopez",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:6ykkal4MnCob5AQxckVqj2"
+  },
+  {
+    "title": "Don't Let Me Down",
+    "artist": "The Chainsmokers feat. Daya",
+    "style": "Paso Doble",
+    "uri": "spotify:track:1i1fxkWeaMmKEB4T7zqbzK"
+  },
+  {
+    "title": "Humble and Kind",
+    "artist": "Tim McGraw",
+    "style": "Waltz",
+    "uri": "spotify:track:4Pn0JlCUusD2QHjADuOzuV"
+  },
+  {
+    "title": "Check It Out",
+    "artist": "Oh the Larceny",
+    "style": "Quickstep",
+    "uri": "spotify:track:7KkjTn0eDfjhyNLkhnEjCl"
+  },
+  {
+    "title": "Uptown Funk",
+    "artist": "Bruno Mars",
+    "style": "Freestyle",
+    "uri": "spotify:track:32OlwWuMpZ6b0aN2RZOeMS"
+  },
+  {
+    "title": "Here",
+    "artist": "Alessia Cara",
+    "style": "Foxtrot",
+    "uri": "spotify:track:664gdARxaClFsoF5SXKOws"
+  },
+  {
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:40riOy7x9W7GXjyGp4pjAv"
+  },
+  {
+    "title": "You Don't Own Me",
+    "artist": "SAYGRACE feat. G-Eazy",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:6KI1ZpZWYAJLvmVhCJz65G"
+  },
+  {
+    "title": "Dr. Bones",
+    "artist": "Cherry Poppin' Daddies",
+    "style": "Quickstep",
+    "uri": "spotify:track:1N0dgxqNuNN2BqvBX7q8Ur"
+  },
+  {
+    "title": "Bird Set Free",
+    "artist": "Sia",
+    "style": "Contemporary",
+    "uri": "spotify:track:6MowG7MRVgPfGlCMsXKMJ2"
+  },
+  {
+    "title": "Kill of the Night",
+    "artist": "Gin Wigmore",
+    "style": "Paso Doble",
+    "uri": "spotify:track:2m17BTWlZq0wtS9cpJsCfM"
+  },
+  {
+    "title": "Hollow",
+    "artist": "Tori Kelly",
+    "style": "Foxtrot",
+    "uri": "spotify:track:6QeJEhEoMNqsn2yhCvG3jc"
+  },
+  {
+    "title": "Limbo",
+    "artist": "Daddy Yankee",
+    "style": "Salsa",
+    "uri": "spotify:track:3pDhN3qB33AOPhQEkUCaWt"
+  },
+  {
+    "title": "Wicked Ones",
+    "artist": "Dorothy",
+    "style": "Paso Doble",
+    "uri": "spotify:track:1ogRu1dOUgHvel8To8oQbe"
+  },
+  {
+    "title": "I Want Your Back",
+    "artist": "The Jackson 5",
+    "style": "Freestyle",
+    "uri": "spotify:track:5LxvwujISqiB8vpRYv887S"
+  },
+  {
+    "title": "Brand New",
+    "artist": "Ben Rector",
+    "style": "Freestyle",
+    "uri": "spotify:track:07m8PuXxxv5J4qPEDq6ZkK"
+  },
+  {
+    "title": "Sax",
+    "artist": "Fleur East",
+    "style": "Cha Cha",
+    "uri": "spotify:track:20dJUFrfY0TBZ7HHhJgjsg"
+  },
+  {
+    "title": "Cake by the Ocean",
+    "artist": "DNCE",
+    "style": "Cha Cha",
+    "uri": "spotify:track:76hfruVvmfQbw0eYn1nmeC"
+  },
+  {
+    "title": "Stole the Show",
+    "artist": "Kygo feat. Parson James",
+    "style": "Rumba",
+    "uri": "spotify:track:5masKPHeAOVNgxdLebIcK7"
+  },
+  {
+    "title": "Bun Up the Dance",
+    "artist": "Dillon Francis & Skrillex",
+    "style": "Samba",
+    "uri": "spotify:track:2cgZfcnb639TaZhd1AU8iz"
+  },
+  {
+    "title": "Rainbow Connection",
+    "artist": "Kermit the Frog",
+    "style": "Waltz",
+    "uri": "spotify:track:4Fx3LVYQXplhz70cfoqbgq"
+  },
+  {
+    "title": "Friend Like Me (From Aladdin)",
+    "artist": "Ne-Yo",
+    "style": "Jazz",
+    "uri": "spotify:track:2JxTIvfbuN6ucvqOBBhk3Z"
+  },
+  {
+    "title": "Under Control",
+    "artist": "Calvin Harris, Alesso, and Hurts",
+    "style": "Paso Doble",
+    "uri": "spotify:track:4J7CKHCF3mdL4diUsmW8lq"
+  },
+  {
+    "title": "Hey! Pachuco!",
+    "artist": "Royal Crown Revue",
+    "style": "Quickstep",
+    "uri": "spotify:track:1z1m5WqzxzjRy4VGJMK2ft"
+  },
+  {
+    "title": "Nasty",
+    "artist": "Janet Jackson",
+    "style": "Jazz",
+    "uri": "spotify:track:07OzC5JlcaDwEkzWmvqp6y"
+  },
+  {
+    "title": "Crazy in Love",
+    "artist": "Beyoncé feat. Jay-Z",
+    "style": "Team Dance",
+    "uri": "spotify:track:5IVuqXILoxVWvWEPm82Jxr"
+  },
+  {
+    "title": "Telephone",
+    "artist": "Martynas",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:0RVPN010wAt1G5DgNeV035"
+  },
+  {
+    "title": "Victorious",
+    "artist": "Panic! At The Disco",
+    "style": "Paso Doble",
+    "uri": "spotify:track:6od5hFv9IT5JHc7NEF9HRv"
+  },
+  {
+    "title": "Stone Cold",
+    "artist": "Demi Lovato",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:3by8IfnW9dZ2t4pZw1WVxz"
+  },
+  {
+    "title": "Everybody Wants to Rule the World",
+    "artist": "Lorde",
+    "style": "Paso Doble",
+    "uri": "spotify:track:3S1tTwSKIZgf4QGltFyCxM"
+  },
+  {
+    "title": "One Time",
+    "artist": "Marian Hill",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:1Z4UKak2eNteHFZkwiYPNz"
+  },
+  {
+    "title": "Hip Hip Chin Chin",
+    "artist": "Club des Belugas",
+    "style": "Samba",
+    "uri": "spotify:track:1LYSYfYH6cKGthjcv1bzt9"
+  },
+  {
+    "title": "Explosive",
+    "artist": "David Garrett & Royal Philharmonic Orchestra",
+    "style": "Paso Doble",
+    "uri": "spotify:track:2xrHfrRtNy49TjNL3oIxPR"
+  },
+  {
+    "title": "Fireball",
+    "artist": "Pitbull feat. John Ryan",
+    "style": "Salsa",
+    "uri": "spotify:track:4Y7XAxTANhu3lmnLAzhWJW"
+  },
+  {
+    "title": "The Sound of Silence",
+    "artist": "Disturbed",
+    "style": "Freestyle",
+    "uri": "spotify:track:1Cj2vqUwlJVG27gJrun92y"
+  },
+  {
+    "title": "I Don't Like It, I Love It",
+    "artist": "Flo Rida, Robin Thicke, and Verdine White",
+    "style": "Cha Cha",
+    "uri": "spotify:track:2S5LNtRVRPbXk01yRQ14sZ"
+  },
+  {
+    "title": "Only A Man",
+    "artist": "Jonny Lang",
+    "style": "Waltz",
+    "uri": "spotify:track:25JOSEqYyyUqmzdsT1bj2y"
+  },
+  {
+    "title": "Stitches",
+    "artist": "Shawn Mendes",
+    "style": "Contemporary",
+    "uri": "spotify:track:5jsw9uXEGuKyJzs0boZ1bT"
+  },
+  {
+    "title": "Everybody (Backstreet's Back)",
+    "artist": "Backstreet Boys",
+    "style": "Jazz",
+    "uri": "spotify:track:5WTxbyWTpoqhdxEN2szOnl"
+  },
+  {
+    "title": "Like I'm Gonna Lose You",
+    "artist": "Meghan Trainor feat. John Legend",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:2YlZnw2ikdb837oKMKjBkW"
+  },
+  {
+    "title": "Let It Go",
+    "artist": "James Bay",
+    "style": "Rumba",
+    "uri": "spotify:track:13HVjjWUZFaWilh2QUJKsP"
+  },
+  {
+    "title": "Hold My Hand",
+    "artist": "Jess Glynne",
+    "style": "Cha Cha",
+    "uri": "spotify:track:1i1rNVtxbE7rdFfpHuNq2j"
+  },
+  {
+    "title": "Pompeii",
+    "artist": "Bastille",
+    "style": "Tango",
+    "uri": "spotify:track:3gbBpTdY8lnQwqxNCcf795"
+  },
+  {
+    "title": "I'm a Slave 4 U",
+    "artist": "Britney Spears",
+    "style": "Cha Cha",
+    "uri": "spotify:track:1ilzpYN1gwl9drj2M5Ik60"
+  },
+  {
+    "title": "(I've Had) The Tme of My Life",
+    "artist": "Billy Medley & Jennifer Warnes",
+    "style": "Rumba",
+    "uri": "spotify:track:6W7ztLBiRzBN46ZaPAcQ0F"
+  },
+  {
+    "title": "Pony",
+    "artist": "Ginuwine",
+    "style": "Rumba",
+    "uri": "spotify:track:6mz1fBdKATx6qP4oP1I65G"
+  },
+  {
+    "title": "Vogue",
+    "artist": "Madonna",
+    "style": "Jazz",
+    "uri": "spotify:track:27QvYgBk0CHOVHthWnkuWt"
+  },
+  {
+    "title": "yes, and?",
+    "artist": "Ariana Grande",
+    "style": "Jazz",
+    "uri": "spotify:track:7gaA3wERFkFkgivjwbSvkG"
+  },
+  {
+    "title": "Once Upon a Dream",
+    "artist": "Lana Del Rey",
+    "style": "Waltz",
+    "uri": "spotify:track:3liiZRlJxa8GeLUgWMoIeu"
+  },
+  {
+    "title": "Haunted",
+    "artist": "Beyoncé",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:7cioKB5CHVzk09SOtTyn0T"
+  },
+  {
+    "title": "This Is Halloween",
+    "artist": "Danny Elfman",
+    "style": "Team Dance",
+    "uri": "spotify:track:01YROQCnF1AQm7SCWJmD2o"
+  },
+  {
+    "title": "Ghostbusters",
+    "artist": "Ray Parker Jr.",
+    "style": "Team Dance",
+    "uri": "spotify:track:3m0y8qLoznUYi73SUBP8GI"
+  },
+  {
+    "title": "Roses and Violets",
+    "artist": "Alexander Jean",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:02ZhkNAPmfDe28rLCS0Umk"
+  },
+  {
+    "title": "Make It Rain",
+    "artist": "Ed Sheeran",
+    "style": "Contemporary",
+    "uri": "spotify:track:5puU24G3lHVsUXPAWW2ZpV"
+  },
+  {
+    "title": "Resolve",
+    "artist": "Nathan Lanier",
+    "style": "Jazz",
+    "uri": "spotify:track:7yEwapDFre7luOSlA4X6Q7"
+  },
+  {
+    "title": "WTF (Where They From)",
+    "artist": "Missy Elliott feat. Pharrell Williams",
+    "style": "Freestyle",
+    "uri": "spotify:track:7IAa7vUJ11STN7le8XaxsH"
+  },
+  {
+    "title": "The Hills",
+    "artist": "The Weeknd",
+    "style": "Foxtrot",
+    "uri": "spotify:track:7fBv7CLKzipRk6EC6TWHOB"
+  },
+  {
+    "title": "Take Me to Church",
+    "artist": "Hozier",
+    "style": "Foxtrot",
+    "uri": "spotify:track:1CS7Sd1u5tWkstBhpssyjP"
+  },
+  {
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "style": "Waltz",
+    "uri": "spotify:track:34gCuhDGsG4bRPIf9bb02f"
+  },
+  {
+    "title": "Atlas (From The Hunger Games: Catching Fire)",
+    "artist": "Coldplay",
+    "style": "Contemporary",
+    "uri": "spotify:track:5qVV3IVh4Ir5t9SXJHkq1e"
+  },
+  {
+    "title": "Turning Tables",
+    "artist": "Adele",
+    "style": "Waltz",
+    "uri": "spotify:track:4oy98QoABnGKpvapDkI525"
+  },
+  {
+    "title": "Love is an Open Door (From Frozen)",
+    "artist": "Kristen Bell & Santino Fontana",
+    "style": "Jazz",
+    "uri": "spotify:track:3IPnBzGRMg6BfViFxxa0Gq"
+  },
+  {
+    "title": "Poor Unfortunate Souls (From The Little Mermaid)",
+    "artist": "Pat Carroll",
+    "style": "Samba",
+    "uri": "spotify:track:7zsw78LtXUD7JfEwH64HK2"
+  },
+  {
+    "title": "Trouble",
+    "artist": "Iggy Azalea feat. Jennifer Hudson",
+    "style": "Team Dance",
+    "uri": "spotify:track:3MPZOtMvBoxAIRUkgux87d"
+  },
+  {
+    "title": "Want to Want Me",
+    "artist": "Jason Derulo",
+    "style": "Samba",
+    "uri": "spotify:track:7oGZAicScQt96OAW4AruYy"
+  },
+  {
+    "title": "Bootylicious",
+    "artist": "Destiny's Child",
+    "style": "Jazz",
+    "uri": "spotify:track:41nT1Sp6ChR65FbsdLlFHW"
+  },
+  {
+    "title": "Temperature",
+    "artist": "Sean Paul",
+    "style": "Salsa",
+    "uri": "spotify:track:0k2GOhqsrxDTAbFFSdNJjT"
+  },
+  {
+    "title": "Electric Feel",
+    "artist": "MGMT",
+    "style": "Jazz",
+    "uri": "spotify:track:3FtYbEfBqAlGO46NUDQSAt"
+  },
+  {
+    "title": "Work Song",
+    "artist": "Hozier",
+    "style": "Contemporary",
+    "uri": "spotify:track:5TgEJ62DOzBpGxZ7WRsrqb"
+  },
+  {
+    "title": "Für Elise",
+    "artist": "District 78",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:7rsr9MKw2vqiJLUZdXsgeu"
+  },
+  {
+    "title": "Feelin' Good",
+    "artist": "Christina Grimmie",
+    "style": "Quickstep",
+    "uri": "spotify:track:3mfT9XDGAl9mkJxOdvewfX"
+  },
+  {
+    "title": "Fall for You",
+    "artist": "Leela James",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:3VdKAt4G4Q5BzTLRPk3TMq"
+  },
+  {
+    "title": "I Won't Dance (Step Up 3D Remix)",
+    "artist": "District 78",
+    "style": "Freestyle",
+    "uri": "spotify:track:16WtCEn2Au1GH9SwMM6nma"
+  },
+  {
+    "title": "Crazy Stupid Love",
+    "artist": "Cheryl feat. Tinie Tempah",
+    "style": "Charleston",
+    "uri": "spotify:track:5p5jXve0CXP3Za6xY2fylF"
+  },
+  {
+    "title": "Black Widow",
+    "artist": "Iggy Azalea feat. Rita Ora",
+    "style": "Team Dance",
+    "uri": "spotify:track:7pNC5ZIKtwUK0ReSpM3P9f"
+  },
+  {
+    "title": "Problem",
+    "artist": "Ariana Grande feat. Iggy Azalea",
+    "style": "Quickstep",
+    "uri": "spotify:track:7vS3Y0IKjde7Xg85LWIEdP"
+  },
+  {
+    "title": "Blame",
+    "artist": "Calvin Harris feat. John Newman",
+    "style": "Paso Doble",
+    "uri": "spotify:track:07nH4ifBxUB4lZcsf44Brn"
+  },
+  {
+    "title": "369",
+    "artist": "Cupid feat. B.o.B",
+    "style": "Jive",
+    "uri": "spotify:track:6hRxkub3GwimKCrH8MJ3y2"
+  },
+  {
+    "title": "So This Is Love (From Cinderella)",
+    "artist": "Ilene Woods",
+    "style": "Waltz",
+    "uri": "spotify:track:1EwRMgWXS9U8Oet39tlYwY"
+  },
+  {
+    "title": "My Heart Goes Boom",
+    "artist": "Miss Li",
+    "style": "Quickstep",
+    "uri": "spotify:track:2oszQgFEzAOSGtahIU5V9U"
+  },
+  {
+    "title": "You Can't Hurry Love",
+    "artist": "The Supremes",
+    "style": "Quickstep",
+    "uri": "spotify:track:1OppEieGNdItZbE14gLBEv"
+  },
+  {
+    "title": "Sparkling Diamonds",
+    "artist": "Nicole Kidman",
+    "style": "Quickstep",
+    "uri": "spotify:track:4FZrqQWEFsIFatLZH4IDLg"
+  },
+  {
+    "title": "The Fox (What Does the Fox Say?)",
+    "artist": "Ylvis",
+    "style": "Team Dance",
+    "uri": "spotify:track:5HOpkTTVcmZHnthgyxrIL8"
+  },
+  {
+    "title": "Dance Apocalyptic",
+    "artist": "Janelle Monáe",
+    "style": "Quickstep",
+    "uri": "spotify:track:3dUMuxNadGxCE3qXuhCwqa"
+  },
+  {
+    "title": "Yeah!",
+    "artist": "Usher, Lil' Jon, and Ludacris",
+    "style": "Jazz",
+    "uri": "spotify:track:5rb9QrpfcKFHM1EUbSIurX"
+  },
+  {
+    "title": "Smooth Crimincal",
+    "artist": "Michael Jackson",
+    "style": "Freestyle",
+    "uri": "spotify:track:2bCQHF9gdG5BNDVuEIEnNk"
+  },
+  {
+    "title": "Discombobulate",
+    "artist": "Hans Zimmer",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:0cm6cAtRu0C0sEZzDjZFsx"
+  },
+  {
+    "title": "Part-Time Lover",
+    "artist": "Stevie Wonder",
+    "style": "Quickstep",
+    "uri": "spotify:track:0Dm43YLUlGdePpSbI1ct8h"
+  },
+  {
+    "title": "Beauty And A Beat",
+    "artist": "Justin Bieber feat. Nicki Minaj",
+    "style": "Freestyle",
+    "uri": "spotify:track:190jyVPHYjAqEaOGmMzdyk"
+  },
+  {
+    "title": "Can't Hold Us",
+    "artist": "Macklemore & Ryan Lewis",
+    "style": "Freestyle",
+    "uri": "spotify:track:3bidbhpOYeV4knp8AIu8Xn"
+  },
+  {
+    "title": "Black Betty",
+    "artist": "Ram Jam",
+    "style": "Quickstep",
+    "uri": "spotify:track:6kooDsorCpWVMGc994XjWN"
+  },
+  {
+    "title": "Call Me Maybe",
+    "artist": "Carly Rae Jepsen",
+    "style": "Team Dance",
+    "uri": "spotify:track:3TGRqZ0a2l1LRblBkJoaDx"
+  },
+  {
+    "title": "Carnaval de Paris",
+    "artist": "Dario G",
+    "style": "Freestyle",
+    "uri": "spotify:track:59mdyQniSaNFeXaKMGu9RB"
+  },
+  {
+    "title": "(You Make Me Feel Like) A Natural Woman",
+    "artist": "Aretha Franklin",
+    "style": "Waltz",
+    "uri": "spotify:track:5K09WxKdlkroDyEVyOSySy"
+  },
+  {
+    "title": "It Is You (I Have Loved)",
+    "artist": "Dana Glover",
+    "style": "Waltz",
+    "uri": "spotify:track:7BLIA8yUznyCHEJHqLCwdb"
+  },
+  {
+    "title": "My Heart Will Go On",
+    "artist": "Celine Dion",
+    "style": "Waltz",
+    "uri": "spotify:track:33LC84JgLvK2KuW43MfaNq"
+  },
+  {
+    "title": "Way Over Yonder",
+    "artist": "Carole King",
+    "style": "Waltz",
+    "uri": "spotify:track:64lav7jWJqd5P4oWm4Ova6"
+  },
+  {
+    "title": "Tootsee Roll",
+    "artist": "69 Boyz",
+    "style": "Freestyle",
+    "uri": "spotify:track:0TZiZV8pQ6RBlo3Fmd5LX1"
+  },
+  {
+    "title": "You Light Up My Life",
+    "artist": "Debby Boone",
+    "style": "Waltz",
+    "uri": "spotify:track:3dFR132gzO8jxD57R2gid3"
+  },
+  {
+    "title": "Telephone",
+    "artist": "Lady Gaga feat. Beyoncé",
+    "style": "Team Dance",
+    "uri": "spotify:track:7rl7ao5pb9BhvAzPdWStxi"
+  },
+  {
+    "title": "Put A Lid On It",
+    "artist": "Squirrel Nut Zippers",
+    "style": "Charleston",
+    "uri": "spotify:track:06HM8m5kmKG8AOt7eelGhI"
+  },
+  {
+    "title": "Cabaret",
+    "artist": "Liza Minnelli",
+    "style": "Charleston",
+    "uri": "spotify:track:7AFy1aN1RQVgGOXzCtrK87"
+  },
+  {
+    "title": "Be Here to Love Me",
+    "artist": "Norah Jones",
+    "style": "Waltz",
+    "uri": "spotify:track:3URb74mrpnRWY1HtTBEUKH"
+  },
+  {
+    "title": "Three Times a Lady",
+    "artist": "The Commodores",
+    "style": "Waltz",
+    "uri": "spotify:track:4ztwMHfPZhPoruZdBbgriM"
+  },
+  {
+    "title": "Moon River",
+    "artist": "Andy Williams",
+    "style": "Waltz",
+    "uri": "spotify:track:24AIahNHzBxm9S12peXbnG"
+  },
+  {
+    "title": "Single Ladies (Put a Ring On It)",
+    "artist": "Beyoncé",
+    "style": "Team Dance",
+    "uri": "spotify:track:5R9a4t5t5O0IsznsrKPVro"
+  },
+  {
+    "title": "The Ding-Dong Daddy of the D-Car Line",
+    "artist": "Cherry Poppin' Daddies",
+    "style": "Quickstep",
+    "uri": "spotify:track:3HNHPJ54ZoLvxJEDD9naiM"
+  },
+  {
+    "title": "Take on Me",
+    "artist": "a-ha",
+    "style": "Quickstep",
+    "uri": "spotify:track:2WfaOiMkCvy7F5fcp2zZ8L"
+  },
+  {
+    "title": "If You Don't Know Me by Now",
+    "artist": "Simply Red",
+    "style": "Waltz",
+    "uri": "spotify:track:7DFawVSjI88xR9mjnWwURg"
+  },
+  {
+    "title": "Fallin'",
+    "artist": "Alicia Keys",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:0KQx6HOpJueiSkztcS0r7D"
+  },
+  {
+    "title": "Save a Horse (Ride a Cowboy)",
+    "artist": "Big & Rich",
+    "style": "Freestyle",
+    "uri": "spotify:track:5s7m2xNZWgz5FqVSIvJcGA"
+  },
+  {
+    "title": "Can't Catch Me Now",
+    "artist": "Olivia Rodrigo",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:56xHMIfQPoe0prrSi3BGhf"
+  },
+  {
+    "title": "My House",
+    "artist": "Beyoncé",
+    "style": "Freestyle",
+    "uri": "spotify:track:7omJfT9s6V2IpQNBYyq5C8"
+  },
+  {
+    "title": "On My Mama",
+    "artist": "Victoria Monét",
+    "style": "Freestyle",
+    "uri": "spotify:track:7DswEZZthZ6piQpL25qGAM"
+  },
+  {
+    "title": "Moon",
+    "artist": "Reneé Rapp",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:3jJNg3l3NoZwQKESfr04VS"
+  },
+  {
+    "title": "I'm In Love With a Monster",
+    "artist": "Fifth Harmony",
+    "style": "Jive",
+    "uri": "spotify:track:0hO71r8vbnrXSaXVrR9ptF"
+  },
+  {
+    "title": "Until I Found You",
+    "artist": "Stephen Sanchez & Em Beihold",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:1Y3LN4zO1Edc2EluIoSPJN"
+  },
+  {
+    "title": "Hit the Road Jack",
+    "artist": "2WEI & Bri Bryant",
+    "style": "Paso Doble",
+    "uri": "spotify:track:7zkXDFyF9UuIVNQQhj8Bfp"
+  },
+  {
+    "title": "Higher",
+    "artist": "Michael Bublé",
+    "style": "Team Dance",
+    "uri": "spotify:track:1a5KFrCyfZLa6EeOU6kr7S"
+  },
+  {
+    "title": "Formation",
+    "artist": "Beyoncé",
+    "style": "Team Dance",
+    "uri": "spotify:track:6g0Orsxv6glTJCt4cHsRsQ"
+  },
+  {
+    "title": "Moonlight",
+    "artist": "Ariana Grande",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:1qcJdr8TYuGjFhjRoYNC3e"
+  },
+  {
+    "title": "Leave Me Lonely",
+    "artist": "Ariana Grande & Macy Gray",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:4Xg2NUXyF7cgvwSOs6PiSa"
+  },
+  {
+    "title": "Greedy",
+    "artist": "Ariana Grande",
+    "style": "Cha Cha",
+    "uri": "spotify:track:1FFUXkoWIc9of8yOscGiaC"
+  },
+  {
+    "title": "Bang Bang",
+    "artist": "Jessie J, Ariana Grande, and Nicki Minaj",
+    "style": "Team Dance",
+    "uri": "spotify:track:0puf9yIluy9W0vpMEUoAnN"
+  },
+  {
+    "title": "you broke me first",
+    "artist": "Tate McRae",
+    "style": "Contemporary",
+    "uri": "spotify:track:4l0RmWt52FxpVxMNni6i63"
+  },
+  {
+    "title": "Green Light",
+    "artist": "Lorde",
+    "style": "Tango",
+    "uri": "spotify:track:6ie2Bw3xLj2JcGowOlcMhb"
+  },
+  {
+    "title": "drivers license",
+    "artist": "Olivia Rodrigo",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:5wANPM4fQCJwkGd4rN57mH"
+  },
+  {
+    "title": "WAP",
+    "artist": "Cardi B & Megan Thee Stallion",
+    "style": "Team Dance",
+    "uri": "spotify:track:4Oun2ylbjFKMPTiaSbbCih"
+  },
+  {
+    "title": "Side To Side",
+    "artist": "Ariana Grande & Nicki Minaj",
+    "style": "Team Dance",
+    "uri": "spotify:track:43bCmCI0nSgcT7QdMXY6LV"
+  },
+  {
+    "title": "Be Alright",
+    "artist": "Ariana Grande",
+    "style": "Jazz",
+    "uri": "spotify:track:4gfOOBI36Z94x9Gai61XP4"
+  },
+  {
+    "title": "run for the hills",
+    "artist": "Tate McRae",
+    "style": "Contemporary",
+    "uri": "spotify:track:51hyZpbJlIgZIaX3TtMxmu"
+  },
+  {
+    "title": "Classic",
+    "artist": "MKTO",
+    "style": "Cha Cha",
+    "uri": "spotify:track:6FE2iI43OZnszFLuLtvvmg"
+  },
+  {
+    "title": "DJ Got Us Fallin' In Love",
+    "artist": "Usher & Pitbull",
+    "style": "Team Dance",
+    "uri": "spotify:track:4356Typ82hUiFAynbLYbPn"
+  },
+  {
+    "title": "Halo",
+    "artist": "Beyoncé",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:4JehYebiI9JE8sR8MisGVb"
   }
 ]

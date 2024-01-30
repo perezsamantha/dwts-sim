@@ -904,9 +904,9 @@
     "placement": "3"
   },
   {
-    "firstName": "Evander",
+    "firstName": "Evan",
     "lastName": "Lysacek",
-    "image": "evander",
+    "image": "evan",
     "gender": "male",
     "season": "10",
     "placement": "2"
@@ -3074,7 +3074,7 @@
   {
     "firstName": "Mira",
     "lastName": "Sorvino",
-    "image": "mirai",
+    "image": "mira",
     "gender": "female",
     "season": "32",
     "placement": "10"
