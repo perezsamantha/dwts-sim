@@ -5,8 +5,8 @@ import { Team, Dancer, Dance, Song } from './interfaces';
 import { produce } from 'immer';
 import {
   buildCast,
+  calculateScores,
   eliminate,
-  randomScores,
   randomizeCast,
   randomizeTeam,
   shuffleCast,
@@ -117,7 +117,10 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
         runningOrder.map((teamId) => {
           const dance: Dance =
             state.music[state.cast[teamId].styles[state.currentDance]][0];
-          dance['scores'] = randomScores();
+          dance['scores'] = calculateScores(
+            state.currentWeek,
+            state.numberWeeks
+          );
           state.cast[teamId].dances.push(dance);
           dance['teamId'] = teamId;
           dance['week'] = state.currentWeek + 1;
@@ -132,7 +135,10 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
           const team1 = shuffled.slice(0, shuffled.length / 2);
           const team2 = shuffled.slice(shuffled.length / 2, shuffled.length);
           const dance1 = state.music['Team Dance'][0];
-          dance1['scores'] = randomScores();
+          dance1['scores'] = calculateScores(
+            state.currentWeek,
+            state.numberWeeks
+          );
           dance1['week'] = state.currentWeek + 1;
           dance1['teamIds'] = [];
           for (let i = 0; i < team1.length; i++) {
@@ -143,7 +149,10 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
           state.music['Team Dance'].shift();
 
           const dance2 = state.music['Team Dance'][0];
-          dance2['scores'] = randomScores();
+          dance2['scores'] = calculateScores(
+            state.currentWeek,
+            state.numberWeeks
+          );
           dance2['week'] = state.currentWeek + 1;
           dance2['teamIds'] = [];
           for (let i = 0; i < team2.length; i++) {
@@ -159,7 +168,10 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
           runningOrder.map((teamId) => {
             const dance: Dance =
               state.music[state.cast[teamId].styles[state.currentDance]][0];
-            dance['scores'] = randomScores();
+            dance['scores'] = calculateScores(
+              state.currentWeek,
+              state.numberWeeks
+            );
             state.cast[teamId].dances.push(dance);
             dance['teamId'] = teamId;
             dance['week'] = state.currentWeek + 1;
@@ -174,6 +186,7 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
         // eliminate team
         const elimIds = eliminate(
           state.currentRunningOrder,
+          state.cast,
           state.numberWeeks,
           state.currentWeek
         );
@@ -196,7 +209,10 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
           );
           const redemptionDance: Dance =
             state.music[state.cast[teamId].styles[randomStyleIndex]][0];
-          redemptionDance['scores'] = randomScores();
+          redemptionDance['scores'] = calculateScores(
+            state.currentWeek,
+            state.numberWeeks
+          );
           state.cast[teamId].dances.push(redemptionDance);
           redemptionDance['teamId'] = teamId;
           redemptionDance['week'] = state.currentWeek + 1;
@@ -207,7 +223,10 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
         // freestyle round
         runningOrder.map((teamId) => {
           const freestyleDance: Dance = state.music['Freestyle'][0];
-          freestyleDance['scores'] = randomScores();
+          freestyleDance['scores'] = calculateScores(
+            state.currentWeek,
+            state.numberWeeks
+          );
           state.cast[teamId].dances.push(freestyleDance);
           freestyleDance['teamId'] = teamId;
           freestyleDance['week'] = state.currentWeek + 1;

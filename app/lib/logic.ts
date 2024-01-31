@@ -4,6 +4,13 @@ import celebs from '../data/celebs.json';
 import pros from '../data/pros.json';
 import { styles } from '../data/styles';
 
+const weights = [
+  [2, 2, 4, 10, 15, 23, 23, 15, 4, 2],
+  [2, 2, 2, 4, 10, 15, 20, 20, 15, 10],
+  [1, 1, 2, 2, 4, 10, 15, 20, 30, 25],
+  [1, 1, 2, 2, 2, 2, 5, 10, 25, 50],
+];
+
 // shuffle music
 // O(n) - durstenfeld shuffle, optimized fisher-yates
 export const shuffleMusic = (music: Song[]) => {
@@ -73,11 +80,11 @@ export const shuffleStyles = () => {
 };
 
 // random scores
-export const randomScores = () => {
-  let array: number[] = [];
-  for (let i = 0; i < 3; i++) array.push(Math.floor(Math.random() * 10) + 1);
-  return array;
-};
+// export const randomScores = () => {
+//   let array: number[] = [];
+//   for (let i = 0; i < 3; i++) array.push(Math.floor(Math.random() * 10) + 1);
+//   return array;
+// };
 
 // group dances by team
 export const leaderboardGroup = (dances: Dance[]) =>
@@ -207,55 +214,78 @@ export const teamDanceShuffle = (runningOrder: number[]) => {
 // determine if double elim
 // use numberTeamsRemaining - (numberWeeks - currentWeek) to determine elim type
 export const eliminate = (
-  arr: number[],
+  ids: number[],
+  cast: Team[],
   numberWeeks: number,
   currentWeek: number
 ) => {
-  const val = arr.length - (numberWeeks - currentWeek);
+  const val = ids.length - (numberWeeks - currentWeek);
   // no elim
   if (val < 3) {
     // no elim
-    if (arr.length - 3 < numberWeeks - currentWeek - 1) {
+    if (ids.length - 3 < numberWeeks - currentWeek - 1) {
       // MUST be no elim
       return [];
     } else {
       // randomly decide if no elim (20% chance)
       if (Math.random() < 0.2) return [];
-      else return singleElim(arr);
+      else return singleElim(cast, ids);
     }
   } else if (val > 4) {
     // double elim
     if (numberWeeks - currentWeek < val) {
       // MUST be double elim
-      return doubleElim(arr);
+      return doubleElim(cast, ids);
     } else {
       // randomly decide if double elim (20% chance)
       if (Math.random() < 0.2) {
-        return doubleElim(arr);
-      } else return singleElim(arr);
+        return doubleElim(cast, ids);
+      } else return singleElim(cast, ids);
     }
   } else {
     // single elim
-    return singleElim(arr);
+    return singleElim(cast, ids);
   }
 };
 
-//
-const singleElim = (arr: number[]) => [
-  arr[Math.floor(Math.random() * arr.length)],
+// eliminate based on rank
+export const randomElimIndex = (cast: Team[], ids: number[]) => {
+  // const ids = Array.from(Array(cast.length).keys()).filter(
+  //   (id) => !cast[id].placement
+  // );
+
+  ids.sort((a, b) =>
+    cumulativeScore(cast[a].dances) < cumulativeScore(cast[b].dances) ? 1 : -1
+  );
+
+  const cumulativeRanking = runningSum(
+    Array.from({ length: ids.length }, (_, i) => i + 1)
+  );
+
+  let randomVal = Math.random() * cumulativeRanking[ids.length - 1];
+  for (let i = 0; i < ids.length; i++)
+    if (randomVal <= cumulativeRanking[i]) return ids[i];
+
+  return ids[ids.length - 1];
+};
+
+const singleElim = (cast: Team[], ids: number[]) => [
+  randomElimIndex(cast, ids),
 ];
 
-const doubleElim = (arr: number[]) => {
-  const arrCopy = [...arr];
-  const first = Math.floor(Math.random() * arr.length);
-  arrCopy.splice(first, first);
-  const second = Math.floor(Math.random() * arrCopy.length);
-  return [arr[first], arrCopy[second]];
+const doubleElim = (cast: Team[], ids: number[]) => {
+  let res = [];
+  const first = randomElimIndex(cast, ids);
+  res.push(ids[first]);
+  ids.filter((id) => id !== first);
+  const second = randomElimIndex(cast, ids);
+  res.push(ids[second]);
+  return res;
 };
 
 // pick team to be eliminated
-export const randomElim = (arr: number[]) =>
-  arr[Math.floor(Math.random() * arr.length)];
+// export const randomElim = (arr: number[]) =>
+//   arr[Math.floor(Math.random() * arr.length)];
 
 // TODO: determine finale placements
 
@@ -265,14 +295,7 @@ export const sortByPlacement = (cast: Team[]) =>
 
 // calculate average score
 export const calculateAverage = (dances: Dance[]) =>
-  Math.round(
-    (dances.reduce(function (sum, value) {
-      return sum + totalScore(value.scores);
-    }, 0) /
-      dances.length /
-      3) *
-      100
-  ) / 100;
+  Math.round((cumulativeScore(dances) / dances.length / 3) * 100) / 100;
 
 // build cast from saved cast
 export const buildCast = (cast: Dancer[][]) =>
@@ -282,3 +305,47 @@ export const buildCast = (cast: Dancer[][]) =>
     styles: shuffleStyles().slice(),
     teamMembers: obj,
   }));
+
+const runningSum = (arr: number[]) => {
+  let i,
+    sum = 0;
+  let res = [];
+  for (i in arr) {
+    sum += arr[i];
+    res.push(sum);
+  }
+  return res;
+};
+
+const weightedSums = weights.map((arr) => runningSum(arr));
+
+// calculate scores
+export const calculateScores = (currentWeek: number, numberWeeks: number) => {
+  let array: number[] = [];
+  for (let i = 0; i < 3; i++)
+    array.push(randomScoreVal(currentWeek, numberWeeks) + 1);
+  return array;
+};
+
+// get random score value based on current week and scores weights
+const randomScoreVal = (currentWeek: number, numberWeeks: number) => {
+  const weightsIndex = determineScoreGroup(currentWeek, numberWeeks);
+  const currentWeights = weightedSums[weightsIndex];
+  const val = Math.random() * 100;
+  for (let i = 0; i < currentWeights.length; i++)
+    if (val <= currentWeights[i]) return i;
+  return currentWeights.length - 1;
+};
+
+// determine which set of weights to use for scores
+const determineScoreGroup = (currentWeek: number, numberWeeks: number) => {
+  const val = currentWeek / numberWeeks;
+  const numberGroups = weightedSums.length;
+  for (let i = 0; i < numberGroups; i++)
+    if (val <= (i + 1) / numberGroups) return i;
+  return numberGroups - 1;
+};
+
+// calculate cumulative score among all dances
+const cumulativeScore = (dances: Dance[]) =>
+  dances.reduce((sum, item) => sum + totalScore(item.scores), 0);
