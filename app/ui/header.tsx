@@ -112,6 +112,18 @@ export default function Header(props: {
                     </Link>
                     .
                   </Text>
+                  <Text>
+                    Link to google form for submitting song requests can be
+                    found{' '}
+                    <Link
+                      href="https://forms.gle/vUC4rnQ6dU2AdUPK6"
+                      isExternal
+                      color="blue.300"
+                    >
+                      here
+                    </Link>
+                    .
+                  </Text>
                 </AccordionPanel>
               </AccordionItem>
 

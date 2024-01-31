@@ -18,6 +18,7 @@ import { useBoundStore } from '../store/useStore';
 import WeekButton from '../ui/weekButton';
 import EditJudgesModal from '../ui/editJudgesModal';
 import Header from '../ui/header';
+import CastStorage from '../ui/castStorage';
 
 export default function Home() {
   const {
@@ -111,6 +112,9 @@ export default function Home() {
         </SimpleGrid>
       </Box>
       <Button onClick={handleRandomize}>Randomize Cast</Button>
+
+      <CastStorage />
+
       <Heading>Judges</Heading>
       {judges.map((judge, i) => (
         <Box key={i}>

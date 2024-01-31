@@ -173,7 +173,7 @@ export const randomizeTeam = () => {
 };
 
 // create sim celeb object
-const createDancerObj = (id: number, type: string) => {
+export const createDancerObj = (id: number, type: string) => {
   let dancer, image;
   //const dancer: Celeb | Pro = type === 'celeb' ? celebs[id] : pros[id];
   if (type === 'celeb') {
@@ -273,3 +273,12 @@ export const calculateAverage = (dances: Dance[]) =>
       3) *
       100
   ) / 100;
+
+// build cast from saved cast
+export const buildCast = (cast: Dancer[][]) =>
+  cast.map((obj) => ({
+    placement: 0,
+    dances: [],
+    styles: shuffleStyles().slice(),
+    teamMembers: obj,
+  }));

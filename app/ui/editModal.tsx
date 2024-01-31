@@ -25,7 +25,7 @@ import { useBoundStore } from '../store/useStore';
 import { useState } from 'react';
 import prosData from '../data/pros.json';
 import celebsData from '../data/celebs.json';
-import { sortPros, sortCelebs } from '../lib/logic';
+import { sortPros, sortCelebs, createDancerObj } from '../lib/logic';
 
 export default function EditModal(props: { teamId: number; dancerId: number }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -52,23 +52,24 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
   const saveChanges = () => {
     if (isError) return;
     if (updateDancer) {
-      if (tab === 0) updateDancer(props.teamId, props.dancerId, custom);
+      if (tab === 0)
+        updateDancer(props.teamId, props.dancerId, {
+          ...custom,
+          type: 'custom',
+          dataIndex: 0,
+        });
       else if (tab == 1)
-        updateDancer(props.teamId, props.dancerId, {
-          firstName: celebs[celebIndex].firstName,
-          lastName: celebs[celebIndex].lastName,
-          image: celebs[celebIndex].image,
-          type: 'celeb',
-          dataIndex: celebIndex,
-        });
+        updateDancer(
+          props.teamId,
+          props.dancerId,
+          createDancerObj(celebIndex, 'celeb')
+        );
       else if (tab === 2)
-        updateDancer(props.teamId, props.dancerId, {
-          firstName: pros[proIndex].firstName,
-          lastName: pros[proIndex].lastName,
-          image: pros[proIndex].image,
-          type: 'pro',
-          dataIndex: proIndex,
-        });
+        updateDancer(
+          props.teamId,
+          props.dancerId,
+          createDancerObj(proIndex, 'pro')
+        );
       resetSim();
       onClose();
     }

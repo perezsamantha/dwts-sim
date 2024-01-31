@@ -4,6 +4,7 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 import { Team, Dancer, Dance, Song } from './interfaces';
 import { produce } from 'immer';
 import {
+  buildCast,
   eliminate,
   randomScores,
   randomizeCast,
@@ -37,6 +38,42 @@ interface SimSlice {
   prepareFinale: () => void;
   resetSim: () => void;
 }
+
+interface SaveSlice {
+  saveCast: (name: string) => void;
+  loadCast: (name: string) => void;
+  removeCast: (name: string) => void;
+}
+
+const createSaveStore: StateCreator<
+  SaveSlice & SetupSlice,
+  [],
+  [],
+  SaveSlice
+> = (set, get) => ({
+  saveCast: (name: string) =>
+    localStorage.setItem(
+      name,
+      JSON.stringify(
+        get().cast.map(function (obj) {
+          return obj.teamMembers;
+        })
+      )
+    ),
+  loadCast: (name: string) =>
+    set((state) => ({
+      ...state,
+      cast:
+        localStorage.getItem(name) !== null
+          ? buildCast(JSON.parse(localStorage.getItem(name)!))
+          : state.cast,
+      numberTeams:
+        localStorage.getItem(name) !== null
+          ? JSON.parse(localStorage.getItem(name)!).length
+          : state.numberTeams,
+    })),
+  removeCast: (name: string) => localStorage.removeItem(name),
+});
 
 const createSetupStore: StateCreator<SetupSlice> = (set) => ({
   numberWeeks: 10,
@@ -190,11 +227,12 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
     })),
 });
 
-export const useBoundStore = create<SetupSlice & SimSlice>()(
+export const useBoundStore = create<SetupSlice & SimSlice & SaveSlice>()(
   persist(
     (...a) => ({
       ...createSetupStore(...a),
       ...createSimStore(...a),
+      ...createSaveStore(...a),
     }),
     {
       name: 'current',
