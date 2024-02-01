@@ -8,7 +8,7 @@ const weights = [
   [2, 2, 4, 10, 15, 23, 23, 15, 4, 2],
   [2, 2, 2, 4, 10, 15, 20, 20, 15, 10],
   [1, 1, 2, 2, 4, 10, 15, 20, 30, 25],
-  [1, 1, 2, 2, 2, 2, 5, 10, 25, 50],
+  [1, 1, 1, 1, 2, 2, 2, 10, 15, 65],
 ];
 
 // shuffle music
@@ -78,13 +78,6 @@ export const shuffleStyles = () => {
   }
   return array;
 };
-
-// random scores
-// export const randomScores = () => {
-//   let array: number[] = [];
-//   for (let i = 0; i < 3; i++) array.push(Math.floor(Math.random() * 10) + 1);
-//   return array;
-// };
 
 // group dances by team
 export const leaderboardGroup = (dances: Dance[]) =>
@@ -249,7 +242,7 @@ export const eliminate = (
 };
 
 // eliminate based on rank
-export const randomElimIndex = (cast: Team[], ids: number[]) => {
+export const randomElimId = (cast: Team[], ids: number[]) => {
   // const ids = Array.from(Array(cast.length).keys()).filter(
   //   (id) => !cast[id].placement
   // );
@@ -269,25 +262,30 @@ export const randomElimIndex = (cast: Team[], ids: number[]) => {
   return ids[ids.length - 1];
 };
 
-const singleElim = (cast: Team[], ids: number[]) => [
-  randomElimIndex(cast, ids),
-];
+const singleElim = (cast: Team[], ids: number[]) => [randomElimId(cast, ids)];
 
 const doubleElim = (cast: Team[], ids: number[]) => {
   let res = [];
-  const first = randomElimIndex(cast, ids);
-  res.push(ids[first]);
-  ids.filter((id) => id !== first);
-  const second = randomElimIndex(cast, ids);
-  res.push(ids[second]);
+  const first = randomElimId(cast, ids);
+  res.push(first);
+  ids = ids.filter((id) => id !== first);
+  const second = randomElimId(cast, ids);
+  res.push(second);
   return res;
 };
 
-// pick team to be eliminated
-// export const randomElim = (arr: number[]) =>
-//   arr[Math.floor(Math.random() * arr.length)];
-
-// TODO: determine finale placements
+// determine finale placements
+export const determineFinalePlacements = (cast: Team[], ids: number[]) => {
+  let res = [];
+  const len = ids.length;
+  for (let i = 0; i < len - 1; i++) {
+    const id = randomElimId(cast, ids);
+    res.push(id);
+    ids = ids.filter((x) => x !== id);
+  }
+  res.push(ids[0]);
+  return res;
+};
 
 // sort cast by placement
 export const sortByPlacement = (cast: Team[]) =>

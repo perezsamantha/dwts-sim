@@ -65,7 +65,7 @@ export default function Summary() {
             {sortedCast.map((team, i) => (
               <Tr key={i}>
                 <Td>
-                  {team.teamMembers[0].firstName} &{' '}
+                  {team.placement} - {team.teamMembers[0].firstName} &{' '}
                   {team.teamMembers[1].firstName}
                 </Td>
                 <Td>{calculateAverage(team.dances)}</Td>

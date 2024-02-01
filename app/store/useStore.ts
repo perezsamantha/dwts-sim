@@ -6,6 +6,7 @@ import { produce } from 'immer';
 import {
   buildCast,
   calculateScores,
+  determineFinalePlacements,
   eliminate,
   randomizeCast,
   randomizeTeam,
@@ -236,6 +237,16 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
         state.currentDance++;
         state.currentRunningOrder = runningOrder;
         state.currentWeek++;
+
+        // finale placements
+        const finalePlacements = determineFinalePlacements(
+          [...state.cast],
+          [...runningOrder]
+        );
+        for (let i = 0; i < finalePlacements.length; i++)
+          state.cast[finalePlacements[i]].placement =
+            finalePlacements.length - i;
+        state.eliminated.push(finalePlacements);
       })
     ),
   resetSim: () =>
