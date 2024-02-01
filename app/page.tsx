@@ -14,7 +14,6 @@ export default function Home() {
       <Text>DWTS Simulator</Text>
       <Text>tips</Text>
       <Text>- invalid images will use a fallback image of a mirrorball</Text>
-      <Text>Saved Sims?</Text>
       <Text>Featured Styles</Text>
       <Wrap justify="center">
         {styles.map((style) => (

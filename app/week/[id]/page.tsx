@@ -1,5 +1,5 @@
 'use client';
-import { Box } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 import { useBoundStore } from '../../store/useStore';
 import ResultsButton from '../../ui/resultsButton';
 import { useEffect, useRef, useState } from 'react';
@@ -47,10 +47,10 @@ export default function Week({ params }: { params: { id: string } }) {
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="week" week={week} />
       <h1>Week {week}</h1>
-      <p>
+      <Text>
         Live from Hollywood, it&#39;s the season premiere of Dancing with the
         Stars!
-      </p>
+      </Text>
       {dances.map((dance, i) => (
         <Dance key={i} dance={dance} />
       ))}

@@ -1,5 +1,5 @@
 'use client';
-import { Box, Center, Flex, Text } from '@chakra-ui/react';
+import { Box, Center, Flex, Text, useColorMode } from '@chakra-ui/react';
 import { useBoundStore } from '../store/useStore';
 import { Dance } from '../store/interfaces';
 import CastImage from './castImage';
@@ -11,6 +11,14 @@ export default function Dance(props: { dance: Dance }) {
   const dance = props.dance;
   const scores = dance.scores;
 
+  const { colorMode } = useColorMode();
+
+  const lightModeShadow = '0 0 50px -25px rgba(0, 0, 0, 0.25)';
+  // const darkModeShadow =
+  //   'rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,rgba(0, 0, 0, 0.2) 0px 5px 10px,rgba(0, 0, 0, 0.4) 0px 15px 40px';
+  const darkModeShadow =
+    'rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,rgba(0, 0, 0, 0.2) 0px 0px 10px,rgba(0, 0, 0, 0.5) 0px 0 50px -15px';
+
   const OneTeam = () => {
     const celeb = useBoundStore(
       (state) => state.cast[props.dance.teamId].teamMembers[0]
@@ -20,9 +28,13 @@ export default function Dance(props: { dance: Dance }) {
     );
     return (
       <>
-        <Flex flexDirection="row" minWidth="250px">
-          <CastImage data={celeb} />
-          <CastImage data={pro} />
+        <Flex flexDirection="row" minWidth="250px" maxWidth="500px">
+          <Box width="100%" mr={2}>
+            <CastImage data={celeb} />
+          </Box>
+          <Box width="100%">
+            <CastImage data={pro} />
+          </Box>
         </Flex>
         <Text margin={1}>
           {celeb.firstName} & {pro.firstName}
@@ -43,8 +55,12 @@ export default function Dance(props: { dance: Dance }) {
             alignItems="center"
           >
             <Flex flexDirection="row" minWidth="250px">
-              <CastImage data={cast[id].teamMembers[0]} />
-              <CastImage data={cast[id].teamMembers[1]} />
+              <Box width="100%" mr={2}>
+                <CastImage data={cast[id].teamMembers[0]} />
+              </Box>
+              <Box width="100%" mr={2}>
+                <CastImage data={cast[id].teamMembers[1]} />
+              </Box>
             </Flex>
             <Text margin={1}>
               {cast[id].teamMembers[0].firstName} &{' '}
@@ -62,9 +78,13 @@ export default function Dance(props: { dance: Dance }) {
       display="flex"
       flexDirection="column"
       alignItems="center"
-      border="2px solid red"
-      marginBottom={5}
+      rounded="lg"
+      my={4}
       maxWidth="500px"
+      py={5}
+      px={2}
+      boxShadow={colorMode === 'dark' ? darkModeShadow : lightModeShadow}
+      bg={colorMode === 'dark' ? 'blackalpha.50' : 'whitealpha.900'}
     >
       {dance.teamIds ? <MultipleTeams /> : <OneTeam />}
       <Text margin={1}>{dance.style}</Text>
