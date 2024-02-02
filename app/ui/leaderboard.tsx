@@ -9,15 +9,12 @@ import {
   Td,
   TableContainer,
   Text,
-  Avatar,
   Flex,
-  AvatarGroup,
   AspectRatio,
-  useColorMode,
 } from '@chakra-ui/react';
 import { totalScore } from '@/app/lib/logic';
 import { Dance, Team } from '../store/interfaces';
-import { default as NextImage } from 'next/image';
+import AvatarImage from './avatarImage';
 
 export default function Leaderboard(props: {
   cast: Team[];
@@ -25,12 +22,7 @@ export default function Leaderboard(props: {
   ids: string[];
 }) {
   const double = props.dances[props.ids[0]].length === 2;
-  const { colorMode } = useColorMode();
-  const imageStyle = {
-    borderRadius: '50%',
-    //boxShadow: '0 4px 16px 0 rgba(0, 0, 0, 0.15)',
-    border: `2px solid ${colorMode === 'dark' ? '#1A202C' : 'white'}`,
-  };
+
   return (
     <TableContainer>
       <Table variant="simple" size="sm">
@@ -63,44 +55,12 @@ export default function Leaderboard(props: {
                       flexDirection="row"
                     >
                       <AspectRatio ratio={1} width="100%" zIndex="-1">
-                        <NextImage
-                          src={celeb.image}
-                          alt={`${celeb.firstName} ${celeb.lastName}`}
-                          object-fit="cover"
-                          unoptimized={celeb.type === 'custom'}
-                          fill
-                          //sizes="(max-width: 400px) 100vw"
-                          placeholder="blur"
-                          blurDataURL="/images/mirrorball.png"
-                          style={imageStyle}
-                        />
+                        <AvatarImage dancer={celeb} />
                       </AspectRatio>
                       <AspectRatio ratio={1} width="100%" zIndex="-2" right={3}>
-                        <NextImage
-                          src={pro.image}
-                          alt={`${pro.firstName} ${pro.lastName}`}
-                          object-fit="cover"
-                          unoptimized={pro.type === 'custom'}
-                          fill
-                          //sizes="(max-width: 400px) 100vw"
-                          placeholder="blur"
-                          blurDataURL="/images/mirrorball.png"
-                          style={imageStyle}
-                        />
+                        <AvatarImage dancer={pro} />
                       </AspectRatio>
                     </Box>
-                    {/* <AvatarGroup>
-                      <Avatar
-                        name={`${celeb.firstName}`}
-                        src={
-                          celeb.image ? celeb.image : '/images/mirrorball.png'
-                        }
-                      />
-                      <Avatar
-                        name={`${pro.firstName}`}
-                        src={pro.image ? pro.image : '/images/mirrorball.png'}
-                      />
-                    </AvatarGroup> */}
                     <Text>
                       {celeb.firstName} & {pro.firstName}
                     </Text>

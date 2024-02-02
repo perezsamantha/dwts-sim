@@ -1,9 +1,20 @@
 'use client';
-import { Box, Center, Flex, Text, useColorMode } from '@chakra-ui/react';
+import {
+  Box,
+  Center,
+  Flex,
+  Table,
+  Tbody,
+  Td,
+  Text,
+  Tr,
+  useColorMode,
+} from '@chakra-ui/react';
 import { useBoundStore } from '../store/useStore';
 import { Dance } from '../store/interfaces';
 import CastImage from './castImage';
 import { totalScore } from '../lib/logic';
+import SongPreview from './songPreview';
 
 export default function Dance(props: { dance: Dance }) {
   const judges = useBoundStore((state) => state.judges);
@@ -30,10 +41,10 @@ export default function Dance(props: { dance: Dance }) {
       <>
         <Flex flexDirection="row" minWidth="250px" maxWidth="500px">
           <Box width="100%" mr={2}>
-            <CastImage data={celeb} />
+            <CastImage data={celeb} elim={false} />
           </Box>
           <Box width="100%">
-            <CastImage data={pro} />
+            <CastImage data={pro} elim={false} />
           </Box>
         </Flex>
         <Text margin={1}>
@@ -56,10 +67,10 @@ export default function Dance(props: { dance: Dance }) {
           >
             <Flex flexDirection="row" minWidth="250px">
               <Box width="100%" mr={2}>
-                <CastImage data={cast[id].teamMembers[0]} />
+                <CastImage data={cast[id].teamMembers[0]} elim={false} />
               </Box>
               <Box width="100%" mr={2}>
-                <CastImage data={cast[id].teamMembers[1]} />
+                <CastImage data={cast[id].teamMembers[1]} elim={false} />
               </Box>
             </Flex>
             <Text margin={1}>
@@ -78,6 +89,7 @@ export default function Dance(props: { dance: Dance }) {
       display="flex"
       flexDirection="column"
       alignItems="center"
+      alignContent="center"
       rounded="lg"
       my={4}
       maxWidth="500px"
@@ -89,44 +101,31 @@ export default function Dance(props: { dance: Dance }) {
       {dance.teamIds ? <MultipleTeams /> : <OneTeam />}
       <Text margin={1}>{dance.style}</Text>
       <Text margin={1}>to</Text>
-      <Text margin={1}>
+      <Text margin={1} align="center">
         &#34;{dance.title}&#34; by {dance.artist}
       </Text>
-
-      <Text margin={1}>Scores </Text>
-      <Center>
-        {scores?.map((score, i) => (
-          <Text key={i} margin={1} align="center">
-            {judges[i]}: {score}
-          </Text>
-        ))}
-      </Center>
-      <Text>Total</Text>
+      <Text margin={1}>Scores </Text>{' '}
+      <Table variant="simple" size="md">
+        <Tbody>
+          <Tr>
+            {judges.map((judge, i) => (
+              <Td key={i} border="none" px={0} py={2} width={1 / 3}>
+                <Text align="center">{judge}</Text>
+              </Td>
+            ))}
+          </Tr>
+          <Tr>
+            {scores.map((score, i) => (
+              <Td key={i} border="none" px={0} py={2} width={1 / 3}>
+                <Text align="center">{score}</Text>
+              </Td>
+            ))}
+          </Tr>
+        </Tbody>
+      </Table>
+      <Text as="b">Total</Text>
       <Text>{totalScore(scores)}</Text>
-      {dance.uri && (
-        <Box
-          width="95%"
-          display="flex"
-          flexDirection="column"
-          alignItems="center"
-        >
-          <Text margin={1}>Song Preview</Text>
-          <iframe
-            style={{
-              borderRadius: '14px',
-            }}
-            //src="https://open.spotify.com/embed/track/11dFghVXANMlKmJXsNCbNl?utm_source=generator"
-            src={`https://open.spotify.com/embed/track/${dance.uri.slice(
-              14
-            )}?utm_source=generator`}
-            // width="50%"
-            width="100%"
-            height="80"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"
-          ></iframe>
-        </Box>
-      )}
+      {dance.uri && <SongPreview uri={dance.uri} />}
     </Box>
   );
 }

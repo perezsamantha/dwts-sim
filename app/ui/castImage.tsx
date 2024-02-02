@@ -3,7 +3,7 @@ import { Dancer } from '../store/interfaces';
 import { default as NextImage } from 'next/image';
 import { useEffect, useState } from 'react';
 
-export default function CastImage(props: { data: Dancer }) {
+export default function CastImage(props: { data: Dancer; elim: boolean }) {
   const [imgSrc, setImgSrc] = useState(props.data.image);
 
   useEffect(() => {
@@ -13,6 +13,7 @@ export default function CastImage(props: { data: Dancer }) {
   const imageStyle = {
     borderRadius: 10,
     boxShadow: '0 4px 16px 0 rgba(0, 0, 0, 0.15)',
+    filter: props.elim ? 'grayscale(95%)' : 'grayscale(0)',
   };
 
   return (
@@ -26,7 +27,7 @@ export default function CastImage(props: { data: Dancer }) {
         /> */}
 
         <NextImage
-          src={imgSrc}
+          src={imgSrc || '/images/mirrorball.png'}
           alt={`${props.data.firstName} ${props.data.lastName}`}
           object-fit="cover"
           unoptimized={props.data.type === 'custom'}

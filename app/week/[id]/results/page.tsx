@@ -9,6 +9,7 @@ import Leaderboard from '@/app/ui/leaderboard';
 import { useRouter } from 'next/navigation';
 import SummaryButton from '@/app/ui/summaryButton';
 import Loading from '@/app/ui/loading';
+import ElimPreview from '@/app/ui/elimPreview';
 
 export default function Results({ params }: { params: { id: string } }) {
   const router = useRouter();
@@ -38,23 +39,19 @@ export default function Results({ params }: { params: { id: string } }) {
       <Header type="results" week={week} />
       <h1>Week {week} leaderboard</h1>
       <Leaderboard cast={cast} dances={groupedDances} ids={ids} />
-      {elimIds ? (
-        <Box>
-          <h2>The couple{elimIds.length > 1 && 's'} going home is ...</h2>
-          {elimIds.map((id) => (
-            <p key={id}>
-              {cast[id].teamMembers[0].firstName} &{' '}
-              {cast[id].teamMembers[1].firstName}
-            </p>
-          ))}
-        </Box>
-      ) : (
-        <h2>No Elimination !!!</h2>
-      )}
+
       {currentWeek === numberWeeks ? (
         <SummaryButton />
       ) : (
-        <WeekButton week={week + 1} />
+        <Box
+          width="100%"
+          display="flex"
+          flexDirection="column"
+          alignItems="center"
+        >
+          <ElimPreview cast={cast} elimIds={elimIds} />
+          <WeekButton week={week + 1} />
+        </Box>
       )}
     </Box>
   );

@@ -138,7 +138,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
 
       <Modal isOpen={isOpen} onClose={onClose} isCentered>
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent margin={5}>
           <ModalHeader>
             Edit Team {props.teamId + 1}{' '}
             {props.dancerId === 1 ? 'Celebrity' : 'Professional'}

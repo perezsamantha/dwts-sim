@@ -17,7 +17,7 @@ export default function Team(props: { teamId: number }) {
       <Text>Team {props.teamId + 1}</Text>
       <Flex width="100%">
         <Box width="48%">
-          <CastImage data={team.teamMembers[0]} />
+          <CastImage data={team.teamMembers[0]} elim={false} />
           <Text align="center" noOfLines={1}>
             {team.teamMembers[0].firstName}
           </Text>
@@ -32,7 +32,7 @@ export default function Team(props: { teamId: number }) {
         </Box>
         <Spacer />
         <Box width="48%" alignItems="center">
-          <CastImage data={team.teamMembers[1]} />
+          <CastImage data={team.teamMembers[1]} elim={false} />
           <Text align="center" noOfLines={1}>
             {team.teamMembers[1].firstName}
           </Text>
