@@ -1,7 +1,6 @@
 import {
   Box,
   Button,
-  Flex,
   FormControl,
   FormHelperText,
   FormLabel,
@@ -13,7 +12,6 @@ import {
   ModalFooter,
   ModalHeader,
   ModalOverlay,
-  Select,
   Tab,
   TabList,
   TabPanel,
@@ -26,6 +24,17 @@ import { useState } from 'react';
 import prosData from '../data/pros.json';
 import celebsData from '../data/celebs.json';
 import { sortPros, sortCelebs, createDancerObj } from '../lib/logic';
+import {
+  Select as ChakraSelect,
+  createFilter,
+  components,
+} from 'chakra-react-select';
+
+function CustomOption(props: any) {
+  const { onMouseMove, onMouseOver, ...rest } = props.innerProps;
+  const newProps = { ...props, innerProps: rest };
+  return <components.Option {...newProps}>{props.children}</components.Option>;
+}
 
 export default function EditModal(props: { teamId: number; dancerId: number }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -39,6 +48,16 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
   const [tab, setTab] = useState(0);
   const pros = sortPros(prosData);
   const celebs = sortCelebs(celebsData);
+
+  const celebOptions = celebs.map((celeb, i) => ({
+    label: `${celeb.firstName} ${celeb.lastName} - Season ${celeb.season}`,
+    value: i,
+  }));
+
+  const proOptions = pros.map((pro, i) => ({
+    label: `${pro.firstName} ${pro.lastName}`,
+    value: i,
+  }));
 
   const handleCustomChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setCustom({
@@ -169,33 +188,34 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
                   </FormControl>
                 </TabPanel>
                 <TabPanel>
-                  <Select
-                    value={celebIndex}
-                    onChange={(event) =>
-                      setCelebIndex(Number(event.target.value))
-                    }
-                  >
-                    {celebs.map((celeb, i) => (
-                      <option key={i} value={i}>
-                        {celeb.firstName} {celeb.lastName} - Season{' '}
-                        {celeb.season}
-                      </option>
-                    ))}
-                  </Select>
+                  <ChakraSelect
+                    filterOption={createFilter({ ignoreAccents: false })}
+                    components={{ Option: CustomOption }}
+                    useBasicStyles
+                    name="celebs"
+                    //selectedOptionStyle="check"
+                    closeMenuOnSelect
+                    value={celebOptions.find(
+                      (option) => option.value === celebIndex
+                    )}
+                    options={celebOptions}
+                    onChange={(event) => setCelebIndex(event?.value!)}
+                  />
                 </TabPanel>
                 <TabPanel>
-                  <Select
-                    value={proIndex}
-                    onChange={(event) =>
-                      setProIndex(Number(event.target.value))
-                    }
-                  >
-                    {pros.map((pro, i) => (
-                      <option key={i} value={i}>
-                        {pro.firstName} {pro.lastName}
-                      </option>
-                    ))}
-                  </Select>
+                  <ChakraSelect
+                    filterOption={createFilter({ ignoreAccents: false })}
+                    components={{ Option: CustomOption }}
+                    useBasicStyles
+                    name="pros"
+                    //selectedOptionStyle="check"
+                    closeMenuOnSelect
+                    value={proOptions.find(
+                      (option) => option.value === proIndex
+                    )}
+                    options={proOptions}
+                    onChange={(event) => setProIndex(event?.value!)}
+                  />
                 </TabPanel>
               </TabPanels>
             </Tabs>
