@@ -2,6 +2,7 @@
 import {
   Box,
   Button,
+  ButtonGroup,
   Flex,
   FormControl,
   FormLabel,
@@ -18,6 +19,7 @@ import {
 } from '@chakra-ui/react';
 import { useBoundStore } from '../store/useStore';
 import { useEffect, useState } from 'react';
+import Loading from './loading';
 
 export default function CastStorage() {
   const { saveCast, loadCast, removeCast, resetSim } = useBoundStore(
@@ -26,11 +28,13 @@ export default function CastStorage() {
   const [castKeys, setCastKeys] = useState(new Array<string>());
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [name, setName] = useState('');
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setCastKeys(
       Object.keys(localStorage).filter((key) => key.startsWith('dsc_'))
     );
+    setLoading(false);
   }, []);
 
   const handleOpen = () => {
@@ -59,7 +63,9 @@ export default function CastStorage() {
     setCastKeys(castKeys.filter((castKey) => castKey !== key));
   };
 
-  return (
+  return loading ? (
+    <Loading />
+  ) : (
     <Box
       width="100%"
       maxWidth="500px"
@@ -70,11 +76,19 @@ export default function CastStorage() {
       <Text>Saved Casts</Text>
       {castKeys.length > 0 ? (
         castKeys.map((key, i) => (
-          <Flex key={i}>
-            <Text>{key.substring(4, key.length)}</Text>
+          <Flex key={i} width="100%">
+            <Box maxWidth="55%">
+              <Text noOfLines={1}>{key.substring(4, key.length)}</Text>
+            </Box>
             <Spacer />
-            <Button onClick={() => handleLoadCast(key)}>Load Cast</Button>
-            <Button onClick={() => handleRemoveCast(key)}>Remove Cast</Button>
+            <ButtonGroup maxWidth="40%">
+              <Button variant="ghost" onClick={() => handleLoadCast(key)}>
+                Load
+              </Button>
+              <Button variant="ghost" onClick={() => handleRemoveCast(key)}>
+                Remove
+              </Button>
+            </ButtonGroup>
           </Flex>
         ))
       ) : (
