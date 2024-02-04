@@ -41,15 +41,22 @@ export default function Week({ params }: { params: { id: string } }) {
     numberWeeks,
   ]);
 
+  const weekTitle = () => {
+    if (week == 1) return `the season premiere`;
+    else if (week == numberWeeks) return `the season finale`;
+    else return `week ${week}`;
+  };
+
   return loading ? (
     <Loading />
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="week" week={week} />
-      <Heading>Week {week}</Heading>
-      <Text>
-        Live from Hollywood, it&#39;s the season premiere of Dancing with the
-        Stars!
+      <Heading as="h1" size="xl">
+        Week {week}
+      </Heading>
+      <Text align="center">
+        Live from Hollywood, it&#39;s {weekTitle()} of Dancing with the Stars!
       </Text>
       {dances.map((dance, i) => (
         <Dance key={i} dance={dance} />

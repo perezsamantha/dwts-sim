@@ -97,9 +97,13 @@ const createSetupStore: StateCreator<SetupSlice> = (set) => ({
   updateCastSize: () =>
     set(
       produce((state) => {
-        if (state.cast.length < state.numberTeams)
-          state.cast.push(randomizeTeam());
-        else if (state.cast.length > state.numberTeams) state.cast.pop();
+        if (state.cast.length < state.numberTeams) {
+          const val = state.numberTeams - state.cast.length;
+          for (let i = 0; i < val; i++) state.cast.push(randomizeTeam());
+        } else if (state.cast.length > state.numberTeams) {
+          const val = state.cast.length - state.numberTeams;
+          for (let i = 0; i < val; i++) state.cast.pop();
+        }
       })
     ),
   randomizeCast: () =>

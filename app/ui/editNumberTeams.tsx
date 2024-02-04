@@ -9,7 +9,7 @@ export default function EditNumberTeams() {
 
   const teamOptions = Array.from({ length: 7 }, (_, i) => i + 10);
 
-  const [tab, setTab] = useState(numberTeams - 8);
+  const [tab, setTab] = useState(numberTeams - 10);
 
   const handleChange = (index: number) => {
     setTab(index);

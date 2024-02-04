@@ -20,14 +20,18 @@ export default function Home() {
   return (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="setup" week={0} />
-      <Heading>Customize Simulator</Heading>
+      <Heading as="h1" size="xl" textAlign="center">
+        Customize Simulator
+      </Heading>
       <Text>Weeks</Text>
       <EditNumberWeeks />
       <Text>Teams</Text>
       <EditNumberTeams />
-      <Heading>Cast</Heading>
+      <Heading as="h4" size="lg">
+        Cast
+      </Heading>
       <Box width="100%">
-        <SimpleGrid minChildWidth="200px" spacing="20px">
+        <SimpleGrid columns={[2, 3, 3, 4, 5, 6]} spacing="20px">
           {cast.map((team, i) => (
             <Team key={i} teamId={i} />
           ))}
@@ -37,7 +41,9 @@ export default function Home() {
 
       <CastStorage />
 
-      <Heading>Judges</Heading>
+      <Heading as="h5" size="lg">
+        Judges
+      </Heading>
       {judges.map((judge, i) => (
         <Box key={i}>
           <Text>{judge}</Text>

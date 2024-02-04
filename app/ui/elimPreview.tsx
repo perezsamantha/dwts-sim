@@ -9,9 +9,12 @@ export default function ElimPreview(props: {
   const { cast, elimIds } = props;
 
   return elimIds.length === 0 ? (
-    <Text>No elimination!</Text>
+    <Text fontSize="xl">No elimination!</Text>
   ) : (
-    <Box>
+    <Box display="flex" flexDirection="column" alignItems="center" gap={2}>
+      {elimIds.length > 1 && (
+        <Text fontSize="xl">Double elimination night!</Text>
+      )}
       <Text>
         The team{elimIds.length > 1 && 's'} going home{' '}
         {elimIds.length > 1 ? 'are' : 'is'} ...

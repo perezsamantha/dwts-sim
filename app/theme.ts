@@ -42,6 +42,7 @@ const theme = extendTheme({
         //textTransform: 'uppercase',
         borderRadius: '3xl',
         _hover: { transform: 'scale(1.05,1.05)' },
+        //my: 2,
       },
       variants: {
         custom: {

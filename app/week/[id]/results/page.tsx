@@ -37,7 +37,9 @@ export default function Results({ params }: { params: { id: string } }) {
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="results" week={week} />
-      <Heading>Week {week} leaderboard</Heading>
+      <Heading as="h1" size="lg" my={2}>
+        Week {week} leaderboard
+      </Heading>
       <Leaderboard cast={cast} dances={groupedDances} ids={ids} />
 
       {currentWeek === numberWeeks ? (
@@ -48,6 +50,8 @@ export default function Results({ params }: { params: { id: string } }) {
           display="flex"
           flexDirection="column"
           alignItems="center"
+          mt={4}
+          gap={2}
         >
           <ElimPreview cast={cast} elimIds={elimIds} />
           <WeekButton week={week + 1} />

@@ -49,8 +49,16 @@ export default function Summary() {
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="summary" week={numberWeeks} />
-      <Heading>Sim Summary</Heading>
-      <TableContainer>
+      <Heading as="h1" size="xl">
+        Sim Summary
+      </Heading>
+      <TableContainer
+        sx={{
+          '::-webkit-scrollbar': {
+            //display: 'none',
+          },
+        }}
+      >
         <Table variant="simple" size="sm">
           <Thead>
             <Tr>

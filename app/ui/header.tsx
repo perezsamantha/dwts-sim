@@ -7,9 +7,7 @@ import {
   AccordionItem,
   AccordionPanel,
   Box,
-  Button,
   Center,
-  Divider,
   Flex,
   IconButton,
   Link,
@@ -54,6 +52,8 @@ export default function Header(props: {
             aria-label="Previous Page"
             icon={<ArrowBackIcon />}
             onClick={handleRouter}
+            variant="ghost"
+            fontSize="25px"
           />
         )}
       </Box>
@@ -64,18 +64,22 @@ export default function Header(props: {
           onClick={toggleColorMode}
           icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
           marginRight={1}
+          variant="ghost"
+          fontSize="20px"
         />
         <IconButton
           aria-label="Info Modal"
           onClick={onOpen}
           icon={<InfoIcon />}
+          variant="ghost"
+          fontSize="20px"
         />
       </Box>
 
       <Modal
         isOpen={isOpen}
         onClose={onClose}
-        scrollBehavior="outside"
+        scrollBehavior="inside"
         isCentered
       >
         <ModalOverlay />
@@ -83,7 +87,7 @@ export default function Header(props: {
           <ModalHeader alignSelf="center">DWTS Sim Information</ModalHeader>
           <ModalCloseButton top={4} />
           <ModalBody>
-            <Accordion allowToggle>
+            <Accordion allowToggle mb={2}>
               <AccordionItem borderTop="none">
                 <AccordionButton px={0} _hover={{ bg: 'transparent' }}>
                   <Box as="span" flex="1" textAlign="left">
@@ -92,15 +96,16 @@ export default function Header(props: {
                   <AccordionIcon />
                 </AccordionButton>
                 <AccordionPanel px={0}>
-                  <Text>
+                  <Text mb={3}>
                     This is a non-profit fan-created simulator inspired by the
                     television show &#39;Dancing with the Stars&#39; in which
                     celebrities are paired with professional dancers and over
                     the course of several weeks compete for judges&#39; points
-                    and audience votes to crown a winner. Users can customize
-                    their own cast and simulate a season of DWTS.
+                    and audience votes to crown a winning team. Users can
+                    customize their own cast and simulate a season of DWTS
+                    through randomized songs, styles, and scores.
                   </Text>
-                  <Text>
+                  <Text mb={3}>
                     Link to spotify playlist containing every song in the song
                     bank can be found{' '}
                     <Link
@@ -135,10 +140,22 @@ export default function Header(props: {
                   <AccordionIcon />
                 </AccordionButton>
                 <AccordionPanel px={0}>
+                  <Text mb={3}>
+                    This simulator does not collect your personal data or use
+                    any first-party cookies. The sim stores active simulations
+                    in session storage and saved casts in the browser&#39;s
+                    local storage, if the user chooses to save their custom
+                    casts.
+                  </Text>
                   <Text>
-                    This simulator does not use cookies or collect your personal
-                    data. The only data collected is saved simulations in the
-                    browser&#39;s local storage.
+                    Spotify embeds are utilized as song previews for each dance.
+                    If your browser has third-party cookies blocked, the song
+                    preview will simply be a 30 second preview. Otherwise,
+                    Spotify will attempt to connect to your account to offer
+                    additional functionality, such as saving the song or viewing
+                    more information in the app. The sim does not have access to
+                    your Spotify account and will not perform any actions on
+                    your behalf.
                   </Text>
                 </AccordionPanel>
               </AccordionItem>
@@ -151,15 +168,31 @@ export default function Header(props: {
                   <AccordionIcon />
                 </AccordionButton>
                 <AccordionPanel px={0}>
-                  <Text>
-                    This sim was created from scratch by ___ using Next.js,
+                  <Text mb={3}>
+                    This sim was created from scratch using TypeScript, Next.js,
                     Chakra UI, Tailwind CSS, and Zustand for state management.
-                    The code repository can be viewed here:
+                    The GitHub code repository can be viewed{' '}
+                    <Link
+                      href="https://github.com/perezsamantha/dwts-sim"
+                      isExternal
+                      color="blue.300"
+                    >
+                      here
+                    </Link>
+                    .
                   </Text>
                   <Text>
                     All rights surrounding simulator concepts and preset images
-                    belong to ABC Network, BBC Global, and Disney Plus. No
-                    copyright was intended.
+                    belong to ABC Network, BBC Global, and Disney Plus. Original
+                    simulator idea inspired by{' '}
+                    <Link
+                      href="https://brantsteele.com/"
+                      isExternal
+                      color="blue.300"
+                    >
+                      BrantSteele
+                    </Link>
+                    . No copyright was intended.
                   </Text>
                 </AccordionPanel>
               </AccordionItem>
