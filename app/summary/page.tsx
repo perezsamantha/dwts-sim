@@ -5,10 +5,12 @@ import { Dance } from '../store/interfaces';
 import { useRouter } from 'next/navigation';
 import {
   Box,
+  Heading,
   Table,
   TableContainer,
   Tbody,
   Td,
+  Text,
   Th,
   Thead,
   Tr,
@@ -36,8 +38,8 @@ export default function Summary() {
   function DancePreview(dance: Dance) {
     return (
       <>
-        <p>{dance.style}</p>
-        <p>{totalScore(dance.scores)}</p>
+        <Text>{dance.style}</Text>
+        <Text>{totalScore(dance.scores)}</Text>
       </>
     );
   }
@@ -47,7 +49,7 @@ export default function Summary() {
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="summary" week={numberWeeks} />
-      <h1>Sim Summary</h1>
+      <Heading>Sim Summary</Heading>
       <TableContainer>
         <Table variant="simple" size="sm">
           <Thead>

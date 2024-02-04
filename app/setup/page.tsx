@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="setup" week={0} />
-      <h2>Customize Simulator</h2>
+      <Heading>Customize Simulator</Heading>
       <Text>Weeks</Text>
       <EditNumberWeeks />
       <Text>Teams</Text>
@@ -40,7 +40,7 @@ export default function Home() {
       <Heading>Judges</Heading>
       {judges.map((judge, i) => (
         <Box key={i}>
-          <p>{judge}</p>
+          <Text>{judge}</Text>
         </Box>
       ))}
       <EditJudgesModal />

@@ -1,6 +1,7 @@
 // app/theme.ts
 
 import { extendTheme, type ThemeConfig } from '@chakra-ui/react';
+import '@fontsource-variable/raleway';
 
 const config: ThemeConfig = {
   initialColorMode: 'system',
@@ -9,20 +10,35 @@ const config: ThemeConfig = {
 
 const theme = extendTheme({
   ...config,
-  // styles: {
-  //   global: {
-  //     'html, body': {
-  //       color: 'blue.600',
-  //       lineHeight: 'tall',
-  //     },
-  //     a: {
-  //       color: 'teal.500',
-  //     },
-  //   },
-  // },
+  styles: {
+    global: {
+      body: {
+        fontFamily: 'Raleway Variable, sans-serif!',
+        fontWeight: '600',
+      },
+    },
+  },
+  fonts: {
+    heading: 'Raleway Variable, sans-serif',
+    body: 'Raleway Variable, sans-serif',
+  },
   components: {
+    Heading: {
+      baseStyle: {
+        fontFamily: 'Raleway Variable, sans-serif',
+        fontWeight: '600',
+      },
+    },
+    Text: {
+      baseStyle: {
+        fontFamily: 'Raleway Variable, sans-serif',
+        fontWeight: '500',
+      },
+    },
     Button: {
       baseStyle: {
+        fontFamily: 'Raleway Variable, sans-serif',
+        fontWeight: '700',
         //textTransform: 'uppercase',
         borderRadius: '3xl',
         _hover: { transform: 'scale(1.05,1.05)' },

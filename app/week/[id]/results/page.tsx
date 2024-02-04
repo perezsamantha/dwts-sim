@@ -1,5 +1,5 @@
 'use client';
-import { Box } from '@chakra-ui/react';
+import { Box, Heading } from '@chakra-ui/react';
 import { useBoundStore } from '../../../store/useStore';
 import WeekButton from '../../../ui/weekButton';
 import { leaderboardGroup, leaderboardSort } from '@/app/lib/logic';
@@ -37,7 +37,7 @@ export default function Results({ params }: { params: { id: string } }) {
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="results" week={week} />
-      <h1>Week {week} leaderboard</h1>
+      <Heading>Week {week} leaderboard</Heading>
       <Leaderboard cast={cast} dances={groupedDances} ids={ids} />
 
       {currentWeek === numberWeeks ? (

@@ -3,6 +3,7 @@
 
 import { ChakraProvider } from '@chakra-ui/react';
 import theme from './theme';
+import '@fontsource-variable/raleway';
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (

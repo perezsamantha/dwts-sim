@@ -1,5 +1,13 @@
 'use client';
-import { Box, Button, Tag, TagLabel, Text, Wrap } from '@chakra-ui/react';
+import {
+  Box,
+  Button,
+  Heading,
+  Tag,
+  TagLabel,
+  Text,
+  Wrap,
+} from '@chakra-ui/react';
 import { useRouter } from 'next/navigation';
 import Header from './ui/header';
 import { sortStyles } from './lib/logic';
@@ -11,7 +19,7 @@ export default function Home() {
   return (
     <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
       <Header type="home" week={0} />
-      <Text>DWTS Simulator</Text>
+      <Heading size="lg">DWTS Simulator</Heading>
       <Text>tips</Text>
       <Text>- invalid images will use a fallback image of a mirrorball</Text>
       <Text>Featured Styles</Text>
