@@ -194,14 +194,14 @@ export const createDancerObj = (id: number, type: string) => {
   return obj;
 };
 
-// shuffle for team dance
+// shuffle for team dance & final 2 order
 // fischer-yates algorithm
-export const teamDanceShuffle = (runningOrder: number[]) => {
-  for (let i = runningOrder.length - 1; i > 0; i--) {
+export const teamIdShuffle = (arr: number[]) => {
+  for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [runningOrder[i], runningOrder[j]] = [runningOrder[j], runningOrder[i]];
+    [arr[i], arr[j]] = [arr[j], arr[i]];
   }
-  return runningOrder;
+  return arr;
 };
 
 // determine if double elim
@@ -347,3 +347,18 @@ const determineScoreGroup = (currentWeek: number, numberWeeks: number) => {
 // calculate cumulative score among all dances
 const cumulativeScore = (dances: Dance[]) =>
   dances.reduce((sum, item) => sum + totalScore(item.scores), 0);
+
+export const getOrdinalNumber = (i: number) => {
+  let j = i % 10,
+    k = i % 100;
+  if (j === 1 && k !== 11) {
+    return i + 'st';
+  }
+  if (j === 2 && k !== 12) {
+    return i + 'nd';
+  }
+  if (j === 3 && k !== 13) {
+    return i + 'rd';
+  }
+  return i + 'th';
+};

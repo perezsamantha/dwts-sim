@@ -12,7 +12,7 @@ import {
   randomizeTeam,
   shuffleCast,
   sortMusic,
-  teamDanceShuffle,
+  teamIdShuffle,
 } from '../lib/logic';
 
 interface SetupSlice {
@@ -136,7 +136,7 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
         // double dances
         if (runningOrder.length == 8) {
           // team dance
-          const shuffled = teamDanceShuffle(runningOrder);
+          const shuffled = teamIdShuffle(runningOrder);
           const team1 = shuffled.slice(0, shuffled.length / 2);
           const team2 = shuffled.slice(shuffled.length / 2, shuffled.length);
           const dance1 = state.music['Team Dance'][0];

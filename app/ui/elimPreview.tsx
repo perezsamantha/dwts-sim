@@ -1,6 +1,7 @@
 import { Box, Flex, Text } from '@chakra-ui/react';
 import { Team } from '../store/interfaces';
 import CastImage from './castImage';
+import { getOrdinalNumber } from '../lib/logic';
 
 export default function ElimPreview(props: {
   cast: Team[];
@@ -11,12 +12,21 @@ export default function ElimPreview(props: {
   return elimIds.length === 0 ? (
     <Text fontSize="xl">No elimination!</Text>
   ) : (
-    <Box display="flex" flexDirection="column" alignItems="center" gap={2}>
-      {elimIds.length > 1 && (
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      gap={2}
+      minWidth="300px"
+    >
+      {elimIds.length > 1 ? (
         <Text fontSize="xl">Double elimination night!</Text>
+      ) : (
+        <Text fontSize="xl">Elimination</Text>
       )}
       <Text>
-        The team{elimIds.length > 1 && 's'} going home{' '}
+        The team{elimIds.length > 1 && 's'} in{' '}
+        {getOrdinalNumber(cast[elimIds[0]].placement)} place{' '}
         {elimIds.length > 1 ? 'are' : 'is'} ...
       </Text>
       {elimIds.map((id) => (

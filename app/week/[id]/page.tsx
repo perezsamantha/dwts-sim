@@ -61,7 +61,7 @@ export default function Week({ params }: { params: { id: string } }) {
       {dances.map((dance, i) => (
         <Dance key={i} dance={dance} />
       ))}
-      <ResultsButton />
+      <ResultsButton week={week} />
     </Box>
   );
 }

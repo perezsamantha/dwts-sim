@@ -10,6 +10,7 @@ import { useRouter } from 'next/navigation';
 import SummaryButton from '@/app/ui/summaryButton';
 import Loading from '@/app/ui/loading';
 import ElimPreview from '@/app/ui/elimPreview';
+import FinalePlacements from '@/app/ui/finalePlacements';
 
 export default function Results({ params }: { params: { id: string } }) {
   const router = useRouter();
@@ -42,21 +43,27 @@ export default function Results({ params }: { params: { id: string } }) {
       </Heading>
       <Leaderboard cast={cast} dances={groupedDances} ids={ids} />
 
-      {currentWeek === numberWeeks ? (
-        <SummaryButton />
-      ) : (
-        <Box
-          width="100%"
-          display="flex"
-          flexDirection="column"
-          alignItems="center"
-          mt={4}
-          gap={2}
-        >
-          <ElimPreview cast={cast} elimIds={elimIds} />
-          <WeekButton week={week + 1} />
-        </Box>
-      )}
+      <Box
+        width="100%"
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+        mt={4}
+        gap={2}
+      >
+        {week === numberWeeks ? (
+          <>
+            {' '}
+            <FinalePlacements cast={cast} placements={elimIds} />
+            <SummaryButton />
+          </>
+        ) : (
+          <>
+            <ElimPreview cast={cast} elimIds={elimIds} />
+            <WeekButton week={week + 1} />
+          </>
+        )}
+      </Box>
     </Box>
   );
 }
