@@ -7,9 +7,6 @@ export default function Champion(props: { team: Team }) {
   const { team } = props;
   const [reveal, setReveal] = useState(false);
 
-  //   const getFullTeamName = () =>
-  //     `${team.teamMembers[0].firstName} ${team.teamMembers[0].lastName} & ${team.teamMembers[1].firstName} ${team.teamMembers[1].lastName}`;
-
   const handleReveal = () => {
     setReveal(true);
   };
@@ -38,6 +35,10 @@ export default function Champion(props: { team: Team }) {
           filter: !reveal ? 'blur(64px)' : 'blur(0px)',
           opacity: !reveal ? '75%' : '100%',
         }}
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+        textAlign="center"
       >
         <Flex flexDirection="row" my={1} width="100%">
           <Box width="100%" mr={2}>
@@ -48,9 +49,7 @@ export default function Champion(props: { team: Team }) {
           </Box>
         </Flex>
         <Text fontSize="2xl">
-          {team.teamMembers[0].firstName} {team.teamMembers[0].lastName} &
-        </Text>
-        <Text fontSize="2xl">
+          {team.teamMembers[0].firstName} {team.teamMembers[0].lastName} &{' '}
           {team.teamMembers[1].firstName} {team.teamMembers[1].lastName} 🪩✨
         </Text>
       </Box>

@@ -1,50 +1,55 @@
-import { Box, Flex, Text } from '@chakra-ui/react';
+import { Box, Button, Flex, Text } from '@chakra-ui/react';
 import { Team } from '../store/interfaces';
 import CastImage from './castImage';
-import { getOrdinalNumber } from '../lib/logic';
+import { useState } from 'react';
 
-export default function ElimPreview(props: {
-  cast: Team[];
-  elimIds: number[];
-}) {
-  const { cast, elimIds } = props;
+export default function ElimPreview(props: { team: Team }) {
+  const { team } = props;
+  const [reveal, setReveal] = useState(false);
 
-  return elimIds.length === 0 ? (
-    <Text fontSize="xl">No elimination!</Text>
-  ) : (
+  const getTeamName = () =>
+    `${team.teamMembers[0].firstName} & ${team.teamMembers[1].firstName}`;
+
+  const handleReveal = () => {
+    setReveal(true);
+  };
+
+  return (
     <Box
       display="flex"
       flexDirection="column"
       alignItems="center"
       gap={2}
       minWidth="300px"
+      justifyContent="center"
     >
-      {elimIds.length > 1 ? (
-        <Text fontSize="xl">Double elimination night!</Text>
-      ) : (
-        <Text fontSize="xl">Elimination</Text>
+      {!reveal && (
+        <Button
+          variant="ghost"
+          position="absolute"
+          onClick={handleReveal}
+          zIndex={10}
+        >
+          Reveal
+        </Button>
       )}
-      <Text>
-        The team{elimIds.length > 1 && 's'} in{' '}
-        {getOrdinalNumber(cast[elimIds[0]].placement)} place{' '}
-        {elimIds.length > 1 ? 'are' : 'is'} ...
-      </Text>
-      {elimIds.map((id) => (
-        <Box key={id} width="100%" mb={2}>
-          <Flex flexDirection="row" my={1}>
-            <Box width="100%" mr={2}>
-              <CastImage data={cast[id].teamMembers[0]} elim={true} />
-            </Box>{' '}
-            <Box width="100%">
-              <CastImage data={cast[id].teamMembers[1]} elim={true} />
-            </Box>
-          </Flex>
-          <Text align="center">
-            {cast[id].teamMembers[0].firstName} &{' '}
-            {cast[id].teamMembers[1].firstName}{' '}
-          </Text>
-        </Box>
-      ))}
+      <Box
+        width="100%"
+        sx={{
+          filter: !reveal ? 'blur(64px)' : 'blur(0px)',
+          opacity: !reveal ? '75%' : '100%',
+        }}
+      >
+        <Flex flexDirection="row" my={1}>
+          <Box width="100%" mr={2}>
+            <CastImage data={team.teamMembers[0]} elim={true} />
+          </Box>{' '}
+          <Box width="100%">
+            <CastImage data={team.teamMembers[1]} elim={true} />
+          </Box>
+        </Flex>
+        <Text align="center">{getTeamName()}</Text>
+      </Box>
     </Box>
   );
 }

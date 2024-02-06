@@ -7,10 +7,10 @@ import { useEffect, useRef, useState } from 'react';
 import Header from '@/app/ui/header';
 import Leaderboard from '@/app/ui/leaderboard';
 import { useRouter } from 'next/navigation';
-import SummaryButton from '@/app/ui/summaryButton';
 import Loading from '@/app/ui/loading';
-import ElimPreview from '@/app/ui/elimPreview';
 import FinalePlacements from '@/app/ui/finalePlacements';
+import ElimWrapper from '@/app/ui/elimWrapper';
+import FinalTwoButton from '@/app/ui/finalTwoButton';
 
 export default function Results({ params }: { params: { id: string } }) {
   const router = useRouter();
@@ -55,11 +55,11 @@ export default function Results({ params }: { params: { id: string } }) {
           <>
             {' '}
             <FinalePlacements cast={cast} placements={elimIds} />
-            <SummaryButton />
+            <FinalTwoButton />
           </>
         ) : (
           <>
-            <ElimPreview cast={cast} elimIds={elimIds} />
+            <ElimWrapper cast={cast} elimIds={elimIds} />
             <WeekButton week={week + 1} />
           </>
         )}

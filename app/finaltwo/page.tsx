@@ -1,0 +1,90 @@
+'use client';
+import { useEffect, useRef, useState } from 'react';
+import { useBoundStore } from '../store/useStore';
+import { useRouter } from 'next/navigation';
+import { Box, Flex, HStack, Heading, Text } from '@chakra-ui/react';
+import Header from '../ui/header';
+import Loading from '../ui/loading';
+import { teamIdShuffle } from '../lib/logic';
+import CastImage from '../ui/castImage';
+import Champion from '../ui/champion';
+import SummaryButton from '../ui/summaryButton';
+
+export default function FinalTwo() {
+  const router = useRouter();
+  const effectRan = useRef(false);
+  const [loading, setLoading] = useState(true);
+  const { cast, currentWeek, numberWeeks, eliminated } = useBoundStore(
+    (state) => state
+  );
+
+  const placements = eliminated[eliminated.length - 1];
+  const final2Shuffled = teamIdShuffle(placements.slice(placements.length - 2));
+
+  const getTeamName = (id: number) =>
+    `${cast[id].teamMembers[0].firstName} & ${cast[id].teamMembers[1].firstName}`;
+
+  useEffect(() => {
+    if (!effectRan.current) {
+      if (currentWeek < numberWeeks) router.push('/fallback');
+      else setLoading(false);
+    }
+    effectRan.current = true;
+  }, [currentWeek, router, numberWeeks]);
+
+  return loading ? (
+    <Loading />
+  ) : (
+    <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
+      <Header type="summary" week={numberWeeks} />
+      <Heading as="h1" size="xl">
+        Final 2
+      </Heading>
+      <Box
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+        alignContent="center"
+        width={['100%', '80%', '55%', '40%']}
+      >
+        <HStack width="100%">
+          <Flex flexDirection="row" my={1} width="50%">
+            <Box width="100%" mr={2}>
+              <CastImage
+                data={cast[final2Shuffled[0]].teamMembers[0]}
+                elim={false}
+              />
+            </Box>{' '}
+            <Box width="100%">
+              <CastImage
+                data={cast[final2Shuffled[0]].teamMembers[1]}
+                elim={false}
+              />
+            </Box>
+          </Flex>
+          <Flex flexDirection="row" my={1} width="50%">
+            <Box width="100%" mr={2}>
+              <CastImage
+                data={cast[final2Shuffled[1]].teamMembers[0]}
+                elim={false}
+              />
+            </Box>{' '}
+            <Box width="100%">
+              <CastImage
+                data={cast[final2Shuffled[1]].teamMembers[1]}
+                elim={false}
+              />
+            </Box>
+          </Flex>
+        </HStack>
+        <Text>{getTeamName(final2Shuffled[0])}</Text>
+        <Text>{getTeamName(final2Shuffled[1])}</Text>
+        <Text>... the winners and new champions</Text>
+        <Text>of Dancing with the Stars are ...</Text>
+
+        <Champion team={cast[placements[placements.length - 1]]} />
+        <SummaryButton />
+      </Box>
+    </Box>
+  );
+}
