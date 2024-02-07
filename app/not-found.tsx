@@ -4,7 +4,14 @@ import HomeButton from './ui/homeButton';
 
 export default function Custom404() {
   return (
-    <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      padding={4}
+      height="100vh"
+      justifyContent="center"
+    >
       <Text>Page Not Found</Text>
       <HomeButton />
     </Box>

@@ -11,6 +11,7 @@ import {
   randomizeCast,
   randomizeTeam,
   shuffleCast,
+  shuffleStyles,
   sortMusic,
   teamIdShuffle,
 } from '../lib/logic';
@@ -254,11 +255,21 @@ const createSimStore: StateCreator<SimSlice & SetupSlice, [], [], SimSlice> = (
       })
     ),
   resetSim: () =>
-    set((state) => ({
-      ...state,
-      ...initialSim,
-      music: sortMusic(),
-    })),
+    set(
+      produce((state) => {
+        return {
+          ...state,
+          ...initialSim,
+          music: sortMusic(),
+          cast: state.cast.map((team: Team) => ({
+            ...team,
+            placement: 0,
+            dances: [],
+            styles: shuffleStyles().slice(),
+          })),
+        };
+      })
+    ),
 });
 
 export const useBoundStore = create<SetupSlice & SimSlice & SaveSlice>()(

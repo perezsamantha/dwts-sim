@@ -15,6 +15,7 @@ const theme = extendTheme({
       body: {
         fontFamily: 'Raleway Variable, sans-serif!',
         fontWeight: '600',
+        my: 1,
       },
     },
   },
@@ -27,12 +28,14 @@ const theme = extendTheme({
       baseStyle: {
         fontFamily: 'Raleway Variable, sans-serif',
         fontWeight: '600',
+        mb: 2,
       },
     },
     Text: {
       baseStyle: {
         fontFamily: 'Raleway Variable, sans-serif',
         fontWeight: '500',
+        my: 1,
       },
     },
     Button: {
@@ -42,10 +45,11 @@ const theme = extendTheme({
         //textTransform: 'uppercase',
         borderRadius: '3xl',
         _hover: { transform: 'scale(1.05,1.05)' },
-        //my: 2,
+        my: 2,
       },
       variants: {
         custom: {
+          margin: 4,
           color: 'white',
           bg: 'gray.700',
           borderRadius: '3xl',

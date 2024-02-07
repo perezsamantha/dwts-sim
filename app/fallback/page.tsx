@@ -8,7 +8,14 @@ export default function Fallback() {
   const currentWeek = useBoundStore((state) => state.currentWeek);
 
   return (
-    <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      padding={4}
+      height="100vh"
+      justifyContent="center"
+    >
       <Text>Invalid page! Return to most recent week below.</Text>
       {currentWeek == 0 ? <HomeButton /> : <WeekButton week={currentWeek} />}
     </Box>

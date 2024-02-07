@@ -4,6 +4,7 @@ import {
   FormControl,
   FormHelperText,
   FormLabel,
+  IconButton,
   Input,
   Modal,
   ModalBody,
@@ -29,6 +30,7 @@ import {
   createFilter,
   components,
 } from 'chakra-react-select';
+import { EditIcon } from '@chakra-ui/icons';
 
 function CustomOption(props: any) {
   const { onMouseMove, onMouseOver, ...rest } = props.innerProps;
@@ -134,11 +136,18 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Button onClick={() => handleModalOpen()}>edit</Button>
+      <IconButton
+        aria-label="edit"
+        icon={<EditIcon />}
+        onClick={() => handleModalOpen()}
+        variant="ghost"
+        fontSize="20px"
+        m={0}
+      />
 
       <Modal isOpen={isOpen} onClose={onClose} isCentered>
         <ModalOverlay />
-        <ModalContent margin={5}>
+        <ModalContent margin={4}>
           <ModalHeader>
             Edit Team {props.teamId + 1}{' '}
             {props.dancerId === 1 ? 'Celebrity' : 'Professional'}
@@ -159,7 +168,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
               <TabPanels>
                 <TabPanel>
                   <FormControl isInvalid={isError}>
-                    <FormLabel>First Name</FormLabel>
+                    <FormLabel my={2}>First Name</FormLabel>
                     <Input
                       value={custom.firstName}
                       onChange={(event) => handleCustomChange(event)}
@@ -170,7 +179,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
                     )}
                   </FormControl>
                   <FormControl>
-                    <FormLabel>Last Name</FormLabel>
+                    <FormLabel my={2}>Last Name</FormLabel>
                     <Input
                       value={custom.lastName}
                       onChange={(event) => handleCustomChange(event)}
@@ -178,13 +187,13 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
                     />
                   </FormControl>
                   <FormControl>
-                    <FormLabel>Image URL</FormLabel>
+                    <FormLabel my={2}>Image URL</FormLabel>
                     <Input
                       value={custom.image}
                       onChange={(event) => handleCustomChange(event)}
                       id="image"
                     />
-                    {/* <FormHelperText>jpeg, png, or __ only</FormHelperText> */}
+                    {/* <FormHelperText>.jpeg, .png, or .webp only</FormHelperText> */}
                   </FormControl>
                 </TabPanel>
                 <TabPanel>

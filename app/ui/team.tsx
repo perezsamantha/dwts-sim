@@ -15,15 +15,17 @@ export default function Team(props: { teamId: number }) {
       alignItems="center"
       textAlign="center"
     >
-      <Text>Team {props.teamId + 1}</Text>
+      <Text mb={2} fontSize="lg" fontWeight="500">
+        Team {props.teamId + 1}
+      </Text>
       <Flex width="100%">
         <Box width="48%">
           <CastImage data={team.teamMembers[0]} elim={false} />
-          <Text align="center" noOfLines={1}>
+          <Text align="center" noOfLines={1} mb={0} mt={2}>
             {team.teamMembers[0].firstName}
           </Text>
           {team.teamMembers[0].lastName ? (
-            <Text align="center" noOfLines={1}>
+            <Text align="center" noOfLines={1} mt={0}>
               {team.teamMembers[0].lastName}
             </Text>
           ) : (
@@ -34,11 +36,11 @@ export default function Team(props: { teamId: number }) {
         <Spacer />
         <Box width="48%" alignItems="center">
           <CastImage data={team.teamMembers[1]} elim={false} />
-          <Text align="center" noOfLines={1}>
+          <Text align="center" noOfLines={1} mb={0} mt={2}>
             {team.teamMembers[1].firstName}
           </Text>
           {team.teamMembers[1].lastName ? (
-            <Text align="center" noOfLines={1}>
+            <Text align="center" noOfLines={1} mt={0}>
               {team.teamMembers[1].lastName}
             </Text>
           ) : (

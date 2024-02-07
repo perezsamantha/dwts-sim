@@ -50,7 +50,7 @@ export default function Week({ params }: { params: { id: string } }) {
   return loading ? (
     <Loading />
   ) : (
-    <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
+    <Box display="flex" flexDirection="column" alignItems="center" padding={4}>
       <Header type="week" week={week} />
       <Heading as="h1" size="xl">
         Week {week}

@@ -33,7 +33,13 @@ export default function Home() {
   };
 
   return (
-    <Box display="flex" flexDirection="column" alignItems="center" padding={8}>
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      padding={4}
+      textAlign="center"
+    >
       <Header type="home" week={0} />
       <Heading as="h1" size="xl">
         DWTS Simulator
@@ -50,6 +56,7 @@ export default function Home() {
         boxShadow={colorMode === 'dark' ? darkModeShadow : lightModeShadow}
         bg={colorMode === 'dark' ? 'blackalpha.50' : 'whitealpha.50'}
         gap={4}
+        textAlign="left"
       >
         <Heading as="h4" size="md">
           Tips

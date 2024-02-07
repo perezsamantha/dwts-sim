@@ -83,7 +83,7 @@ export default function Header(props: {
         isCentered
       >
         <ModalOverlay />
-        <ModalContent margin={5}>
+        <ModalContent margin={4}>
           <ModalHeader alignSelf="center">DWTS Sim Information</ModalHeader>
           <ModalCloseButton top={4} />
           <ModalBody>

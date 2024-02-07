@@ -5,6 +5,7 @@ import {
   FormControl,
   FormHelperText,
   FormLabel,
+  IconButton,
   Input,
   Modal,
   ModalBody,
@@ -23,6 +24,7 @@ import {
 } from '@chakra-ui/react';
 import { useBoundStore } from '../store/useStore';
 import { useState } from 'react';
+import { EditIcon } from '@chakra-ui/icons';
 
 export default function EditJudgesModal() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -54,17 +56,24 @@ export default function EditJudgesModal() {
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Button onClick={() => handleModalOpen()}>edit</Button>
+      <IconButton
+        aria-label="edit"
+        icon={<EditIcon />}
+        onClick={() => handleModalOpen()}
+        variant="ghost"
+        fontSize="20px"
+        mt={0}
+      />
 
       <Modal isOpen={isOpen} onClose={onClose} isCentered>
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent margin={4}>
           <ModalHeader>Edit Judges</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            {custom.map((judge, i) => (
+            {custom.map((_, i) => (
               <FormControl key={i} isInvalid={isError(i)}>
-                <FormLabel>Judge {i + 1}</FormLabel>
+                <FormLabel my={2}>Judge {i + 1}</FormLabel>
                 <Input
                   value={custom[i]}
                   onChange={(event) => handleCustomChange(i, event)}

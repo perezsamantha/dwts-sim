@@ -72,8 +72,12 @@ export default function CastStorage() {
       display="flex"
       flexDirection="column"
       alignItems="center"
+      //border="1px solid rgba(0, 0, 0, 0.269)"
+      p={2}
+      borderRadius="xl"
+      my={2}
     >
-      <Text>Saved Casts</Text>
+      <Text fontSize="lg">Saved Casts</Text>
       {castKeys.length > 0 ? (
         castKeys.map((key, i) => (
           <Flex key={i} width="100%">
@@ -98,7 +102,7 @@ export default function CastStorage() {
 
       <Modal isOpen={isOpen} onClose={onClose} size="xs" isCentered>
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent margin={4}>
           <ModalHeader>Save Cast</ModalHeader>
           <ModalBody>
             <FormControl>
