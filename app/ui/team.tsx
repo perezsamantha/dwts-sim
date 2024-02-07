@@ -13,6 +13,7 @@ export default function Team(props: { teamId: number }) {
       display="flex"
       flexDirection="column"
       alignItems="center"
+      textAlign="center"
     >
       <Text>Team {props.teamId + 1}</Text>
       <Flex width="100%">

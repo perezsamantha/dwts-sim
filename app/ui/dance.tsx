@@ -1,8 +1,8 @@
 'use client';
 import {
   Box,
-  Center,
   Flex,
+  SimpleGrid,
   Table,
   Tbody,
   Td,
@@ -38,7 +38,13 @@ export default function Dance(props: { dance: Dance }) {
       (state) => state.cast[props.dance.teamId].teamMembers[1]
     );
     return (
-      <>
+      <Box
+        width="100%"
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+        textAlign="center"
+      >
         <Flex flexDirection="row" minWidth="250px" maxWidth="500px">
           <Box width="100%" mr={2}>
             <CastImage data={celeb} elim={false} />
@@ -50,26 +56,30 @@ export default function Dance(props: { dance: Dance }) {
         <Text margin={1}>
           {celeb.firstName} & {pro.firstName}
         </Text>
-      </>
+      </Box>
     );
   };
 
   const MultipleTeams = () => {
     const cast = useBoundStore((state) => state.cast);
     return (
-      <>
+      <SimpleGrid columns={2} spacing={[2, null, 4]}>
         {dance.teamIds?.map((id) => (
           <Box
             key={id}
             display="flex"
             flexDirection="column"
             alignItems="center"
+            textAlign="center"
           >
-            <Flex flexDirection="row" minWidth="250px">
+            <Flex
+              flexDirection="row"
+              minWidth={['125px', '175px', '200px', '225px']}
+            >
               <Box width="100%" mr={2}>
                 <CastImage data={cast[id].teamMembers[0]} elim={false} />
               </Box>
-              <Box width="100%" mr={2}>
+              <Box width="100%">
                 <CastImage data={cast[id].teamMembers[1]} elim={false} />
               </Box>
             </Flex>
@@ -79,7 +89,7 @@ export default function Dance(props: { dance: Dance }) {
             </Text>
           </Box>
         ))}
-      </>
+      </SimpleGrid>
     );
   };
 

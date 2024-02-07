@@ -50,8 +50,9 @@ export default function Champion(props: { team: Team }) {
         </Flex>
         <Text fontSize="2xl">
           {team.teamMembers[0].firstName} {team.teamMembers[0].lastName} &{' '}
-          {team.teamMembers[1].firstName} {team.teamMembers[1].lastName} 🪩✨
+          {team.teamMembers[1].firstName} {team.teamMembers[1].lastName}
         </Text>
+        <Text fontSize="2xl">🏆🪩✨</Text>
       </Box>
     </Box>
   );

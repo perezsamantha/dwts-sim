@@ -4,7 +4,9 @@ import { useBoundStore } from '../store/useStore';
 import { Dance } from '../store/interfaces';
 import { useRouter } from 'next/navigation';
 import {
+  AspectRatio,
   Box,
+  Flex,
   Heading,
   Table,
   TableContainer,
@@ -19,6 +21,7 @@ import Header from '../ui/header';
 import { calculateAverage, sortByPlacement, totalScore } from '../lib/logic';
 import Loading from '../ui/loading';
 import HomeButton from '../ui/homeButton';
+import AvatarImage from '../ui/avatarImage';
 
 export default function Summary() {
   const router = useRouter();
@@ -62,6 +65,7 @@ export default function Summary() {
         <Table variant="simple" size="sm">
           <Thead>
             <Tr>
+              <Th></Th>
               <Th>Team</Th>
               <Th>Average</Th>
               {Array.from({ length: numberWeeks }, (_, i) => i + 1).map(
@@ -74,9 +78,29 @@ export default function Summary() {
           <Tbody>
             {sortedCast.map((team, i) => (
               <Tr key={i}>
+                <Td>{team.placement}</Td>
                 <Td>
-                  {team.placement} - {team.teamMembers[0].firstName} &{' '}
-                  {team.teamMembers[1].firstName}
+                  <Flex flexDirection="row" alignItems="center">
+                    <Box
+                      width="100%"
+                      minWidth="125px"
+                      maxWidth="125px"
+                      position="relative"
+                      display="flex"
+                      flexDirection="row"
+                    >
+                      <AspectRatio ratio={1} width="100%" zIndex="-1">
+                        <AvatarImage dancer={team.teamMembers[0]} />
+                      </AspectRatio>
+                      <AspectRatio ratio={1} width="100%" zIndex="-2" right={3}>
+                        <AvatarImage dancer={team.teamMembers[1]} />
+                      </AspectRatio>
+                    </Box>
+                    <Text>
+                      {team.teamMembers[0].firstName} &{' '}
+                      {team.teamMembers[1].firstName}
+                    </Text>
+                  </Flex>
                 </Td>
                 <Td>{calculateAverage(team.dances)}</Td>
                 {team.dances.map((dance, i) => {
