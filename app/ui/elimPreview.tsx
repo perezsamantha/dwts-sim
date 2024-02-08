@@ -34,6 +34,7 @@ export default function ElimPreview(props: { team: Team }) {
         </Button>
       )}
       <Box
+        position="sticky" // TODO: check on mobile if fixed issue
         width="100%"
         sx={{
           filter: !reveal ? 'blur(64px)' : 'blur(0px)',
