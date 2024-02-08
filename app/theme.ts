@@ -77,6 +77,11 @@ const theme = extendTheme({
         variant: 'solid',
       },
     },
+    Input: {
+      defaultProps: {
+        focusBorderColor: 'gray.500',
+      },
+    },
   },
 });
 

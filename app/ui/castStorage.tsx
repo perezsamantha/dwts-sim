@@ -111,7 +111,7 @@ export default function CastStorage() {
             </FormControl>
           </ModalBody>
           <ModalFooter>
-            <Button colorScheme="green" mr={3} onClick={handleSaveCast}>
+            <Button colorScheme="teal" mr={3} onClick={handleSaveCast}>
               Save
             </Button>
             <Button onClick={onClose}>Cancel</Button>

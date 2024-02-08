@@ -85,13 +85,11 @@ export default function EditJudgesModal() {
             ))}
           </ModalBody>
           <ModalFooter>
-            <Button colorScheme="green" mr={3} onClick={saveChanges}>
+            <Button colorScheme="teal" mr={3} onClick={saveChanges}>
               Save
             </Button>
 
-            <Button colorScheme="red" onClick={onClose}>
-              Cancel
-            </Button>
+            <Button onClick={onClose}>Cancel</Button>
           </ModalFooter>
         </ModalContent>
       </Modal>

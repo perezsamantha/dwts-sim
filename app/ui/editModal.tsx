@@ -51,6 +51,17 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
   const pros = sortPros(prosData);
   const celebs = sortCelebs(celebsData);
 
+  const customStyles = {
+    option: (provided: any, state: any) => ({
+      ...provided,
+      backgroundColor: state.isSelected
+        ? '#388aaf'
+        : state.isFocused
+          ? '#53bced5b'
+          : 'inherit',
+    }),
+  };
+
   const celebOptions = celebs.map((celeb, i) => ({
     label: `${celeb.firstName} ${celeb.lastName} - Season ${celeb.season}`,
     value: i,
@@ -209,6 +220,8 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
                     )}
                     options={celebOptions}
                     onChange={(event) => setCelebIndex(event?.value!)}
+                    isSearchable={false}
+                    styles={customStyles}
                   />
                 </TabPanel>
                 <TabPanel>
@@ -224,19 +237,18 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
                     )}
                     options={proOptions}
                     onChange={(event) => setProIndex(event?.value!)}
+                    styles={customStyles}
                   />
                 </TabPanel>
               </TabPanels>
             </Tabs>
           </ModalBody>
           <ModalFooter>
-            <Button colorScheme="green" mr={3} onClick={saveChanges}>
+            <Button colorScheme="teal" mr={3} onClick={saveChanges}>
               Save
             </Button>
 
-            <Button colorScheme="red" onClick={onClose}>
-              Cancel
-            </Button>
+            <Button onClick={onClose}>Cancel</Button>
           </ModalFooter>
         </ModalContent>
       </Modal>

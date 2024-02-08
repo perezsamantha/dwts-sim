@@ -97,7 +97,9 @@ export default function Home() {
             Sim in progress!
           </Text>
           <Flex flexDirection="row" alignItems="center">
-            <Button onClick={handleReset}>Reset</Button>
+            <Button colorScheme="red" onClick={handleReset}>
+              Reset
+            </Button>
             <Text mx={2}>or</Text>
             <Button onClick={handleContinue}>Continue</Button>
           </Flex>
