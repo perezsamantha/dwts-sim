@@ -216,7 +216,7 @@ export const eliminate = (
   // no elim
   if (val < 3) {
     // no elim
-    if (ids.length - 3 < numberWeeks - currentWeek - 1) {
+    if (3 - val >= numberWeeks - currentWeek - 1) {
       // MUST be no elim
       return [];
     } else {
