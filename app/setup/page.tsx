@@ -1,17 +1,5 @@
 'use client';
-import {
-  Box,
-  Button,
-  Flex,
-  Heading,
-  SimpleGrid,
-  Spacer,
-  Table,
-  Tbody,
-  Td,
-  Text,
-  Tr,
-} from '@chakra-ui/react';
+import { Box, Button, Flex, Heading, SimpleGrid, Text } from '@chakra-ui/react';
 import Team from '../ui/team';
 import { useBoundStore } from '../store/useStore';
 import WeekButton from '../ui/weekButton';
@@ -41,7 +29,13 @@ export default function Home() {
   };
 
   return (
-    <Box display="flex" flexDirection="column" alignItems="center" padding={4}>
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      padding={4}
+      gap={1}
+    >
       <Header type="setup" week={0} />
       <Heading as="h1" size="xl" textAlign="center">
         Customize Simulator
@@ -60,16 +54,18 @@ export default function Home() {
       <Text fontSize="lg" fontWeight="500">
         Judges
       </Text>
-      <Flex width="100%" maxW="500px" flexDirection="row" alignItems="center">
-        {judges.map((judge, i) => (
-          <Box key={i} width={1 / 3}>
-            <Text align="center" mb={0}>
-              {judge}
-            </Text>
-          </Box>
-        ))}
-      </Flex>
-      <EditJudgesModal />
+      <Box width="100%">
+        <Flex width="100%" maxW="500px" flexDirection="row" alignItems="center">
+          {judges.map((judge, i) => (
+            <Box key={i} width={1 / 3}>
+              <Text align="center" mb={0}>
+                {judge}
+              </Text>
+            </Box>
+          ))}
+        </Flex>
+        <EditJudgesModal />
+      </Box>
 
       <Heading as="h4" size="lg" my={2}>
         Cast

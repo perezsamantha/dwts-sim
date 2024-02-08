@@ -348,6 +348,7 @@ const determineScoreGroup = (currentWeek: number, numberWeeks: number) => {
 const cumulativeScore = (dances: Dance[]) =>
   dances.reduce((sum, item) => sum + totalScore(item.scores), 0);
 
+// calculate ordinal number for placements
 export const getOrdinalNumber = (i: number) => {
   let j = i % 10,
     k = i % 100;
@@ -361,4 +362,15 @@ export const getOrdinalNumber = (i: number) => {
     return i + 'rd';
   }
   return i + 'th';
+};
+
+// calculate teams remaining in competition on any given week
+export const numberTeamsRemaining = (
+  elims: number[][],
+  week: number,
+  castSize: number
+) => {
+  let numEliminated = 0;
+  for (let i = 0; i < week - 1; i++) numEliminated += elims[i]?.length;
+  return castSize - numEliminated;
 };

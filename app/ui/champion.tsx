@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Text } from '@chakra-ui/react';
+import { Box, Button, Flex, Spacer, Text } from '@chakra-ui/react';
 import { Team } from '../store/interfaces';
 import CastImage from './castImage';
 import { useState } from 'react';
@@ -18,6 +18,7 @@ export default function Champion(props: { team: Team }) {
       flexDirection="column"
       alignItems="center"
       justifyContent="center"
+      mt={2}
     >
       {!reveal && (
         <Button
@@ -41,10 +42,11 @@ export default function Champion(props: { team: Team }) {
         textAlign="center"
       >
         <Flex flexDirection="row" my={1} width="100%">
-          <Box width="100%" mr={2}>
+          <Box width="48%" mr={2}>
             <CastImage data={team.teamMembers[0]} elim={false} />
           </Box>{' '}
-          <Box width="100%">
+          <Spacer />
+          <Box width="48%">
             <CastImage data={team.teamMembers[1]} elim={false} />
           </Box>
         </Flex>

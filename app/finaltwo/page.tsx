@@ -49,6 +49,7 @@ export default function FinalTwo() {
         alignItems="center"
         alignContent="center"
         width={['100%', '80%', '55%', '40%']}
+        gap={4}
       >
         <Flex width="100%" gap={2}>
           <Box width="49%" textAlign="center">
@@ -75,8 +76,10 @@ export default function FinalTwo() {
             <Text>{getTeamName(final2[1])}</Text>
           </Box>
         </Flex>
-        <Text>The winners and new champions</Text>
-        <Text>of Dancing with the Stars are ...</Text>
+        <Box textAlign="center">
+          <Text fontSize="lg">The winners and new champions</Text>
+          <Text fontSize="lg">of Dancing with the Stars are ...</Text>
+        </Box>
 
         <Champion team={cast[placements[placements.length - 1]]} />
         <SummaryButton />

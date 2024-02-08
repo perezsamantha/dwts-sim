@@ -50,7 +50,13 @@ export default function Summary() {
   return loading ? (
     <Loading />
   ) : (
-    <Box display="flex" flexDirection="column" alignItems="center" padding={4}>
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      padding={4}
+      gap={2}
+    >
       <Header type="summary" week={numberWeeks} />
       <Heading as="h1" size="xl">
         Sim Summary
@@ -61,6 +67,7 @@ export default function Summary() {
             //display: 'none',
           },
         }}
+        my={2}
       >
         <Table variant="simple" size="sm">
           <Thead>

@@ -20,7 +20,7 @@ export default function FinalePlacements(props: {
       textAlign="center"
       gap={2}
     >
-      <Text>Finale Placements</Text>
+      <Text fontSize="lg">Finale Placements</Text>
       {placements.map(
         (id, i) =>
           i < placements.length - 2 && (

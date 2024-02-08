@@ -24,7 +24,7 @@ export default function Leaderboard(props: {
   const double = props.dances[props.ids[0]].length === 2;
 
   return (
-    <TableContainer>
+    <TableContainer my={2}>
       <Table variant="simple" size="sm">
         <Thead>
           <Tr>

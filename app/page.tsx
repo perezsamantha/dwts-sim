@@ -39,6 +39,7 @@ export default function Home() {
       alignItems="center"
       padding={4}
       textAlign="center"
+      gap={2}
     >
       <Header type="home" week={0} />
       <Heading as="h1" size="xl">

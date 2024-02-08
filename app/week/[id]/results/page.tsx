@@ -36,9 +36,15 @@ export default function Results({ params }: { params: { id: string } }) {
   return loading ? (
     <Loading />
   ) : (
-    <Box display="flex" flexDirection="column" alignItems="center" padding={4}>
+    <Box
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      padding={4}
+      gap={2}
+    >
       <Header type="results" week={week} />
-      <Heading as="h1" size="lg" my={2}>
+      <Heading as="h1" size="lg">
         Week {week} leaderboard
       </Heading>
       <Leaderboard cast={cast} dances={groupedDances} ids={ids} />
