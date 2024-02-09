@@ -8,5 +8,9 @@ export default function FinalTwoButton() {
     router.push(`/finaltwo`);
   };
 
-  return <Button onClick={handleButton}>Final 2</Button>;
+  return (
+    <Button onClick={handleButton} my={4}>
+      Final 2
+    </Button>
+  );
 }

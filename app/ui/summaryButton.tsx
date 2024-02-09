@@ -8,5 +8,9 @@ export default function SummaryButton() {
     router.push(`/summary`);
   };
 
-  return <Button onClick={handleButton}>Summary</Button>;
+  return (
+    <Button onClick={handleButton} my={4}>
+      Summary
+    </Button>
+  );
 }

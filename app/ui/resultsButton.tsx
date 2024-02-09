@@ -8,5 +8,9 @@ export default function ResultsButton(props: { week: number }) {
     router.push(`/week${props.week}/results`);
   };
 
-  return <Button onClick={handleButton}>Results</Button>;
+  return (
+    <Button onClick={handleButton} my={4}>
+      Results
+    </Button>
+  );
 }

@@ -53,7 +53,7 @@ export default function FinalTwo() {
       >
         <Flex width="100%" gap={2}>
           <Box width="49%" textAlign="center">
-            <Flex flexDirection="row" my={1}>
+            <Flex flexDirection="row" my={2}>
               <Box width="100%" mr={2}>
                 <CastImage data={cast[final2[0]].teamMembers[0]} elim={false} />
               </Box>{' '}
@@ -65,7 +65,7 @@ export default function FinalTwo() {
           </Box>
           <Spacer />
           <Box width="49%" textAlign="center">
-            <Flex flexDirection="row" my={1}>
+            <Flex flexDirection="row" my={2}>
               <Box width="100%" mr={2}>
                 <CastImage data={cast[final2[1]].teamMembers[0]} elim={false} />
               </Box>{' '}

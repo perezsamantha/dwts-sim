@@ -79,9 +79,17 @@ export default function Week({ params }: { params: { id: string } }) {
         >
           {doubleRounds ? (
             i === 0 ? (
-              <Text fontSize="xl">Round 1</Text>
+              week === numberWeeks ? (
+                <Text fontSize="xl">Redemption Round</Text>
+              ) : (
+                <Text fontSize="xl">Round 1</Text>
+              )
             ) : i === numTeams ? (
-              <Text fontSize="xl">Round 2</Text>
+              week === numberWeeks ? (
+                <Text fontSize="xl">Freestyle Round</Text>
+              ) : (
+                <Text fontSize="xl">Round 2</Text>
+              )
             ) : null
           ) : null}
           <Dance dance={dance} />

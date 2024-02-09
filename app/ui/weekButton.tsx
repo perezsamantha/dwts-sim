@@ -8,5 +8,9 @@ export default function WeekButton(props: { week: number }) {
     router.push(`/week${props.week}`);
   };
 
-  return <Button onClick={handleButton}>Week {props.week}</Button>;
+  return (
+    <Button onClick={handleButton} my={4}>
+      Week {props.week}
+    </Button>
+  );
 }

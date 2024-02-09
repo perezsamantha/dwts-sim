@@ -15,6 +15,9 @@ import { Dance } from '../store/interfaces';
 import CastImage from './castImage';
 import { totalScore } from '../lib/logic';
 import SongPreview from './songPreview';
+import { GiMusicalNotes } from 'react-icons/gi';
+import { HiOutlineSparkles, HiSparkles } from 'react-icons/hi';
+import { GrScorecard } from 'react-icons/gr';
 
 export default function Dance(props: { dance: Dance }) {
   const judges = useBoundStore((state) => state.judges);
@@ -25,8 +28,6 @@ export default function Dance(props: { dance: Dance }) {
   const { colorMode } = useColorMode();
 
   const lightModeShadow = '0 0 50px -25px rgba(0, 0, 0, 0.25)';
-  // const darkModeShadow =
-  //   'rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,rgba(0, 0, 0, 0.2) 0px 5px 10px,rgba(0, 0, 0, 0.4) 0px 15px 40px';
   const darkModeShadow =
     'rgba(0, 0, 0, 0.1) 0px 0px 0px 1px,rgba(0, 0, 0, 0.2) 0px 0px 10px,rgba(0, 0, 0, 0.5) 0px 0 50px -15px';
 
@@ -44,8 +45,9 @@ export default function Dance(props: { dance: Dance }) {
         flexDirection="column"
         alignItems="center"
         textAlign="center"
+        gap={2}
       >
-        <Flex flexDirection="row" minWidth="250px" maxWidth="500px">
+        <Flex flexDirection="row" minWidth="275px" maxWidth="500px">
           <Box width="100%" mr={2}>
             <CastImage data={celeb} elim={false} />
           </Box>
@@ -53,7 +55,7 @@ export default function Dance(props: { dance: Dance }) {
             <CastImage data={pro} elim={false} />
           </Box>
         </Flex>
-        <Text margin={1}>
+        <Text margin={1} fontSize="lg">
           {celeb.firstName} & {pro.firstName}
         </Text>
       </Box>
@@ -71,10 +73,11 @@ export default function Dance(props: { dance: Dance }) {
             flexDirection="column"
             alignItems="center"
             textAlign="center"
+            gap={2}
           >
             <Flex
               flexDirection="row"
-              minWidth={['125px', '175px', '200px', '225px']}
+              minWidth={['140px', '175px', '200px', '225px']}
             >
               <Box width="100%" mr={2}>
                 <CastImage data={cast[id].teamMembers[0]} elim={false} />
@@ -83,7 +86,7 @@ export default function Dance(props: { dance: Dance }) {
                 <CastImage data={cast[id].teamMembers[1]} elim={false} />
               </Box>
             </Flex>
-            <Text margin={1}>
+            <Text margin={1} fontWeight="600">
               {cast[id].teamMembers[0].firstName} &{' '}
               {cast[id].teamMembers[1].firstName}
             </Text>
@@ -107,34 +110,48 @@ export default function Dance(props: { dance: Dance }) {
       px={2}
       boxShadow={colorMode === 'dark' ? darkModeShadow : lightModeShadow}
       bg={colorMode === 'dark' ? 'blackalpha.50' : 'whitealpha.900'}
+      gap={2}
     >
       {dance.teamIds ? <MultipleTeams /> : <OneTeam />}
-      <Text margin={1}>{dance.style}</Text>
-      <Text margin={1}>to</Text>
-      <Text margin={1} align="center">
-        &#34;{dance.title}&#34; by {dance.artist}
+      {colorMode === 'dark' ? <HiSparkles /> : <HiOutlineSparkles />}
+      <Text mt={0} mb={2}>
+        {dance.style}
       </Text>
-      <Text margin={1}>Scores </Text>{' '}
-      <Table variant="simple" size="md">
+
+      <GiMusicalNotes />
+      <Flex
+        flexDirection="column"
+        alignItems="center"
+        textAlign="center"
+        mb={2}
+      >
+        <Text align="center">&#34;{dance.title}&#34;</Text>
+        <Text align="center">by {dance.artist}</Text>
+      </Flex>
+
+      <GrScorecard />
+      <Table variant="simple" size="md" mb={1}>
         <Tbody>
           <Tr>
             {judges.map((judge, i) => (
-              <Td key={i} border="none" px={0} py={2} width={1 / 3}>
+              <Td key={i} border="none" px={1} py={1} width={1 / 3}>
                 <Text align="center">{judge}</Text>
               </Td>
             ))}
           </Tr>
           <Tr>
             {scores.map((score, i) => (
-              <Td key={i} border="none" px={0} py={2} width={1 / 3}>
-                <Text align="center">{score}</Text>
+              <Td key={i} border="none" px={0} py={0} width={1 / 3}>
+                <Text align="center" fontSize="xl" fontWeight="700">
+                  {score}
+                </Text>
               </Td>
             ))}
           </Tr>
         </Tbody>
       </Table>
-      <Text as="b">Total</Text>
-      <Text>{totalScore(scores)}</Text>
+      <Text as="b">Total - {totalScore(scores)} / 30</Text>
+
       {dance.uri && <SongPreview uri={dance.uri} />}
     </Box>
   );

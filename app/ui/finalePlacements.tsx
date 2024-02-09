@@ -25,7 +25,7 @@ export default function FinalePlacements(props: {
         (id, i) =>
           i < placements.length - 2 && (
             <Box key={id} width="100%" mb={2}>
-              <Text>
+              <Text my={2}>
                 The team in {getOrdinalNumber(cast[id].placement)} place is...
               </Text>
               <ElimPreview team={cast[id]} />

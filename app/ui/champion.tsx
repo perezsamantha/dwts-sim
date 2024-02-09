@@ -33,8 +33,8 @@ export default function Champion(props: { team: Team }) {
       <Box
         width="100%"
         sx={{
-          filter: !reveal ? 'blur(64px)' : 'blur(0px)',
-          opacity: !reveal ? '75%' : '100%',
+          //filter: !reveal ? 'blur(64px)' : 'blur(0px)',
+          opacity: !reveal ? '0%' : '100%',
         }}
         display="flex"
         flexDirection="column"

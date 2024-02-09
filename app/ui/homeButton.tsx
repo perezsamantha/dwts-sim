@@ -8,5 +8,9 @@ export default function HomeButton() {
     router.push(`/`);
   };
 
-  return <Button onClick={handleButton}>Home</Button>;
+  return (
+    <Button onClick={handleButton} my={4}>
+      Home
+    </Button>
+  );
 }

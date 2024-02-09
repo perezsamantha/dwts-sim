@@ -19,9 +19,9 @@ export default function ElimPreview(props: { team: Team }) {
       display="flex"
       flexDirection="column"
       alignItems="center"
-      gap={2}
       minWidth="300px"
       justifyContent="center"
+      my={1}
     >
       {!reveal && (
         <Button
@@ -34,12 +34,14 @@ export default function ElimPreview(props: { team: Team }) {
         </Button>
       )}
       <Box
-        position="sticky" // TODO: check on mobile if fixed issue
         width="100%"
         sx={{
-          filter: !reveal ? 'blur(64px)' : 'blur(0px)',
-          opacity: !reveal ? '75%' : '100%',
+          //filter: !reveal ? 'blur(64px)' : 'blur(0px)',
+          opacity: !reveal ? '0%' : '100%',
         }}
+        display="flex"
+        flexDirection="column"
+        gap={1}
       >
         <Flex flexDirection="row" my={1}>
           <Box width="100%" mr={2}>

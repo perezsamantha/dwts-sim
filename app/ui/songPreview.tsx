@@ -6,8 +6,14 @@ export default function SongPreview(props: { uri: string }) {
   const [loading, setLoading] = useState(true);
 
   return (
-    <Box width="95%" display="flex" flexDirection="column" alignItems="center">
-      <Text margin={1}>Song Preview</Text>
+    <Box
+      width="95%"
+      display="flex"
+      flexDirection="column"
+      alignItems="center"
+      gap={2}
+      mt={1}
+    >
       {loading ? <Spinner size="lg" margin={4} /> : null}
       <iframe
         style={{
