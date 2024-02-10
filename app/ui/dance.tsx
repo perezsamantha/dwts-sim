@@ -125,7 +125,7 @@ export default function Dance(props: { dance: Dance }) {
         textAlign="center"
         mb={2}
       >
-        <Text align="center">&#34;{dance.title}&#34;</Text>
+        <Text align="center">&#39;{dance.title}&#39;</Text>
         <Text align="center">by {dance.artist}</Text>
       </Flex>
 

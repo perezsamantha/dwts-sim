@@ -54,7 +54,12 @@ export default function Home() {
       <Text fontSize="lg" fontWeight="500">
         Judges
       </Text>
-      <Box width="100%">
+      <Box
+        width="100%"
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+      >
         <Flex width="100%" maxW="500px" flexDirection="row" alignItems="center">
           {judges.map((judge, i) => (
             <Box key={i} width={1 / 3}>

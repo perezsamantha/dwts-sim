@@ -100,7 +100,13 @@ export default function CastStorage() {
       )}
       <Button onClick={handleOpen}>Save Cast</Button>
 
-      <Modal isOpen={isOpen} onClose={onClose} size="xs" isCentered>
+      <Modal
+        isOpen={isOpen}
+        onClose={onClose}
+        size="xs"
+        isCentered
+        autoFocus={false}
+      >
         <ModalOverlay />
         <ModalContent margin={4}>
           <ModalHeader>Save Cast</ModalHeader>

@@ -8,6 +8,7 @@ import {
   Box,
   Flex,
   Heading,
+  Spacer,
   Table,
   TableContainer,
   Tbody,
@@ -22,6 +23,7 @@ import { calculateAverage, sortByPlacement, totalScore } from '../lib/logic';
 import Loading from '../ui/loading';
 import HomeButton from '../ui/homeButton';
 import AvatarImage from '../ui/avatarImage';
+import TeamSummary from '../ui/teamSummary';
 
 export default function Summary() {
   const router = useRouter();
@@ -40,10 +42,10 @@ export default function Summary() {
 
   function DancePreview(dance: Dance) {
     return (
-      <>
+      <Box>
         <Text>{dance.style}</Text>
         <Text>{totalScore(dance.scores)}</Text>
-      </>
+      </Box>
     );
   }
 
@@ -75,11 +77,7 @@ export default function Summary() {
               <Th></Th>
               <Th>Team</Th>
               <Th>Average</Th>
-              {Array.from({ length: numberWeeks }, (_, i) => i + 1).map(
-                (week) => (
-                  <Th key={week}>Week {week}</Th>
-                )
-              )}
+              <Th># Dances</Th>
             </Tr>
           </Thead>
           <Tbody>
@@ -90,8 +88,8 @@ export default function Summary() {
                   <Flex flexDirection="row" alignItems="center">
                     <Box
                       width="100%"
-                      minWidth="125px"
-                      maxWidth="125px"
+                      minWidth="115px"
+                      maxWidth="115px"
                       position="relative"
                       display="flex"
                       flexDirection="row"
@@ -110,31 +108,19 @@ export default function Summary() {
                   </Flex>
                 </Td>
                 <Td>{calculateAverage(team.dances)}</Td>
-                {team.dances.map((dance, i) => {
-                  if (
-                    i + 1 < team.dances.length &&
-                    team.dances[i + 1].week === dance.week
-                  ) {
-                    return (
-                      <Td key={i}>
-                        <DancePreview {...dance} />
-                        <DancePreview {...team.dances[i + 1]} />
-                      </Td>
-                    );
-                  } else if (i > 0 && team.dances[i - 1].week === dance.week)
-                    return;
-                  else
-                    return (
-                      <Td key={i}>
-                        <DancePreview {...dance} />
-                      </Td>
-                    );
-                })}
+                <Td>{team.dances.length}</Td>
               </Tr>
             ))}
           </Tbody>
         </Table>
       </TableContainer>
+
+      <Text fontSize="xl" my={4}>
+        Team Summaries
+      </Text>
+      {sortedCast.map((team, i) => (
+        <TeamSummary key={i} team={team} />
+      ))}
 
       <HomeButton />
     </Box>
