@@ -331,7 +331,7 @@
   },
   {
     "title": "Fly Girl",
-    "artist": "FLO, &Missy Elliott",
+    "artist": "FLO feat. Missy Elliott",
     "style": "Salsa",
     "uri": "spotify:track:2sITbbWIOeg2Lwp4WN2jqr"
   },
@@ -1461,7 +1461,7 @@
     "title": "A Little Party Never Killed Nobody",
     "artist": "Fergie, Q-Tip, and Goonrock",
     "style": "Jazz",
-    "uri": "spotify:track:1yW00C89gUWPvUh5fkyzz5"
+    "uri": "spotify:track:1yW00C89gUWPvUh5fkyzz4"
   },
   {
     "title": "Charleston",
@@ -3058,5 +3058,353 @@
     "artist": "Beyoncé",
     "style": "Viennese Waltz",
     "uri": "spotify:track:4JehYebiI9JE8sR8MisGVb"
+  },
+  {
+    "title": "Put Your Records On",
+    "artist": "Corinne Bailey Rae",
+    "style": "Jazz",
+    "uri": "spotify:track:2nGFzvICaeEWjIrBrL2RAx"
+  },
+  {
+    "title": "Please Don't Change",
+    "artist": "Jung Kook feat. DJ Snake",
+    "style": "Samba",
+    "uri": "spotify:track:0k0GtcnyQLMiXrdEDbLXmJ"
+  },
+  {
+    "title": "AMYGDALA",
+    "artist": "Agust D",
+    "style": "Contemporary",
+    "uri": "spotify:track:5fj32MKLHkut2Vod1UodcU"
+  },
+  {
+    "title": "永遠に光れ (Everlasting Shine)",
+    "artist": "TOMORROW X TOGETHER",
+    "style": "Freestyle",
+    "uri": "spotify:track:3zLCX1TGMpsA67cW2pq6ut"
+  },
+  {
+    "title": "Fuego",
+    "artist": "CNCO",
+    "style": "Samba",
+    "uri": "spotify:track:6nzFaUwsIMw1A6I3TBzPsN"
+  },
+  {
+    "title": "Knowing What I Know Now (from Wish)",
+    "artist": "Ariana DeBose, Angelique Cabral, and Wish Cast",
+    "style": "Contemporary",
+    "uri": "spotify:track:7I1QMEyw5T3nddOBbvoT9u"
+  },
+  {
+    "title": "At All Costs (From Wish)",
+    "artist": "Chris Pine & Ariana DeBose",
+    "style": "Contemporary",
+    "uri": "spotify:track:1233MOKLpbc9qjNN31vpl4"
+  },
+  {
+    "title": "Get the Party Started",
+    "artist": "P!nk",
+    "style": "Cha Cha",
+    "uri": "spotify:track:02jcEwywffn3Tsb48fXmlW"
+  },
+  {
+    "title": "Moves Like Jagger",
+    "artist": "Maroon 5 & Christina Aguilera",
+    "style": "Cha Cha",
+    "uri": "spotify:track:7LcfRTgAVTs5pQGEQgUEzN"
+  },
+  {
+    "title": "Runaway With It",
+    "artist": "HRVY",
+    "style": "Cha Cha",
+    "uri": "spotify:track:4tcCfncw15HYs030hq9FnL"
+  },
+  {
+    "title": "California Gurls",
+    "artist": "Katy Perry & Snoop Dogg",
+    "style": "Cha Cha",
+    "uri": "spotify:track:6KOEK6SeCEZOQkLj5M1PxH"
+  },
+  {
+    "title": "Nice To Meet Ya",
+    "artist": "Niall Horan",
+    "style": "Cha Cha",
+    "uri": "spotify:track:3cphb8kdsjElYR7r5icK3H"
+  },
+  {
+    "title": "Brokenhearted",
+    "artist": "Karmin",
+    "style": "Cha Cha",
+    "uri": "spotify:track:4urcG6Nfubqsuqy3juMjBi"
+  },
+  {
+    "title": "Faith (From Wish)",
+    "artist": "Stevie Wonder & Ariana Grande",
+    "style": "Jive",
+    "uri": "spotify:track:1Ol9VB4eBkSuM9sghD4lgP"
+  },
+  {
+    "title": "Dear Future Husband",
+    "artist": "Meghan Trainor",
+    "style": "Jive",
+    "uri": "spotify:track:3cU2wBxuV6nFiuf6PJZNlC"
+  },
+  {
+    "title": "good 4 u",
+    "artist": "Olivia Rodrigo",
+    "style": "Jive",
+    "uri": "spotify:track:4ZtFanR9U6ndgddUvNcjcG"
+  },
+  {
+    "title": "Flu Game",
+    "artist": "Fall Out Boy",
+    "style": "Jive",
+    "uri": "spotify:track:1ZLb41HjOna9bQ3s6laUAZ"
+  },
+  {
+    "title": "Modern Girl",
+    "artist": "Bleachers",
+    "style": "Jive",
+    "uri": "spotify:track:4TPgBDOEVwywalXHFUUUQY"
+  },
+  {
+    "title": "SO WHAT!",
+    "artist": "jxdn",
+    "style": "Jive",
+    "uri": "spotify:track:213zYbLMb3NjOfNl0LFTQr"
+  },
+  {
+    "title": "I Feel Good",
+    "artist": "Pitbull, Anthony Watts, and DJ White Shadow",
+    "style": "Salsa",
+    "uri": "spotify:track:2hZTeA6c94dBoiuGcBv3R0"
+  },
+  {
+    "title": "Gettin' Jiggy Wit It",
+    "artist": "Will Smith",
+    "style": "Salsa",
+    "uri": "spotify:track:0weAUscowxeqDtpCgtbpgp"
+  },
+  {
+    "title": "Ride Wit Me",
+    "artist": "Nelly & City Spud",
+    "style": "Samba",
+    "uri": "spotify:track:3Gf5nttwcX9aaSQXRWidEZ"
+  },
+  {
+    "title": "10,000 Hours",
+    "artist": "Dan & Shay with Justin Bieber",
+    "style": "Rumba",
+    "uri": "spotify:track:2wrJq5XKLnmhRXHIAf9xBa"
+  },
+  {
+    "title": "Thailand Hotel",
+    "artist": "Brooke Butler",
+    "style": "Rumba",
+    "uri": "spotify:track:46DefYgf4tZ246jFwNjNh9"
+  },
+  {
+    "title": "California Dreamin'",
+    "artist": "Sia",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:1QzIPFcpaapCryW5wRsgU4"
+  },
+  {
+    "title": "Madness",
+    "artist": "Muse",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:0c4IEciLCDdXEhhKxj4ThA"
+  },
+  {
+    "title": "Supermassive Black Hole",
+    "artist": "Muse",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:3lPr8ghNDBLc2uZovNyLs9"
+  },
+  {
+    "title": "Black Beatles",
+    "artist": "Rae Sremmurd & Gucci Mane",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:6fujklziTHa8uoM5OQSfIo"
+  },
+  {
+    "title": "West Coast",
+    "artist": "OneRepublic",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:0sBJA2OCEECMs0HsdIQhvR"
+  },
+  {
+    "title": "Light On",
+    "artist": "David Cook",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:7zmqbdEqmQWgU2wOoBPG83"
+  },
+  {
+    "title": "madhouse",
+    "artist": "Nessa Barrett",
+    "style": "Argentine Tango",
+    "uri": "spotify:track:4b9oAM56ycOQXQCV1BbN2S"
+  },
+  {
+    "title": "White Flag",
+    "artist": "Bishop Briggs",
+    "style": "Paso Doble",
+    "uri": "spotify:track:2ph6BRhGcUzc2W9wIulG5k"
+  },
+  {
+    "title": "American Soul",
+    "artist": "U2",
+    "style": "Paso Doble",
+    "uri": "spotify:track:6jfpkIQbqY5lraWp0Uo9aQ"
+  },
+  {
+    "title": "Dynasty",
+    "artist": "Rina Sawayama",
+    "style": "Paso Doble",
+    "uri": "spotify:track:154gL4Xb5AsreMkcDlVFYS"
+  },
+  {
+    "title": "Hall of Fame",
+    "artist": "The Script feat. will.i.am",
+    "style": "Foxtrot",
+    "uri": "spotify:track:1X1DWw2pcNZ8zSub3uhlNz"
+  },
+  {
+    "title": "Unconditionally",
+    "artist": "Katy Perry",
+    "style": "Foxtrot",
+    "uri": "spotify:track:009ImBOrIUlWgla8U05RAC"
+  },
+  {
+    "title": "All These Things That I've Done",
+    "artist": "The Killers",
+    "style": "Foxtrot",
+    "uri": "spotify:track:5vollujufHY0jMZxx77VWr"
+  },
+  {
+    "title": "Fallin' For You",
+    "artist": "Colbie Caillat",
+    "style": "Foxtrot",
+    "uri": "spotify:track:1le5KVGTF1xWf2aUj7ruLy"
+  },
+  {
+    "title": "A Moment Like This",
+    "artist": "Kelly Clarkson",
+    "style": "Foxtrot",
+    "uri": "spotify:track:4kvdX9zzsix7jYHsRVkVUH"
+  },
+  {
+    "title": "That Part",
+    "artist": "Lauren Spencer Smith",
+    "style": "Foxtrot",
+    "uri": "spotify:track:7vfCm8tEWV9lCpyY1nvJVB"
+  },
+  {
+    "title": "Mercy",
+    "artist": "Muse",
+    "style": "Tango",
+    "uri": "spotify:track:2qkmPUG7ARsRwhVICQVwQS"
+  },
+  {
+    "title": "Sk8ter Boi",
+    "artist": "Avril Lavigne",
+    "style": "Tango",
+    "uri": "spotify:track:00Mb3DuaIH1kjrwOku9CGU"
+  },
+  {
+    "title": "adcdefu",
+    "artist": "GAYLE",
+    "style": "Tango",
+    "uri": "spotify:track:4fouWK6XVHhzl78KzQ1UjL"
+  },
+  {
+    "title": "Let Her Go",
+    "artist": "Passenger",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:1KxwZYyzWNyZSRyErj2ojT"
+  },
+  {
+    "title": "Hopelessly Devoted To You (From Grease)",
+    "artist": "Olivia Newton-John",
+    "style": "Viennese Waltz",
+    "uri": "spotify:track:5BUq9bdtsm3LWw5laJeJ4R"
+  },
+  {
+    "title": "Wings",
+    "artist": "Little Mix",
+    "style": "Quickstep",
+    "uri": "spotify:track:3180WDzph4WrS4sLSNcGfa"
+  },
+  {
+    "title": "Black Horse And The Cherry Tree",
+    "artist": "KT Tunstall",
+    "style": "Quickstep",
+    "uri": "spotify:track:0qAMjeQFyd1qD0LDiV8gWp"
+  },
+  {
+    "title": "I'll Be There for You",
+    "artist": "The Rembrandts",
+    "style": "Quickstep",
+    "uri": "spotify:track:15tHagkk8z306XkyOHqiip"
+  },
+  {
+    "title": "Drive By",
+    "artist": "Train",
+    "style": "Quickstep",
+    "uri": "spotify:track:0KAiuUOrLTIkzkpfpn9jb9"
+  },
+  {
+    "title": "You Will Be Found (From Dear Evan Hansen)",
+    "artist": "Ben Platt, Kristolyn Lloyd, Will Roland, and Laura Dreyfuss",
+    "style": "Contemporary",
+    "uri": "spotify:track:1H7Zqkq54andtaSSnLRrfp"
+  },
+  {
+    "title": "I Need Your Love",
+    "artist": "Keane",
+    "style": "Contemporary",
+    "uri": "spotify:track:0hYZEuOjA0u7LLLuOPx3cd"
+  },
+  {
+    "title": "Don't Blame Me",
+    "artist": "Taylor Swift",
+    "style": "Contemporary",
+    "uri": "spotify:track:1R0a2iXumgCiFb7HEZ7gUE"
+  },
+  {
+    "title": "human",
+    "artist": "Christina Perri",
+    "style": "Contemporary",
+    "uri": "spotify:track:1x80xTzSL7pok3M5JC3oJz"
+  },
+  {
+    "title": "Head Above Water",
+    "artist": "Avril Lavigne",
+    "style": "Contemporary",
+    "uri": "spotify:track:7gY3cyGcB2wnk2xDXiA0pe"
+  },
+  {
+    "title": "Blue",
+    "artist": "Madison Beer",
+    "style": "Contemporary",
+    "uri": "spotify:track:4a1RWaG4BTkifgMSx3rpf3"
+  },
+  {
+    "title": "The Sweet Escape",
+    "artist": "Gwen Stefani & Akon",
+    "style": "Jazz",
+    "uri": "spotify:track:66ZcOcouenzZEnzTJvoFmH"
+  },
+  {
+    "title": "You Can't Stop The Beat (From Hairspray)",
+    "artist": "Elijah Kelley, John Travolta, Queen Latifah, Nikki Blonsky, Zac Efron, and Amanda Bynes",
+    "style": "Jazz",
+    "uri": "spotify:track:3pMsqOoZTtzUiZXmDVtrCD"
+  },
+  {
+    "title": "World's Smallest Violin",
+    "artist": "AJR",
+    "style": "Charleston",
+    "uri": "spotify:track:2GujK1FWxxOZ118PaWNgbZ"
   }
 ]
