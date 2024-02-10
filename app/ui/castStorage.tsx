@@ -14,6 +14,7 @@ import {
   ModalHeader,
   ModalOverlay,
   Spacer,
+  Spinner,
   Text,
   useDisclosure,
 } from '@chakra-ui/react';
@@ -64,7 +65,7 @@ export default function CastStorage() {
   };
 
   return loading ? (
-    <Loading />
+    <Spinner size="lg" margin={4} />
   ) : (
     <Box
       width="100%"
