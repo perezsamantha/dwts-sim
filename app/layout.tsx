@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { Providers } from './providers';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -10,19 +11,15 @@ export const metadata: Metadata = {
   description: 'Dancing with the Stars Simulator',
   generator: 'Next.js',
   manifest: '/manifest.json',
-  keywords: [
-    'dwts sim',
-    'dancing with the stars sim',
-    'dwts simulator',
-    'dancing with the stars simulator',
-    'simulator',
-    'dwtssim',
-  ],
+  keywords: ['dwts sim', 'dwts', 'dancing with the stars', 'simulator'],
   authors: [{ name: 'Samantha Perez' }],
 };
 
 export const viewport: Viewport = {
-  themeColor: '#CBD5E0',
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#fff' },
+    { media: '(prefers-color-scheme: dark)', color: 'rgb(24,29,38)' },
+  ],
 };
 
 export default function RootLayout({
@@ -42,6 +39,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <Providers>{children}</Providers>
+        <Analytics />
       </body>
     </html>
   );
