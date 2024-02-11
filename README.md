@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DWTS Simulator
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This is a simulator inspired by the dance competition television series Dancing with the Stars currently airing on [ABC](https://abc.com) and [Disney+](https://disneyplus.com). Similar to the concept of the show, users are able to customize their own cast and simulate a season of DWTS using randomized songs, styles, and scores. Users have the ability to save their custom casts for use in future simulations.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This simulator was inspired by [BrantSteele](https://brantsteele.com/), which hosts simulations for other competition shows, including Big Brother, The Hunger Games, RuPaul's Drag Race, and Survivor.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This sim is currently a frontend-only progressive web app. There is no authentication system as users are not required to create an account to use the sim. Stored data (former celebrities, professional dancers, and music) is fetched through JSON files. Any casts saved by the user will be stored and retrieved from their browser's local storage.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Technologies Used
 
-## Learn More
+- [Typescript](https://www.typescriptlang.org/) - High-level programming language with static typing for better error-catching and overall development
+- [Next.js](https://nextjs.org/docs) - React framework for building full-stack web applications using server-side rendering and static website generation
+- [Chakra UI](https://chakra-ui.com/) - Modular and accessible component library that provides building blocks for React applications
+- [TailwindCSS](https://tailwindcss.com/) - Modern CSS framework used for building custom user interfaces
+- [Zustand](https://docs.pmnd.rs/zustand) - Simple and intuitive state management solution for React applications
+- [Immer](https://immerjs.github.io/immer/) - Middleware that simplifies handling immutable states
+- [Spotify Embeds](https://developer.spotify.com/documentation/embeds) - Interactive audio previews provided directly from Spotify
 
-To learn more about Next.js, take a look at the following resources:
+## Credit
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+All credit surrounding simulator concepts relating to 'Dancing with the Stars' and preset images within the app belongs to ABC Network, BBC Global, and Disney+. No copyright was intended.
