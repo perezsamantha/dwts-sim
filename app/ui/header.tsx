@@ -85,7 +85,7 @@ export default function Header(props: {
         <ModalOverlay />
         <ModalContent margin={4}>
           <ModalHeader alignSelf="center">DWTS Sim Information</ModalHeader>
-          <ModalCloseButton top={4} />
+          <ModalCloseButton top={4} rounded="2xl" />
           <ModalBody>
             <Accordion allowToggle mb={2}>
               <AccordionItem borderTop="none">
@@ -111,7 +111,7 @@ export default function Header(props: {
                     <Link
                       href="https://open.spotify.com/playlist/7uYftq6IC0p2GJ5SSfDQQf?si=bd6c99fbc1ed401e"
                       isExternal
-                      color="blue.300"
+                      color="teal.500"
                     >
                       here
                     </Link>
@@ -123,7 +123,7 @@ export default function Header(props: {
                     <Link
                       href="https://forms.gle/vUC4rnQ6dU2AdUPK6"
                       isExternal
-                      color="blue.300"
+                      color="teal.500"
                     >
                       here
                     </Link>
@@ -141,21 +141,40 @@ export default function Header(props: {
                 </AccordionButton>
                 <AccordionPanel px={0}>
                   <Text mb={3}>
-                    This simulator does not collect your personal data or use
-                    any first-party cookies. The sim stores active simulations
-                    in session storage and saved casts in the browser&#39;s
-                    local storage, if the user chooses to save their custom
-                    casts.
+                    This simulator does not collect the user&#39;s personal data
+                    or use any first-party cookies. Currently, the sim stores
+                    saved casts in the browser&#39;s local storage and active
+                    simulations in session storage.
+                  </Text>
+                  <Text mb={3}>
+                    Spotify embeds are utilized as song previews for each dance.
+                    If the user is logged into Spotify on the same browser as
+                    the sim, the full song with additional functionality will be
+                    available. Otherwise, the song will be a 30 second preview.
+                    The sim does not have access to the user&#39;s Spotify
+                    account and will not perform any actions on their behalf.
                   </Text>
                   <Text>
-                    Spotify embeds are utilized as song previews for each dance.
-                    If your browser has third-party cookies blocked, the song
-                    preview will simply be a 30 second preview. Otherwise,
-                    Spotify will attempt to connect to your account to offer
-                    additional functionality, such as saving the song or viewing
-                    more information in the app. The sim does not have access to
-                    your Spotify account and will not perform any actions on
-                    your behalf.
+                    The sim uses Google Analytics to collect non-personal
+                    general information provided by the user&#39;s browser to
+                    report visitor insights. Users can view Google&#39;s Privacy
+                    Policy{' '}
+                    <Link
+                      href="https://policies.google.com/privacy"
+                      isExternal
+                      color="teal.500"
+                    >
+                      here
+                    </Link>{' '}
+                    and opt out of tracking{' '}
+                    <Link
+                      href="https://tools.google.com/dlpage/gaoptout"
+                      isExternal
+                      color="teal.500"
+                    >
+                      here
+                    </Link>
+                    .
                   </Text>
                 </AccordionPanel>
               </AccordionItem>
@@ -175,7 +194,7 @@ export default function Header(props: {
                     <Link
                       href="https://github.com/perezsamantha/dwts-sim"
                       isExternal
-                      color="blue.300"
+                      color="teal.500"
                     >
                       here
                     </Link>
@@ -188,7 +207,7 @@ export default function Header(props: {
                     <Link
                       href="https://brantsteele.com/"
                       isExternal
-                      color="blue.300"
+                      color="teal.500"
                     >
                       BrantSteele
                     </Link>
@@ -198,7 +217,7 @@ export default function Header(props: {
               </AccordionItem>
             </Accordion>
             {pathname !== '/' && (
-              <Center my={3}>
+              <Center>
                 <HomeButton />
               </Center>
             )}

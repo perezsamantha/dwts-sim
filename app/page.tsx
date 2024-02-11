@@ -15,7 +15,12 @@ import {
 import { useRouter } from 'next/navigation';
 import Header from './ui/header';
 import { sortStyles } from './lib/logic';
-import { ChevronRightIcon } from '@chakra-ui/icons';
+import {
+  ChevronRightIcon,
+  InfoIcon,
+  MoonIcon,
+  SunIcon,
+} from '@chakra-ui/icons';
 import { default as NextImage } from 'next/image';
 
 export default function Home() {
@@ -56,20 +61,38 @@ export default function Home() {
         p={3}
         boxShadow={colorMode === 'dark' ? darkModeShadow : lightModeShadow}
         bg={colorMode === 'dark' ? 'blackalpha.50' : 'whitealpha.50'}
-        gap={4}
+        gap={3}
         textAlign="left"
       >
         <Heading as="h4" size="md">
           Tips
         </Heading>
-        <HStack>
+        <HStack width="100%">
           <ChevronRightIcon />
           <Text>
             Customize your own cast by choosing from current/former professional
-            dancers and celebrities or by customizing your own dancer.
+            dancers and celebrities or by customizing your own team.
           </Text>
         </HStack>
-        <HStack>
+        <HStack width="100%">
+          <ChevronRightIcon />
+          <Text>
+            Custom casts can be saved before, during, or after a simulation is
+            completed by returning to <Text as="em">Setup</Text> page.
+          </Text>
+        </HStack>
+        <HStack width="100%">
+          <ChevronRightIcon />
+          <Text>
+            Click{' '}
+            {colorMode === 'dark' ? <SunIcon mb={1} /> : <MoonIcon mb={1} />} to
+            toggle dark mode and <InfoIcon mb={1} /> to view more information
+            about the app or return home at any point in the sim. Sim progress
+            will be saved as long as changes are not made to the cast after a
+            sim has been started.
+          </Text>
+        </HStack>
+        <HStack width="100%">
           <ChevronRightIcon />
           <Text>
             As of now, custom images must be provided through URL. Invalid
@@ -129,7 +152,7 @@ export default function Home() {
         <Text>Featured Styles</Text>
         <Wrap justify="center">
           {styles.map((style) => (
-            <Tag key={style} size="md" borderRadius="full">
+            <Tag key={style} size="md" colorScheme="gray" borderRadius="full">
               <TagLabel>{style}</TagLabel>
             </Tag>
           ))}

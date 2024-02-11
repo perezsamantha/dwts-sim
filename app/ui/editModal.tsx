@@ -163,7 +163,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
             Edit Team {props.teamId + 1}{' '}
             {props.dancerId === 1 ? 'Celebrity' : 'Professional'}
           </ModalHeader>
-          <ModalCloseButton />
+          <ModalCloseButton top={4} rounded="2xl" />
           <ModalBody>
             <Tabs
               variant="soft-rounded"
@@ -220,7 +220,6 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
                     )}
                     options={celebOptions}
                     onChange={(event) => setCelebIndex(event?.value!)}
-                    isSearchable={false}
                     styles={customStyles}
                   />
                 </TabPanel>

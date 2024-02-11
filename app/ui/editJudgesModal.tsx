@@ -1,7 +1,6 @@
 import {
   Box,
   Button,
-  Flex,
   FormControl,
   FormHelperText,
   FormLabel,
@@ -9,17 +8,10 @@ import {
   Input,
   Modal,
   ModalBody,
-  ModalCloseButton,
   ModalContent,
   ModalFooter,
   ModalHeader,
   ModalOverlay,
-  Select,
-  Tab,
-  TabList,
-  TabPanel,
-  TabPanels,
-  Tabs,
   useDisclosure,
 } from '@chakra-ui/react';
 import { useBoundStore } from '../store/useStore';
@@ -69,7 +61,6 @@ export default function EditJudgesModal() {
         <ModalOverlay />
         <ModalContent margin={4}>
           <ModalHeader>Edit Judges</ModalHeader>
-          <ModalCloseButton />
           <ModalBody>
             {custom.map((_, i) => (
               <FormControl key={i} isInvalid={isError(i)}>

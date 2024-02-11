@@ -81,7 +81,7 @@ export default function CastStorage() {
       <Text fontSize="lg">Saved Casts</Text>
       {castKeys.length > 0 ? (
         castKeys.map((key, i) => (
-          <Flex key={i} width="100%">
+          <Flex key={i} width="100%" alignItems="center">
             <Box maxWidth="55%">
               <Text noOfLines={1}>{key.substring(4, key.length)}</Text>
             </Box>
