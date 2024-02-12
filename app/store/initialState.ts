@@ -11,7 +11,8 @@ export const initialSim = {
   currentDance: 0,
   currentRunningOrder: [],
   weeks: [],
-  music: sortMusic(),
+  //music: sortMusic(),
+  //music: {},
   eliminated: [],
 };
 
@@ -20,15 +21,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Xochitl',
-        lastName: 'Gomez',
+        firstname: 'Xochitl',
+        lastname: 'Gomez',
         image: '/images/32/xochitl.jpg',
         type: 'celeb',
         dataIndex: 0,
       },
       {
-        firstName: 'Val',
-        lastName: 'Chmerkovskiy',
+        firstname: 'Val',
+        lastname: 'Chmerkovskiy',
         image: '/images/pros/val.jpg',
         type: 'pro',
         dataIndex: 14,
@@ -41,15 +42,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Jason',
-        lastName: 'Mraz',
+        firstname: 'Jason',
+        lastname: 'Mraz',
         image: '/images/32/jason.jpg',
         type: 'celeb',
         dataIndex: 1,
       },
       {
-        firstName: 'Daniella',
-        lastName: 'Karagach',
+        firstname: 'Daniella',
+        lastname: 'Karagach',
         image: '/images/pros/daniella.jpg',
         type: 'pro',
         dataIndex: 4,
@@ -62,15 +63,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Ariana',
-        lastName: 'Madix',
+        firstname: 'Ariana',
+        lastname: 'Madix',
         image: '/images/32/ariana.jpg',
         type: 'celeb',
         dataIndex: 2,
       },
       {
-        firstName: 'Pasha',
-        lastName: 'Pashkov',
+        firstname: 'Pasha',
+        lastname: 'Pashkov',
         image: '/images/pros/pasha.jpg',
         type: 'pro',
         dataIndex: 10,
@@ -83,15 +84,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Charity',
-        lastName: 'Lawson',
+        firstname: 'Charity',
+        lastname: 'Lawson',
         image: '/images/32/charity.jpg',
         type: 'celeb',
         dataIndex: 3,
       },
       {
-        firstName: 'Artem',
-        lastName: 'Chigvintsev',
+        firstname: 'Artem',
+        lastname: 'Chigvintsev',
         image: '/images/pros/artem.jpg',
         type: 'pro',
         dataIndex: 1,
@@ -104,15 +105,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Alyson',
-        lastName: 'Hannigan',
+        firstname: 'Alyson',
+        lastname: 'Hannigan',
         image: '/images/32/alyson.jpg',
         type: 'celeb',
         dataIndex: 4,
       },
       {
-        firstName: 'Sasha',
-        lastName: 'Farber',
+        firstname: 'Sasha',
+        lastname: 'Farber',
         image: '/images/pros/sasha.jpg',
         type: 'pro',
         dataIndex: 13,
@@ -125,15 +126,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Harry',
-        lastName: 'Jowsey',
+        firstname: 'Harry',
+        lastname: 'Jowsey',
         image: '/images/32/harry.jpg',
         type: 'celeb',
         dataIndex: 5,
       },
       {
-        firstName: 'Rylee',
-        lastName: 'Arnold',
+        firstname: 'Rylee',
+        lastname: 'Arnold',
         image: '/images/pros/rylee.jpg',
         type: 'pro',
         dataIndex: 12,
@@ -146,15 +147,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Barry',
-        lastName: 'Williams',
+        firstname: 'Barry',
+        lastname: 'Williams',
         image: '/images/32/barry.jpg',
         type: 'celeb',
         dataIndex: 6,
       },
       {
-        firstName: 'Peta',
-        lastName: 'Murgatroyd',
+        firstname: 'Peta',
+        lastname: 'Murgatroyd',
         image: '/images/pros/peta.jpg',
         type: 'pro',
         dataIndex: 11,
@@ -167,15 +168,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Lele',
-        lastName: 'Pons',
+        firstname: 'Lele',
+        lastname: 'Pons',
         image: '/images/32/lele.jpg',
         type: 'celeb',
         dataIndex: 7,
       },
       {
-        firstName: 'Brandon',
-        lastName: 'Armstrong',
+        firstname: 'Brandon',
+        lastname: 'Armstrong',
         image: '/images/pros/brandon.jpg',
         type: 'pro',
         dataIndex: 2,
@@ -188,15 +189,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Mauricio',
-        lastName: 'Umansky',
+        firstname: 'Mauricio',
+        lastname: 'Umansky',
         image: '/images/32/mauricio.jpg',
         type: 'celeb',
         dataIndex: 8,
       },
       {
-        firstName: 'Emma',
-        lastName: 'Slater',
+        firstname: 'Emma',
+        lastname: 'Slater',
         image: '/images/pros/emma.jpg',
         type: 'pro',
         dataIndex: 5,
@@ -209,15 +210,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Mira',
-        lastName: 'Sorvino',
+        firstname: 'Mira',
+        lastname: 'Sorvino',
         image: '/images/32/mira.jpg',
         type: 'celeb',
         dataIndex: 9,
       },
       {
-        firstName: 'Gleb',
-        lastName: 'Savchenko',
+        firstname: 'Gleb',
+        lastname: 'Savchenko',
         image: '/images/pros/gleb.jpg',
         type: 'pro',
         dataIndex: 7,
@@ -230,15 +231,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Adrian',
-        lastName: 'Peterson',
+        firstname: 'Adrian',
+        lastname: 'Peterson',
         image: '/images/32/adrian.jpg',
         type: 'celeb',
         dataIndex: 10,
       },
       {
-        firstName: 'Britt',
-        lastName: 'Stewart',
+        firstname: 'Britt',
+        lastname: 'Stewart',
         image: '/images/pros/britt.jpg',
         type: 'pro',
         dataIndex: 3,
@@ -251,15 +252,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Tyson',
-        lastName: 'Beckford',
+        firstname: 'Tyson',
+        lastname: 'Beckford',
         image: '/images/32/tyson.jpg',
         type: 'celeb',
         dataIndex: 11,
       },
       {
-        firstName: 'Jenna',
-        lastName: 'Johnson',
+        firstname: 'Jenna',
+        lastname: 'Johnson',
         image: '/images/pros/jenna.jpg',
         type: 'pro',
         dataIndex: 8,
@@ -272,15 +273,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Jamie Lynn',
-        lastName: 'Spears',
+        firstname: 'Jamie Lynn',
+        lastname: 'Spears',
         image: '/images/32/jamielynn.jpg',
         type: 'celeb',
         dataIndex: 12,
       },
       {
-        firstName: 'Alan',
-        lastName: 'Bersten',
+        firstname: 'Alan',
+        lastname: 'Bersten',
         image: '/images/pros/alan.jpg',
         type: 'pro',
         dataIndex: 0,
@@ -293,15 +294,15 @@ export const initialCast = [
     placement: 0,
     teamMembers: [
       {
-        firstName: 'Matt',
-        lastName: 'Walsh',
+        firstname: 'Matt',
+        lastname: 'Walsh',
         image: '/images/32/matt.jpg',
         type: 'celeb',
         dataIndex: 13,
       },
       {
-        firstName: 'Koko',
-        lastName: 'Iwasaki',
+        firstname: 'Koko',
+        lastname: 'Iwasaki',
         image: '/images/pros/koko.jpg',
         type: 'pro',
         dataIndex: 9,

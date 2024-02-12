@@ -1,6 +1,6 @@
 interface Celeb {
-  firstName: string;
-  lastName: string;
+  firstname: string;
+  lastname: string;
   image: string;
   gender: string;
   season: string;
@@ -8,8 +8,8 @@ interface Celeb {
 }
 
 interface Pro {
-  firstName: string;
-  lastName: string;
+  firstname: string;
+  lastname: string;
   image: string;
   gender: string;
   current: string;
@@ -23,8 +23,8 @@ interface Team {
 }
 
 interface Dancer {
-  firstName: string;
-  lastName: string;
+  firstname: string;
+  lastname: string;
   image: string;
   type: string;
   dataIndex: number;

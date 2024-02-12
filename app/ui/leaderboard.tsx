@@ -62,7 +62,7 @@ export default function Leaderboard(props: {
                       </AspectRatio>
                     </Box>
                     <Text>
-                      {celeb.firstName} & {pro.firstName}
+                      {celeb.firstname} & {pro.firstname}
                     </Text>
                   </Flex>
                 </Td>

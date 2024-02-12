@@ -1,8 +1,6 @@
 import { Dance, Team, Dancer, Song, Pro, Celeb } from '../store/interfaces';
-import music from '../data/music.json';
-import celebs from '../data/celebs.json';
-import pros from '../data/pros.json';
-import { styles } from '../data/styles';
+import { styles } from './styles';
+import { getCelebs, getMusic, getPros } from './functions';
 
 const weights = [
   [0.4, 0.8, 2.8, 6, 15, 25, 30, 15, 4, 1],
@@ -13,19 +11,22 @@ const weights = [
 
 // shuffle music
 // O(n) - durstenfeld shuffle, optimized fisher-yates
-export const shuffleMusic = (music: Song[]) => {
+export async function shuffleMusic() {
+  const music: Song[] = await getMusic();
   for (let i = music.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     var tmp = music[i];
     music[i] = music[j];
     music[j] = tmp;
   }
+
   return music;
-};
+}
 
 // reduce/sort music data by style
-const sortMusicByStyle = (music: Song[]) =>
-  music.reduce(
+const sortMusicByStyle = async () => {
+  const music = await shuffleMusic();
+  const test = music.reduce(
     (previous, currentItem) => {
       const value: string = currentItem['style'];
       const existing = previous[value] || [];
@@ -37,24 +38,32 @@ const sortMusicByStyle = (music: Song[]) =>
     {} as { [style: string]: Song[] }
   );
 
-export const sortMusic = () => sortMusicByStyle(shuffleMusic(music));
+  return test;
+};
+
+export const sortMusic = () => sortMusicByStyle();
 
 export const sortStyles = () => styles.sort((a, b) => (a < b ? -1 : 1));
 
 //sort celebs by season, and placement
-export const sortCelebs = (celebs: Celeb[]) =>
+export const sortCelebs = async () => {
+  const celebs: Celeb[] = await getCelebs();
   celebs.sort((a, b) => {
-    if (a.season !== b.season)
-      return Number(a.season) > Number(b.season) ? -1 : 1;
-    else return Number(a.placement) > Number(b.placement) ? 1 : -1;
+    if (a.season !== b.season) return a.season > b.season ? -1 : 1;
+    else return a.placement > b.placement ? 1 : -1;
   });
+  return celebs;
+};
 
 // sort pros by active and alphabetical
-export const sortPros = (pros: Pro[]) =>
+export const sortPros = async () => {
+  const pros: Pro[] = await getPros();
   pros.sort((a, b) => {
-    if (a.current !== b.current) return a.current === 'true' ? -1 : 1;
-    else return a.firstName > b.firstName ? 1 : -1;
+    if (a.current !== b.current) return a.current ? -1 : 1;
+    else return a.firstname > b.firstname ? 1 : -1;
   });
+  return pros;
+};
 
 // shuffle cast (running order) and remove eliminated teams
 export const shuffleCast = (cast: Team[]) => {
@@ -131,7 +140,11 @@ export const calculatePlacement = (cast: Team[]) =>
   cast.filter((team) => !team.placement).length;
 
 // randomize cast
-export const randomizeCast = (numberTeams: number) => {
+export const randomizeCast = (
+  numberTeams: number,
+  pros: Pro[],
+  celebs: Celeb[]
+) => {
   const celebIds = new Set(),
     proIds = new Set();
   const cast = new Array<Team>();
@@ -140,12 +153,12 @@ export const randomizeCast = (numberTeams: number) => {
     while (celebIds.has(celebId))
       celebId = Math.floor(Math.random() * celebs.length);
     celebIds.add(celebId);
-    const celeb = createDancerObj(celebId, 'celeb');
+    const celeb = createDancerObj(celebId, 'celeb', pros, celebs);
 
     let proId = Math.floor(Math.random() * pros.length);
     while (proIds.has(proId)) proId = Math.floor(Math.random() * pros.length);
     proIds.add(proId);
-    const pro = createDancerObj(proId, 'pro');
+    const pro = createDancerObj(proId, 'pro', pros, celebs);
 
     cast.push({
       placement: 0,
@@ -158,11 +171,11 @@ export const randomizeCast = (numberTeams: number) => {
 };
 
 // randomize ONE team
-export const randomizeTeam = () => {
+export const randomizeTeam = (pros: Pro[], celebs: Celeb[]) => {
   let celebId = Math.floor(Math.random() * celebs.length);
-  const celeb = createDancerObj(celebId, 'celeb');
+  const celeb = createDancerObj(celebId, 'celeb', pros, celebs);
   let proId = Math.floor(Math.random() * pros.length);
-  const pro = createDancerObj(proId, 'pro');
+  const pro = createDancerObj(proId, 'pro', pros, celebs);
 
   return {
     placement: 0,
@@ -173,7 +186,12 @@ export const randomizeTeam = () => {
 };
 
 // create sim celeb object
-export const createDancerObj = (id: number, type: string) => {
+export const createDancerObj = (
+  id: number,
+  type: string,
+  pros: Pro[],
+  celebs: Celeb[]
+) => {
   let dancer, image;
   //const dancer: Celeb | Pro = type === 'celeb' ? celebs[id] : pros[id];
   if (type === 'celeb') {
@@ -185,8 +203,8 @@ export const createDancerObj = (id: number, type: string) => {
   }
 
   const obj: Dancer = {
-    firstName: dancer.firstName,
-    lastName: dancer.lastName,
+    firstname: dancer.firstname,
+    lastname: dancer.lastname || '',
     image: image,
     dataIndex: id,
     type: type,

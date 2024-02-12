@@ -22,11 +22,11 @@ export default function Team(props: { teamId: number }) {
         <Box width="48%">
           <CastImage data={team.teamMembers[0]} elim={false} />
           <Text align="center" noOfLines={1} mb={0} mt={2}>
-            {team.teamMembers[0].firstName}
+            {team.teamMembers[0].firstname}
           </Text>
-          {team.teamMembers[0].lastName ? (
+          {team.teamMembers[0].lastname ? (
             <Text align="center" noOfLines={1} mt={0}>
-              {team.teamMembers[0].lastName}
+              {team.teamMembers[0].lastname}
             </Text>
           ) : (
             <br />
@@ -37,11 +37,11 @@ export default function Team(props: { teamId: number }) {
         <Box width="48%" alignItems="center">
           <CastImage data={team.teamMembers[1]} elim={false} />
           <Text align="center" noOfLines={1} mb={0} mt={2}>
-            {team.teamMembers[1].firstName}
+            {team.teamMembers[1].firstname}
           </Text>
-          {team.teamMembers[1].lastName ? (
+          {team.teamMembers[1].lastname ? (
             <Text align="center" noOfLines={1} mt={0}>
-              {team.teamMembers[1].lastName}
+              {team.teamMembers[1].lastname}
             </Text>
           ) : (
             <br />

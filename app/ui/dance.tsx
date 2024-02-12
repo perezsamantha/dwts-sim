@@ -56,7 +56,7 @@ export default function Dance(props: { dance: Dance }) {
           </Box>
         </Flex>
         <Text margin={1} fontSize="lg">
-          {celeb.firstName} & {pro.firstName}
+          {celeb.firstname} & {pro.firstname}
         </Text>
       </Box>
     );
@@ -87,8 +87,8 @@ export default function Dance(props: { dance: Dance }) {
               </Box>
             </Flex>
             <Text margin={1} fontWeight="600">
-              {cast[id].teamMembers[0].firstName} &{' '}
-              {cast[id].teamMembers[1].firstName}
+              {cast[id].teamMembers[0].firstname} &{' '}
+              {cast[id].teamMembers[1].firstname}
             </Text>
           </Box>
         ))}

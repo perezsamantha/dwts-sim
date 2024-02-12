@@ -9,11 +9,23 @@ import CastStorage from '../ui/castStorage';
 import EditNumberWeeks from '../ui/editNumberWeeks';
 import EditNumberTeams from '../ui/editNumberTeams';
 import { useRouter } from 'next/navigation';
+import Loading from '../ui/loading';
+import { useEffect, useRef, useState } from 'react';
 
 export default function Home() {
-  const { cast, judges, randomizeCast, resetSim, currentWeek } =
+  const { cast, judges, randomizeCast, resetSim, currentWeek, loadData } =
     useBoundStore();
   const router = useRouter();
+  const [loading, setLoading] = useState(true);
+  const effectRan = useRef(false);
+
+  useEffect(() => {
+    if (!effectRan.current) {
+      loadData();
+      setLoading(false);
+    }
+    effectRan.current = true;
+  }, [loadData]);
 
   const handleRandomize = () => {
     randomizeCast();
@@ -28,7 +40,9 @@ export default function Home() {
     router.push(`/week${currentWeek}`);
   };
 
-  return (
+  return loading ? (
+    <Loading />
+  ) : (
     <Box
       display="flex"
       flexDirection="column"

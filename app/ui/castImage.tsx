@@ -21,14 +21,14 @@ export default function CastImage(props: { data: Dancer; elim: boolean }) {
       <AspectRatio ratio={1}>
         {/* <Image
           src={props.data.image}
-          alt={`${props.data.firstName} ${props.data.lastName}`}
+          alt={`${props.data.firstname} ${props.data.lastname}`}
           fallbackSrc="/images/mirrorball.png"
           style={imageStyle}
         /> */}
 
         <NextImage
           src={imgSrc || '/images/mirrorball.png'}
-          alt={`${props.data.firstName} ${props.data.lastName}`}
+          alt={`${props.data.firstname} ${props.data?.lastname || ''}`}
           object-fit="cover"
           unoptimized={props.data.type === 'custom'}
           fill

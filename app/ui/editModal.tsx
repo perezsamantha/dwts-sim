@@ -22,9 +22,7 @@ import {
 } from '@chakra-ui/react';
 import { useBoundStore } from '../store/useStore';
 import { useState } from 'react';
-import prosData from '../data/pros.json';
-import celebsData from '../data/celebs.json';
-import { sortPros, sortCelebs, createDancerObj } from '../lib/logic';
+import { createDancerObj } from '../lib/logic';
 import {
   Select as ChakraSelect,
   createFilter,
@@ -40,7 +38,9 @@ function CustomOption(props: any) {
 
 export default function EditModal(props: { teamId: number; dancerId: number }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { updateDancer, resetSim } = useBoundStore((state) => state);
+  const { updateDancer, resetSim, pros, celebs } = useBoundStore(
+    (state) => state
+  );
   const dancer = useBoundStore(
     (state) => state.cast[props.teamId].teamMembers[props.dancerId]
   );
@@ -48,8 +48,6 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
   const [celebIndex, setCelebIndex] = useState(0);
   const [proIndex, setProIndex] = useState(0);
   const [tab, setTab] = useState(0);
-  const pros = sortPros(prosData);
-  const celebs = sortCelebs(celebsData);
 
   const customStyles = {
     option: (provided: any, state: any) => ({
@@ -63,12 +61,14 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
   };
 
   const celebOptions = celebs.map((celeb, i) => ({
-    label: `${celeb.firstName} ${celeb.lastName} - Season ${celeb.season}`,
+    label: `${celeb.firstname} ${celeb?.lastname || ''} - Season ${
+      celeb.season
+    }`,
     value: i,
   }));
 
   const proOptions = pros.map((pro, i) => ({
-    label: `${pro.firstName} ${pro.lastName}`,
+    label: `${pro.firstname} ${pro.lastname || ''}`,
     value: i,
   }));
 
@@ -81,7 +81,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
     });
   };
 
-  const saveChanges = () => {
+  const saveChanges = async () => {
     if (isError) return;
     if (updateDancer) {
       if (tab === 0)
@@ -94,13 +94,13 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
         updateDancer(
           props.teamId,
           props.dancerId,
-          createDancerObj(celebIndex, 'celeb')
+          createDancerObj(celebIndex, 'celeb', pros, celebs)
         );
       else if (tab === 2)
         updateDancer(
           props.teamId,
           props.dancerId,
-          createDancerObj(proIndex, 'pro')
+          createDancerObj(proIndex, 'pro', pros, celebs)
         );
       resetSim();
       onClose();
@@ -117,8 +117,8 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
         setCelebIndex(idx);
         setCustom({
           ...custom,
-          firstName: celebs[idx].firstName,
-          lastName: celebs[idx].lastName,
+          firstname: celebs[idx].firstname,
+          lastname: celebs[idx].lastname || '',
           image: '',
         });
         setTab(1);
@@ -127,23 +127,23 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
         setProIndex(idx);
         setCustom({
           ...custom,
-          firstName: pros[idx].firstName,
-          lastName: pros[idx].lastName,
+          firstname: pros[idx].firstname,
+          lastname: pros[idx].lastname || '',
           image: '',
         });
         setTab(2);
       }
       // setCustom({
       //   ...custom,
-      //   firstName: '',
-      //   lastName: '',
+      //   firstname: '',
+      //   lastname: '',
       //   image: '',
       // });
     }
     onOpen();
   };
 
-  const isError = !custom.firstName || !custom.firstName.trim();
+  const isError = !custom.firstname || !custom.firstname.trim();
 
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
@@ -181,9 +181,9 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
                   <FormControl isInvalid={isError}>
                     <FormLabel my={2}>First Name</FormLabel>
                     <Input
-                      value={custom.firstName}
+                      value={custom.firstname}
                       onChange={(event) => handleCustomChange(event)}
-                      id="firstName"
+                      id="firstname"
                     />
                     {isError && (
                       <FormHelperText>First Name is required</FormHelperText>
@@ -192,9 +192,9 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
                   <FormControl>
                     <FormLabel my={2}>Last Name</FormLabel>
                     <Input
-                      value={custom.lastName}
+                      value={custom.lastname || ''}
                       onChange={(event) => handleCustomChange(event)}
-                      id="lastName"
+                      id="lastname"
                     />
                   </FormControl>
                   <FormControl>

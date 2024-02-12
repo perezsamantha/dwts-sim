@@ -45,7 +45,7 @@ export default function TeamSummary(props: { team: Team }) {
           </Box>
         </Flex>
         <Text fontSize="lg">
-          {celeb.firstName} & {pro.firstName}
+          {celeb.firstname} & {pro.firstname}
         </Text>
       </Box>
     );

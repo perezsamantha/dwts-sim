@@ -17,7 +17,7 @@ export default function AvatarImage(props: { dancer: Dancer }) {
   return (
     <NextImage
       src={imgSrc || '/images/mirrorball.png'}
-      alt={`${dancer.firstName} ${dancer.lastName}`}
+      alt={`${dancer.firstname} ${dancer?.lastname || ''}`}
       object-fit="cover"
       unoptimized={dancer.type === 'custom'}
       fill

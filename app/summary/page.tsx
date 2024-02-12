@@ -102,8 +102,8 @@ export default function Summary() {
                       </AspectRatio>
                     </Box>
                     <Text>
-                      {team.teamMembers[0].firstName} &{' '}
-                      {team.teamMembers[1].firstName}
+                      {team.teamMembers[0].firstname} &{' '}
+                      {team.teamMembers[1].firstname}
                     </Text>
                   </Flex>
                 </Td>

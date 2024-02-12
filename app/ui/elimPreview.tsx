@@ -8,7 +8,7 @@ export default function ElimPreview(props: { team: Team }) {
   const [reveal, setReveal] = useState(false);
 
   const getTeamName = () =>
-    `${team.teamMembers[0].firstName} & ${team.teamMembers[1].firstName}`;
+    `${team.teamMembers[0].firstname} & ${team.teamMembers[1].firstname}`;
 
   const handleReveal = () => {
     setReveal(true);

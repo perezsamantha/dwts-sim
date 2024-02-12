@@ -22,7 +22,7 @@ export default function FinalTwo() {
   const [final2, setFinal2] = useState(new Array<number>());
 
   const getTeamName = (id: number) =>
-    `${cast[id].teamMembers[0].firstName} & ${cast[id].teamMembers[1].firstName}`;
+    `${cast[id].teamMembers[0].firstname} & ${cast[id].teamMembers[1].firstname}`;
 
   useEffect(() => {
     if (!effectRan.current) {
