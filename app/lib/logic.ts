@@ -187,7 +187,7 @@ export const randomizeTeam = (pros: Pro[], celebs: Celeb[]) => {
 
 // create sim celeb object
 export const createDancerObj = (
-  id: number,
+  index: number,
   type: string,
   pros: Pro[],
   celebs: Celeb[]
@@ -195,10 +195,10 @@ export const createDancerObj = (
   let dancer, image;
   //const dancer: Celeb | Pro = type === 'celeb' ? celebs[id] : pros[id];
   if (type === 'celeb') {
-    dancer = celebs[id];
+    dancer = celebs[index];
     image = `/images/${dancer.season}/${dancer.image}.jpg`;
   } else {
-    dancer = pros[id];
+    dancer = pros[index];
     image = `/images/pros/${dancer.image}.jpg`;
   }
 
@@ -206,7 +206,7 @@ export const createDancerObj = (
     firstname: dancer.firstname,
     lastname: dancer.lastname || '',
     image: image,
-    dataIndex: id,
+    dataId: dancer.id,
     type: type,
   };
   return obj;

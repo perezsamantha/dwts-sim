@@ -77,7 +77,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
       ...custom,
       [event.target.id]: event.target.value,
       type: 'custom',
-      dataIndex: 0,
+      dataId: '',
     });
   };
 
@@ -88,7 +88,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
         updateDancer(props.teamId, props.dancerId, {
           ...custom,
           type: 'custom',
-          dataIndex: 0,
+          dataId: '',
         });
       else if (tab == 1)
         updateDancer(
@@ -113,7 +113,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
       setTab(0);
     } else {
       if (dancer.type == 'celeb') {
-        const idx = dancer.dataIndex;
+        const idx = celebs.findIndex((celeb) => celeb.id === dancer.dataId);
         setCelebIndex(idx);
         setCustom({
           ...custom,
@@ -123,7 +123,7 @@ export default function EditModal(props: { teamId: number; dancerId: number }) {
         });
         setTab(1);
       } else {
-        const idx = dancer.dataIndex;
+        const idx = pros.findIndex((pro) => pro.id === dancer.dataId);
         setProIndex(idx);
         setCustom({
           ...custom,

@@ -1,4 +1,5 @@
 interface Celeb {
+  id: string;
   firstname: string;
   lastname: string;
   image: string;
@@ -8,6 +9,7 @@ interface Celeb {
 }
 
 interface Pro {
+  id: string;
   firstname: string;
   lastname: string;
   image: string;
@@ -27,7 +29,7 @@ interface Dancer {
   lastname: string;
   image: string;
   type: string;
-  dataIndex: number;
+  dataId: string;
 }
 
 interface Song {
