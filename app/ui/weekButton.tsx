@@ -9,7 +9,7 @@ export default function WeekButton(props: { week: number }) {
   };
 
   return (
-    <Button onClick={handleButton} my={4}>
+    <Button onClick={handleButton} mt={4} mb={8}>
       Week {props.week}
     </Button>
   );

@@ -9,7 +9,7 @@ export default function FinalTwoButton() {
   };
 
   return (
-    <Button onClick={handleButton} my={4}>
+    <Button onClick={handleButton} mt={4} mb={8}>
       Final 2
     </Button>
   );

@@ -73,12 +73,10 @@ export default function Dance(props: { dance: Dance }) {
             flexDirection="column"
             alignItems="center"
             textAlign="center"
+            width={['140px', '175px', '200px', '225px']}
             gap={2}
           >
-            <Flex
-              flexDirection="row"
-              minWidth={['140px', '175px', '200px', '225px']}
-            >
+            <Flex flexDirection="row" width="100%">
               <Box width="100%" mr={2}>
                 <CastImage data={cast[id].teamMembers[0]} elim={false} />
               </Box>

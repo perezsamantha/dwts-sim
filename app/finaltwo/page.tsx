@@ -77,7 +77,8 @@ export default function FinalTwo() {
           </Box>
         </Flex>
         <Box textAlign="center">
-          <Text fontSize="lg">The winners and new champions</Text>
+          <Text fontSize="lg">After {numberWeeks} weeks of competition,</Text>
+          <Text fontSize="lg">the winners and new champions</Text>
           <Text fontSize="lg">of Dancing with the Stars are ...</Text>
         </Box>
 

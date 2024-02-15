@@ -3,6 +3,7 @@ import {
   AspectRatio,
   Box,
   Button,
+  Divider,
   HStack,
   Heading,
   Link,
@@ -58,7 +59,8 @@ export default function Home() {
         alignItems="center"
         rounded="lg"
         my={2}
-        p={3}
+        py={4}
+        px={3}
         boxShadow={colorMode === 'dark' ? darkModeShadow : lightModeShadow}
         bg={colorMode === 'dark' ? 'blackalpha.50' : 'whitealpha.50'}
         gap={3}
@@ -88,8 +90,8 @@ export default function Home() {
             {colorMode === 'dark' ? <SunIcon mb={1} /> : <MoonIcon mb={1} />} to
             toggle dark mode and <InfoIcon mb={1} /> to view more information
             about the app or return home at any point in the sim. Sim progress
-            will be saved as long as changes are not made to the cast after a
-            sim has been started.
+            will be saved as long as the browser stays open and changes are not
+            made to the cast after a sim has been started.
           </Text>
         </HStack>
         <HStack width="100%">
@@ -120,7 +122,8 @@ export default function Home() {
         alignItems="center"
         rounded="lg"
         my={2}
-        p={3}
+        py={4}
+        px={3}
         boxShadow={colorMode === 'dark' ? darkModeShadow : lightModeShadow}
         bg={colorMode === 'dark' ? 'blackalpha.50' : 'whitealpha.50'}
         gap={4}
@@ -128,28 +131,35 @@ export default function Home() {
         <Heading as="h4" size="md">
           Songs & Styles
         </Heading>
-        <Text>Featured Songs</Text>
-        <Text>
-          <Link
-            href="https://open.spotify.com/playlist/7uYftq6IC0p2GJ5SSfDQQf?si=bd6c99fbc1ed401e"
-            isExternal
-            color="blue.300"
-          >
-            Spotify Playlist
-          </Link>
-        </Text>
-        <Text>
-          Request a song{' '}
-          <Link
-            href="https://forms.gle/vUC4rnQ6dU2AdUPK6"
-            isExternal
-            color="blue.300"
-          >
-            HERE
-          </Link>
-          !
-        </Text>
-        <Text>Featured Styles</Text>
+        <Box>
+          <Text fontSize="lg">Featured Songs</Text>
+          <Divider borderColor="gray" />
+        </Box>
+        <Box>
+          <Text>
+            <Link
+              href="https://open.spotify.com/playlist/7uYftq6IC0p2GJ5SSfDQQf?si=bd6c99fbc1ed401e"
+              isExternal
+              color="blue.300"
+            >
+              Spotify Playlist
+            </Link>
+          </Text>
+          <Text>
+            Request a song{' '}
+            <Link
+              href="https://forms.gle/vUC4rnQ6dU2AdUPK6"
+              isExternal
+              color="blue.300"
+            >
+              HERE
+            </Link>
+          </Text>
+        </Box>
+        <Box>
+          <Text fontSize="lg">Featured Styles</Text>
+          <Divider borderColor="gray" />
+        </Box>
         <Wrap justify="center">
           {styles.map((style) => (
             <Tag key={style} size="md" colorScheme="gray" borderRadius="full">
@@ -159,7 +169,9 @@ export default function Home() {
         </Wrap>
       </Box>
 
-      <Button onClick={() => router.push('/setup')}>Setup</Button>
+      <Button mt={4} mb={8} onClick={() => router.push('/setup')}>
+        Setup
+      </Button>
     </Box>
   );
 }

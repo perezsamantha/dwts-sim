@@ -111,7 +111,7 @@ export default function Home() {
           <Text fontSize="xl" fontWeight="600">
             Sim in progress!
           </Text>
-          <Flex flexDirection="row" alignItems="center">
+          <Flex flexDirection="row" alignItems="center" mt={1} mb={7}>
             <Button colorScheme="red" onClick={handleReset}>
               Reset
             </Button>

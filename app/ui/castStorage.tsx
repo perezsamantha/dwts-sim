@@ -3,6 +3,7 @@ import {
   Box,
   Button,
   ButtonGroup,
+  Divider,
   Flex,
   FormControl,
   FormLabel,
@@ -78,7 +79,10 @@ export default function CastStorage() {
       borderRadius="xl"
       my={2}
     >
-      <Text fontSize="lg">Saved Casts</Text>
+      <Box>
+        <Text fontSize="lg">Saved Casts</Text>
+        {/* <Divider borderColor="gray" /> */}
+      </Box>
       {castKeys.length > 0 ? (
         castKeys.map((key, i) => (
           <Flex key={i} width="100%" alignItems="center">

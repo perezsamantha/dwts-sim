@@ -7,6 +7,7 @@ import {
   AccordionItem,
   AccordionPanel,
   Box,
+  Button,
   Center,
   Flex,
   IconButton,
@@ -23,7 +24,6 @@ import {
   useDisclosure,
 } from '@chakra-ui/react';
 import { useRouter, usePathname } from 'next/navigation';
-import HomeButton from './homeButton';
 
 export default function Header(props: {
   type: 'home' | 'setup' | 'week' | 'results' | 'summary';
@@ -42,6 +42,10 @@ export default function Header(props: {
     } else if (props.type === 'results') router.push(`/week${props.week}`);
     else if (props.type === 'summary')
       router.push(`/week${props.week}/results`);
+  };
+
+  const handleButton = () => {
+    router.push(`/`);
   };
 
   return (
@@ -189,8 +193,8 @@ export default function Header(props: {
                 <AccordionPanel px={0}>
                   <Text mb={3}>
                     This sim was created from scratch using TypeScript, Next.js,
-                    Chakra UI, Tailwind CSS, and Zustand for state management.
-                    The GitHub code repository can be viewed{' '}
+                    Chakra UI, Tailwind CSS, PostgreSQL, and Zustand for state
+                    management. The GitHub code repository can be viewed{' '}
                     <Link
                       href="https://github.com/perezsamantha/dwts-sim"
                       isExternal
@@ -218,7 +222,9 @@ export default function Header(props: {
             </Accordion>
             {pathname !== '/' && (
               <Center>
-                <HomeButton />
+                <Button mt={0} mb={3} onClick={handleButton}>
+                  Home
+                </Button>
               </Center>
             )}
           </ModalBody>
