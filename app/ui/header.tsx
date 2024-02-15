@@ -26,7 +26,7 @@ import {
 import { useRouter, usePathname } from 'next/navigation';
 
 export default function Header(props: {
-  type: 'home' | 'setup' | 'week' | 'results' | 'summary';
+  type: 'home' | 'setup' | 'week' | 'results' | 'finaltwo' | 'summary';
   week: number;
 }) {
   const router = useRouter();
@@ -40,8 +40,9 @@ export default function Header(props: {
       if (props.week === 1) router.push('/setup');
       else router.push(`/week${props.week - 1}/results`);
     } else if (props.type === 'results') router.push(`/week${props.week}`);
-    else if (props.type === 'summary')
+    else if (props.type === 'finaltwo')
       router.push(`/week${props.week}/results`);
+    else if (props.type === 'summary') router.push(`/finaltwo`);
   };
 
   const handleButton = () => {

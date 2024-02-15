@@ -39,7 +39,7 @@ export default function FinalTwo() {
     <Loading />
   ) : (
     <Box display="flex" flexDirection="column" alignItems="center" padding={4}>
-      <Header type="summary" week={numberWeeks} />
+      <Header type="finaltwo" week={numberWeeks} />
       <Heading as="h1" size="xl">
         Final 2
       </Heading>
@@ -77,8 +77,8 @@ export default function FinalTwo() {
           </Box>
         </Flex>
         <Box textAlign="center">
-          <Text fontSize="lg">After {numberWeeks} weeks of competition,</Text>
-          <Text fontSize="lg">the winners and new champions</Text>
+          {/* <Text fontSize="lg">After {numberWeeks} weeks of competition,</Text> */}
+          <Text fontSize="lg">The winners and new champions</Text>
           <Text fontSize="lg">of Dancing with the Stars are ...</Text>
         </Box>
 
