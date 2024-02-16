@@ -1,7 +1,7 @@
 'use client';
 import { Tab, TabList, Tabs } from '@chakra-ui/react';
 import { useBoundStore } from '../store/useStore';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function EditNumberTeams() {
   const { numberTeams, updateNumberTeams, resetSim, updateCastSize } =
@@ -10,6 +10,10 @@ export default function EditNumberTeams() {
   const teamOptions = Array.from({ length: 7 }, (_, i) => i + 10);
 
   const [tab, setTab] = useState(numberTeams - 10);
+
+  useEffect(() => {
+    setTab(numberTeams - 10);
+  }, [numberTeams]);
 
   const handleChange = (index: number) => {
     setTab(index);
