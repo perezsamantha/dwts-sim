@@ -3,7 +3,9 @@ import { useEffect, useState } from 'react';
 const base_url =
   process.env.NODE_ENV === 'development'
     ? 'http://localhost:3000'
-    : 'https://dwts-sim.vercel.app';
+    : 'https://dancingsim.app';
+
+// or 'https://dwts-sim.vercel.app'
 
 export async function getMusic() {
   const res = await fetch(`${base_url}/api/get-music`);

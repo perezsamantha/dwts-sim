@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react';
 import { Team } from '../store/interfaces';
 import CastImage from './castImage';
-import { getOrdinalNumber, totalScore } from '../lib/logic';
+import { calculateAverage, getOrdinalNumber, totalScore } from '../lib/logic';
 import { useState } from 'react';
 import { ChevronDownIcon, ChevronUpIcon } from '@chakra-ui/icons';
 
@@ -45,7 +45,8 @@ export default function TeamSummary(props: { team: Team }) {
           </Box>
         </Flex>
         <Text fontSize="lg">
-          {celeb.firstname} & {pro.firstname}
+          {celeb.firstname} {celeb.lastname || ''} & {pro.firstname}{' '}
+          {pro.lastname || ''}
         </Text>
       </Box>
     );
@@ -107,6 +108,9 @@ export default function TeamSummary(props: { team: Team }) {
             </Flex>
           </Box>
         ))}
+        <Text mt={4} align="center" fontWeight="600">
+          Average - {calculateAverage(team.dances)}
+        </Text>
       </Collapse>
     </Box>
   );

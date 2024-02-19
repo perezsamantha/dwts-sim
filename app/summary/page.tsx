@@ -8,7 +8,6 @@ import {
   Box,
   Flex,
   Heading,
-  Spacer,
   Table,
   TableContainer,
   Tbody,
@@ -115,9 +114,12 @@ export default function Summary() {
         </Table>
       </TableContainer>
 
-      <Text fontSize="xl" my={4}>
-        Team Summaries
-      </Text>
+      <Box my={4} textAlign="center">
+        <Text fontSize="xl">Team Summaries</Text>
+        <Text opacity={'75%'} fontSize="sm">
+          Click to view list of dances and scores
+        </Text>
+      </Box>
       {sortedCast.map((team, i) => (
         <TeamSummary key={i} team={team} />
       ))}
