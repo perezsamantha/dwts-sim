@@ -338,8 +338,25 @@ const weightedSums = weights.map((arr) => runningSum(arr));
 // calculate scores
 export const calculateScores = (currentWeek: number, numberWeeks: number) => {
   let array: number[] = [];
-  for (let i = 0; i < 3; i++)
-    array.push(randomScoreVal(currentWeek, numberWeeks) + 1);
+
+  const baseScore = randomScoreVal(currentWeek, numberWeeks) + 1;
+
+  const scale = [-1, 0, 1];
+  const weight = [0.25, 0.5, 0.25];
+  const weightedScale = weight.map(
+    (
+      (sum: number) => (value: number) =>
+        (sum += value)
+    )(0)
+  );
+
+  for (let i = 0; i < 3; i++) {
+    const offset = scale[weightedScale.findIndex((el) => Math.random() <= el)];
+    if (baseScore + offset < 1) array.push(1);
+    else if (baseScore + offset > 10) array.push(10);
+    else array.push(baseScore + offset);
+  }
+
   return array;
 };
 
