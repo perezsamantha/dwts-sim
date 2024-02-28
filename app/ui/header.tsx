@@ -205,10 +205,18 @@ export default function Header(props: {
                     </Link>
                     .
                   </Text>
+                  <Text mb={3}>
+                    Be sure to check out{' '}
+                    <Link href="https://dwtf.app" isExternal color="teal.500">
+                      DWTF App
+                    </Link>
+                    , an interactive DWTS portal developed by the same creator
+                    of DWTS Sim.
+                  </Text>
                   <Text>
                     All rights surrounding simulator concepts and preset images
-                    belong to ABC Network, BBC Global, and Disney Plus. Original
-                    simulator idea inspired by{' '}
+                    belong to ABC Network, BBC Worldwide, and Disney Plus.
+                    Original simulator idea inspired by{' '}
                     <Link
                       href="https://brantsteele.com/"
                       isExternal

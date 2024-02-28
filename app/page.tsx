@@ -169,6 +169,33 @@ export default function Home() {
         </Wrap>
       </Box>
 
+      <Box
+        maxW="xl"
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
+        rounded="lg"
+        my={2}
+        py={4}
+        px={3}
+        boxShadow={colorMode === 'dark' ? darkModeShadow : lightModeShadow}
+        bg={colorMode === 'dark' ? 'blackalpha.50' : 'whitealpha.50'}
+        gap={4}
+      >
+        <Heading as="h4" size="md">
+          Related App
+        </Heading>
+        <Text>
+          From the same creator of DWTS Sim comes{' '}
+          <Link href="https://dwtf.app" isExternal color="blue.300">
+            Dancing with the Fans App
+          </Link>
+          , a DWTS portal where fans can customize their profile with their
+          favorite pros/teams/dances, score dances, connect with other fans, and
+          view statistics about the show✨
+        </Text>
+      </Box>
+
       <Button mt={4} mb={8} onClick={() => router.push('/setup')}>
         Setup
       </Button>
