@@ -19,7 +19,8 @@ export default function AvatarImage(props: { dancer: Dancer }) {
       src={imgSrc || '/images/mirrorball.png'}
       alt={`${dancer.firstname} ${dancer?.lastname || ''}`}
       object-fit="cover"
-      unoptimized={dancer.type === 'custom'}
+      // unoptimized={dancer.type === 'custom'}
+      unoptimized
       fill
       sizes="(max-width: 400px) 100vw"
       placeholder="blur"

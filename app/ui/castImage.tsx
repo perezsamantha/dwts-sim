@@ -30,7 +30,8 @@ export default function CastImage(props: { data: Dancer; elim: boolean }) {
           src={imgSrc || '/images/mirrorball.png'}
           alt={`${props.data.firstname} ${props.data?.lastname || ''}`}
           object-fit="cover"
-          unoptimized={props.data.type === 'custom'}
+          // unoptimized={props.data.type === 'custom'}
+          unoptimized
           fill
           sizes="(max-width: 400px) 100vw"
           placeholder="blur"
